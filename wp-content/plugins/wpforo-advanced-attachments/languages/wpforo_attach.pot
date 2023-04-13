@@ -1,0 +1,391 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: wpForo Attachments\n"
+"POT-Creation-Date: 2019-12-04 13:29+0400\n"
+"PO-Revision-Date: 2016-09-27 23:51+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpforoattach.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/functions.php:90
+msgid ""
+"IMPORTANT: wpForo Attachments plugin is a wpForo extension, please install "
+"wpForo plugin."
+msgstr ""
+
+#: includes/functions.php:108 includes/functions.php:112
+msgid "Available"
+msgstr ""
+
+#: includes/functions.php:108 includes/functions.php:112
+msgid "Not available"
+msgstr ""
+
+#: includes/functions.php:112
+msgid "Not required if \"GD and Image Functions\" are Available"
+msgstr ""
+
+#: includes/gvt-api-manager.php:145
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+"\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/gvt-api-manager.php:149
+msgid "An unknown error occurred"
+msgstr ""
+
+#: includes/gvt-api-manager.php:195
+msgid "Activate"
+msgstr ""
+
+#: includes/options.php:21
+msgid "Accepted File Types"
+msgstr ""
+
+#: includes/options.php:28
+msgid "Maximum File Size"
+msgstr ""
+
+#: includes/options.php:29
+msgid ""
+"You can not set this value more than \"upload_max_filesize\" and "
+"\"post_max_size\"."
+msgstr ""
+
+#: includes/options.php:35
+msgid "Server \"upload_max_filesize\" is "
+msgstr ""
+
+#: includes/options.php:36
+msgid "Server \"post_max_size\" is "
+msgstr ""
+
+#: includes/options.php:42
+msgid "Thumbnail Max Width"
+msgstr ""
+
+#: includes/options.php:46
+msgid "Thumbnail Max Height"
+msgstr ""
+
+#: includes/options.php:50
+msgid "Attachments Per Load In Dialog Lazy Load"
+msgstr ""
+
+#: includes/options.php:54
+msgid "Attachment Dialog Auto Upload"
+msgstr ""
+
+#: includes/options.php:57 includes/options.php:73 includes/options.php:82
+#: includes/options.php:97 includes/options.php:108 includes/options.php:119
+msgid "Enable"
+msgstr ""
+
+#: includes/options.php:58 includes/options.php:74 includes/options.php:83
+#: includes/options.php:98 includes/options.php:109 includes/options.php:120
+msgid "Disable"
+msgstr ""
+
+#: includes/options.php:64
+msgid "Thumbnail Box Symmetry"
+msgstr ""
+
+#: includes/options.php:67
+msgid ""
+"Only use this option if the thumbnail width is twice as small as post "
+"content width (approx up to 260px)"
+msgstr ""
+
+#: includes/options.php:79
+msgid "Attachment Lightbox/Slider"
+msgstr ""
+
+#: includes/options.php:88
+msgid "Attachment Delete"
+msgstr ""
+
+#: includes/options.php:91
+msgid "This option work for all users except wp admins"
+msgstr ""
+
+#: includes/options.php:104
+msgid "Attachment control based on attached file owner"
+msgstr ""
+
+#: includes/options.php:115
+msgid "Secure Attachment URLs"
+msgstr ""
+
+#: includes/options.php:125
+msgid "Attachment Permissions"
+msgstr ""
+
+#: includes/options.php:127
+msgid ""
+"wpForo Advanced Attachment addon is integrated with wpForo Usergroup and "
+"Forum Access permissions system. You can control users and guests "
+"permissions to attach files (users only) or view attachments (users and "
+"guests) using according Access Role in Forums &gt; Settings &gt; Forum "
+"Access admin page. Just use <span class=\"wpfog\">Can Attach Files</span> "
+"and <span class=\"wpfog\">Can view Attached files</span> permissions of "
+"according"
+msgstr ""
+
+#: includes/options.php:127
+msgid "forum access"
+msgstr ""
+
+#: includes/options.php:131
+msgid "Disk Usage"
+msgstr ""
+
+#: includes/options.php:140
+msgid "Avatars"
+msgstr ""
+
+#: includes/options.php:141
+msgid "Default attachments"
+msgstr ""
+
+#: includes/options.php:142
+msgid "Advanced attachments"
+msgstr ""
+
+#: includes/options.php:144
+msgid "Total"
+msgstr ""
+
+#: includes/options.php:150
+msgid "Front-end Phrases"
+msgstr ""
+
+#: includes/options.php:161
+msgid "Update Options"
+msgstr ""
+
+#: wpforoattach.php:89
+msgid "Attach Files"
+msgstr ""
+
+#: wpforoattach.php:90
+msgid "Attached File"
+msgstr ""
+
+#: wpforoattach.php:91
+msgid "Add files..."
+msgstr ""
+
+#: wpforoattach.php:92
+msgid "Start upload"
+msgstr ""
+
+#: wpforoattach.php:93
+msgid "Insert into post"
+msgstr ""
+
+#: wpforoattach.php:94
+msgid "Start"
+msgstr ""
+
+#: wpforoattach.php:95
+msgid "Cancel"
+msgstr ""
+
+#: wpforoattach.php:96
+msgid "delete"
+msgstr ""
+
+#: wpforoattach.php:97
+msgid "Close"
+msgstr ""
+
+#: wpforoattach.php:98
+msgid "select all"
+msgstr ""
+
+#: wpforoattach.php:99
+msgid "Processing..."
+msgstr ""
+
+#: wpforoattach.php:100
+msgid "attachment is not available"
+msgstr ""
+
+#: wpforoattach.php:101
+msgid "Choose a file or drag it here"
+msgstr ""
+
+#: wpforoattach.php:102
+msgid "Please select a file(s) using right checkbox(es) to insert in post"
+msgstr ""
+
+#: wpforoattach.php:103
+#, php-format
+msgid "Error: File is too big. Allowed size is: %s"
+msgstr ""
+
+#: wpforoattach.php:104
+#, php-format
+msgid "Error: File is too big. server_upload_max_filesize is: %s"
+msgstr ""
+
+#: wpforoattach.php:105
+#, php-format
+msgid "Error: File is too big. server_post_max_size is: %s"
+msgstr ""
+
+#: wpforoattach.php:106
+msgid "Error: Filetype not allowed"
+msgstr ""
+
+#: wpforoattach.php:107
+msgid ""
+"The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+#: wpforoattach.php:108
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified "
+"in the HTML form"
+msgstr ""
+
+#: wpforoattach.php:109
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: wpforoattach.php:110
+msgid "No file was uploaded"
+msgstr ""
+
+#: wpforoattach.php:111
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: wpforoattach.php:112
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: wpforoattach.php:113
+msgid "A PHP extension stopped the file upload"
+msgstr ""
+
+#: wpforoattach.php:114
+msgid "The uploaded file exceeds the post_max_size directive in php.ini"
+msgstr ""
+
+#: wpforoattach.php:115
+msgid "File is too big"
+msgstr ""
+
+#: wpforoattach.php:116
+msgid "File is too small"
+msgstr ""
+
+#: wpforoattach.php:117
+msgid "Filetype not allowed"
+msgstr ""
+
+#: wpforoattach.php:118
+msgid "Maximum number of files exceeded"
+msgstr ""
+
+#: wpforoattach.php:119
+msgid "Image exceeds maximum width"
+msgstr ""
+
+#: wpforoattach.php:120
+msgid "Image requires a minimum width"
+msgstr ""
+
+#: wpforoattach.php:121
+msgid "Image exceeds maximum height"
+msgstr ""
+
+#: wpforoattach.php:122
+msgid "Image requires a minimum height"
+msgstr ""
+
+#: wpforoattach.php:123
+msgid "File upload aborted"
+msgstr ""
+
+#: wpforoattach.php:124
+msgid "Failed to resize image"
+msgstr ""
+
+#: wpforoattach.php:125
+msgid "or drag and drop it here."
+msgstr ""
+
+#: wpforoattach.php:126
+#, php-format
+msgid "Max file size %1$s"
+msgstr ""
+
+#: wpforoattach.php:127
+msgid "DROP HERE"
+msgstr ""
+
+#: wpforoattach.php:128
+msgid "Choose a file"
+msgstr ""
+
+#: wpforoattach.php:129
+msgid "Attached Successfully"
+msgstr ""
+
+#: wpforoattach.php:130
+msgid "You can even paste image from clipboard by pressing Ctrl+V."
+msgstr ""
+
+#: wpforoattach.php:131
+msgid "My Media"
+msgstr ""
+
+#: wpforoattach.php:581
+msgid "Forum Attachments"
+msgstr ""
+
+#: wpforoattach.php:582
+msgid "Attachments"
+msgstr ""
+
+#: wpforoattach.php:593
+msgid "Media Library - wpForo Advanced Attachments"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo Advanced Attachments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpForo.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced file attachment system for forum topics and posts. AJAX powered "
+"media uploading and displaying system with user specific media library."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "gVectors Team (A. Chakhoyan and R. Hovhannisyan)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://gvectors.com/"
+msgstr ""

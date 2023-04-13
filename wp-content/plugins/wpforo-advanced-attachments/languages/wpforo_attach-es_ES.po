@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: wpForo Attachments\n"
+"POT-Creation-Date: 2016-11-20 12:54+0400\n"
+"PO-Revision-Date: 2018-05-11 10:56+0000\n"
+"Last-Translator: rcandres <admin@alrhgrowsystems.es>\n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpforoattach.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es-ES"
+
+#: includes/functions.php:55
+msgid "Attach Files"
+msgstr "Adjuntar archivos"
+
+#: includes/functions.php:56
+msgid "Attached File"
+msgstr "Archivo adjunto"
+
+#: includes/functions.php:57
+msgid "Add files..."
+msgstr "Añadir fichero..."
+
+#: includes/functions.php:58
+msgid "Start upload"
+msgstr "Iniar subida"
+
+#: includes/functions.php:59
+msgid "Insert into post"
+msgstr "Insertar en la publicación"
+
+#: includes/functions.php:60
+msgid "Start"
+msgstr "Iniciar"
+
+#: includes/functions.php:61
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/functions.php:62
+msgid "delete"
+msgstr "Borrar"
+
+#: includes/functions.php:63
+msgid "select all"
+msgstr "Seleccionar todo"
+
+#: includes/functions.php:64
+msgid "Processing..."
+msgstr "Procesando..."
+
+#: includes/functions.php:65 includes/functions.php:549
+msgid "Please choose file(s) you want to attach with this post"
+msgstr "Elija el / los archivo (s) que desea adjuntar con esta publicación"
+
+#: includes/functions.php:79
+msgid ""
+"IMPORTANT: wpForo Attachments plugin is a wpForo extension, please install "
+"wpForo plugin."
+msgstr ""
+"IMPORTANTE: el plugin wpForo Attachments es una extensión de wpForo, por "
+"favor instale el plugin wpForo."
+
+#: includes/options.php:21
+msgid "Accepted File Types"
+msgstr "Tipos de archivos aceptados"
+
+#: includes/options.php:27
+msgid "Maximum File Size"
+msgstr "Tamaño maximo del fichero"
+
+#: includes/options.php:31
+msgid "Thumbnail Max Width"
+msgstr "Ancho máximo de miniaturas"
+
+#: includes/options.php:35
+msgid "Thumbnail Max Height"
+msgstr "Altura máxima de miniatura"
+
+#: includes/options.php:39
+msgid "Front-end Phrases"
+msgstr "Frases frontales"
+
+#: includes/options.php:50
+msgid "Update Options"
+msgstr "Subir Opciones"
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo Advanced Attachments"
+msgstr "Adjuntos avanzados wpForo"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpForo.com"
+msgstr "http://wpForo.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced file attachment system for forum topics and posts. AJAX powered "
+"media uploading and displaying system with user specific media library."
+msgstr ""
+"Sistema avanzado de archivos adjuntos para temas y publicaciones del foro. "
+"Sistema de carga y visualización de medios impulsados por AJAX con una "
+"biblioteca multimedia específica para el usuario."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "gVectors Team (A. Chakhoyan and R. Hovhannisyan)"
+msgstr "Equipo de gVectors (A. Chakhoyan and R. Hovhannisyan)"
+
+#. Author URI of the plugin/theme
+msgid "http://gvectors.com/"
+msgstr "http://gvectors.com/"

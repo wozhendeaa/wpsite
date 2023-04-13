@@ -1,0 +1,403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpForo Attachments\n"
+"POT-Creation-Date: 2019-09-23 00:27+0400\n"
+"PO-Revision-Date: 2019-09-23 00:54+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpforoattach.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/functions.php:78
+msgid ""
+"IMPORTANT: wpForo Attachments plugin is a wpForo extension, please install "
+"wpForo plugin."
+msgstr ""
+"Важно: wpForo Advanced Attachments addon это расширение wpForo, пожалуйста, "
+"установите плагин wpForo."
+
+#: includes/functions.php:96 includes/functions.php:100
+msgid "Available"
+msgstr "Доступнен"
+
+#: includes/functions.php:96 includes/functions.php:100
+msgid "Not available"
+msgstr "Недоступен"
+
+#: includes/functions.php:100
+msgid "Not required if \"GD and Image Functions\" are Available"
+msgstr "\"GD и Image Functions\" Доступны"
+
+#: includes/gvt-api-manager.php:145
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/gvt-api-manager.php:149
+msgid "An unknown error occurred"
+msgstr "Произошла неизвестная ошибка "
+
+#: includes/gvt-api-manager.php:195
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/options.php:21
+msgid "Accepted File Types"
+msgstr "Допустимые типы файлов"
+
+#: includes/options.php:28
+msgid "Maximum File Size"
+msgstr "Максимальный размер файла"
+
+#: includes/options.php:29
+msgid ""
+"You can not set this value more than \"upload_max_filesize\" and "
+"\"post_max_size\"."
+msgstr ""
+"Вы не можете установить это значение больше чем \"upload_max_filesize \" и "
+"\"post_max_size\"."
+
+#: includes/options.php:35
+msgid "Server \"upload_max_filesize\" is "
+msgstr ""
+
+#: includes/options.php:36
+msgid "Server \"post_max_size\" is "
+msgstr ""
+
+#: includes/options.php:42
+msgid "Thumbnail Max Width"
+msgstr "Максимальная ширина миниатюр изображений"
+
+#: includes/options.php:46
+msgid "Thumbnail Max Height"
+msgstr "Максимальная высота миниатюр изображений"
+
+#: includes/options.php:50
+msgid "Attachments Per Load In Dialog Lazy Load"
+msgstr ""
+
+#: includes/options.php:54
+msgid "Attachment Dialog Auto Upload"
+msgstr ""
+
+#: includes/options.php:57 includes/options.php:73 includes/options.php:82
+#: includes/options.php:97 includes/options.php:108
+msgid "Enable"
+msgstr "Включить"
+
+#: includes/options.php:58 includes/options.php:74 includes/options.php:83
+#: includes/options.php:98 includes/options.php:109
+msgid "Disable"
+msgstr "Отключить"
+
+#: includes/options.php:64
+msgid "Thumbnail Box Symmetry"
+msgstr "Симметрия миниатюр изображений"
+
+#: includes/options.php:67
+msgid ""
+"Only use this option if the thumbnail width is twice as small as post "
+"content width (approx up to 260px)"
+msgstr ""
+"Используйте этот параметр только в том случае, если ширина миниатюр в два "
+"раза меньше ширины форума (приблизительно до 260 пикселей)"
+
+#: includes/options.php:79
+msgid "Attachment Lightbox/Slider"
+msgstr "Показ изображений - Лайтбокс / Слайдер"
+
+#: includes/options.php:88
+msgid "Attachment Delete"
+msgstr "Файл удален"
+
+#: includes/options.php:91
+msgid "This option work for all users except wp admins"
+msgstr ""
+"Этот параметр работает для всех пользователей, кроме администраторов wp"
+
+#: includes/options.php:104
+msgid "Attachment control based on attached file owner"
+msgstr "Управление файлов основан на владельца файла"
+
+#: includes/options.php:114
+msgid "Attachment Permissions"
+msgstr "Разрешения на прикрепление файлов"
+
+#: includes/options.php:116
+msgid ""
+"wpForo Advanced Attachment addon is integrated with wpForo Usergroup and "
+"Forum Access permissions system. You can control users and guests "
+"permissions to attach files (users only) or view attachments (users and "
+"guests) using according Access Role in Forums &gt; Settings &gt; Forum "
+"Access admin page. Just use <span class=\"wpfog\">Can Attach Files</span> "
+"and <span class=\"wpfog\">Can view Attached files</span> permissions of "
+"according"
+msgstr ""
+"wpForo Advanced Attachment addon интегрирован с системой прав доступа "
+"Группы пользователей и прав доступа форумов. Вы можете управлять правами "
+"пользователей и гостей для прикрепления файлов или просмотра прикрепленных "
+"файлов используя соответствующую Настройки прав доступа форумов в Форумы > "
+"Настройки > Доступы Форумов странице администратора. Просто использовать "
+"<span class=\"wpfog\">Может прикрепить файл</span> и <span class=\"wpfog"
+"\">Может видеть файл</span> права в соответственном "
+
+#: includes/options.php:116
+msgid "forum access"
+msgstr "Доступ к форуму"
+
+#: includes/options.php:120
+msgid "Disk Usage"
+msgstr "Использование диска"
+
+#: includes/options.php:129
+msgid "Avatars"
+msgstr "Аватары"
+
+#: includes/options.php:130
+msgid "Default attachments"
+msgstr "Файлы загруженные по умолчанию"
+
+#: includes/options.php:131
+msgid "Advanced attachments"
+msgstr "Advanced Attachments addon"
+
+#: includes/options.php:133
+msgid "Total"
+msgstr "Всего"
+
+#: includes/options.php:139
+msgid "Front-end Phrases"
+msgstr "Фронтенд фразы"
+
+#: includes/options.php:150
+msgid "Update Options"
+msgstr "Сохранить изменения"
+
+#: wpforoattach.php:87
+msgid "Attach Files"
+msgstr "Прикрепить файлы"
+
+#: wpforoattach.php:88
+msgid "Attached File"
+msgstr "Прикрепленный файл"
+
+#: wpforoattach.php:89
+msgid "Add files..."
+msgstr "Добавить файлы..."
+
+#: wpforoattach.php:90
+msgid "Start upload"
+msgstr "Начать загрузку"
+
+#: wpforoattach.php:91
+msgid "Insert into post"
+msgstr "Вставить в сообщение"
+
+#: wpforoattach.php:92
+msgid "Start"
+msgstr "Начать"
+
+#: wpforoattach.php:93
+msgid "Cancel"
+msgstr "Отмена"
+
+#: wpforoattach.php:94
+msgid "delete"
+msgstr "удалить"
+
+#: wpforoattach.php:95
+msgid "Close"
+msgstr "Закрыть"
+
+#: wpforoattach.php:96
+msgid "select all"
+msgstr "выбрать все"
+
+#: wpforoattach.php:97
+msgid "Processing..."
+msgstr "Обработка..."
+
+#: wpforoattach.php:98
+msgid "attachment is not available"
+msgstr "Файл недоступен"
+
+#: wpforoattach.php:99
+msgid "Choose a file or drag it here"
+msgstr "Выберите файл или перетащите его сюда"
+
+#: wpforoattach.php:100
+msgid "Please select a file(s) using right checkbox(es) to insert in post"
+msgstr ""
+"Пожалуйста, выберите файл(ы), используя правый флажок(ы) чтобы вставить в "
+"сообщение"
+
+#: wpforoattach.php:101
+#, php-format
+msgid "Error: File is too big. Allowed size is: %s"
+msgstr "Ошибка: Файл слишком большой. Допустимый размер: %s"
+
+#: wpforoattach.php:102
+#, php-format
+msgid "Error: File is too big. server_upload_max_filesize is: %s"
+msgstr "Ошибка: Файл слишком большой. server upload_max_filesize: %s"
+
+#: wpforoattach.php:103
+#, php-format
+msgid "Error: File is too big. server_post_max_size is: %s"
+msgstr "Ошибка: Файл слишком большой. server post_max_size: %s"
+
+#: wpforoattach.php:104
+msgid "Error: Filetype not allowed"
+msgstr "Ошибка: тип файла не разрешен"
+
+#: wpforoattach.php:105
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Загруженный файл превышает директиву upload_max_filesize в php.ini "
+
+#: wpforoattach.php:106
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Загруженный файл превышает директиву MAX_FILE_SIZE, указанную в HTML-форме"
+
+#: wpforoattach.php:107
+msgid "The uploaded file was only partially uploaded"
+msgstr "Загруженный файл был загружен только частично"
+
+#: wpforoattach.php:108
+msgid "No file was uploaded"
+msgstr "Файл не был загружен"
+
+#: wpforoattach.php:109
+msgid "Missing a temporary folder"
+msgstr "Отсутствует временная папка"
+
+#: wpforoattach.php:110
+msgid "Failed to write file to disk"
+msgstr "Не удалось записать файл на диск"
+
+#: wpforoattach.php:111
+msgid "A PHP extension stopped the file upload"
+msgstr "Расширение PHP остановило загрузку файла"
+
+#: wpforoattach.php:112
+msgid "The uploaded file exceeds the post_max_size directive in php.ini"
+msgstr "Загруженный файл превышает директиву post_max_size в php.ini"
+
+#: wpforoattach.php:113
+msgid "File is too big"
+msgstr "Файл слишком большой"
+
+#: wpforoattach.php:114
+msgid "File is too small"
+msgstr "Файл слишком мал"
+
+#: wpforoattach.php:115
+msgid "Filetype not allowed"
+msgstr "Тип файла не разрешен"
+
+#: wpforoattach.php:116
+msgid "Maximum number of files exceeded"
+msgstr "Превышено максимальное количество файлов"
+
+#: wpforoattach.php:117
+msgid "Image exceeds maximum width"
+msgstr "Ширина изображения превышает максимальное значение"
+
+#: wpforoattach.php:118
+msgid "Image requires a minimum width"
+msgstr "Система требует минимальной ширины изображения"
+
+#: wpforoattach.php:119
+msgid "Image exceeds maximum height"
+msgstr "Высота изображения превышает максимальное значение"
+
+#: wpforoattach.php:120
+msgid "Image requires a minimum height"
+msgstr "Система требует минимальной высоты изображения"
+
+#: wpforoattach.php:121
+msgid "File upload aborted"
+msgstr "Загрузка файла прервана"
+
+#: wpforoattach.php:122
+msgid "Failed to resize image"
+msgstr "Не удалось изменить размеры изображения"
+
+#: wpforoattach.php:123
+msgid "or drag and drop it here."
+msgstr "или перетащите его сюда."
+
+#: wpforoattach.php:124
+#, php-format
+msgid "Max file size %1$s"
+msgstr "Максимальный размер файла %1$s"
+
+#: wpforoattach.php:125
+msgid "DROP HERE"
+msgstr "ПЕРЕТАШИТЕ СЮДА"
+
+#: wpforoattach.php:126
+msgid "Choose a file"
+msgstr "Выберите файл"
+
+#: wpforoattach.php:127
+msgid "Attached Successfully"
+msgstr "Файл успешно прикреплен"
+
+#: wpforoattach.php:128
+msgid "You can even paste image from clipboard by pressing Ctrl+V."
+msgstr "Вы также можете вставить изображение из буфера обмена, нажав Ctrl+V."
+
+#: wpforoattach.php:552
+msgid "Forum Attachments"
+msgstr "Прикрепленные файлы форума"
+
+#: wpforoattach.php:553
+msgid "Attachments"
+msgstr "Прикрепленные файлы"
+
+#: wpforoattach.php:564
+msgid "Media Library - wpForo Advanced Attachments"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo Advanced Attachments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpForo.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced file attachment system for forum topics and posts. AJAX powered "
+"media uploading and displaying system with user specific media library."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "gVectors Team (A. Chakhoyan and R. Hovhannisyan)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://gvectors.com/"
+msgstr ""
+
+#~ msgid "Choose a files"
+#~ msgstr "Выберите файлы"

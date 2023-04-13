@@ -1,0 +1,23 @@
+#wpforo #wpforo-wrap .wpfa-item.wpfa-img {display: inline-block;-webkit-box-shadow: 0 0 13px -5px rgba(0, 0, 0, 0.75);-moz-box-shadow: 0 0 13px -5px rgba(0, 0, 0, 0.75);box-shadow: 0 0 13px -5px rgba(0, 0, 0, 0.75);margin: 5px;opacity: 0.9;vertical-align: middle;text-align: center;padding: 5px;box-sizing: border-box;}
+#wpforo #wpforo-wrap .wpfa-item.wpfa-img:hover {opacity: 1;}
+#wpforo #wpforo-wrap .wpfa-item.wpfa-img-boxed {display: inline-block;margin: 5px;-webkit-box-shadow: 0 0 13px -6px rgba(0, 0, 0, 0.75);-moz-box-shadow: 0 0 13px -6px rgba(0, 0, 0, 0.75);box-shadow: 0 0 13px -6px rgba(0, 0, 0, 0.75);opacity: 0.9;vertical-align: middle;text-align: center;padding: 5px;box-sizing: border-box;}
+#wpforo #wpforo-wrap .wpfa-item.wpfa-img-boxed:hover {opacity: 1;-webkit-box-shadow: 0 0 13px -5px rgba(0, 0, 0, 0.75);-moz-box-shadow: 0 0 13px -5px rgba(0, 0, 0, 0.75);box-shadow: 0 0 13px -5px rgba(0, 0, 0, 0.75);}
+#wpforo #wpforo-wrap .wpforo-post .wpf-right .wpforo-post-content .wpfa-item.wpfa-img-boxed img {display: inline-block;margin: 0;padding: 0;float: none;background: transparent;}
+#wpforo #wpforo-wrap .wpforo-post .wpf-right .wpforo-post-content .wpfa-item.wpfa-img img {display: inline-block;margin: 0;padding: 0;float: none;background: transparent;}
+#wpforo #wpforo-wrap .wpforo-post .wpf-right .wpforo-post-content .wpfa-item.wpfa-file {opacity: 0.9;box-sizing: border-box;line-height: 22px;overflow: hidden;max-width: 100%;padding: 10px;display: inline-block;margin: 1%;-webkit-box-shadow: 0 0 9px -6px rgba(0, 0, 0, 0.75);-moz-box-shadow: 0 0 9px -6px rgba(0, 0, 0, 0.75);box-shadow: 0 0 9px -6px rgba(0, 0, 0, 0.75);}
+#wpforo #wpforo-wrap .wpforo-post .wpf-right .wpforo-post-content .wpfa-item.wpfa-file:hover {opacity: 1;}
+#wpforo #wpforo-wrap .wpforo-post .wpf-right .wpforo-post-content .wpfa-item.wpfa-file i.wpfa-file-icon {font-size: 2em;margin-right: 8px;}
+#wpforo #wpforo-wrap .wpfa-item {max-width: 99%;}
+#wpforo #wpforo-wrap .wpfa-item img, #wpforo #wpforo-wrap .wpfa-item video, #wpforo #wpforo-wrap .wpfa-item audio {max-width: 99% !important;}
+html[dir="rtl"] #wpforo #wpforo-wrap .wpforo-post .wpf-right .wpforo-post-content .wpfa-item.wpfa-file i.wpfa-file-icon {margin-left: 8px;margin-right: 0;}
+@media screen and (min-width: 800px) {#wpforo #wpforo-wrap .wpfa-item.wpfa-video {width: 80%;}}
+@media screen and (max-width: 800px) {
+#wpforo #wpforo-wrap .wpfa-item.wpfa-audio video {width: 100%;}
+#wpforo #wpforo-wrap .wpfa-item.wpfa-audio audio {width: 100%;}
+#wpforo #wpforo-wrap .wpforo-post-content div.wpfa-item.wpfa-img-boxed {min-height: inherit !important; min-width: inherit !important; width: 100%; height: auto;}
+#wpforo #wpforo-wrap .wpforo-post-content div.wpfa-item.wpfa-img-boxed img {max-height: inherit !important; max-width: 100% !important; width: 100%; height: auto;}
+#wpforo #wpforo-wrap .wpforo-post-content div.wpfa-item.wpfa-img img {max-height: inherit !important; max-width: 100% !important; width: 100%; height: auto;}}
+#wpforo #wpforo-wrap .wpforo-post-content .wpf-video, #wpforo #wpforo-wrap .wpforo-post-content .wpf-video iframe {max-width: 85%;}
+@media screen and (max-width: 1000px) {#wpforo #wpforo-wrap .wpforo-post-content .wpf-video, #wpforo #wpforo-wrap .wpforo-post-content .wpf-video iframe {max-width: 98%;}}
+#wpforo #wpforo-wrap .wpforo-post-content .wpfa-video, #wpforo #wpforo-wrap .wpforo-post-content .wpfa-video video {max-width: 85%;}
+@media screen and (max-width: 1000px) {#wpforo #wpforo-wrap .wpforo-post-content .wpfa-video, #wpforo #wpforo-wrap .wpforo-post-content .wpfa-video video {max-width: 98%;}}

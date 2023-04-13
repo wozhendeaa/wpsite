@@ -1,0 +1,130 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: YouTube Importer Pro\n"
+"POT-Creation-Date: 2021-11-24 07:42-0600\n"
+"PO-Revision-Date: 2021-11-24 07:42-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: youtube-importer-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/lib/YTI_SLT_Plugin_Updater.php:222
+#, php-format
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: inc/lib/YTI_SLT_Plugin_Updater.php:229
+#, php-format
+msgid " %1$sView version %2$s details%3$s."
+msgstr ""
+
+#: inc/lib/YTI_SLT_Plugin_Updater.php:236
+#, php-format
+msgid " %1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: inc/lib/YTI_SLT_Plugin_Updater.php:247
+msgid "Update now."
+msgstr ""
+
+#: inc/lib/YTI_SLT_Plugin_Updater.php:463
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: inc/lib/YTI_SLT_Plugin_Updater.php:463
+msgid "Error"
+msgstr ""
+
+#: inc/licensing.php:48
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/licensing.php:50
+msgid "Activate License"
+msgstr ""
+
+#: inc/licensing.php:57
+msgid "Valid License"
+msgstr ""
+
+#: inc/licensing.php:61
+msgid "License Key"
+msgstr ""
+
+#: inc/licensing.php:142 inc/licensing.php:184 inc/licensing.php:243
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: inc/licensing.php:155
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: inc/licensing.php:162
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: inc/licensing.php:166
+msgid "Invalid license."
+msgstr ""
+
+#: inc/licensing.php:171
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: inc/licensing.php:176
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: inc/licensing.php:180
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: youtube-importer-pro.php:30
+msgid "Synced"
+msgstr ""
+
+#: youtube-importer-pro.php:32
+msgid "Sync Now"
+msgstr ""
+
+#: youtube-importer-pro.php:58
+msgid "Re-sync details for already imported content."
+msgstr ""
+
+#: youtube-importer-pro.php:70
+msgid "Set a global featured image to all posts"
+msgstr ""
+
+#: youtube-importer-pro.php:80
+msgid "Import YouTube video player into a custom meta field"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "YouTube Importer Pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Pro version of the YouTube Importer plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SecondLineThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://secondlinethemes.com/"
+msgstr ""

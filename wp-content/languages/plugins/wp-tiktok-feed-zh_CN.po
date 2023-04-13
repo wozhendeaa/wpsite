@@ -1,0 +1,729 @@
+# Translation of Plugins - QuadLayers TikTok Feed - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - QuadLayers TikTok Feed - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-01 09:39:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - QuadLayers TikTok Feed - Stable (latest release)\n"
+
+#: lib/models/suggestions/load.php:109
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: lib/backend/controller/suggestions-controller/load.php:18
+msgid "Suggestions"
+msgstr "建议"
+
+#: lib/models/suggestions/load.php:117
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr "收藏"
+
+#: lib/models/suggestions/load.php:116
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr "推荐"
+
+#: lib/models/suggestions/load.php:115
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr "热门"
+
+#: lib/models/suggestions/load.php:114
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr "精选"
+
+#: lib/models/suggestions/load.php:112
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr "Beta测试"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:61
+msgid "Display comments count of video"
+msgstr "显示视频评论数"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:55
+msgid "Display likes count of video"
+msgstr "显示视频点赞数"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:23
+msgid "Add blank space between video"
+msgstr "在视频之间添加间隔"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:68
+msgid "Video autoplay on modal open"
+msgstr "模态窗口打开时的自动播放视频"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:66
+msgid "Video autoplay"
+msgstr "视频自动播放"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:63
+msgid "Display video controls"
+msgstr "显示视频控件"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:61
+msgid "Video controls"
+msgstr "视频控制"
+
+#: lib/backend/controller/setting-controller/load.php:20
+#: lib/utils/dashboard/links.php:15
+msgid "Settings"
+msgstr "设置"
+
+#: lib/backend/pages/modals/account/main.php:45
+#: lib/backend/pages/modals/feed/main.php:43
+#: lib/backend/pages/modals/feed/main.php:44
+#: lib/backend/pages/modals/feed/main.php:45 lib/backend/pages/settings.php:56
+msgid "Save"
+msgstr "保存"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:52
+msgid "Box description here"
+msgstr "盒子描述"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:50
+msgid "Profile description"
+msgstr "个人资料设置"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:44
+msgid "Profile"
+msgstr "个人资料"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:30
+msgid "Color which is displayed on box background"
+msgstr "盒子背景颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:28
+msgid "Box background"
+msgstr "盒子背景"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:21
+msgid "Box radius"
+msgstr "盒子半径"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:14
+msgid "Box padding"
+msgstr "盒子填充"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:59
+msgid "Video mask comments"
+msgstr "视频蒙版评论"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:53
+msgid "Video mask likes"
+msgstr "视频蒙版喜欢"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:47
+msgid "Color which is displayed when displayed over video"
+msgstr "鼠标经过视频显示时显示的颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:45
+msgid "Video mask color"
+msgstr "视频蒙版颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:39
+msgid "Video mouseover effect"
+msgstr "视频鼠标悬停效果"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:37
+msgid "Video mask"
+msgstr "视频蒙版"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:29
+msgid "Video radius"
+msgstr "视频半径"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:21
+msgid "Video spacing"
+msgstr "视频间距"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:9
+msgid "Dynamic"
+msgstr "动态"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:8
+msgid "Origin"
+msgstr "起源"
+
+#: lib/backend/load.php:37 lib/backend/pages/modals/feed/panel-feed-video.php:7
+msgid "Default"
+msgstr "默认"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:5
+msgid "Video type"
+msgstr "视频类型"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:48
+msgid "Change pagination dotts color"
+msgstr "更改导航点颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:46
+msgid "Pagination color"
+msgstr "分页颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:41
+msgid "Display pagination dots"
+msgstr "显示导航点"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:39
+msgid "Pagination"
+msgstr "数字分页"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:34
+msgid "Change navigation arrows color"
+msgstr "更改导航箭头颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:32
+msgid "Navigation color"
+msgstr "导航颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:27
+msgid "Display navigation arrows"
+msgstr "显示导航箭头"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:25
+msgid "Navigation"
+msgstr "导航"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:21
+msgid "Moves to next picture after specified time interval"
+msgstr "在指定时间间隔后移动到下一张图片"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:19
+msgid "Autoplay Interval"
+msgstr "自动播放间隔"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:14
+msgid "Autoplay carousel items"
+msgstr "自动播放旋转木马项目"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:12
+msgid "Autoplay"
+msgstr "自动播放"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:7
+msgid "Number of videos per slide"
+msgstr "每张幻灯片的视频数"
+
+#: lib/backend/pages/modals/feed/panel-feed-carousel.php:5
+msgid "Slides per view"
+msgstr "幻灯片视图"
+
+#: lib/backend/pages/modals/feed/main.php:51
+msgid "Close"
+msgstr "关闭"
+
+#: lib/backend/pages/modals/account/main.php:40
+#: lib/backend/pages/modals/feed/main.php:38
+msgid "Saved successfully!"
+msgstr "保存成功！"
+
+#: lib/backend/pages/modals/feed/main.php:18
+msgid "New"
+msgstr "最新"
+
+#: lib/backend/pages/modals/account/main.php:7
+#: lib/backend/pages/modals/feed/main.php:15
+msgid "Close dialog"
+msgstr "关闭对话框"
+
+#: lib/backend/pages/modals/feed/main.php:13
+msgid "Edit next media item"
+msgstr "编辑下一媒体项目"
+
+#: lib/backend/pages/modals/feed/main.php:12
+msgid "Edit previous media item"
+msgstr "编辑上一媒体项目"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:233
+msgid "Highlight feeds items in this positions"
+msgstr "突出显示此位置的订阅源项目"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:231
+msgid "Highlight by position"
+msgstr "按位置突出显示"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:227
+msgid "Highlight feeds items with this ids"
+msgstr "突出显示具有此 ID 的订阅源项目"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:225
+msgid "Highlight by id"
+msgstr "按 id 突出显示"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:221
+msgid "Highlight feeds items with this tags"
+msgstr "突出显示带有此标记的订阅源项目"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:219
+msgid "Highlight by tag"
+msgstr "按标记突出显示"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:214
+msgid "Number of videos in a row"
+msgstr "每行显示的视频数量"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:212
+msgid "Columns"
+msgstr "列"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:191
+msgid "Number of videos to display"
+msgstr "要显示的视频数"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:171
+msgid "Limit"
+msgstr "限制"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:155
+msgid "Highlight"
+msgstr "高亮"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:132
+msgid "Gallery"
+msgstr "相册"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:125
+msgid "Masonry"
+msgstr "瀑布流"
+
+#: lib/backend/pages/account.php:36
+#: lib/backend/pages/modals/feed/panel-feed.php:106
+msgid "User"
+msgstr "使用者"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:17
+#: lib/backend/pages/modals/feed/panel-feed.php:42
+msgid "Hashtag"
+msgstr "井号"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:69
+msgid "Card length"
+msgstr "卡片长度"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:35
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:62
+msgid "Card text"
+msgstr "卡片文本"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:48
+msgid "Card info"
+msgstr "卡片信息"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:44
+msgid "Add blank space between videos"
+msgstr "在视频之间添加艰巨"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:42
+msgid "Card padding"
+msgstr "卡片内间距"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:30
+msgid "Color which is displayed when over video"
+msgstr "视频上面显示的颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:28
+msgid "Card background"
+msgstr "卡的背景"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:21
+msgid "Card font size"
+msgstr "卡片字体大小"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:14
+msgid "Card radius"
+msgstr "卡片半径"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:5
+msgid "Videos card"
+msgstr "视频卡片"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:81
+msgid "Align item description in popup"
+msgstr "在弹出窗口中对齐项目描述"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:79
+msgid "Top"
+msgstr "顶部"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:78
+msgid "Bottom"
+msgstr "底部"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:77
+msgid "Right"
+msgstr "右"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:76
+msgid "Left"
+msgstr "左"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:74
+msgid "Videos popup align"
+msgstr "视频弹出窗口对齐"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:57
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:48
+msgid "Display comments count of videos"
+msgstr "显示视频的评论数量"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:46
+msgid "Videos popup comments"
+msgstr "视频弹出评论"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:50
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:42
+msgid "Display likes count of videos"
+msgstr "显示视频点赞数量"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:40
+msgid "Videos popup likes"
+msgstr "视频弹出窗口喜欢"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:33
+msgid "Display text in the popup"
+msgstr "在弹出窗口中显示文本"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:31
+msgid "Videos popup text"
+msgstr "视频弹出文本"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:8
+#: lib/backend/pages/modals/feed/panel-feed-box.php:17
+#: lib/backend/pages/modals/feed/panel-feed-box.php:24
+#: lib/backend/pages/modals/feed/panel-feed-box.php:31
+#: lib/backend/pages/modals/feed/panel-feed-box.php:37
+#: lib/backend/pages/modals/feed/panel-feed-box.php:47
+#: lib/backend/pages/modals/feed/panel-feed-box.php:53
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:8
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:8
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:17
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:24
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:31
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:38
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:51
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:58
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:65
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:16
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:24
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:34
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:43
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:49
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:55
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:82
+#: lib/backend/pages/modals/feed/panel-feed.php:9
+#: lib/backend/pages/modals/feed/panel-feed.php:140
+#: lib/backend/pages/modals/feed/panel-feed.php:148
+#: lib/backend/pages/modals/feed/panel-feed.php:222
+#: lib/backend/pages/modals/feed/panel-feed.php:228
+#: lib/backend/pages/modals/feed/panel-feed.php:234
+msgid "(This is a premium feature)"
+msgstr "（这是高级版功能）"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:46
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:15
+msgid "Display user profile or tag info"
+msgstr "显示用户资料或标签信息"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:13
+msgid "Videos popup profile"
+msgstr "视频弹出个人资料"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:7
+msgid "Display popup gallery by clicking on video"
+msgstr "单击视频显示弹出相册"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-popup.php:5
+msgid "Videos popup"
+msgstr "视频弹出窗口"
+
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:25
+#: lib/backend/pages/modals/feed/panel-feed-button.php:31
+msgid "Color which is displayed when hovered over button"
+msgstr "悬停在按钮上时显示的颜色"
+
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:20
+#: lib/backend/pages/modals/feed/panel-feed-button.php:26
+msgid "Color which is displayed on button background"
+msgstr "显示在按钮背景上的颜色"
+
+#: lib/backend/pages/modals/feed/panel-tabs.php:28
+msgid "Button"
+msgstr "按键"
+
+#: lib/backend/pages/modals/feed/panel-tabs.php:19
+msgid "Video"
+msgstr "视频"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:5
+#: lib/backend/pages/modals/feed/panel-tabs.php:16
+msgid "Box"
+msgstr "盒子"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:139
+#: lib/backend/pages/modals/feed/panel-tabs.php:7
+msgid "Carousel"
+msgstr "旋转木马"
+
+#: lib/backend/pages/modals/feed/panel-tabs.php:3
+msgid "General"
+msgstr "常规"
+
+#: lib/backend/pages/welcome.php:39
+msgid "Join our community"
+msgstr "加入我们的社区"
+
+#: lib/backend/pages/welcome.php:37
+msgid "If you want to get in touch with other %s users or be aware of our promotional discounts join our community now."
+msgstr "如果您想与其他 %s 用户联系或了解我们的促销折扣，现在加入我们的社区。"
+
+#: lib/backend/pages/welcome.php:35
+msgid "Community"
+msgstr "社区"
+
+#: lib/backend/pages/welcome.php:24 lib/backend/pages/welcome.php:32
+msgid "Submit ticket"
+msgstr "提交工单"
+
+#: lib/backend/pages/welcome.php:30
+msgid "If you have any doubt or you find any issue don't hesitate to contact us through our ticket system or join our community to meet other %s users."
+msgstr "如果您有任何疑问或发现任何问题，请随时通过工单系统与我们联系，或加入我们的社区，结识 %s 个用户。"
+
+#: lib/backend/pages/welcome.php:28
+msgid "Support"
+msgstr "支持"
+
+#: lib/backend/pages/premium.php:11
+msgid "View demo"
+msgstr "查看演示"
+
+#: lib/backend/pages/welcome.php:14 lib/backend/pages/welcome.php:22
+msgid "Thank you for choosing our %s plugin for WordPress! Here you can see our demo and test the features we offer in the premium version."
+msgstr "感谢您选择我们的 %s WordPress插件 ！在这里，您可以看到我们的演示，并测试我们在高级版本中提供的功能。"
+
+#: lib/backend/pages/welcome.php:7
+msgid "Hi! We are Quadlayers, we are expanding our products portfolio, according to social trends!  So... enjoy our first version of %s. We are developing new features."
+msgstr "你好！我们是 Quadlayers，我们正在根据社交趋势扩大我们的产品组合！ 请享受我们 开发的 %s 插件的第一个版本，我们正在开发新功能。"
+
+#: lib/backend/pages/feeds.php:64
+msgid "Delete"
+msgstr "删除"
+
+#: lib/backend/pages/feeds.php:64
+msgid "Delete feed"
+msgstr "删除订阅源"
+
+#: lib/backend/pages/feeds.php:63
+msgid "Cache"
+msgstr "缓存"
+
+#: lib/backend/pages/feeds.php:63
+msgid "Clear feed cache"
+msgstr "清除订阅源缓存"
+
+#: lib/backend/pages/feeds.php:62
+msgid "Edit"
+msgstr "编辑"
+
+#: lib/backend/pages/feeds.php:62 lib/backend/pages/modals/feed/main.php:18
+msgid "Edit feed"
+msgstr "编辑订阅"
+
+#: lib/backend/pages/feeds.php:58
+msgid "Copy"
+msgstr "复制"
+
+#: lib/backend/pages/feeds.php:20
+msgid "Actions"
+msgstr "操作"
+
+#: lib/backend/pages/feeds.php:19
+msgid "Shortcode"
+msgstr "短代码"
+
+#: lib/backend/pages/feeds.php:18
+msgid "Layout"
+msgstr "布局"
+
+#: lib/backend/pages/feeds.php:17
+msgid "Name"
+msgstr "昵称"
+
+#: lib/backend/pages/account.php:35 lib/backend/pages/feeds.php:15
+msgid "Image"
+msgstr "图像"
+
+#: lib/backend/pages/feeds.php:10
+msgid "+ Feed"
+msgstr "+ 订阅源"
+
+#: lib/backend/pages/settings.php:38
+msgid "Select an image from media library to replace the default loader icon."
+msgstr "从媒体库中选择图像以替换默认加载器图标。"
+
+#: lib/backend/pages/settings.php:35
+msgid "Reset Spinner"
+msgstr "重置加载器"
+
+#: lib/backend/pages/settings.php:34
+msgid "Upload"
+msgstr "上传"
+
+#: lib/backend/pages/settings.php:20
+msgid "Replace loader"
+msgstr "更换加载器"
+
+#: lib/backend/pages/settings.php:15
+msgid "Check this box to remove all data related to this plugin on uninstall."
+msgstr "选中此复选框可在卸载时删除与此插件相关的所有数据。"
+
+#: lib/backend/pages/settings.php:11
+msgid "Remove data"
+msgstr "移除全部"
+
+#: lib/backend/pages/parts/header.php:10
+msgid "Documentation"
+msgstr "文档"
+
+#: lib/backend/pages/parts/header.php:9 lib/backend/pages/welcome.php:20
+msgid "Demo"
+msgstr "演示"
+
+#: lib/backend/controller/base.php:36
+msgid "Access denied"
+msgstr "无权访问"
+
+#: lib/backend/controller/base.php:32
+msgid "Please, reload page"
+msgstr "请重新加载页面"
+
+#: lib/backend/controller/welcome-controller/load.php:14
+msgid "Welcome"
+msgstr "欢迎"
+
+#: lib/backend/controller/setting-controller/load.php:43
+msgid "Invalid Request"
+msgstr "无效的请求"
+
+#: lib/backend/controller/setting-controller/load.php:40
+msgid "Settings updated successfully"
+msgstr "配置更新成功"
+
+#: lib/backend/load.php:76 lib/backend/load.php:77
+msgid "Do you want to delete the feed?"
+msgstr "是否要删除订阅源？"
+
+#: lib/backend/controller/feed-controller/load.php:113
+msgid "Feed cache cleared"
+msgstr "已清除源缓存"
+
+#: lib/backend/controller/feed-controller/load.php:41
+msgid "All"
+msgstr "所有"
+
+#: lib/backend/controller/feed-controller/load.php:24
+msgid "Feeds"
+msgstr "订阅源"
+
+#: lib/api/tiktok/base.php:267
+msgid "Unknow error occurred, please try again"
+msgstr "发生未知错误，请重试"
+
+#: lib/frontend/load.php:274
+msgid "The layout %s is not a available."
+msgstr "布局 %s 不可用。"
+
+#: lib/frontend/load.php:171
+msgid "Invalid item id"
+msgstr "无效的项目ID"
+
+#: templates/alert.php:2
+msgid "Unable to get results"
+msgstr "无法获取结果"
+
+#. Author URI of the plugin
+msgid "https://quadlayers.com"
+msgstr "https://quadlayers.com"
+
+#. Author of the plugin
+#: lib/backend/pages/parts/header.php:31 lib/utils/dashboard/widget.php:78
+msgid "QuadLayers"
+msgstr "QuadLayers"
+
+#. Plugin URI of the plugin
+msgid "https://quadlayers.com/documentation/tiktok-feed/"
+msgstr "https://quadlayers.com/documentation/tiktok-feed/"
+
+#. Description of the plugin
+msgid "Display beautiful and responsive galleries on your website from your TikTok feed account."
+msgstr "在你的站点上显示来自TikTok账户的漂亮且响应式的视频相册。"
+
+#: lib/backend/pages/parts/header.php:5
+msgid "Thanks for using %s! We are doing our best to offer you the best alternatives to display TikTok videos on your site, helping you to improve communication experience with your users."
+msgstr "感谢使用%s！我们正在尽最大努力为您提供在站点上显示TikTok视频的解决方法，帮您改善与用户的沟通体验。"
+
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:5
+#: lib/backend/pages/modals/feed/panel-feed-button.php:4
+msgid "TikTok button"
+msgstr "TikTok按钮"
+
+#: lib/backend/pages/modals/feed/panel-feed-button.php:6
+msgid "Display the button to open TikTok site link"
+msgstr "显示打开TikTok网站链接的按钮"
+
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:11
+#: lib/backend/pages/modals/feed/panel-feed-button.php:9
+msgid "TikTok button text"
+msgstr "TikTok按钮文本"
+
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:13
+#: lib/backend/pages/modals/feed/panel-feed-button.php:11
+msgid "TikTok button text here"
+msgstr "在这里输入TikTok按钮文本"
+
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:18
+#: lib/backend/pages/modals/feed/panel-feed-button.php:24
+msgid "TikTok button background"
+msgstr "TikTok按钮背景"
+
+#: lib/backend/pages/modals/feed/panel-feed-button-load.php:23
+#: lib/backend/pages/modals/feed/panel-feed-button.php:29
+msgid "TikTok button hover background"
+msgstr "TikTok按钮悬停背景"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:23
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:16
+msgid "Add radius to the TikTok Feed"
+msgstr "添加半径到TikTok订阅源"
+
+#: lib/backend/pages/modals/feed/panel-feed-video-card.php:23
+msgid "Add font-size to the TikTok Feed"
+msgstr "添加字号到TikTok订阅源"
+
+#: lib/backend/pages/modals/feed/panel-feed-button.php:18
+#: lib/backend/pages/modals/feed/panel-feed.php:115
+msgid "Please enter TikTok username"
+msgstr "请输入TikTok用户名"
+
+#: lib/backend/pages/modals/feed/panel-feed.php:50
+msgid "Please enter TikTok tag"
+msgstr "请输入TikTok标签"
+
+#: lib/backend/pages/modals/feed/panel-feed-video.php:31
+msgid "Add radius to the TikTok video"
+msgstr "向TikTok视频添加半径"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:7
+msgid "Display the TikTok Feed inside a customizable box"
+msgstr "在可自定义的盒子中显示TikTok订阅源"
+
+#: lib/backend/pages/modals/feed/panel-feed-box.php:16
+msgid "Add padding to the TikTok Feed"
+msgstr "为TikTok订阅源添加内间距"

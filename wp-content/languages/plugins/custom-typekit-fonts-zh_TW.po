@@ -1,0 +1,178 @@
+# Translation of Plugins - Custom Adobe Fonts (Typekit) - Development (trunk) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Custom Adobe Fonts (Typekit) - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-27 20:08:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Custom Adobe Fonts (Typekit) - Development (trunk)\n"
+
+#. translators: %s Product title
+#: admin/bsf-analytics/class-bsf-analytics.php:408
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr "允許 %s 追蹤非敏感性使用方式追蹤資料"
+
+#: lib/notices/class-astra-notices.php:125
+msgid "WordPress Nonce not validated."
+msgstr "WordPress 單次有效隨機碼尚未通過驗證。"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:416
+msgid "Learn More."
+msgstr "進一步了解"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:411
+msgid " This will be applicable for all sites from the network."
+msgstr "啟用這項設定後，便會套用至多站網路中的全部網站。"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:364
+msgid "Usage Tracking"
+msgstr "使用方式追蹤"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:260
+msgid "No Thanks"
+msgstr "不用了，謝謝"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:251
+msgid "Yes! Allow it"
+msgstr "是！可以收集"
+
+#. translators: %s usage doc link
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+msgid " Know More."
+msgstr "進一步了解"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:219
+msgid "This will be applicable for all sites from the network."
+msgstr "啟用這項設定後，便會套用至多站網路中的全部網站。"
+
+#. translators: %s product name
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+msgid "Want to help make <strong>%1s</strong> even more awesome? Allow us to collect non-sensitive diagnostic data and usage information. "
+msgstr "想要協助我們讓 <strong>%1s</strong> 變的更加強大？請允許我們收集非敏感性診斷資料及使用方式資訊。"
+
+#: templates/custom-typekit-fonts-options.php:35
+msgid "Edit Project ID"
+msgstr "編輯 Project ID (專案 ID)"
+
+#: templates/custom-typekit-fonts-options.php:27
+msgid "Please Enter the Valid Project ID to get the kit details."
+msgstr "請輸入有效的 Project ID (專案 ID) 以取得套件詳細資料。"
+
+#: templates/custom-typekit-fonts-options.php:24
+msgid "Project ID:"
+msgstr "Project ID (專案 ID):"
+
+#: templates/custom-typekit-fonts-options.php:11
+#: classes/class-custom-typekit-fonts-admin.php:106
+msgid "Adobe Fonts"
+msgstr "Adobe Fonts"
+
+#. Plugin Name of the plugin
+msgid "Custom Adobe Fonts (Typekit)"
+msgstr "Custom Adobe Fonts (Typekit)"
+
+#: templates/white-label.php:34
+msgid "Plugin Description:"
+msgstr "外掛說明:"
+
+#: templates/white-label.php:29
+msgid "Plugin Name:"
+msgstr "外掛名稱:"
+
+#: templates/white-label.php:18 templates/white-label.php:23
+msgid "Custom Typekit Fonts Branding"
+msgstr "自訂 Typekit Fonts 組合"
+
+#: templates/custom-typekit-fonts-options.php:134
+msgid "2) Select the Font Family and start using it into your custom CSS."
+msgstr "2) 選取字型系列並在自訂 CSS 樣式中使用這些字型。"
+
+#. translators: %1$s: Astra Theme url.
+#: templates/custom-typekit-fonts-options.php:130
+msgid "1) Once you get the Kit Details, all the fonts will be listed in the customizer under typography for only <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\"> Astra </a> WordPress Theme users"
+msgstr "1) 網站取得套件詳細資料後，會在外觀自訂器的 [排版樣式] 中列出全部字型清單 (僅適用於 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">Astra</a> 佈景主題)。"
+
+#: templates/custom-typekit-fonts-options.php:64
+msgid "Font Family"
+msgstr "字型系列"
+
+#: classes/class-custom-typekit-fonts-render.php:95
+msgid "Typekit Fonts"
+msgstr "Typekit Fonts"
+
+#: classes/class-custom-typekit-fonts-admin.php:86
+msgid "This Kit is empty. Please add some fonts in it."
+msgstr "套件內容為空。請在套件中加入字型。"
+
+#. Author URI of the plugin
+msgid "http://www.brainstormforce.com"
+msgstr "https://www.brainstormforce.com/"
+
+#. Author of the plugin
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#. Description of the plugin
+msgid "Custom Adobe Fonts allows you to extends the fonts supports from the Typekit."
+msgstr "Custom Adobe Fonts 能讓網站管理員在 WordPress 網站中使用 Adobe Fonts (之前的 Typekit)。"
+
+#. Plugin URI of the plugin
+msgid "http://www.wpastra.com/"
+msgstr "https://wpastra.com/"
+
+#: templates/custom-typekit-fonts-options.php:137
+msgid "Go To Customizer"
+msgstr "前往 [外觀自訂器]"
+
+#: templates/custom-typekit-fonts-options.php:123
+msgid "How it works?"
+msgstr "外掛使用方式"
+
+#. translators: %1$s: typekit site url.
+#: templates/custom-typekit-fonts-options.php:112
+msgid "You can get the Project ID <a href=%1$s target=\"_blank\" >here</a> from your Typekit Account. <b>Project ID</b> can be found next to the kit names."
+msgstr "請在<a href=%1$s target=\"_blank\" >這裡</a>使用 Adobe 帳號取得專案 ID。<b>專案 ID</b> 可以在套件名稱旁找到。"
+
+#: templates/custom-typekit-fonts-options.php:106
+msgid "Help"
+msgstr "使用說明"
+
+#: templates/custom-typekit-fonts-options.php:67
+msgid "Weights"
+msgstr "字型粗細"
+
+#: templates/custom-typekit-fonts-options.php:61
+msgid "Fonts"
+msgstr "字型"
+
+#: templates/custom-typekit-fonts-options.php:55
+msgid "Make sure you have published the kit from Typekit. Only published information is displayed here."
+msgstr "請確認已在 Typekit 發佈套件，僅有已發佈的套件才會在這裡顯示對應的資訊。"
+
+#: templates/custom-typekit-fonts-options.php:53
+msgid "Kit Details:"
+msgstr "套件詳細資料:"
+
+#: templates/custom-typekit-fonts-options.php:41
+msgid "Save"
+msgstr "儲存"
+
+#: templates/custom-typekit-fonts-options.php:39
+msgid "Refresh"
+msgstr "重新整理"
+
+#: templates/custom-typekit-fonts-options.php:17
+msgid "Settings"
+msgstr "設定"
+
+#: classes/class-custom-typekit-fonts-admin.php:90
+msgid "Custom Typekit Fonts settings have been successfully saved."
+msgstr "Typekit Fonts 自訂設定已成功儲存。"
+
+#: classes/class-custom-typekit-fonts-admin.php:80
+msgid "Please enter the valid Project ID to get the kit details."
+msgstr "請輸入有效的 Project ID (專案 ID) 以取得套件詳細資料。"

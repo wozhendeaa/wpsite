@@ -1,0 +1,96 @@
+
+End-User License Agreement
+IMPORTANT!
+PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE MAKING YOUR PURCHASE:
+
+This Agreement / End-User License Agreement (“EULA”) is a legal agreement between you (either an individual or a single entity) and gVectors Team for the gVectors Team software product(s) identified above which may include associated software components, media, printed materials, and “online” or electronic documentation (hereafter referred to as the “PRODUCT”). By purchasing, downloading, installing, copying, or otherwise using the PRODUCT, you agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning the PRODUCT between you, (hereafter referred to as the “Licensee” or “You”), and gVectors Team, (hereafter referred to as the “Licensor”), and it supersedes any prior proposal, representation, or understanding between the parties. If you do not agree to the terms of this EULA, do not purchase or use the PRODUCT.
+
+The PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The PRODUCT is licensed, not sold.
+1. GRANT OF LICENSE.
+
+The PRODUCT is licensed as follows:
+
+(a) Third party components.
+The PRODUCT may make use of certain third party components. Use of these components is granted under the respective copyright holder’s specified license.
+
+(b) Proprietary components
+Where specified within the PRODUCT, proprietary components including but not limited to PHP, HTML, CSS, JS, PSD files and images may be incorporated and are wholly owned and copyrighted by/to the Licensor. Use of these components is granted to the Licensee by the Licensor under the conditions stipulated in this license agreement.
+
+(c) GPL components
+All PHP, HTML, CSS, JS, PSD files and images in the PRODUCT that are not specified within the PRODUCT as being proprietary are copyrighted by/to the Licensor. Use of these components is granted to the Licensee under the GPLv2/v3 License.
+
+(d) Licensees
+Any proprietary components incorporated into the PRODUCT are available for use solely to Licensees, with no right of duplication or further distribution, licensing, or sub-licensing. A Licensee is someone who legally obtained a copy of the PRODUCT, and in doing so agreed to terms of the license, via a sale channel expressly authorized by the Licensor.
+
+(e) License Grant.
+The Licensor grants the Licensee a personal, non-transferable and non-exclusive right to install and use, in accordance with section 1(f), the copy of any proprietary components of the PRODUCT obtained via a sale channel expressly authorized by the Licensor. Renting, copying, transferring or assigning all or part of the proprietary components of the PRODUCT, or any rights granted hereunder, to any other persons is strictly prohibited. You may create derivative works based on any proprietary components of the PRODUCT and install and use them in accordance with section 1(f), but you may not transfer or distribute them. You may not transfer any proprietary components of the PRODUCT.
+
+(f) Installation and Use.
+
+i. Personal Use
+
+The Licensor grants the Licensee a personal, non-transferable and non-exclusive right to install and use copies of any proprietary components of the PRODUCT (and any derivative works of the PRODUCT created by the Licensee) on an unlimited number of domains owned by the Licensee and / or on any localhost environments run on personal computers owned by the Licensee.
+
+ii. Installation for Use by Third Parties
+The Licensor also grants the Licensee a personal, non-transferable and non-exclusive right to install any proprietary components of the PRODUCT for use by third parties without the need to pay royalties to the Licensor, provided the following conditions (along with all other conditions of this agreement) are met:
+
+iii. Conditions of Installation of the PRODUCT for Use by Third Parties
+The Licensee may only install any proprietary components of the PRODUCT for use by a third party as part of a private, one at a time, agreement between themselves and a third party for provision of a service or the sale of an existing established website. The Licensee MAY NOT install any proprietary components of the PRODUCT as part of a distribution agreement between themselves and multiple parties.
+
+Examples of permissible private agreements are a business to client website creation contract, or a person to person website sale contract.
+
+Examples of illegal distribution include, but are not limited to, selling any proprietary components of the PRODUCT an online store, sales page, or as part of a larger product package.
+
+Any proprietary components of the PRODUCT may only be installed for use by a third party as part of either:
+
+1. A website creation service where any proprietary components of the PRODUCT will be installed on the client’s site by the Licensee.
+2. The sale of an existing established website on which any proprietary components of the PRODUCT have previously been installed by the Licensee.
+
+Further:
+1. Any proprietary components of the PRODUCT MAY NOT be sent directly to any third party.
+2. Any proprietary components of the PRODUCT MAY ONLY be installed by the Licensee directly on a domain owned by the party to whom the Licensee is selling a website creation service OR on directly installed on an established website to be sold.
+
+(g) Backup Copies.
+You may also make copies of any proprietary components of the PRODUCT as may be necessary for backup and archival purposes.
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+
+(a) Maintenance of Copyright Notices.
+You must not remove or alter any copyright notices on any and all copies of the PRODUCT.
+
+(b) Distribution.
+You may not distribute copies or derivatives of any proprietary components of the PRODUCT to third parties.
+
+(c) Prohibition on Reverse Engineering and Disassembly.
+You may not reverse engineer or disassemble any proprietary components of the PRODUCT, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+
+(d) Rental.
+You may not rent, lease, or lend any proprietary components of the PRODUCT.
+
+(e) Support Services.
+The Licensor may provide you with support services related to the PRODUCT (“Support Services”). Any supplemental software code provided to you as part of the Support Services shall be considered part of the PRODUCT and subject to the terms and conditions of this EULA.
+
+(f) Compliance with Applicable Laws.
+You must comply with all applicable laws regarding use of the PRODUCT.
+
+(g) Updates and Upgrades.
+All updates and upgrades of the PRODUCT from a previously released version are governed by the terms and conditions of this EULA.
+3. TERMINATION
+
+Without prejudice to any other rights, the Licensor may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the PRODUCT in your possession.
+4. COPYRIGHT
+
+The PRODUCT is licensed, not sold. You acknowledge that no title to the intellectual property in the PRODUCT is transferred to you. You further acknowledge that title and full ownership rights to the PRODUCT will remain the exclusive property of the Licensor, and you will not acquire any rights to the PRODUCT, except as expressly set forth above.
+
+All title, including but not limited to copyrights, in and to the PRODUCT and any copies thereof are owned by the Licensor. All title and intellectual property rights in and to the content which may be accessed through use of the PRODUCT is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by the Licensor.
+5. WARRANTIES, SUPPORT & REFUNDS
+
+The PRODUCT is guaranteed to work when installed correctly on a clean installation of WordPress. If the licensee experiences difficulty installing or using the PRODUCT, assistance will be provided via Support Services. The Licensor does not guarantee the PRODUCT will work with all third party plugins, scripts or browsers, and while Support Services may be able to assist to ensure compatibility, the Licensee hereby agrees that the Licensor is not responsible for any conflicts that may arise.
+
+Refunds may be considered, at the sole discretion of the Licensor, on a case by case basis within 30 days of purchase and only provided the Licensee has granted Support Services adequate time, access and information to resolve any and all issues relating to the SOFTWARE PRODUCT performing the basic functions as designed. Refunds will only be considered in the event that Support Services are able to confirm the product is not functioning and are unable to rectify.
+
+The Licensor expressly disclaims any warranty for the PRODUCT. The PRODUCT is provided ‘As Is’ without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose beyond the basic product description. The Licensor further disclaims any warranty not expressly described.
+
+All support services are provided through a dedicated restricted members area. Support for products by gVectors Team will not be provided by any other platform, including Email, Social Media Services, or Telecommunication Services. The Licensee accepts that access to the members area for any purpose is contingent upon adherence to the terms and conditions contained in this EULA. The Licensee further agrees that any breach of this EULA may result in such access being revoked at the discretion of the Licensor.
+6. LIMITATION OF LIABILITY
+
+In no event shall the Licensor be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of ‘Authorized Users’ use of or inability to use the PRODUCT, even if the Licensee has been advised of the possibility of such damages. In no event will the Licensor be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. The Licensor shall have no liability with respect to the content of the PRODUCT or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.

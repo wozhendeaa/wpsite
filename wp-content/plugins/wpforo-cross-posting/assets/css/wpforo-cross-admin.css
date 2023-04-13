@@ -1,0 +1,30 @@
+.wpf-crossposting{margin-bottom: 20px;}
+.wpf-crossposting .wpf-addon-header{ padding:10px 10px 5px 10px; margin:0px; text-align:right; border-bottom:1px solid #ddd; max-width:240px; margin:0px 0px 20px auto; font-weight:normal;}
+.wpf-crossposting .wpf-addon-table{width:100%; border:none; padding:0px; margin:0px auto; box-sizing:border-box;}
+.wpf-crossposting .wpf-addon-table tr:nth-child(2n+1) { background: #f9f9f9 none repeat scroll 0 0; }
+.wpf-crossposting .wpf-addon-table td, .wpf-addon-table th{ padding:10px 15px; text-align:left; vertical-align:top;}
+.wpf-crossposting .wpf-addon-table label{ font-size:14px;}
+.wpf-crossposting .wpfog{color:#F45B00;white-space:nowrap}
+.wpf-crossposting .wpfogx{ font-weight:bold; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; cursor:help; font-size:12px;}
+.wpf-crossposting .tab {overflow: hidden;border: 1px solid #ccc;background-color: #f1f1f1;}
+.wpf-crossposting .wpf-crossposting-tab{display: flex; justify-content: flex-start; flex-direction: row; align-items: center; border-bottom: 1px solid #ddd;}
+.wpf-crossposting .wpf-crossposting-tab button {border: 1px solid #ddd; background-color: #f5f5f5; float: left;border: none;outline: none;cursor: pointer;padding: 10px 20px; transition: 0.3s; margin-bottom: -1px;}
+.wpf-crossposting .wpf-crossposting-tab button:hover {background-color: #ddd;}
+.wpf-crossposting .wpf-crossposting-tab button.active {background-color: #fff; border: 1px #ccc solid; border-bottom: none;}
+.wpf-crossposting .wpf-crossposting-tabcontent {display: none;padding: 30px 12px;border: 1px solid #ccc;border-top: none;}
+.wpf-crossposting .wpf-autopost-add-block{border: 1px dashed #ccc;text-align: left;padding: 10px;background-color: #fbffd5;}
+.wpf-crossposting .wpf-autocross-spiner{display: inline-block;text-indent: -9999px;width: 26px;height: 26px;background: url(../img/spin.svg);background-size: 26px 26px; margin: 0px 10px;}
+.wpf-crossposting .wpf-autocross-relation{display: flex;  flex-direction: row;  justify-content: space-between;  padding: 10px 15px;  background: #f5f5f5;  border-bottom: 1px solid #ccc;  margin-bottom: 10px;  font-size: 14px;  color: #606060;  font-style: italic;}
+.wpf-crossposting .wpfcp-cat,
+.wpf-crossposting .wpfcp-forum{font-weight: 600;}
+.wpf-crossposting .wpfcp-cat{color: #9c4727;}
+.wpf-crossposting .wpfcp-forum{ color: #1e5264;}
+.wpf-crossposting .wpf-autocross-on{color: #33b84d;}
+.wpf-crossposting .wpf-autocross-off{color: #ee7600;}
+.wpf-crossposting .wpf-autocross-sync{color: #222222;}
+.wpf-crossposting .wpf-autocross-delete{color: #ee0004;}
+.wpf-crossposting .wpfcp-error{padding: 10px;border: 1px dashed #e00;margin: 15px 0px 15px 0px;background-color: #fffafa;font-size: 14px;text-align: center;color: #af1717;}
+.wpf-crossposting .wpf-autocross-statistic-log ul{margin: 0px;}
+.wpf-crossposting .wpf-autocross-statistic-log li{margin-bottom: 0px;line-height: 16px;font-size: 12px;}
+.wpf-crossposting .wpf-autocross-relation-title{flex-grow: 1;}
+.wpf-crossposting .wpf-autocross-action-buttons{padding: 0px 30px;}

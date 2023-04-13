@@ -1,0 +1,203 @@
+# Translation of Plugins - WPfanyi import - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WPfanyi import - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-29 04:44:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WPfanyi import - Stable (latest release)\n"
+
+#: page.php:98 page.php:223
+msgid "The standard formats of language packages that can auto identify types are as follows:"
+msgstr "可供自動判定語言套件類型的標準格式如下所示:"
+
+#: page.php:77 page.php:181 page.php:202
+msgid "The standard format of theme language pack is as follows:"
+msgstr "佈景主題語言套件的標準格式如下所示:"
+
+#: page.php:56
+msgid "The standard format of plugin language pack is as follows:"
+msgstr "外掛語言套件的標準格式如下所示:"
+
+#: page.php:53 page.php:178
+msgid "Auto"
+msgstr "自動判定"
+
+#: core.php:359
+msgid "No valid translation was found."
+msgstr "找不到有效的語言套件。"
+
+#: core.php:264
+msgid "PHP temporary directory is not writable."
+msgstr "PHP 暫存目錄無法寫入。"
+
+#: core.php:254
+msgid "The PHP temporary directory was not recognized"
+msgstr "PHP 暫存目錄無法識別。"
+
+#: core.php:236
+msgid "No translation package was successfully identified."
+msgstr "語言套件無法成功識別類型。"
+
+#. translators: %s: https://wpfanyi.com/new-project
+#: page.php:315
+msgid "If he is hosted in wordpress.org we will handle its translation for free! Please send your needs to: <a href=\"%s\" target=\"_blank\">https://wpfanyi.com/new-project</a>."
+msgstr "如果是託管於 WordPress.org 的外掛或佈景主題，我們也能免費處理對應的語言套件。請將需求傳送至 <a href=\"%s\" target=\"_blank\">https://wpfanyi.com/new-project</a>。"
+
+#: page.php:312
+msgid "Need to translate a WordPress plugin/theme?"
+msgstr "WordPress 外掛或佈景主題的本地化需求"
+
+#. translators: %s: https://github.com/WenPai-org/wpfanyi-import/issues
+#: page.php:308
+msgid "Please submit issues here: <a href=\"%s\" target=\"_blank\">https://github.com/WenPai-org/wpfanyi-import/issues</a>, we will fix it in the next version, thank you for your feedback!"
+msgstr "請將發現的問題提交至 <a href=\"%s\" target=\"_blank\">https://github.com/WenPai-org/wpfanyi-import/issues</a>，我們會在下個版本進行修正；如有任何意見反應，我們在此先行致謝。"
+
+#: page.php:305
+msgid "Found a bug in this plugin?"
+msgstr "找到外掛程式碼錯誤"
+
+#: page.php:301
+msgid "C: Please upload by traditional manual method to finally confirm whether the translation package is valid."
+msgstr "C: 請使用一般手動上傳方式進行最終確認，以確保檔案為有效的語言套件。"
+
+#: page.php:298
+msgid "B: Please check whether you have correctly selected the type of translation package (plugin or theme)."
+msgstr "B: 請檢查是否正確選取語言套件類型 ([外掛] 或 [佈景主題])。"
+
+#: page.php:295
+msgid "A:Please check whether the translation package contains a valid .mo file."
+msgstr "A: 請檢查語言套件中是否包含有效的 MO 檔案。"
+
+#: page.php:292
+msgid "The installed translation package does not work"
+msgstr "安裝的語言套件沒有正確顯示"
+
+#: page.php:288
+msgid "common problem:"
+msgstr "一般問題:"
+
+#: page.php:284
+msgid "Help"
+msgstr "使用說明"
+
+#: page.php:160
+msgid "URL address:"
+msgstr "網址:"
+
+#: core.php:54 page.php:149 page.php:274
+msgid "Import"
+msgstr "匯入"
+
+#: page.php:51 page.php:176
+msgid "Theme"
+msgstr "佈景主題"
+
+#: page.php:49 page.php:174
+msgid "Plugin"
+msgstr "外掛"
+
+#: page.php:47 page.php:172
+msgid "Package type:"
+msgstr "套件類型:"
+
+#: page.php:41
+msgid "Translation package:"
+msgstr "語言套件:"
+
+#: page.php:30
+msgid "Import from URL"
+msgstr "從網址匯入"
+
+#: page.php:27
+msgid "Import from Local"
+msgstr "從個人裝置匯入"
+
+#: page.php:20
+msgid "Note: If a translation package with the same name already exists, this operation will overwrite it"
+msgstr "請注意，如果網站上已有相同檔案名稱的語言套件，這項操作會覆寫既有的語言套件。"
+
+#: page.php:17
+msgid "The translation package is a Zip package including .mo and .po files. Select the translation pack on this page and set its type correctly then click Import to add it to WordPress."
+msgstr "這個外掛所指的語言套件，是指包含 MO 及 PO 檔案的 ZIP 壓縮檔。請在這個頁面選取語言套件，並正確設定語言套件所屬類型，然後點擊 [匯入] 便能將語言套件新增至 WordPress 網站。"
+
+#: page.php:12
+msgid "Import translation"
+msgstr "匯入語言套件"
+
+#: core.php:283
+msgid "Failed to parse the Zip package. The Zip package may be damaged"
+msgstr "無法剖析 ZIP 壓縮檔，這通常是 ZIP 壓縮檔損壞所造成。"
+
+#: core.php:275
+msgid "This server doesn‘t support the decompression of Zip archives. Please contact the service provider of this server to enable the zip extension module function of PHP."
+msgstr "這台伺服器不支援解壓縮 ZIP 壓縮檔。請聯絡主機服務提供商，要求啟用 PHP 的 ZIP 擴充功能。"
+
+#: core.php:315
+msgid "WordPress translation storage directory does not exist and an error occurred when trying to create it. Please refer to PHP warning output for specific error information."
+msgstr "WordPress 語言套件儲存目錄不存在，並且在建立這個目錄時發生錯誤。請參考 PHP 警告輸出，尋找特定的錯誤資訊。"
+
+#. translators: %s: Translation storage directory
+#: core.php:310
+msgid "The translation storage directory of this WordPress is not writable：%s"
+msgstr "WordPress 的語言套件儲存目錄無法寫入: %s"
+
+#: core.php:167
+msgid "Translation package acquisition failed, please check whether the URL is valid"
+msgstr "語言套件擷取失敗，請檢查網址是否有效。"
+
+#: core.php:165
+msgid "Translation package upload failed, please check whether the file system permissions are normal"
+msgstr "語言套件上傳失敗，請檢查檔案系統權限是否正確。"
+
+#: core.php:146
+msgid "Parameter error: unknown translation package import method"
+msgstr "參數錯誤: 未知的語言套件匯入方法。"
+
+#: core.php:141
+msgid "Invalid URL format"
+msgstr "無效的網址格式。"
+
+#: core.php:134
+msgid "The translation package should be in ZIP format"
+msgstr "這個外掛所需的語言套件應為 ZIP 格式壓縮檔。"
+
+#: core.php:129
+msgid "Translation package not selected"
+msgstr "語言套件未選取。"
+
+#: core.php:122
+msgid "Unexpected translation package type"
+msgstr "未預期的語言套件類型。"
+
+#: core.php:116
+msgid "You don't have the authority to do that"
+msgstr "目前的登入身分沒有進行這項操作的權限。"
+
+#: core.php:81
+msgid "Translation imported successfully!"
+msgstr "語言套件已成功匯入！"
+
+#: core.php:44 core.php:45
+msgid "import translation"
+msgstr "匯入語言套件"
+
+#. Author URI of the plugin
+msgid "https://wenpai.org/"
+msgstr "https://wenpai.org/"
+
+#. Author of the plugin
+msgid "WenPai.org"
+msgstr "WenPai.org"
+
+#. Description of the plugin
+msgid "Install translation package like a theme/plugin, no need for FTP/SFTP. this tool will save you a lot of time."
+msgstr "透過與安裝佈景主題/外掛相同的方式安裝語言套件，而不須透過 FTP/SFTP，從而且節省網站管理員的管理時間。"
+
+#. Plugin Name of the plugin
+msgid "WPfanyi import"
+msgstr "WPfanyi import"

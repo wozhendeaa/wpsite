@@ -1,0 +1,2198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: himer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-10 22:14+0200\n"
+"PO-Revision-Date: 2023-04-05 23:16+0000\n"
+"Last-Translator: 低級黑 小明\n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Loco-Version: 2.6.4; wp-6.2"
+
+#: admin/functions/main_functions.php:208 theme-parts/content.php:293
+msgid "Read"
+msgstr "读"
+
+#: admin/functions/main_functions.php:208 theme-parts/content.php:293
+msgid "Read more"
+msgstr "阅读更多"
+
+#: admin/functions/nav_menu.php:10
+msgid "You can use WP menu builder to build menus"
+msgstr "您可以使用 WP menu builder 来构建菜单"
+
+#: admin/functions/register_post.php:7
+msgid "Author"
+msgstr "作者"
+
+#: admin/functions/register_post.php:8
+msgid "Format"
+msgstr "格式"
+
+#: admin/functions/register_post.php:53 includes/group-cover.php:59
+#: theme-parts/content-question.php:589
+msgid "View"
+msgid_plural "Views"
+msgstr[0] "看法"
+
+#: admin/functions/widget_functions.php:27
+msgid "First footer widget area"
+msgstr "第一个页脚小部件区域"
+
+#: admin/functions/widget_functions.php:34
+msgid "Second footer widget area"
+msgstr "第二个页脚小部件区域"
+
+#: admin/functions/widget_functions.php:41
+msgid "Third footer widget area"
+msgstr "第三个页脚小部件区域"
+
+#: admin/functions/widget_functions.php:48
+msgid "Fourth footer widget area"
+msgstr "第四页脚小部件区域"
+
+#: admin/functions/widget_functions.php:55
+msgid "Fifth footer widget area"
+msgstr "第五个页脚小部件区域"
+
+#: admin/functions/widget_functions.php:62
+msgid "Sidebar"
+msgstr "边栏"
+
+#: admin/functions/widget_functions.php:69
+msgid "Sidebar 2"
+msgstr "边栏 2"
+
+#: admin/options.php:5
+msgid "Header height"
+msgstr "页眉高度"
+
+#: admin/options.php:6
+msgid "Choose the header height."
+msgstr "选择页眉高度。"
+
+#: admin/options.php:10
+msgid "Small"
+msgstr "小的"
+
+#: admin/options.php:10
+msgid "Large"
+msgstr "大的"
+
+#: admin/options.php:14
+msgid "Header skin"
+msgstr "表头皮肤"
+
+#: admin/options.php:15
+msgid "Choose the header skin."
+msgstr "选择标题皮肤。"
+
+#: admin/options.php:19 admin/options.php:141 admin/options.php:170
+#: admin/options.php:210 admin/options.php:253
+msgid "Dark"
+msgstr "黑暗的"
+
+#: admin/options.php:19 admin/options.php:141 admin/options.php:170
+#: admin/options.php:210 admin/options.php:253
+msgid "Light"
+msgstr "光"
+
+#: admin/options.php:19
+msgid "Color 1"
+msgstr "颜色 1"
+
+#: admin/options.php:19
+msgid "Color 2"
+msgstr "颜色 2"
+
+#: admin/options.php:23
+msgid "Logo display"
+msgstr "标志展示"
+
+#: admin/options.php:24
+msgid "Choose the logo display."
+msgstr "选择徽标显示。"
+
+#: admin/options.php:28
+msgid "Display site title"
+msgstr "显示站点标题"
+
+#: admin/options.php:28
+msgid "Custom Image"
+msgstr "自定义图像"
+
+#: admin/options.php:32
+msgid "Upload the logo"
+msgstr "上传徽标"
+
+#: admin/options.php:33
+msgid "Upload your custom logo."
+msgstr "上传您的自定义徽标。"
+
+#: admin/options.php:42
+msgid "Upload the retina logo"
+msgstr "上传视网膜标志"
+
+#: admin/options.php:43
+msgid "Upload your custom retina logo."
+msgstr "上传您的自定义 Retina 徽标。"
+
+#: admin/options.php:51
+msgid "Logo height"
+msgstr "标志高度"
+
+#: admin/options.php:62
+msgid "Logo width"
+msgstr "标志宽度"
+
+#: admin/options.php:73
+msgid "Header search option"
+msgstr "标题搜索选项"
+
+#: admin/options.php:74
+msgid "Select ON to enable header search."
+msgstr "选择开以启用标题搜索。"
+
+#: admin/options.php:81
+msgid "Activate the bigger search bar?"
+msgstr "激活更大的搜索栏？"
+
+#: admin/options.php:82
+msgid "Select ON to enable header bigger search bar."
+msgstr "选择开以启用标题更大的搜索栏。"
+
+#: admin/options.php:89
+msgid "Activate the header buttons menu?"
+msgstr "激活标题按钮菜单？"
+
+#: admin/options.php:90
+msgid "Select ON to enable header buttons menu."
+msgstr "选择开以启用标题按钮菜单。"
+
+#: admin/options.php:103
+msgid "Header buttons menu with default buttons or custom menu"
+msgstr "带有默认按钮或自定义菜单的标题按钮菜单"
+
+#: admin/options.php:107
+msgid "Default"
+msgstr "默认"
+
+#: admin/options.php:107
+msgid "Custom menu"
+msgstr "自定义菜单"
+
+#: admin/options.php:111
+msgid "Choose from here which menu will show at header buttons menu."
+msgstr "从这里选择哪个菜单将显示在标题按钮菜单中。"
+
+#: admin/options.php:119 admin/options.php:607 header-parts/call-action.php:105
+#: header-parts/header-actions.php:151 header-parts/mobile-bar.php:47
+#: header-parts/slider.php:66 hero/hero-slider.php:19 includes/titles.php:7
+msgid "Ask A Question"
+msgstr "问一个问题"
+
+#: admin/options.php:120 admin/options.php:608 includes/titles.php:27
+msgid "Add A Post"
+msgstr "添加帖子"
+
+#: admin/options.php:121 header-parts/header-actions.php:167
+#: includes/titles.php:17
+msgid "Create A Group"
+msgstr "创建一个组"
+
+#: admin/options.php:125
+msgid "Select the pages to add at the header buttons menu"
+msgstr "在标题按钮菜单中选择要添加的页面"
+
+#: admin/options.php:136
+msgid "Header buttons menu style"
+msgstr "标题按钮菜单样式"
+
+#: admin/options.php:137
+msgid "Choose header buttons menu style."
+msgstr "选择标题按钮菜单样式。"
+
+#: admin/options.php:151
+msgid "User icon profile or login and register buttons"
+msgstr "用户图标配置文件或登录和注册按钮"
+
+#: admin/options.php:152
+msgid "Select ON to enable header user login area."
+msgstr "选择开以启用标题用户登录区域。"
+
+#: admin/options.php:165
+msgid "Header user login style"
+msgstr "表头用户登录样式"
+
+#: admin/options.php:166
+msgid "Choose header user login style."
+msgstr "选择标头用户登录方式。"
+
+#: admin/options.php:174
+msgid ""
+"The settings of header profile menu on the WordPress menus, on menu named "
+"Header Profile Menu"
+msgstr "标题配置文件菜单在 WordPress 菜单上的设置，在名为 Header Profile Menu 的菜单上"
+
+#: admin/options.php:191
+msgid "Header messages"
+msgstr "标题消息"
+
+#: admin/options.php:192
+msgid "Select ON to enable header messages."
+msgstr "选择开以启用标题消息。"
+
+#: admin/options.php:205
+msgid "Header messages style"
+msgstr "标题消息样式"
+
+#: admin/options.php:206
+msgid "Choose header messages style."
+msgstr "选择标题消息样式。"
+
+#: admin/options.php:214
+msgid "Header messages number"
+msgstr "标题消息数"
+
+#: admin/options.php:215
+msgid "Put the header messages number."
+msgstr "放置标题消息编号。"
+
+#: admin/options.php:234
+msgid "Header notifications"
+msgstr "标头通知"
+
+#: admin/options.php:235
+msgid "Select ON to enable header notifications."
+msgstr "选择开以启用标题通知。"
+
+#: admin/options.php:248
+msgid "Header notifications style"
+msgstr "标头通知样式"
+
+#: admin/options.php:249
+msgid "Choose header notifications style."
+msgstr "选择标头通知样式。"
+
+#: admin/options.php:257
+msgid "Header notifications number"
+msgstr "标头通知编号"
+
+#: admin/options.php:258
+msgid "Put the header notifications number."
+msgstr "放置标题通知编号。"
+
+#: admin/options.php:271
+msgid "Activate the second menu"
+msgstr "激活二级菜单"
+
+#: admin/options.php:272
+msgid "Select ON to enable the second menu."
+msgstr "选择开以启用第二个菜单。"
+
+#: admin/options.php:284
+msgid "Second menu works at all the pages, custom pages, or home page only?"
+msgstr "第二个菜单适用于所有页面、自定义页面或仅主页？"
+
+#: admin/options.php:287 admin/options.php:397
+msgid "Home page"
+msgstr "主页"
+
+#: admin/options.php:288 admin/options.php:398
+msgid "All site pages"
+msgstr "所有网站页面"
+
+#: admin/options.php:289 admin/options.php:399
+msgid "All single post pages"
+msgstr "所有单个帖子页面"
+
+#: admin/options.php:290 admin/options.php:400
+msgid "All single question pages"
+msgstr "所有单题页"
+
+#: admin/options.php:291 admin/options.php:401
+msgid "Custom pages"
+msgstr "自定义页面"
+
+#: admin/options.php:298 admin/options.php:408
+msgid "Page ids"
+msgstr "页面 ID"
+
+#: admin/options.php:299 admin/options.php:409
+msgid "Type from here the page ids"
+msgstr "从这里输入页面 ID"
+
+#: admin/options.php:306
+msgid "Activate the tags on the second menu"
+msgstr "激活第二个菜单上的标签"
+
+#: admin/options.php:307
+msgid "Select ON to enable the tags on the second menu."
+msgstr "选择开以启用第二个菜单上的标签。"
+
+#: admin/options.php:320
+msgid "Choose the tags from the questions or posts"
+msgstr "从问题或帖子中选择标签"
+
+#: admin/options.php:323 admin/options.php:468 admin/options.php:533
+#: theme-parts/content-none.php:21 theme-parts/loop.php:493
+msgid "Questions"
+msgstr "问题"
+
+#: admin/options.php:324 admin/options.php:470 admin/options.php:521
+#: admin/options.php:534 theme-parts/content-none.php:21
+msgid "Posts"
+msgstr "帖子"
+
+#: admin/options.php:331
+msgid "Activate the more tags button"
+msgstr "激活更多标签按钮"
+
+#: admin/options.php:332
+msgid "Select ON to enable the more tags button."
+msgstr "选择开以启用更多标签按钮。"
+
+#: admin/options.php:339
+msgid "Tags page"
+msgstr "标签页"
+
+#: admin/options.php:340
+msgid "Select the tags page"
+msgstr "选择标签页"
+
+#: admin/options.php:360
+msgid "Fixed header option"
+msgstr "固定标题选项"
+
+#: admin/options.php:361
+msgid "Select ON to enable fixed header."
+msgstr "选择 ON 以启用固定标头。"
+
+#: admin/options.php:370
+msgid "Hero settings"
+msgstr "英雄设定"
+
+#: admin/options.php:381
+msgid "Activate the hero or not"
+msgstr "是否激活英雄"
+
+#: admin/options.php:382
+msgid "Select ON to enable the hero."
+msgstr "选择 ON 启用英雄。"
+
+#: admin/options.php:394
+msgid "Hero works at all the pages, custom pages, or home page only?"
+msgstr "Hero 适用于所有页面、自定义页面或仅主页？"
+
+#: admin/options.php:416
+msgid "Hero works for \"Unlogged users\", \"Logged users\" or both"
+msgstr "Hero 适用于“未登录用户”、“已登录用户”或两者兼而有之"
+
+#: admin/options.php:419
+msgid "Unlogged users"
+msgstr "未登录的用户"
+
+#: admin/options.php:420
+msgid "Logged users"
+msgstr "登录用户"
+
+#: admin/options.php:421
+msgid "Both"
+msgstr "两个都"
+
+#: admin/options.php:428
+msgid "Hero layout"
+msgstr "英雄布局"
+
+#: admin/options.php:446
+msgid "Sidebar of hero settings"
+msgstr "英雄设置侧边栏"
+
+#: admin/options.php:451
+msgid "Sidebar style"
+msgstr "侧边栏样式"
+
+#: admin/options.php:454
+msgid "Stats"
+msgstr "统计数据"
+
+#: admin/options.php:455 admin/options.php:730
+msgid "Posts with small banner"
+msgstr "带有小横幅的帖子"
+
+#: admin/options.php:469
+msgid "Answers"
+msgstr "答案"
+
+#: admin/options.php:471 theme-parts/content.php:327
+msgid "Comments"
+msgstr "评论"
+
+#: admin/options.php:472
+msgid "Best Answers"
+msgstr "最佳答案"
+
+#: admin/options.php:473
+msgid "Users"
+msgstr "用户"
+
+#: admin/options.php:474
+msgid "Groups"
+msgstr "团体"
+
+#: admin/options.php:475
+msgid "Group Posts"
+msgstr "群组帖子"
+
+#: admin/options.php:480
+msgid "Choose the stats"
+msgstr "选择统计数据"
+
+#: admin/options.php:489
+msgid "Style"
+msgstr "风格"
+
+#: admin/options.php:507
+msgid "Content of hero settings"
+msgstr "英雄设定内容"
+
+#: admin/options.php:518
+msgid ""
+"Choose the hero that works with the theme or add your custom hero by "
+"inserting the code or shortcodes"
+msgstr "选择适合主题的英雄或通过插入代码或简码添加您的自定义英雄"
+
+#: admin/options.php:522
+msgid "Theme Slider"
+msgstr "主题滑块"
+
+#: admin/options.php:523
+msgid "Custom Slider"
+msgstr "自定义滑块"
+
+#: admin/options.php:530
+msgid "Questions or posts"
+msgstr "问题或帖子"
+
+#: admin/options.php:549
+msgid "Hero height"
+msgstr "英雄身高"
+
+#: admin/options.php:562
+msgid "Color"
+msgstr "颜色"
+
+#: admin/options.php:567 theme-parts/content.php:2
+msgid "Image"
+msgstr "图像"
+
+#: admin/options.php:571
+msgid "Choose the background opacity"
+msgstr "选择背景不透明度"
+
+#: admin/options.php:582 admin/widgets.php:6
+msgid "Title"
+msgstr "标题"
+
+#: admin/options.php:587
+msgid "Paragraph"
+msgstr "段落"
+
+#: admin/options.php:592
+msgid "Button enable or disable?"
+msgstr "按钮启用或禁用？"
+
+#: admin/options.php:603
+msgid "Button"
+msgstr "按钮"
+
+#: admin/options.php:605 header-parts/call-action.php:125
+#: header-parts/slider.php:86 hero/hero-slider.php:39
+msgid "Create A New Account"
+msgstr "创建一个新账户"
+
+#: admin/options.php:606 header-parts/call-action.php:117
+#: header-parts/slider.php:78 hero/hero-slider.php:31
+msgid "Login"
+msgstr "登录"
+
+#: admin/options.php:609
+msgid "Custom link"
+msgstr "自定义链接"
+
+#: admin/options.php:616
+msgid "Button style"
+msgstr "按钮样式"
+
+#: admin/options.php:618
+msgid "Style 1"
+msgstr "款式一"
+
+#: admin/options.php:619
+msgid "Style 2"
+msgstr "样式 2"
+
+#: admin/options.php:620
+msgid "Style 3"
+msgstr "样式 3"
+
+#: admin/options.php:630
+msgid "Open the page in same page or a new page?"
+msgstr "在同一页面或新页面打开页面？"
+
+#: admin/options.php:634
+msgid "Same page"
+msgstr "同一页"
+
+#: admin/options.php:634
+msgid "New page"
+msgstr "新一页"
+
+#: admin/options.php:637
+msgid "Type the button link"
+msgstr "输入按钮链接"
+
+#: admin/options.php:642
+msgid "Type the button text"
+msgstr "键入按钮文本"
+
+#: admin/options.php:661
+msgid "Add a new slide"
+msgstr "添加新幻灯片"
+
+#: admin/options.php:675
+msgid "Add your custom slide or shortcode"
+msgstr "添加您的自定义幻灯片或简码"
+
+#: admin/options.php:686
+msgid "Make the big questions banner with answers or not"
+msgstr "是否制作带有答案的大问题横幅"
+
+#: admin/options.php:693
+msgid "Style of the answer"
+msgstr "答案风格"
+
+#: admin/options.php:694
+msgid "Choose the style of the answer."
+msgstr "选择答案的风格。"
+
+#: admin/options.php:700
+msgid "Male and female answers"
+msgstr "男性和女性的答案"
+
+#: admin/options.php:701
+msgid "Male answer"
+msgstr "男性回答"
+
+#: admin/options.php:702
+msgid "Female answer"
+msgstr "女性回答"
+
+#: admin/options.php:703
+msgid "Best answer"
+msgstr "最佳答案"
+
+#: admin/options.php:704
+msgid "Last answer"
+msgstr "最后回答"
+
+#: admin/options.php:721
+msgid "Style of the posts"
+msgstr "帖子的风格"
+
+#: admin/options.php:722
+msgid "Choose the style of the posts."
+msgstr "选择帖子的样式。"
+
+#: admin/options.php:727
+msgid "Big banner and posts like article style"
+msgstr "大横幅和文章风格的帖子"
+
+#: admin/options.php:728
+msgid "Big banner"
+msgstr "纛"
+
+#: admin/options.php:729
+msgid "Like article style"
+msgstr "喜欢文章风格"
+
+#: admin/options.php:747
+msgid ""
+"Note: this option will not work if you choose stats in the sidebar of the "
+"hero and do not choose the slider of the posts."
+msgstr "注意：如果您在英雄的侧边栏中选择统计数据并且不选择帖子的滑块，则此选项将不起作用。"
+
+#: admin/options.php:753
+msgid "Add the number of posts you want to show"
+msgstr "添加要显示的帖子数"
+
+#: admin/options.php:760
+msgid "Make the posts as slider"
+msgstr "将帖子设为滑块"
+
+#: admin/options.php:766
+msgid "Show the meta of the post"
+msgstr "显示帖子的元数据"
+
+#: admin/options.php:796
+msgid "Himer Change log"
+msgstr "海默更改日志"
+
+#: admin/options.php:803
+msgid "Mobile APP Change log"
+msgstr "手机APP更新日志"
+
+#: admin/options.php:810
+msgid "Support"
+msgstr "支持"
+
+#: admin/options.php:821
+msgid "Choose the your old theme if you use one of our themes before"
+msgstr "如果您以前使用过我们的主题之一，请选择您的旧主题"
+
+#: admin/options.php:824
+msgid "No thing, just a new site"
+msgstr "没什么，只是一个新站点"
+
+#: admin/options.php:825
+msgid "Ask Me"
+msgstr "问我"
+
+#: admin/options.php:826
+msgid "Discy"
+msgstr "圆盘"
+
+#: admin/options.php:833
+msgid "Import Setting"
+msgstr "导入设置"
+
+#: admin/options.php:834
+msgid "Put here the import setting"
+msgstr "将导入设置放在这里"
+
+#: admin/plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "安装所需的插件"
+
+#: admin/plugins/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#: admin/plugins/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "正在安装插件：%s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "更新插件：%s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "插件 API 出了点问题。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "该主题需要以下插件：%1$s。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "该主题推荐以下插件：%1$s。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "以下插件需要更新到其最新版本以确保与该主题的最大兼容性：%1$s。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "有可用的更新：%1$s。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下必需的插件当前处于非活动状态：%1$s。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下推荐的插件当前处于非活动状态：%1$s。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "开始安装插件"
+
+#: admin/plugins/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "开始更新插件"
+
+#: admin/plugins/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "开始激活插件"
+
+#: admin/plugins/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "返回到所需的插件安装程序"
+
+#: admin/plugins/class-tgm-plugin-activation.php:393
+#: admin/plugins/class-tgm-plugin-activation.php:913
+#: admin/plugins/class-tgm-plugin-activation.php:2619
+#: admin/plugins/class-tgm-plugin-activation.php:3666
+msgid "Return to the Dashboard"
+msgstr "返回仪表板"
+
+#: admin/plugins/class-tgm-plugin-activation.php:394
+#: admin/plugins/class-tgm-plugin-activation.php:3245
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:395
+#: admin/plugins/class-tgm-plugin-activation.php:3038
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下插件已成功激活："
+
+#: admin/plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "不采取行动。插件 %1$s 已经激活。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "插件未激活。此主题需要更高版本的 %s。请更新插件。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有插件均已成功安装和激活。 %1$s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "关闭此通知"
+
+#: admin/plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "有一个或多个必需或推荐的插件需要安装、更新或激活。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "请联系本网站的管理员寻求帮助。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "此插件需要更新以与您的主题兼容。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "需要更新"
+
+#: admin/plugins/class-tgm-plugin-activation.php:1020
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "远程插件包不包含具有所需 slug 的文件夹，并且重命名无效。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:1020
+#: admin/plugins/class-tgm-plugin-activation.php:1023
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr "请联系插件提供商并要求他们根据 WordPress 指南打包他们的插件。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:1023
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "远程插件包由多个文件组成，但文件不打包在一个文件夹中。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:1207
+#: admin/plugins/class-tgm-plugin-activation.php:3034
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "和"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2359
+msgid "Required"
+msgstr "必需的"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2362
+msgid "Recommended"
+msgstr "受到推崇的"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2378
+msgid "WordPress Repository"
+msgstr "WordPress 资料库"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2381
+msgid "External Source"
+msgstr "外部源"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2384
+msgid "Pre-Packaged"
+msgstr "预包装"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2401
+msgid "Not Installed"
+msgstr "未安装"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2405
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2407
+#: admin/updater/elitepack-config.php:131
+#: admin/updater/elitepack-config.php:141
+msgid "Active"
+msgstr "积极的"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2413
+msgid "Required Update not Available"
+msgstr "必需的更新不可用"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2416
+msgid "Requires Update"
+msgstr "需要更新"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2419
+msgid "Update recommended"
+msgstr "推荐更新"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2428
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s，%2$s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2474
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全部<span class=\"count\">（%s）</span>"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2478
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "安装<span class=\"count\">（%s）</span>"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2482
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "更新可用<span class=\"count\">（%s）</span>"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2486
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "激活<span class=\"count\">（%s）</span>"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2568
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2576
+msgid "Installed version:"
+msgstr "安装版本："
+
+#: admin/plugins/class-tgm-plugin-activation.php:2584
+msgid "Minimum required version:"
+msgstr "最低要求版本："
+
+#: admin/plugins/class-tgm-plugin-activation.php:2596
+msgid "Available version:"
+msgstr "可用版本："
+
+#: admin/plugins/class-tgm-plugin-activation.php:2619
+msgid "No plugins to install, update or activate."
+msgstr "无需安装、更新或激活插件。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2633
+msgid "Plugin"
+msgstr "插入"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2634
+msgid "Source"
+msgstr "来源"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2635
+msgid "Type"
+msgstr "类型"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2639
+msgid "Version"
+msgstr "版本"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2640
+msgid "Status"
+msgstr "地位"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2689
+#, php-format
+msgid "Install %2$s"
+msgstr "安装 %2$s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2694
+#, php-format
+msgid "Update %2$s"
+msgstr "更新 %2$s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2700
+#, php-format
+msgid "Activate %2$s"
+msgstr "激活 %2$s"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2770
+msgid "Upgrade message from the plugin author:"
+msgstr "来自插件作者的升级消息："
+
+#: admin/plugins/class-tgm-plugin-activation.php:2803
+msgid "Install"
+msgstr "安装"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2809
+msgid "Update"
+msgstr "更新"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2812
+msgid "Activate"
+msgstr "启用"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2843
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "没有选择要安装的插件。不采取行动。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2845
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "没有选择要更新的插件。不采取行动。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2886
+msgid "No plugins are available to be installed at this time."
+msgstr "目前没有可供安装的插件。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2888
+msgid "No plugins are available to be updated at this time."
+msgstr "目前没有可更新的插件。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:2994
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "没有选择要激活的插件。不采取行动。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3020
+msgid "No plugins are available to be activated at this time."
+msgstr "目前没有可激活的插件。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3244
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3584
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "更新插件 %1$s（%2$d/%3$d）"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装 %1$s 时出错：<strong>%2$s</strong>。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s 安装失败。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3593
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "安装和激活过程正在开始。这个过程在某些主机上可能需要一段时间，所以请耐心等待。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3595
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s 安装并激活成功。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3595
+#: admin/plugins/class-tgm-plugin-activation.php:3603
+msgid "Show Details"
+msgstr "显示详细资料"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3595
+#: admin/plugins/class-tgm-plugin-activation.php:3603
+msgid "Hide Details"
+msgstr "隐藏细节"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3596
+msgid "All installations and activations have been completed."
+msgstr "所有安装和激活都已完成。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3598
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "安装并激活插件 %1$s（%2$d/%3$d）"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3601
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "安装过程正在开始。这个过程在某些主机上可能需要一段时间，所以请耐心等待。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s 安装成功。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3604
+msgid "All installations have been completed."
+msgstr "所有安装已完成。"
+
+#: admin/plugins/class-tgm-plugin-activation.php:3606
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装插件 %1$s（%2$d/%3$d）"
+
+#: admin/updater/elitepack-config.php:26 admin/updater/elitepack-config.php:127
+msgid "Purchase a License"
+msgstr "购买许可证"
+
+#: admin/updater/elitepack-config.php:27
+msgid "Renew Support"
+msgstr "更新支持"
+
+#: admin/updater/elitepack-config.php:28
+msgid "Need Help?"
+msgstr "需要帮忙？"
+
+#: admin/updater/elitepack-config.php:29
+msgid "Try Again"
+msgstr "再试一次"
+
+#: admin/updater/elitepack-config.php:30
+#, php-format
+msgid "Register %s"
+msgstr "注册 %s"
+
+#: admin/updater/elitepack-config.php:31
+#, php-format
+msgid ""
+"Thank you for choosing %s! Your product must be registered to see the theme "
+"options, import our awesome demos, install bundled plugins, receive "
+"automatic updates, and access to support."
+msgstr "感谢您选择 %s！您的产品必须注册才能查看主题选项、导入我们很棒的演示、安装捆绑插件、接收自动更新以及获得支持。"
+
+#: admin/updater/elitepack-config.php:32 admin/updater/elitepack-config.php:126
+msgid "Register Now!"
+msgstr "现在注册！"
+
+#: admin/updater/elitepack-config.php:33
+msgid "Congratulations"
+msgstr "恭喜"
+
+#: admin/updater/elitepack-config.php:34
+msgid ""
+"Your License is now registered!, theme options, demo import, and bundeled "
+"plugins is now unlocked."
+msgstr "您的许可证现已注册！主题选项、演示导入和捆绑插件现已解锁。"
+
+#: admin/updater/elitepack-config.php:35
+msgid "An error occurred, please try again."
+msgstr "发生错误，请重试。"
+
+#: admin/updater/elitepack-config.php:36
+msgid "Register the theme to unlock automatic updates."
+msgstr "注册主题以解锁自动更新。"
+
+#: admin/updater/elitepack-config.php:37
+msgid "Renew your support to unlock automatic updates."
+msgstr "更新您的支持以解锁自动更新。"
+
+#: admin/updater/elitepack-config.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 在 %2$s"
+
+#: admin/updater/elitepack-config.php:39
+#, php-format
+msgid ""
+"Your support will Expire in %s. Renew your license today and save 25%% to "
+"keep getting auto updates and premium support, remember purchasing a new "
+"license extends support for all licenses."
+msgstr "您的支持将在 %s 后过期。立即续订您的许可证并节省 25%% 以继续获得自动更新和高级支持，请记住购买新许可证会延长对所有许可证的支持。"
+
+#: admin/updater/elitepack-config.php:40
+msgid "Failed, try again later."
+msgstr "失败，稍后再试。"
+
+#: admin/updater/elitepack-config.php:41
+#, php-format
+msgid "Did not updated, Your support expires on %s"
+msgstr "未更新，您的支持将于 %s 到期"
+
+#: admin/updater/elitepack-config.php:42
+#, php-format
+msgid "Updated successfully, your support expires on %s"
+msgstr "更新成功，您的支持将于 %s 到期"
+
+#: admin/updater/elitepack-config.php:43
+#, php-format
+msgid "There is a new version of %1$s available."
+msgstr "有新版本的 %1$s 可用。"
+
+#: admin/updater/elitepack-config.php:44
+#, php-format
+msgid ""
+"There is a new version of %1$s available, %2$sView version %3$s details%4$s."
+msgstr "%1$s 有新版本可用，%2$s查看版本 %3$s 的详细信息%4$s。"
+
+#: admin/updater/elitepack-config.php:45
+msgid "update now"
+msgstr "现在更新"
+
+#: admin/updater/elitepack-config.php:46
+msgid "License Deactivated Successfully."
+msgstr "许可证已成功停用。"
+
+#: admin/updater/elitepack-config.php:47
+msgid "Cancel"
+msgstr "取消"
+
+#: admin/updater/elitepack-config.php:48
+msgid "Skip & Switch"
+msgstr "跳过和切换"
+
+#: admin/updater/elitepack-config.php:49
+msgid "Send & Switch"
+msgstr "发送&切换"
+
+#: admin/updater/elitepack-config.php:50
+#, php-format
+msgid "%s feedback"
+msgstr "%s 反馈"
+
+#: admin/updater/elitepack-config.php:51
+msgid "May we have a little info about why you are switching?"
+msgstr "我们可以提供一些关于您转换原因的信息吗？"
+
+#: admin/updater/elitepack-config.php:82 admin/updater/elitepack-config.php:87
+msgid "Thank you for choosing "
+msgstr "感谢您的选择"
+
+#: admin/updater/elitepack-config.php:83
+msgid "Congratulations! Your product is registered now."
+msgstr "恭喜！您的产品现已注册。"
+
+#: admin/updater/elitepack-config.php:88
+msgid "Click on the button below to begin the registration process."
+msgstr "单击下面的按钮开始注册过程。"
+
+#: admin/updater/elitepack-config.php:93
+msgid "See the theme options"
+msgstr "查看主题选项"
+
+#: admin/updater/elitepack-config.php:94
+msgid "Import our awesome demos"
+msgstr "导入我们很棒的演示"
+
+#: admin/updater/elitepack-config.php:95
+msgid "Install the included plugins"
+msgstr "安装包含的插件"
+
+#: admin/updater/elitepack-config.php:96
+msgid "Receive automatic updates"
+msgstr "接收自动更新"
+
+#: admin/updater/elitepack-config.php:97
+msgid "Access to support"
+msgstr "获得支持"
+
+#: admin/updater/elitepack-config.php:102
+msgid "Welcome to"
+msgstr "欢迎来到"
+
+#: admin/updater/elitepack-config.php:131
+msgid "License Status:"
+msgstr "许可证状态："
+
+#: admin/updater/elitepack-config.php:132
+msgid "Revoke License"
+msgstr "吊销执照"
+
+#: admin/updater/elitepack-config.php:138
+#, php-format
+msgid "Expiring! will expire on %s"
+msgstr "即将到期！将于 %s 到期"
+
+#: admin/updater/elitepack-config.php:144
+msgid "Expired"
+msgstr "已到期"
+
+#: admin/updater/elitepack-config.php:150
+msgid "Support Status:"
+msgstr "支持状态："
+
+#: admin/updater/elitepack-config.php:151
+msgid "Refresh Expiration Date"
+msgstr "刷新到期日期"
+
+#: admin/widgets.php:12
+msgid "About text"
+msgstr "关于文字"
+
+#: admin/widgets/about.php:26
+msgid "About"
+msgstr "关于"
+
+#: admin/widgets/adv-120x240.php:47
+msgid "Adv 120x240"
+msgstr "广告 120x240"
+
+#: admin/widgets/adv-120x600.php:29
+msgid "Adv 120x600"
+msgstr "广告 120x600"
+
+#: admin/widgets/adv-125x125.php:47
+msgid "Adv 125x125"
+msgstr "广告 125x125"
+
+#: admin/widgets/adv-234x60.php:29
+msgid "Adv 234x60"
+msgstr "高级 234x60"
+
+#: admin/widgets/adv-250x250.php:29
+msgid "Adv 250x250"
+msgstr "广告 250x250"
+
+#: admin/widgets/counter.php:43
+msgid "Social counter"
+msgstr "社交柜台"
+
+#: admin/widgets/counter.php:47 admin/widgets/counter.php:48
+#: admin/widgets/counter.php:49 admin/widgets/counter.php:51
+#: admin/widgets/counter.php:52 admin/widgets/counter.php:54
+#: admin/widgets/counter.php:55 theme-parts/content-question.php:630
+#: theme-parts/feed.php:229 theme-parts/show-categories.php:50
+#: theme-parts/show-categories.php:86 theme-parts/tags.php:78
+msgid "Follower"
+msgid_plural "Followers"
+msgstr[0] "追随者"
+
+#: admin/widgets/counter.php:50 admin/widgets/counter.php:53
+msgid "Subscriber"
+msgid_plural "Subscribers"
+msgstr[0] "订户"
+
+#: admin/widgets/facebook.php:28
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/widgets/social.php:22
+msgid "Social media"
+msgstr "社交媒体"
+
+#: admin/widgets/social.php:59 admin/widgets/social.php:73
+msgid "Hello"
+msgstr "你好"
+
+#: admin/widgets/social.php:66
+msgid "Feed"
+msgstr "喂养"
+
+#: admin/widgets/subscribe.php:24 theme-parts/newsletter.php:9
+msgid "Subscribe"
+msgstr "订阅"
+
+#: admin/widgets/subscribe.php:28
+msgid "Type Your Email"
+msgstr "输入您的电子邮件"
+
+#: admin/widgets/twitter.php:39
+msgid "Twitter"
+msgstr "推特"
+
+#: admin/widgets/twitter.php:58
+#, php-format
+msgid "about %s ago"
+msgstr "大约 %s 前"
+
+#: admin/widgets/video.php:34
+msgid "Video"
+msgstr "视频"
+
+#: category.php:10 taxonomy-question-category.php:14
+msgid "Category"
+msgstr "类别"
+
+#: category.php:12 taxonomy-question-category.php:16
+msgid "Category feed"
+msgstr "分类提要"
+
+#: comment-parts/comment-form.php:8
+msgid "Your Name"
+msgstr "你的名字"
+
+#: comment-parts/comment-form.php:9
+msgid "Email"
+msgstr "电子邮件"
+
+#: comment-parts/comment-form.php:10
+msgid "URL"
+msgstr "网址"
+
+#: comment-parts/comment-form.php:21 hero/hero-stats.php:51
+#: template-badges.php:96 theme-parts/content-question.php:672
+msgid "Answer"
+msgid_plural "Answers"
+msgstr[0] "回答"
+
+#: comment-parts/comment-form.php:21 comment-parts/comment-group-form.php:25
+#: comment-parts/comment-group-form.php:33 hero/hero-stats.php:54
+#: theme-parts/content-group.php:182
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "评论"
+
+#: comment-parts/comment-form.php:28
+msgid "You must login to add an answer."
+msgstr "您必须登录才能添加答案。"
+
+#: comment-parts/comment-form.php:28
+msgid "You must login to add a new comment."
+msgstr "您必须登录才能添加新评论。"
+
+#: comment-parts/comment-form.php:29
+msgid "Logged in as"
+msgstr "登录为"
+
+#: comment-parts/comment-form.php:29
+msgid "Log out of this account"
+msgstr "注销此帐户"
+
+#: comment-parts/comment-form.php:29
+msgid "Log out"
+msgstr "登出"
+
+#: comment-parts/comment-form.php:30 comment-parts/comment-form.php:32
+msgid "Leave an answer"
+msgstr "留下答案"
+
+#: comment-parts/comment-form.php:30
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: comment-parts/comment-form.php:31
+#, php-format
+msgid "Leave an reply to %s"
+msgstr "回复 %s"
+
+#: comment-parts/comment-form.php:31
+#, php-format
+msgid "Leave a comment to %s"
+msgstr "给 %s 留言"
+
+#: comment-parts/comment-form.php:39
+msgid "Submit"
+msgstr "提交"
+
+#: comment-parts/comment-group-form.php:4
+msgid "Featured image"
+msgstr "特色图片"
+
+#: comment-parts/comment-group-form.php:8
+msgid "Select file"
+msgstr "选择文件"
+
+#: comment-parts/comment-group-form.php:9
+msgid "Browse"
+msgstr "浏览"
+
+#: comment-parts/comment-group-form.php:30
+msgid "Click here to cancel reply."
+msgstr "点击这里取消回复。"
+
+#: comments.php:14
+msgid "Please do not load this page directly. Thanks!"
+msgstr "请不要直接加载此页面。谢谢！"
+
+#: comments.php:19
+msgid ""
+"This question is password protected. Enter the password to view answers."
+msgstr "此问题受密码保护。输入密码以查看答案。"
+
+#: comments.php:21
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "这篇文章受密码保护。请输入密码以查看评论。"
+
+#: comments.php:193 hero/hero-big-post.php:131 hero/hero-stats.php:57
+#: theme-parts/content-question.php:281
+msgid "Best Answer"
+msgid_plural "Best Answers"
+msgstr[0] "最佳答案"
+
+#: comments.php:195 theme-parts/content-question.php:700
+#, php-format
+msgid "%s Her Answer"
+msgid_plural "%s Her Answers"
+msgstr[0] "%s 她的回答"
+
+#: comments.php:197 theme-parts/content-question.php:706
+#, php-format
+msgid "%s Him Answer"
+msgid_plural "%s Him Answers"
+msgstr[0] "%s 他回答"
+
+#: comments.php:199 functions.php:502 theme-parts/content-question.php:721
+#, php-format
+msgid "%s Answer"
+msgid_plural "%s Answers"
+msgstr[0] "%s 回答"
+
+#: comments.php:202 theme-parts/content-group.php:168
+#: theme-parts/content-group.php:284
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s 评论"
+
+#: comments.php:209 comments.php:227
+msgid "Oldest"
+msgstr "最老的"
+
+#: comments.php:211
+msgid "recent"
+msgstr "最近的"
+
+#: comments.php:213 comments.php:231
+msgid "Random"
+msgstr "随机的"
+
+#: comments.php:215 comments.php:223
+msgid "Reacted"
+msgstr "有反应"
+
+#: comments.php:217 comments.php:225
+msgid "Voted"
+msgstr "已投票"
+
+#: comments.php:219
+msgid "Sort by"
+msgstr "排序方式"
+
+#: comments.php:229
+msgid "Recent"
+msgstr "最近的"
+
+#: comments.php:276
+msgid "Sorry, you do not have permission to view answers."
+msgstr "抱歉，您没有查看答案的权限。"
+
+#: comments.php:278
+msgid "Sorry, you do not have permission to view comments."
+msgstr "抱歉，您没有查看评论的权限。"
+
+#: functions.php:106
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "在"
+
+#: functions.php:418 functions.php:426
+msgid "Asked:"
+msgstr "问："
+
+#: functions.php:420
+msgid "Posted:"
+msgstr "发表："
+
+#: functions.php:422 theme-parts/content-group.php:35
+msgid "ago"
+msgstr "前"
+
+#: functions.php:428
+msgid "On:"
+msgstr "在："
+
+#: functions.php:446
+#, php-format
+msgid "Posted in %1$s"
+msgstr "发表于 %1$s"
+
+#: functions.php:456
+msgid "Asked to"
+msgstr "被要求做"
+
+#: functions.php:461
+msgid "In:"
+msgstr "在："
+
+#: functions.php:506
+msgid "Comments: "
+msgstr "评论："
+
+#: functions.php:512
+msgid "Closed"
+msgstr "关闭"
+
+#: functions.php:521
+msgid "Views:"
+msgstr "意见："
+
+#: header-parts/call-action.php:65
+msgid "Your browser does not support the video tag."
+msgstr "您的浏览器不支持视频标签。"
+
+#: header-parts/call-action.php:110 header-parts/mobile-bar.php:53
+#: header-parts/slider.php:71 hero/hero-slider.php:24
+msgid "Add A New Post"
+msgstr "添加新帖子"
+
+#: header-parts/header-actions.php:9 header-parts/header-actions.php:31
+msgid "Sign Up"
+msgstr "报名"
+
+#: header-parts/header-actions.php:14 header-parts/header-actions.php:26
+msgid "Sign In"
+msgstr "登入"
+
+#: header-parts/header-actions.php:159
+msgid "Post An Article"
+msgstr "发表文章"
+
+#: header-parts/header-search.php:4 header-parts/slider.php:105
+msgid "Type Search Words"
+msgstr "输入搜索词"
+
+#: header-parts/logo.php:4 header-parts/logo.php:7 header-parts/logo.php:10
+#: header-parts/logo.php:13
+msgid "Logo"
+msgstr "标识"
+
+#: header-parts/mobile-bar.php:6
+msgid "Open your app"
+msgstr "打开你的应用程序"
+
+#: header-parts/mobile-bar.php:10
+msgid "iPhone"
+msgstr "iPhone"
+
+#: header-parts/mobile-bar.php:13
+msgid "Android"
+msgstr "安卓"
+
+#: header-parts/mobile-bar.php:24 header-parts/slider.php:111
+msgid "Search"
+msgstr "搜索"
+
+#: header-parts/mobile-bar.php:29 header-parts/navbar-nav.php:6
+msgid "Hit enter to search"
+msgstr "按回车键搜索"
+
+#: header-parts/mobile-bar.php:59
+msgid "Create A New Group"
+msgstr "创建一个新组"
+
+#: header-parts/navbar-nav.php:82
+#, php-format
+msgid "+%s More"
+msgstr "+%s 更多"
+
+#: header-parts/question-sticky-bar.php:55
+msgid "Leave An Answer!"
+msgstr "留下答案！"
+
+#: header-parts/slider.php:118 theme-parts/tabs.php:70
+msgid "What's your question?"
+msgstr "你有什么问题？"
+
+#: header-parts/slider.php:120
+msgid "Ask Question"
+msgstr "问问题"
+
+#: header-parts/slider.php:135
+msgid "Sign Up Here"
+msgstr "在此注册"
+
+#: header-parts/slider.php:146
+msgid "Sign In Now"
+msgstr "立即登录"
+
+#: hero/hero-big-post.php:53 hero/hero-big-post.php:166
+#: theme-parts/content-question.php:121
+msgid "Anonymous"
+msgstr "匿名的"
+
+#: hero/hero-big-post.php:57 hero/hero-big-post.php:166
+#: theme-parts/content-question.php:125
+msgid "[Deleted User]"
+msgstr "[已被删除的用户]"
+
+#: hero/hero-big-post.php:125
+msgid "Him Answer"
+msgstr "他回答"
+
+#: hero/hero-big-post.php:128
+msgid "Her Answer"
+msgstr "她的回答"
+
+#: hero/hero-big-post.php:134
+msgid "Last Answer"
+msgstr "最后一个答案"
+
+#: hero/hero-stats.php:3
+msgid "Our Statistics"
+msgstr "我们的统计"
+
+#: hero/hero-stats.php:45 template-badges.php:94
+#: theme-parts/show-categories.php:47
+msgid "Question"
+msgid_plural "Questions"
+msgstr[0] "问题"
+
+#: hero/hero-stats.php:48 includes/group-cover.php:54
+msgid "Post"
+msgid_plural "Posts"
+msgstr[0] "邮政"
+
+#: hero/hero-stats.php:67 includes/group-cover.php:53
+msgid "User"
+msgid_plural "Users"
+msgstr[0] "用户"
+
+#: hero/hero-stats.php:71
+msgid "Group"
+msgid_plural "Groups"
+msgstr[0] "团体"
+
+#: hero/hero-stats.php:74
+msgid "Group Post"
+msgid_plural "Group Posts"
+msgstr[0] "群发"
+
+#: includes/blog-header-footer.php:25
+msgid "Explore Our Blog"
+msgstr "探索我们的博客"
+
+#: includes/footer-code.php:125 includes/footer-code.php:186
+msgid "Footer"
+msgstr "页脚"
+
+#: includes/footer-code.php:239
+msgid "Ask a question"
+msgstr "问一个问题"
+
+#: includes/group-cover.php:52 theme-parts/loop-groups.php:70
+msgid "Public group"
+msgstr "公开组"
+
+#: includes/group-cover.php:52 theme-parts/loop-groups.php:70
+msgid "Private group"
+msgstr "私人群组"
+
+#: includes/group-cover.php:66 theme-parts/content-group.php:63
+#: theme-parts/content.php:284 theme-parts/loop-groups.php:100
+msgid "Delete"
+msgstr "删除"
+
+#: includes/group-cover.php:69 theme-parts/loop-groups.php:103
+msgid "Leave"
+msgstr "离开"
+
+#: includes/group-cover.php:73 theme-parts/loop-groups.php:107
+msgid "Cancel the request"
+msgstr "取消请求"
+
+#: includes/group-cover.php:77 theme-parts/loop-groups.php:111
+msgid "Accept invite"
+msgstr "接受邀请"
+
+#: includes/group-cover.php:79 theme-parts/loop-groups.php:113
+msgid "Decline invite"
+msgstr "拒绝邀请"
+
+#: includes/group-cover.php:82 theme-parts/loop-groups.php:116
+msgid "Join"
+msgstr "加入"
+
+#: includes/header-code.php:215 includes/header-code.php:256
+msgid "Edit profile"
+msgstr "编辑个人资料"
+
+#: includes/header-code.php:243
+msgid "Explore"
+msgstr "探索"
+
+#: includes/login-page.php:118
+msgid "Join Now!"
+msgstr "现在加入！"
+
+#: includes/titles.php:7
+msgid "Edit Question"
+msgstr "编辑问题"
+
+#: includes/titles.php:17
+msgid "Edit Group"
+msgstr "编辑群组"
+
+#: includes/titles.php:27
+msgid "Edit Post"
+msgstr "编辑帖子"
+
+#: single-group.php:8
+msgid "Sorry, you blocked from this group."
+msgstr "抱歉，您已阻止加入此群组。"
+
+#: single-group.php:23
+msgid "Group rules"
+msgstr "群规"
+
+#: single-group.php:24
+msgid "See more"
+msgstr "查看更多"
+
+#: single-group.php:25
+msgid "See less"
+msgstr "少看"
+
+#: single-group.php:78 theme-parts/loop.php:553
+msgid "There are no posts yet."
+msgstr "还没有帖子。"
+
+#: single-group.php:81
+msgid "Sorry, this is a private group."
+msgstr "抱歉，这是一个私人群组。"
+
+#: tag.php:9 taxonomy-question_tags.php:11
+msgid "Tag"
+msgstr "标签"
+
+#: tag.php:11 taxonomy-question_tags.php:13
+msgid "Tag feed"
+msgstr "标签提要"
+
+#: template-badges.php:30
+msgid "Points System"
+msgstr "积分系统"
+
+#: template-badges.php:45 template-badges.php:98
+#: theme-parts/content-question.php:604
+msgid "Point"
+msgid_plural "Points"
+msgstr[0] "观点"
+
+#: template-badges.php:73
+msgid "Badges System"
+msgstr "徽章系统"
+
+#: theme-parts/content-group.php:26
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this group "
+"post has been added"
+msgstr "一些主要用户信息（例如：姓名或性别）在添加此组帖子后已被编辑"
+
+#: theme-parts/content-group.php:43 theme-parts/content-question.php:183
+#: theme-parts/content.php:93
+msgid "Pinned"
+msgstr "置顶"
+
+#: theme-parts/content-group.php:146
+msgid "Unlike"
+msgstr "不像"
+
+#: theme-parts/content-group.php:149 theme-parts/content-group.php:155
+msgid "Like"
+msgid_plural "Likes"
+msgstr[0] "喜欢"
+
+#: theme-parts/content-group.php:188
+msgid "Agree"
+msgstr "同意"
+
+#: theme-parts/content-group.php:192
+msgid "Unblock"
+msgstr "解锁"
+
+#: theme-parts/content-group.php:194
+msgid "Remove"
+msgstr "消除"
+
+#: theme-parts/content-group.php:195
+msgid "Block"
+msgstr "堵塞"
+
+#: theme-parts/content-group.php:235
+#, php-format
+msgid "View %s more comment"
+msgid_plural "View %s more comments"
+msgstr[0] "查看 %s 条评论"
+
+#: theme-parts/content-group.php:280
+#, php-format
+msgid "%s Her Comment"
+msgid_plural "%s Her Comments"
+msgstr[0] "%s 她的评论"
+
+#: theme-parts/content-group.php:282
+#, php-format
+msgid "%s Him Comment"
+msgid_plural "%s Him Comments"
+msgstr[0] "%s 他评论"
+
+#: theme-parts/content-none.php:15
+msgid "404 Error"
+msgstr "404错误"
+
+#: theme-parts/content-none.php:28 theme-parts/content-none.php:39
+#, php-format
+msgid "Sorry, No %1$s Found."
+msgstr "抱歉，找不到 %1$s。"
+
+#: theme-parts/content-none.php:29
+#, php-format
+msgid "Ready to publish your first post? %1$s Get started here %2$s."
+msgstr "准备好发布您的第一篇文章了吗？ %1$s 从这里开始 %2$s。"
+
+#: theme-parts/content-none.php:33 theme-parts/search-none.php:5
+msgid "Sorry, No Results Found."
+msgstr "抱歉，没有找到结果。"
+
+#: theme-parts/content-none.php:34 theme-parts/search-none.php:6
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "抱歉，没有任何内容符合您的搜索条件。请使用一些不同的关键字重试。"
+
+#: theme-parts/content-none.php:40 theme-parts/content-none.php:47
+#: theme-parts/content-none.php:52
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "看来我们找不到你要找的东西。也许搜索可以提供帮助。"
+
+#: theme-parts/content-none.php:45
+msgid "404"
+msgstr "404"
+
+#: theme-parts/content-none.php:46
+msgid "Oops! Page Not Found."
+msgstr "哎呀！找不到网页。"
+
+#: theme-parts/content-question.php:56
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"question has been added"
+msgstr "自添加此问题以来，一些主要用户信息（例如：姓名或性别）已被编辑"
+
+#: theme-parts/content-question.php:85 theme-parts/content-question.php:329
+msgid "Sorry it's a private question."
+msgstr "抱歉，这是一个私人问题。"
+
+#: theme-parts/content-question.php:278
+msgid "Poll"
+msgstr "轮询"
+
+#: theme-parts/content-question.php:429 theme-parts/content-question.php:436
+msgid "Attachment"
+msgstr "依恋"
+
+#: theme-parts/content-question.php:488
+msgid "Read less"
+msgstr "少读"
+
+#: theme-parts/content-question.php:593 theme-parts/content-question.php:672
+msgid "Vote"
+msgid_plural "Votes"
+msgstr[0] "投票"
+
+#: theme-parts/content-question.php:623
+msgid "Unfollow the question"
+msgstr "取消关注问题"
+
+#: theme-parts/content-question.php:623 theme-parts/content-question.php:626
+msgid "Follow the question"
+msgstr "按照问题"
+
+#: theme-parts/content-question.php:651 theme-parts/content-question.php:653
+msgid "Add this question to favorites"
+msgstr "将此问题添加到收藏夹"
+
+#: theme-parts/content-question.php:651
+msgid "Remove this question of my favorites"
+msgstr "删除我收藏的这个问题"
+
+#: theme-parts/content-question.php:663
+msgid "Share"
+msgstr "分享"
+
+#: theme-parts/content-question.php:713
+#, php-format
+msgid "%s Other Answer"
+msgid_plural "%s Other Answers"
+msgstr[0] "%s 其他答案"
+
+#: theme-parts/content-question.php:773
+msgid "Sorry, you do not have permission to view questions."
+msgstr "抱歉，您没有查看问题的权限。"
+
+#: theme-parts/content.php:2
+msgid "Meta and title"
+msgstr "元和标题"
+
+#: theme-parts/content.php:39
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this post "
+"has been added"
+msgstr "自添加此帖子后，一些主要用户信息（例如：姓名或性别）已被编辑"
+
+#: theme-parts/content.php:141
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: theme-parts/content.php:271
+#, php-format
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: theme-parts/content.php:281
+msgid "Edit"
+msgstr "编辑"
+
+#: theme-parts/content.php:323
+msgid "About the author"
+msgstr "关于作者"
+
+#: theme-parts/content.php:324
+msgid "Next and Previous articles"
+msgstr "下一篇和上一篇文章"
+
+#: theme-parts/content.php:325
+msgid "Advertising"
+msgstr "广告"
+
+#: theme-parts/content.php:326
+msgid "Related articles"
+msgstr "相关文章"
+
+#: theme-parts/content.php:356
+msgid "Previous article"
+msgstr "上一篇"
+
+#: theme-parts/content.php:368
+msgid "Next article"
+msgstr "下一篇"
+
+#: theme-parts/content.php:390
+msgid "Sorry, you do not have permission to view posts."
+msgstr "抱歉，您没有查看帖子的权限。"
+
+#: theme-parts/feed.php:6
+msgid "Discover Popular Users"
+msgstr "发现热门用户"
+
+#: theme-parts/feed.php:8
+#, php-format
+msgid "Choose %s or more users to continue."
+msgstr "选择 %s 或更多用户以继续。"
+
+#: theme-parts/feed.php:102
+msgid "More Users"
+msgstr "更多用户"
+
+#: theme-parts/feed.php:108
+msgid "Discover Popular Categories"
+msgstr "发现热门类别"
+
+#: theme-parts/feed.php:110
+#, php-format
+msgid "Choose %s or more categories to continue."
+msgstr "选择 %s 或更多类别以继续。"
+
+#: theme-parts/feed.php:172
+msgid "More Categories"
+msgstr "更多分类"
+
+#: theme-parts/feed.php:179
+msgid "Discover Popular Tags"
+msgstr "发现热门标签"
+
+#: theme-parts/feed.php:181
+#, php-format
+msgid "Choose %s or more tags to continue."
+msgstr "选择 %s 或更多标签以继续。"
+
+#: theme-parts/feed.php:225 theme-parts/show-categories.php:33
+#: theme-parts/show-categories.php:45 theme-parts/show-categories.php:79
+#: theme-parts/tags.php:74 theme-parts/tags.php:97
+#, php-format
+msgid "View all questions under %s"
+msgstr "查看 %s 下的所有问题"
+
+#: theme-parts/feed.php:258
+msgid "More tags"
+msgstr "更多标签"
+
+#: theme-parts/feed.php:268
+msgid "Click here to continue."
+msgstr "点击此处继续。"
+
+#: theme-parts/feed.php:268
+msgid "Complete your following above to continue."
+msgstr "完成以上操作以继续。"
+
+#: theme-parts/logged-only.php:4
+msgid "Sorry, log in to see the content."
+msgstr "抱歉，请登录查看内容。"
+
+#: theme-parts/loop-groups.php:71
+#, php-format
+msgid "%s User"
+msgid_plural "%s Users"
+msgstr[0] "%s 用户"
+
+#: theme-parts/loop-groups.php:72
+#, php-format
+msgid "%s Post"
+msgid_plural "%s Posts"
+msgstr[0] "%s 帖子"
+
+#: theme-parts/loop-groups.php:77
+#, php-format
+msgid "%s View"
+msgid_plural "%s Views"
+msgstr[0] "%s 视图"
+
+#: theme-parts/loop-groups.php:156
+msgid "There are no groups yet."
+msgstr "还没有群组。"
+
+#: theme-parts/loop.php:103
+msgid "New Answers"
+msgstr "新答案"
+
+#: theme-parts/loop.php:104
+msgid "Old Answers"
+msgstr "旧答案"
+
+#: theme-parts/loop.php:133
+msgid "Sorry it is a private answer."
+msgstr "抱歉，这是一个私人答案。"
+
+#: theme-parts/loop.php:141
+msgid "There are no answers yet."
+msgstr "目前还没有答案。"
+
+#: theme-parts/loop.php:141
+msgid "There are no comments yet."
+msgstr "目前没有评论。"
+
+#: theme-parts/loop.php:302
+msgid "You must login to see your feed."
+msgstr "您必须登录才能查看您的提要。"
+
+#: theme-parts/loop.php:469
+msgid "There are no questions at favorite yet."
+msgstr "favorite 还没有问题。"
+
+#: theme-parts/loop.php:471
+msgid "There are no questions you followed yet."
+msgstr "还没有您关注的问题。"
+
+#: theme-parts/loop.php:493
+msgid "Latest"
+msgstr "最新的"
+
+#: theme-parts/loop.php:493
+msgid "Articles"
+msgstr "文章"
+
+#: theme-parts/loop.php:553
+msgid "There are no questions yet."
+msgstr "目前为止还没有什么问题。"
+
+#: theme-parts/newsletter.php:5
+msgid "Newsletter"
+msgstr "通讯"
+
+#: theme-parts/newsletter.php:8
+msgid "Your Email"
+msgstr "你的邮件"
+
+#: theme-parts/related.php:125 theme-parts/related.php:184
+msgid "Related Questions"
+msgstr "相关问题"
+
+#: theme-parts/related.php:184
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: theme-parts/search-none.php:9
+msgid "Back To Homepage"
+msgstr "返回首页"
+
+#: theme-parts/show-categories.php:79 theme-parts/tags.php:97
+#, php-format
+msgid "View all posts under %s"
+msgstr "查看 %s 下的所有帖子"
+
+#: theme-parts/tabs.php:102
+msgid "All Questions"
+msgstr "所有问题"
+
+#: theme-parts/tabs.php:129
+msgid "Sorry, this page is not found."
+msgstr "抱歉，找不到此页面。"
+
+#: theme-parts/tags.php:110
+#, php-format
+msgid "%s asked today"
+msgstr "%s 今天问"
+
+#: theme-parts/tags.php:111
+#, php-format
+msgid "%s this week"
+msgstr "本周%s"
+
+#: theme-parts/tags.php:112
+#, php-format
+msgid "%s this month"
+msgstr "这个月 %s"

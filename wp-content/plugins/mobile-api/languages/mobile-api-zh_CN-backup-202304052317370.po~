@@ -1,0 +1,2620 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mobile app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-10 22:12+0200\n"
+"PO-Revision-Date: 2023-04-05 23:17+0000\n"
+"Last-Translator: 低級黑 小明\n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"\n"
+"X-Loco-Version: 2.6.4; wp-6.2"
+
+#: apis/delete.php:24 apis/notification.php:15 apis/notification.php:43
+#: apis/notification.php:71 apis/notification.php:94 apis/notification.php:123
+#: apis/notification.php:166 apis/question.php:18 apis/question.php:42
+#: apis/question.php:70 apis/reactions.php:17 apis/user.php:16 apis/user.php:37
+#: class-auth.php:58 controllers-api/User.php:269 controllers-api/User.php:289
+#: controllers-api/User.php:509 controllers-api/User.php:652
+#: controllers-api/User.php:745 controllers-api/User.php:801
+#: controllers-api/User.php:854 controllers-api/User.php:933
+#: controllers-api/User.php:967 controllers-api/User.php:996
+#: controllers-api/User.php:1024 controllers/comment.php:71
+#: controllers/core.php:820 controllers/core.php:1704
+msgid "Authorization header not found."
+msgstr ""
+
+#: apis/notification.php:18 apis/notification.php:74 apis/notification.php:98
+#: apis/notification.php:127 apis/notification.php:169
+msgid "Please login to see your notifications."
+msgstr ""
+
+#: apis/notification.php:23 apis/notification.php:174
+msgid "There are no notifications yet."
+msgstr ""
+
+#: apis/notification.php:46
+msgid "Please login to dismiss your notifications."
+msgstr ""
+
+#: apis/notification.php:131 controllers-api/User.php:514
+#: controllers-api/User.php:976 controllers-api/User.php:1033
+#: controllers/core.php:1710
+msgid "Include id var in your request."
+msgstr ""
+
+#: apis/question.php:21 apis/question.php:45 apis/question.php:73
+msgid "Please add the question id."
+msgstr ""
+
+#: apis/question.php:76
+msgid "Please add the number of points."
+msgstr ""
+
+#: apis/user.php:40 controllers-api/User.php:292
+msgid "Please login to see your profile."
+msgstr ""
+
+#: apis/user.php:198 apis/user.php:204 models/comment.php:125
+#: models/comment.php:137 models/post.php:377 models/post.php:1371
+msgid "Are you sure you want to delete the image?"
+msgstr ""
+
+#: class-auth.php:59
+msgid "Authorization header malformed."
+msgstr ""
+
+#: class-auth.php:120
+msgid "Custom authentication failed."
+msgstr ""
+
+#: class-auth.php:154 class-auth.php:350
+msgid "MOBILEAPIAUT is not configurated properly."
+msgstr ""
+
+#: class-auth.php:242
+msgid "Credential is valid"
+msgstr ""
+
+#: class-auth.php:369
+msgid "The iss do not match with this server."
+msgstr ""
+
+#: class-auth.php:383
+msgid "User ID not found in the token."
+msgstr ""
+
+#: class-auth.php:416
+msgid "Token is valid"
+msgstr ""
+
+#: config-options.php:847 config-options.php:850 controllers/core.php:138
+#: controllers/core.php:142
+msgid "All Questions"
+msgstr ""
+
+#: config-options.php:1324 mobile-options.php:819 mobile-options.php:1077
+msgid "Home"
+msgstr ""
+
+#: config-options.php:1325 mobile-options.php:820 mobile-options.php:1078
+msgid "Ask Question"
+msgstr ""
+
+#: config-options.php:1326 mobile-options.php:1079
+msgid "Categories"
+msgstr ""
+
+#: config-options.php:1327 mobile-options.php:822 mobile-options.php:1080
+msgid "Favorite"
+msgstr ""
+
+#: config-options.php:1328 mobile-options.php:175 mobile-options.php:823
+#: mobile-options.php:1751
+msgid "Followed Questions"
+msgstr ""
+
+#: config-options.php:1329 mobile-options.php:824 mobile-options.php:1081
+msgid "Settings"
+msgstr ""
+
+#: config-options.php:1330 mobile-options.php:825
+msgid "Questions"
+msgstr ""
+
+#: config-options.php:1331 mobile-options.php:826 mobile-options.php:1082
+msgid "Blog"
+msgstr ""
+
+#: config-options.php:1332 mobile-options.php:827 models/post.php:639
+msgid "Users"
+msgstr ""
+
+#: config-options.php:1333 mobile-options.php:828
+msgid "Post Categories"
+msgstr ""
+
+#: config-options.php:1334 mobile-options.php:829
+msgid "Search"
+msgstr ""
+
+#: config-options.php:1335 mobile-options.php:830
+msgid "Contact Us"
+msgstr ""
+
+#: config-options.php:1336 mobile-options.php:831 mobile-options.php:1083
+#: models/post.php:490
+msgid "Add Post"
+msgstr ""
+
+#: config-options.php:1337 mobile-options.php:832 mobile-options.php:1084
+msgid "Badges and points"
+msgstr ""
+
+#: config-options.php:1338 mobile-options.php:833
+msgid "Answers"
+msgstr ""
+
+#: config-options.php:1339 mobile-options.php:834
+msgid "Comments"
+msgstr ""
+
+#: config-options.php:1340 mobile-options.php:169 mobile-options.php:835
+#: mobile-options.php:1548
+msgid "Notifications"
+msgstr ""
+
+#: controllers-api/User.php:25
+msgid "Sorry, the register is disabled."
+msgstr ""
+
+#: controllers-api/User.php:29
+msgid "You must include username var in your request."
+msgstr ""
+
+#: controllers-api/User.php:35
+msgid "You must include email var in your request."
+msgstr ""
+
+#: controllers-api/User.php:49 controllers/comment.php:155
+msgid "Username is invalid."
+msgstr ""
+
+#: controllers-api/User.php:51 controllers/comment.php:157
+msgid "Username already exists."
+msgstr ""
+
+#: controllers-api/User.php:54 controllers/comment.php:160
+msgid "E-mail address is invalid."
+msgstr ""
+
+#: controllers-api/User.php:56 controllers/comment.php:162
+msgid "E-mail address is already in use."
+msgstr ""
+
+#: controllers-api/User.php:153
+msgid "You are registered now, and maybe the admin will contact you."
+msgstr ""
+
+#: controllers-api/User.php:157 controllers-api/User.php:222
+msgid "Error in the generate token."
+msgstr ""
+
+#: controllers-api/User.php:167
+msgid "Sorry, the login is disabled."
+msgstr ""
+
+#: controllers-api/User.php:177
+msgid ""
+"You must include username or email var in your request to generate token."
+msgstr ""
+
+#: controllers-api/User.php:181
+msgid "You must include a password var in your request."
+msgstr ""
+
+#: controllers-api/User.php:187
+msgid "email does not exist."
+msgstr ""
+
+#: controllers-api/User.php:190
+msgid "Invalid email address."
+msgstr ""
+
+#: controllers-api/User.php:255
+msgid "You must include size var in your request."
+msgstr ""
+
+#: controllers-api/User.php:272
+msgid "Please login first."
+msgstr ""
+
+#: controllers-api/User.php:277
+msgid "Check your mail again."
+msgstr ""
+
+#: controllers-api/User.php:447 controllers/core.php:803
+msgid "This tab is not available."
+msgstr ""
+
+#: controllers-api/User.php:450 controllers/core.php:809
+msgid "Include get_tab var in your request."
+msgstr ""
+
+#: controllers-api/User.php:458
+msgid "Please login to check your blocking users."
+msgstr ""
+
+#: controllers-api/User.php:517 controllers-api/User.php:979
+#: controllers-api/User.php:1036 controllers/core.php:1716
+msgid "Include action var in your request."
+msgstr ""
+
+#: controllers-api/User.php:538 controllers-api/User.php:598
+msgid "Include user_id var in your request."
+msgstr ""
+
+#: controllers-api/User.php:656 controllers-api/User.php:748
+#: controllers-api/User.php:805
+msgid "Please login to edit profile."
+msgstr ""
+
+#: controllers-api/User.php:659
+msgid "There are required fields (Email)."
+msgstr ""
+
+#: controllers-api/User.php:662 controllers/contact.php:20
+msgid "Please write correctly email."
+msgstr ""
+
+#: controllers-api/User.php:666
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: controllers-api/User.php:755 controllers-api/User.php:811
+msgid "Please upload your image."
+msgstr ""
+
+#: controllers-api/User.php:782 controllers-api/User.php:838
+msgid "Error in upload the image : "
+msgstr ""
+
+#: controllers-api/User.php:794
+msgid "The cover is not available."
+msgstr ""
+
+#: controllers-api/User.php:858 controllers-api/User.php:1000
+#: controllers-api/User.php:1028
+msgid "Please login to see your following."
+msgstr ""
+
+#: controllers-api/User.php:937 controllers-api/User.php:971
+msgid "Please login to see your favorites."
+msgstr ""
+
+#: controllers-api/User.php:1053
+msgid "You must include a cookie var in your request. Use the login method."
+msgstr ""
+
+#: controllers-api/User.php:1059
+msgid "Invalid cookie. Use the login method."
+msgstr ""
+
+#: controllers-api/User.php:1063 controllers/comment.php:13
+msgid "No post specified. Include post_id var in your request."
+msgstr ""
+
+#: controllers-api/User.php:1065
+msgid "Please include content var in your request."
+msgstr ""
+
+#: controllers-api/User.php:1069
+msgid ""
+"Please include comment_status var in your request. Possible values are "
+"comment_status=1 (approved) or comment_status=hold (not-approved)"
+msgstr ""
+
+#: controllers/comment.php:18
+msgid "Please include all required arguments (name, email, content)."
+msgstr ""
+
+#: controllers/comment.php:20
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: controllers/comment.php:24
+msgid "Please include all required arguments (content)."
+msgstr ""
+
+#: controllers/comment.php:44
+msgid "Sorry, The minimum characters is"
+msgstr ""
+
+#: controllers/comment.php:47
+msgid "Sorry, The maximum characters is"
+msgstr ""
+
+#: controllers/comment.php:54
+msgid "There are required fields (Agree of the terms)."
+msgstr ""
+
+#: controllers/comment.php:96 controllers/comment.php:125
+#: controllers/core.php:1814 controllers/post.php:55 controllers/post.php:88
+#: controllers/question.php:93 controllers/question.php:159
+#: controllers/question.php:232 controllers/question.php:392
+msgid "Your request not POST."
+msgstr ""
+
+#: controllers/contact.php:14
+msgid "There are required fields (name)."
+msgstr ""
+
+#: controllers/contact.php:17
+msgid "There are required fields (email)."
+msgstr ""
+
+#: controllers/contact.php:23
+msgid "There are required fields (message)."
+msgstr ""
+
+#: controllers/contact.php:25
+msgid "Message from the mobile"
+msgstr ""
+
+#: controllers/contact.php:48
+msgid "Your message was successfully sent."
+msgstr ""
+
+#: controllers/core.php:99
+msgid "Question"
+msgid_plural "Questions"
+msgstr[0] ""
+
+#: controllers/core.php:101
+msgid "Answer"
+msgid_plural "Answers"
+msgstr[0] ""
+
+#: controllers/core.php:103
+msgid "Point"
+msgid_plural "Points"
+msgstr[0] ""
+
+#: controllers/core.php:198
+msgid "No tab was found."
+msgstr ""
+
+#: controllers/core.php:204
+msgid "No homepage was found."
+msgstr ""
+
+#: controllers/core.php:407
+msgid "You must login to see your feed."
+msgstr ""
+
+#: controllers/core.php:410
+msgid "You must login to see your followed."
+msgstr ""
+
+#: controllers/core.php:412
+msgid "You must login to see your favorites."
+msgstr ""
+
+#: controllers/core.php:574 controllers/core.php:1082
+#, php-format
+msgid "Choose %s or more users to continue."
+msgstr ""
+
+#: controllers/core.php:588 controllers/core.php:1096
+#, php-format
+msgid "Choose %s or more categories to continue."
+msgstr ""
+
+#: controllers/core.php:602 controllers/core.php:1110
+#, php-format
+msgid "Choose %s or more tags to continue."
+msgstr ""
+
+#: controllers/core.php:686 controllers/core.php:701
+msgid "There are no questions yet."
+msgstr ""
+
+#: controllers/core.php:806
+msgid "No homepage template in this site."
+msgstr ""
+
+#: controllers/core.php:824
+msgid "Include page_id var in your request."
+msgstr ""
+
+#: controllers/core.php:920 controllers/core.php:1290
+msgid "Sorry, this is a available."
+msgstr ""
+
+#: controllers/core.php:1216 models/post.php:476
+msgid "Sorry, you blocked from this group."
+msgstr ""
+
+#: controllers/core.php:1223 models/post.php:481
+msgid "Sorry, this is a private group."
+msgstr ""
+
+#: controllers/core.php:1255
+msgid "Sorry, this is a private page."
+msgstr ""
+
+#: controllers/core.php:1324 controllers/core.php:1334
+#: controllers/core.php:1394 controllers/core.php:1423
+#: controllers/core.php:1470 controllers/core.php:1498
+msgid "Not found."
+msgstr ""
+
+#: controllers/core.php:1368 singletons/introspector.php:108
+#: singletons/introspector.php:133 singletons/introspector.php:172
+#: singletons/introspector.php:217
+msgid "Include id or slug var in your request."
+msgstr ""
+
+#: controllers/core.php:1403
+msgid "Specify a date var in one of YYYY or YYYY-MM or YYYY-MM-DD formats."
+msgstr ""
+
+#: controllers/core.php:1414
+msgid "Include date var in your request."
+msgstr ""
+
+#: controllers/core.php:1543
+msgid "Include search var in your request."
+msgstr ""
+
+#: controllers/core.php:1713
+msgid "Include type var in your request."
+msgstr ""
+
+#: controllers/core.php:1719
+msgid "The following is not available."
+msgstr ""
+
+#: controllers/core.php:1786
+msgid "Please fill the reason field."
+msgstr ""
+
+#: controllers/core.php:1789
+msgid "You must include answer_id var in your request."
+msgstr ""
+
+#: controllers/core.php:1792
+msgid "You must include user_id var in your request."
+msgstr ""
+
+#: controllers/core.php:1802
+msgid ""
+"You reported an answer. It will be reviewed shortly, The answer is under "
+"review."
+msgstr ""
+
+#: controllers/core.php:1804
+msgid ""
+"You reported a question. It will be reviewed shortly, The question is under "
+"review."
+msgstr ""
+
+#: controllers/core.php:1806
+msgid "Deleted successfully."
+msgstr ""
+
+#: controllers/core.php:1808
+msgid "Thank you, your report will be reviewed shortly."
+msgstr ""
+
+#: controllers/core.php:1811
+msgid "You must include post_id and type vars in your request."
+msgstr ""
+
+#: controllers/core.php:1838
+#, php-format
+msgid "No %s specified. Include id or slug var in your request."
+msgstr ""
+
+#: controllers/post.php:27
+msgid "Your post was successfully added, It's under review."
+msgstr ""
+
+#: controllers/post.php:52
+msgid "You must include form_type var in your request."
+msgstr ""
+
+#: controllers/post.php:84
+msgid "Your post was successfully edited, It's under review."
+msgstr ""
+
+#: controllers/posts.php:13 controllers/posts.php:38
+msgid "Please tnclude id var in your request."
+msgstr ""
+
+#: controllers/posts.php:64
+msgid "Post not found."
+msgstr ""
+
+#: controllers/posts.php:67
+msgid ""
+"You need to login with a user that has the edit_post capacity for that post."
+msgstr ""
+
+#: controllers/posts.php:70
+msgid "You need to login with a user that has the delete_posts capacity."
+msgstr ""
+
+#: controllers/posts.php:73
+msgid "You need to login with a user that has the delete_other_posts capacity."
+msgstr ""
+
+#: controllers/question.php:56
+msgid "Your question was successfully added, It's under review."
+msgstr ""
+
+#: controllers/question.php:153
+msgid ""
+"Your question has been Edited successfully. The question is under review."
+msgstr ""
+
+#: controllers/question.php:171 controllers/question.php:200
+msgid "Please login to vote and see the results."
+msgstr ""
+
+#: controllers/question.php:177 controllers/question.php:202
+msgid "Sorry, you cannot poll on the same question more than once."
+msgstr ""
+
+#: controllers/question.php:225 controllers/question.php:267
+msgid "No votes."
+msgstr ""
+
+#: controllers/question.php:229
+msgid "You must include post_id and poll_id vars in your request."
+msgstr ""
+
+#: controllers/question.php:243
+msgid "This is not a poll."
+msgstr ""
+
+#: controllers/question.php:270
+msgid "You must include post_id var in your request."
+msgstr ""
+
+#: controllers/question.php:292
+msgid "Sorry, you cannot vote your question."
+msgstr ""
+
+#: controllers/question.php:297
+msgid "Sorry, you cannot vote your answer."
+msgstr ""
+
+#: controllers/question.php:304
+msgid "Voting is available to members only."
+msgstr ""
+
+#: controllers/question.php:318 controllers/question.php:334
+msgid "Sorry, you cannot vote on the same question more than once."
+msgstr ""
+
+#: controllers/question.php:350 controllers/question.php:366
+msgid "Sorry, you cannot vote on the same answer more than once."
+msgstr ""
+
+#: controllers/question.php:389
+msgid "You must include id, type, and action vars in your request."
+msgstr ""
+
+#: controllers/widgets.php:13
+msgid "No sidebar specified. Include sidebar_id var in your request."
+msgstr ""
+
+#: controllers/widgets.php:15
+#, php-format
+msgid "Sidebar %s is not active."
+msgstr ""
+
+#: functions/functions.php:207
+msgid ""
+"A confirmation mail has been sent to your registered email account, If you "
+"have not received the confirmation mail, kindly Click here to re-send "
+"another confirmation mail."
+msgstr ""
+
+#: functions/functions.php:208
+msgid ""
+"A confirmation mail has been sent to your new email account, If you have not "
+"received the confirmation mail, kindly Click here to re-send another "
+"confirmation mail."
+msgstr ""
+
+#: functions/functions.php:214
+msgid "Sorry, you do not have permission to ask questions."
+msgstr ""
+
+#: functions/functions.php:217
+msgid "Sorry, you do not have permission to view questions."
+msgstr ""
+
+#: functions/functions.php:220
+msgid "Sorry, you do not have permission to add answers."
+msgstr ""
+
+#: functions/functions.php:223 models/post.php:780
+msgid "Sorry, you do not have permission to view answers."
+msgstr ""
+
+#: functions/functions.php:226
+msgid "Sorry, you do not have permission to add posts."
+msgstr ""
+
+#: functions/functions.php:229
+msgid "Sorry, you do not have permission to view posts."
+msgstr ""
+
+#: functions/functions.php:232
+msgid "Sorry, you do not have permission to add comments."
+msgstr ""
+
+#: functions/functions.php:235 models/post.php:854
+msgid "Sorry, you do not have permission to view comments."
+msgstr ""
+
+#: functions/functions.php:238
+msgid "Sorry, you do not have permission to view articles."
+msgstr ""
+
+#: functions/functions.php:241
+msgid "Sorry, you do not have permission to add groups."
+msgstr ""
+
+#: functions/functions.php:244
+msgid "Sorry, you do not have permission to send message."
+msgstr ""
+
+#: functions/functions.php:247
+msgid ""
+"Your account is under review, You will be notified via mail when it has been "
+"approved."
+msgstr ""
+
+#: functions/functions.php:378
+msgid "Male"
+msgstr ""
+
+#: functions/functions.php:378
+msgid "Female"
+msgstr ""
+
+#: functions/functions.php:378
+msgid "Other"
+msgstr ""
+
+#: functions/functions.php:520
+msgid ""
+"Duplicate comment detected; it looks as though you've already said that!"
+msgstr ""
+
+#: functions/functions.php:540
+msgid "You are posting comments too quickly. Slow down."
+msgstr ""
+
+#: functions/themes.php:895 models/comment.php:39 models/post.php:142
+#: models/post.php:143 models/post.php:900 models/post.php:901
+msgid "ago"
+msgstr ""
+
+#: functions/themes.php:1505 functions/themes.php:1514 mobile-options.php:864
+#: mobile-options.php:1020
+msgid "Feed page"
+msgstr ""
+
+#: mobile-options.php:20
+msgid "Points earned when viewing the rewarded ads."
+msgstr ""
+
+#: mobile-options.php:21
+msgid "Put the points to earn when viewing the rewarded ads"
+msgstr ""
+
+#: mobile-options.php:69 mobile-options.php:99 mobile-options.php:125
+#: mobile-options.php:148
+msgid "Category"
+msgstr ""
+
+#: mobile-options.php:70 mobile-options.php:100 mobile-options.php:126
+#: mobile-options.php:149
+msgid "Date"
+msgstr ""
+
+#: mobile-options.php:71 mobile-options.php:101 mobile-options.php:127
+#: mobile-options.php:150 mobile-options.php:194
+msgid "Author Image"
+msgstr ""
+
+#: mobile-options.php:72 mobile-options.php:102 mobile-options.php:128
+#: mobile-options.php:151 mobile-options.php:195
+msgid "Author"
+msgstr ""
+
+#: mobile-options.php:73 mobile-options.php:103
+msgid "Question vote"
+msgstr ""
+
+#: mobile-options.php:74
+msgid "Poll"
+msgstr ""
+
+#: mobile-options.php:75 mobile-options.php:104 mobile-options.php:129
+#: mobile-options.php:152
+msgid "Tags"
+msgstr ""
+
+#: mobile-options.php:76 mobile-options.php:105
+msgid "Answer button"
+msgstr ""
+
+#: mobile-options.php:77 mobile-options.php:106
+msgid "Answers count"
+msgstr ""
+
+#: mobile-options.php:78 mobile-options.php:107 mobile-options.php:132
+#: mobile-options.php:155
+msgid "Views count"
+msgstr ""
+
+#: mobile-options.php:79 mobile-options.php:108
+msgid "Followers count"
+msgstr ""
+
+#: mobile-options.php:80 mobile-options.php:109
+msgid "Favourite"
+msgstr ""
+
+#: mobile-options.php:110 mobile-options.php:156
+msgid "Share"
+msgstr ""
+
+#: mobile-options.php:130 mobile-options.php:153
+msgid "Comment button"
+msgstr ""
+
+#: mobile-options.php:131 mobile-options.php:154
+msgid "Comments count"
+msgstr ""
+
+#: mobile-options.php:160 mobile-options.php:211
+msgid "Request my APP"
+msgstr ""
+
+#: mobile-options.php:161 mobile-options.php:367
+msgid "General settings"
+msgstr ""
+
+#: mobile-options.php:162 mobile-options.php:503
+msgid "Guide pages"
+msgstr ""
+
+#: mobile-options.php:163 mobile-options.php:596
+msgid "Setting page"
+msgstr ""
+
+#: mobile-options.php:164 mobile-options.php:759
+msgid "Mobile header"
+msgstr ""
+
+#: mobile-options.php:165 mobile-options.php:794
+msgid "Bottom bar"
+msgstr ""
+
+#: mobile-options.php:166 mobile-options.php:977
+msgid "Side navbar"
+msgstr ""
+
+#: mobile-options.php:167 mobile-options.php:1137
+msgid "Ask questions"
+msgstr ""
+
+#: mobile-options.php:168 mobile-options.php:1155
+msgid "Advertising"
+msgstr ""
+
+#: mobile-options.php:170 mobile-options.php:1479
+msgid "Captcha settings"
+msgstr ""
+
+#: mobile-options.php:171 mobile-options.php:1603
+msgid "Home settings"
+msgstr ""
+
+#: mobile-options.php:172 mobile-options.php:1661
+msgid "Categories settings"
+msgstr ""
+
+#: mobile-options.php:173 mobile-options.php:1695
+msgid "Search settings"
+msgstr ""
+
+#: mobile-options.php:174 mobile-options.php:1725
+msgid "Favourites settings"
+msgstr ""
+
+#: mobile-options.php:176 mobile-options.php:1777
+msgid "Questions page settings"
+msgstr ""
+
+#: mobile-options.php:177 mobile-options.php:1803
+msgid "Users settings"
+msgstr ""
+
+#: mobile-options.php:178
+msgid "Comments and answers"
+msgstr ""
+
+#: mobile-options.php:179 mobile-options.php:1975
+msgid "Blog settings"
+msgstr ""
+
+#: mobile-options.php:180 mobile-options.php:2001
+msgid "Single question settings"
+msgstr ""
+
+#: mobile-options.php:181 mobile-options.php:2082
+msgid "Single post settings"
+msgstr ""
+
+#: mobile-options.php:182 mobile-options.php:2152
+msgid "Mobile styling"
+msgstr ""
+
+#: mobile-options.php:183 mobile-options.php:2821
+msgid "Language settings"
+msgstr ""
+
+#: mobile-options.php:184 mobile-options.php:2834
+msgid "Icons settings"
+msgstr ""
+
+#: mobile-options.php:185 mobile-options.php:2989
+msgid "Under construction"
+msgstr ""
+
+#: mobile-options.php:201
+msgid "Mobile APP"
+msgstr ""
+
+#: mobile-options.php:217
+msgid ""
+"Any changes in this page you will need to required new app files to apply "
+"the changes."
+msgstr ""
+
+#: mobile-options.php:223
+msgid "Activate a custom URL for your site different than the main URL"
+msgstr ""
+
+#: mobile-options.php:224
+msgid "Something like with www or without it, or with https or with http"
+msgstr ""
+
+#: mobile-options.php:230
+msgid "Type your custom URL for your site different than the main URL"
+msgstr ""
+
+#: mobile-options.php:238
+msgid "App Name"
+msgstr ""
+
+#: mobile-options.php:239
+msgid "Your app's name shown on Play Store and App Store"
+msgstr ""
+
+#: mobile-options.php:245
+msgid ""
+"Upload the application icon and it must be (1024*1024px), PNG and NOT "
+"transparent"
+msgstr ""
+
+#: mobile-options.php:251
+msgid "App bundle id"
+msgstr ""
+
+#: mobile-options.php:252 mobile-options.php:259
+msgid "It must be small letters (from 'a' to 'z'), like info.2code.app"
+msgstr ""
+
+#: mobile-options.php:258
+msgid "App IOS bundle id"
+msgstr ""
+
+#: mobile-options.php:265
+msgid "Application splash screen background color (hex code, ex: #FFFFFF)"
+msgstr ""
+
+#: mobile-options.php:272
+msgid ""
+"Upload the application splash screen and it must be (512*512px), PNG and NOT "
+"transparent"
+msgstr ""
+
+#: mobile-options.php:278
+msgid ""
+"You can get the Issuer ID, KEY ID, Password of APP-SPECIFIC PASSWORDS and "
+"AuthKey file from here and these are required if you need the IOS version."
+msgstr ""
+
+#: mobile-options.php:284
+msgid "Issuer ID *"
+msgstr ""
+
+#: mobile-options.php:290
+msgid "Key ID *"
+msgstr ""
+
+#: mobile-options.php:296
+msgid "Add the AuthKey file content, this file for the IOS app *"
+msgstr ""
+
+#: mobile-options.php:302
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/ask-me-application/id1542559413 the ID is: 1542559413"
+msgstr ""
+
+#: mobile-options.php:304
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/discy/id1535374585 the ID is: 1535374585"
+msgstr ""
+
+#: mobile-options.php:306
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/himer/id1604445650 the ID is: 1604445650"
+msgstr ""
+
+#: mobile-options.php:308
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/questy/id1604445650 the ID is: 1604445650"
+msgstr ""
+
+#: mobile-options.php:310
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/knowly/id1604445650 the ID is: 1604445650"
+msgstr ""
+
+#: mobile-options.php:316
+msgid "Apple ID *"
+msgstr ""
+
+#: mobile-options.php:325
+msgid "Small notifications icon for android."
+msgstr ""
+
+#: mobile-options.php:331
+msgid "Enable or disable the small notifications icon for android"
+msgstr ""
+
+#: mobile-options.php:343
+msgid ""
+"The color of the small notifications icon for android (hex code, ex: #FFFFFF)"
+msgstr ""
+
+#: mobile-options.php:350
+msgid ""
+"The icon of the small notifications icon for android and it must be (20*20px)"
+", PNG and transparent"
+msgstr ""
+
+#: mobile-options.php:373 mobile-options.php:2840
+#, php-format
+msgid "You can get the icons to use it in the app from: %s"
+msgstr ""
+
+#: mobile-options.php:373 mobile-options.php:1513 mobile-options.php:2840
+msgid "here"
+msgstr ""
+
+#: mobile-options.php:379
+msgid "Enable or disable the force update"
+msgstr ""
+
+#: mobile-options.php:380
+msgid ""
+"The force update to allow the users must update the app to continue using it"
+msgstr ""
+
+#: mobile-options.php:392
+msgid "Last Android version"
+msgstr ""
+
+#: mobile-options.php:398
+msgid "Last IOS version"
+msgstr ""
+
+#: mobile-options.php:410
+msgid "The app language"
+msgstr ""
+
+#: mobile-options.php:417
+msgid "Enable or disable the circle button to ask a question or add a post"
+msgstr ""
+
+#: mobile-options.php:423
+msgid "Ask a question"
+msgstr ""
+
+#: mobile-options.php:423
+msgid "Add a post"
+msgstr ""
+
+#: mobile-options.php:426
+msgid "Choose the circle button to ask a question or add a post"
+msgstr ""
+
+#: mobile-options.php:435
+msgid "Select ON to activate the follow questions on the app"
+msgstr ""
+
+#: mobile-options.php:442
+msgid "Select ON to hide the dislike on the app"
+msgstr ""
+
+#: mobile-options.php:448
+msgid "Select ON to make the app for the logged users only."
+msgstr ""
+
+#: mobile-options.php:454
+msgid ""
+"The next two options to make the changes for your app live, and the other "
+"users will see the changes after making refresh or reopen the app."
+msgstr ""
+
+#: mobile-options.php:460
+msgid "Choose the roles you need to show for them the live change for the app"
+msgstr ""
+
+#: mobile-options.php:468
+msgid "Add more specific user ids to show the live change"
+msgstr ""
+
+#: mobile-options.php:474
+msgid "Enable or disable to show the parent categories with child category"
+msgstr ""
+
+#: mobile-options.php:475
+msgid ""
+"Show the parent categories with child category, in following categories page,"
+" ask question form, and categories page"
+msgstr ""
+
+#: mobile-options.php:482
+msgid ""
+"Write the number of categories which show in the categories page or add 0 to "
+"show all of them"
+msgstr ""
+
+#: mobile-options.php:490
+msgid ""
+"Write the number of categories which show in the following steps in the "
+"register and edit profile pages or add 0 to show all of them"
+msgstr ""
+
+#: mobile-options.php:509
+msgid "Enable or disable the guide pages"
+msgstr ""
+
+#: mobile-options.php:522
+msgid "Upload the image for first guide page"
+msgstr ""
+
+#: mobile-options.php:529
+msgid "Add the title for first guide page"
+msgstr ""
+
+#: mobile-options.php:536
+msgid "Add the sub title for first guide page"
+msgstr ""
+
+#: mobile-options.php:543
+msgid "Upload the image for second guide page"
+msgstr ""
+
+#: mobile-options.php:550
+msgid "Add the title for second guide page"
+msgstr ""
+
+#: mobile-options.php:557
+msgid "Add the sub title for second guide page"
+msgstr ""
+
+#: mobile-options.php:564
+msgid "Upload the image for third guide page"
+msgstr ""
+
+#: mobile-options.php:571
+msgid "Add the title for third guide page"
+msgstr ""
+
+#: mobile-options.php:578
+msgid "Add the sub title for third guide page"
+msgstr ""
+
+#: mobile-options.php:602
+msgid "Enable or disable the text size"
+msgstr ""
+
+#: mobile-options.php:609
+msgid "Enable or disable the rate app"
+msgstr ""
+
+#: mobile-options.php:616
+msgid "Enable or disable the edit profile page"
+msgstr ""
+
+#: mobile-options.php:623
+msgid "Enable or disable the notifications page"
+msgstr ""
+
+#: mobile-options.php:630
+msgid "Enable or disable the users to stop the notifications or not on the app"
+msgstr ""
+
+#: mobile-options.php:638
+msgid "Choose the place of the delete user button"
+msgstr ""
+
+#: mobile-options.php:643
+msgid "Edit profile"
+msgstr ""
+
+#: mobile-options.php:643
+msgid "Settings page"
+msgstr ""
+
+#: mobile-options.php:650
+msgid "Enable or disable the about us page"
+msgstr ""
+
+#: mobile-options.php:657
+msgid "Choose the about us page"
+msgstr ""
+
+#: mobile-options.php:665
+msgid "Enable or disable the privacy policy page"
+msgstr ""
+
+#: mobile-options.php:672
+msgid "You must choose the privacy page."
+msgstr ""
+
+#: mobile-options.php:678
+msgid "Choose the privacy policy page"
+msgstr ""
+
+#: mobile-options.php:686
+msgid "You must choose the terms page."
+msgstr ""
+
+#: mobile-options.php:692
+msgid "Choose the terms and conditions page"
+msgstr ""
+
+#: mobile-options.php:699
+msgid "Enable or disable the FAQs page"
+msgstr ""
+
+#: mobile-options.php:706
+msgid "Choose the FAQs page"
+msgstr ""
+
+#: mobile-options.php:714
+msgid "Enable or disable the contact us page"
+msgstr ""
+
+#: mobile-options.php:721
+msgid "Enable or disable the share app"
+msgstr ""
+
+#: mobile-options.php:728
+msgid "Share title"
+msgstr ""
+
+#: mobile-options.php:735
+msgid "Share image"
+msgstr ""
+
+#: mobile-options.php:742
+msgid "Share android URL"
+msgstr ""
+
+#: mobile-options.php:748
+msgid "Share IOS URL"
+msgstr ""
+
+#: mobile-options.php:765
+msgid "Logo position"
+msgstr ""
+
+#: mobile-options.php:769
+msgid "Left"
+msgstr ""
+
+#: mobile-options.php:769
+msgid "Center"
+msgstr ""
+
+#: mobile-options.php:773
+msgid "Upload the logo"
+msgstr ""
+
+#: mobile-options.php:780
+msgid "Upload the dark logo"
+msgstr ""
+
+#: mobile-options.php:800
+msgid "Enable or disable the bottom bar"
+msgstr ""
+
+#: mobile-options.php:813
+msgid "You must choose 4 items only to show in the bottom bar."
+msgstr ""
+
+#: mobile-options.php:821
+msgid "Question Categories"
+msgstr ""
+
+#: mobile-options.php:843 mobile-options.php:999
+msgid "Type"
+msgstr ""
+
+#: mobile-options.php:845 mobile-options.php:1001
+msgid "Main page"
+msgstr ""
+
+#: mobile-options.php:846 mobile-options.php:874 mobile-options.php:1002
+#: mobile-options.php:1030
+msgid "Question category"
+msgstr ""
+
+#: mobile-options.php:847 mobile-options.php:882 mobile-options.php:1003
+#: mobile-options.php:1038
+msgid "Post category"
+msgstr ""
+
+#: mobile-options.php:848 mobile-options.php:889 mobile-options.php:1004
+#: mobile-options.php:1045
+msgid "Page"
+msgstr ""
+
+#: mobile-options.php:849 mobile-options.php:1005
+msgid "Webview page"
+msgstr ""
+
+#: mobile-options.php:856 mobile-options.php:1012
+msgid "Main pages"
+msgstr ""
+
+#: mobile-options.php:871 mobile-options.php:879 mobile-options.php:1027
+#: mobile-options.php:1035
+msgid "Select a Category"
+msgstr ""
+
+#: mobile-options.php:896 mobile-options.php:1052
+msgid "Webview Page"
+msgstr ""
+
+#: mobile-options.php:902 mobile-options.php:1058
+msgid "Or add your custom link"
+msgstr ""
+
+#: mobile-options.php:908 mobile-options.php:1064
+msgid "New title"
+msgstr ""
+
+#: mobile-options.php:913 mobile-options.php:1069
+msgid "Icon"
+msgstr ""
+
+#: mobile-options.php:959 mobile-options.php:1119
+msgid "Add a new link"
+msgstr ""
+
+#: mobile-options.php:983
+msgid "Enable or disable the side navbar"
+msgstr ""
+
+#: mobile-options.php:1143
+msgid ""
+"Write the number of categories which show in the ask question form or add 0 "
+"to show all of them"
+msgstr ""
+
+#: mobile-options.php:1161
+msgid "Activate the advertising"
+msgstr ""
+
+#: mobile-options.php:1173
+msgid "Activate the funding choices for the GDPR"
+msgstr ""
+
+#: mobile-options.php:1179
+msgid "Add the adMob Android id"
+msgstr ""
+
+#: mobile-options.php:1185
+msgid "Add the adMob IOS id"
+msgstr ""
+
+#: mobile-options.php:1205
+msgid "Interstitial adv"
+msgstr ""
+
+#: mobile-options.php:1209
+msgid "Activate the mobile interstitial adv"
+msgstr ""
+
+#: mobile-options.php:1221
+msgid "Add the adMob Android id for the interstitial"
+msgstr ""
+
+#: mobile-options.php:1227
+msgid "Add the adMob IOS id for the interstitial"
+msgstr ""
+
+#: mobile-options.php:1233 mobile-options.php:1285
+msgid ""
+"Choose how many time will open the ad, you can leave it 0 to open the ad "
+"each time opened the questions and posts"
+msgstr ""
+
+#: mobile-options.php:1257
+msgid "Rewarded adv"
+msgstr ""
+
+#: mobile-options.php:1261
+msgid "Activate the mobile rewarded adv"
+msgstr ""
+
+#: mobile-options.php:1273
+msgid "Add the adMob Android id for the rewarded"
+msgstr ""
+
+#: mobile-options.php:1279
+msgid "Add the adMob IOS id for the rewarded"
+msgstr ""
+
+#: mobile-options.php:1309
+msgid "Banner adv"
+msgstr ""
+
+#: mobile-options.php:1313
+msgid "Activate the mobile banner adv"
+msgstr ""
+
+#: mobile-options.php:1325
+msgid "Add the adMob Android id for the banner"
+msgstr ""
+
+#: mobile-options.php:1331
+msgid "Add the adMob IOS id for the banner"
+msgstr ""
+
+#: mobile-options.php:1349
+msgid "Select where do you need to activate the ads"
+msgstr ""
+
+#: mobile-options.php:1362 mobile-options.php:1377
+msgid "Banner ad in the top"
+msgstr ""
+
+#: mobile-options.php:1363 mobile-options.php:1378
+msgid "Banner ad in the bottom"
+msgstr ""
+
+#: mobile-options.php:1364 mobile-options.php:1379
+msgid "Banner ad before home"
+msgstr ""
+
+#: mobile-options.php:1365 mobile-options.php:1380
+msgid "Banner ad after home"
+msgstr ""
+
+#: mobile-options.php:1366 mobile-options.php:1381
+msgid "Banner ad on the post or question in the top"
+msgstr ""
+
+#: mobile-options.php:1367 mobile-options.php:1382
+msgid "Banner ad on the post or question in the bottom"
+msgstr ""
+
+#: mobile-options.php:1368 mobile-options.php:1383
+msgid "Banner ad before the comments or answers on the posts or questions"
+msgstr ""
+
+#: mobile-options.php:1369 mobile-options.php:1384
+msgid "Banner ad after the post or question"
+msgstr ""
+
+#: mobile-options.php:1370 mobile-options.php:1385
+msgid "Banner ad after each x number of posts and questions"
+msgstr ""
+
+#: mobile-options.php:1371 mobile-options.php:1386
+msgid "Banner ad after each x number of comments and answers"
+msgstr ""
+
+#: mobile-options.php:1372 mobile-options.php:1387
+msgid "Banner ad on the webview page"
+msgstr ""
+
+#: mobile-options.php:1377
+msgid "Activate custom HTML or custom image for the top ad"
+msgstr ""
+
+#: mobile-options.php:1378
+msgid "Activate custom HTML or custom image for the bottom ad"
+msgstr ""
+
+#: mobile-options.php:1379
+msgid "Activate custom HTML or custom image for the before home ad"
+msgstr ""
+
+#: mobile-options.php:1380
+msgid "Activate custom HTML or custom image for the after home ad"
+msgstr ""
+
+#: mobile-options.php:1381
+msgid "Activate custom HTML or custom image on the post or question in the top"
+msgstr ""
+
+#: mobile-options.php:1382
+msgid ""
+"Activate custom HTML or custom image on the post or question in the bottom"
+msgstr ""
+
+#: mobile-options.php:1383
+msgid ""
+"Activate custom HTML or custom image on before the comments or answers on "
+"the posts or questions"
+msgstr ""
+
+#: mobile-options.php:1384
+msgid "Activate custom HTML or custom image on after the post or question"
+msgstr ""
+
+#: mobile-options.php:1385
+msgid "Activate custom HTML or custom image for the posts ad"
+msgstr ""
+
+#: mobile-options.php:1385
+msgid "Display after x posts and questions"
+msgstr ""
+
+#: mobile-options.php:1386
+msgid "Activate custom HTML or custom image for the comments ad"
+msgstr ""
+
+#: mobile-options.php:1386
+msgid "Display after x comments and answers"
+msgstr ""
+
+#: mobile-options.php:1387
+msgid "Activate custom HTML or custom image the webview page"
+msgstr ""
+
+#: mobile-options.php:1426
+msgid "Advertising type"
+msgstr ""
+
+#: mobile-options.php:1430
+msgid "Display code"
+msgstr ""
+
+#: mobile-options.php:1430
+msgid "Custom Image"
+msgstr ""
+
+#: mobile-options.php:1434
+msgid "Image URL"
+msgstr ""
+
+#: mobile-options.php:1435
+msgid "Upload a image, or enter URL to an image if it is already uploaded."
+msgstr ""
+
+#: mobile-options.php:1442
+msgid "Advertising URL"
+msgstr ""
+
+#: mobile-options.php:1450
+msgid "Advertising Code html"
+msgstr ""
+
+#: mobile-options.php:1485
+msgid "Enable or disable reCaptcha"
+msgstr ""
+
+#: mobile-options.php:1497
+msgid "Select where do you need to activate the captcha"
+msgstr ""
+
+#: mobile-options.php:1505
+msgid "Sign in"
+msgstr ""
+
+#: mobile-options.php:1506
+msgid "Sign up"
+msgstr ""
+
+#: mobile-options.php:1507
+msgid "Add a new answer"
+msgstr ""
+
+#: mobile-options.php:1508
+msgid "Ask a new question"
+msgstr ""
+
+#: mobile-options.php:1513
+#, php-format
+msgid "You can get the reCaptcha v2 site and secret keys from: %s"
+msgstr ""
+
+#: mobile-options.php:1513
+msgid "like that"
+msgstr ""
+
+#: mobile-options.php:1519
+#, php-format
+msgid "Add this in the domain option: %s"
+msgstr ""
+
+#: mobile-options.php:1525
+msgid "Site key reCaptcha"
+msgstr ""
+
+#: mobile-options.php:1531
+msgid "Secret key reCaptcha"
+msgstr ""
+
+#: mobile-options.php:1554
+msgid "Choose the tabs on the notifications page."
+msgstr ""
+
+#: mobile-options.php:1562
+msgid "Unread"
+msgstr ""
+
+#: mobile-options.php:1563
+msgid "All"
+msgstr ""
+
+#: mobile-options.php:1568
+msgid "Enable or disable push notifications"
+msgstr ""
+
+#: mobile-options.php:1580
+msgid "You can get the key from here."
+msgstr ""
+
+#: mobile-options.php:1586
+msgid "Add the app key"
+msgstr ""
+
+#: mobile-options.php:1611
+msgid "Choose the home page"
+msgstr ""
+
+#: mobile-options.php:1619
+msgid "Items per page in the homepage"
+msgstr ""
+
+#: mobile-options.php:1626
+msgid "Select the home options for questions"
+msgstr ""
+
+#: mobile-options.php:1634
+msgid "Select the home options for posts"
+msgstr ""
+
+#: mobile-options.php:1642
+msgid "Activate the ad in the first tab in the top"
+msgstr ""
+
+#: mobile-options.php:1649
+msgid "Activate the ad in the first tab in the bottom"
+msgstr ""
+
+#: mobile-options.php:1667
+msgid "Items per page in the categories"
+msgstr ""
+
+#: mobile-options.php:1674
+msgid "Select the categories options for questions"
+msgstr ""
+
+#: mobile-options.php:1682
+msgid "Select the categories for posts"
+msgstr ""
+
+#: mobile-options.php:1703
+msgid "Items per page in the search"
+msgstr ""
+
+#: mobile-options.php:1710
+msgid "Select the search options for questions"
+msgstr ""
+
+#: mobile-options.php:1731
+msgid "Items per page in the favourite page"
+msgstr ""
+
+#: mobile-options.php:1738
+msgid "Select the setting of the favourite page"
+msgstr ""
+
+#: mobile-options.php:1757
+msgid "Items per page in the followed page"
+msgstr ""
+
+#: mobile-options.php:1764
+msgid "Select the setting of the followed page"
+msgstr ""
+
+#: mobile-options.php:1783
+msgid "Items per page in the questions page"
+msgstr ""
+
+#: mobile-options.php:1790 mobile-options.php:1988
+msgid "Select the setting of the blog page"
+msgstr ""
+
+#: mobile-options.php:1809
+msgid ""
+"Choose the timeframe to allow the user stay login before logout "
+"automatically."
+msgstr ""
+
+#: mobile-options.php:1813
+msgid "Hours"
+msgstr ""
+
+#: mobile-options.php:1814
+msgid "Days"
+msgstr ""
+
+#: mobile-options.php:1820
+msgid "Choose the hours to stay login"
+msgstr ""
+
+#: mobile-options.php:1831
+msgid "Choose the days to stay login"
+msgstr ""
+
+#: mobile-options.php:1842
+msgid "Do you want to add a custom link of the signup button on the app?"
+msgstr ""
+
+#: mobile-options.php:1848
+msgid "Add the custom link"
+msgstr ""
+
+#: mobile-options.php:1849
+msgid "Type the custom link of the register button from here."
+msgstr ""
+
+#: mobile-options.php:1856
+msgid "Choose the style of the social icons style on the user profile page."
+msgstr ""
+
+#: mobile-options.php:1860
+msgid "Icons"
+msgstr ""
+
+#: mobile-options.php:1861
+msgid "Links"
+msgstr ""
+
+#: mobile-options.php:1868
+msgid ""
+"Choose the roles you need to show for the users in the following steps in "
+"the register and edit profile pages."
+msgstr ""
+
+#: mobile-options.php:1877
+msgid ""
+"Write the number of users which show in the following steps in the register "
+"and edit profile pages."
+msgstr ""
+
+#: mobile-options.php:1884
+msgid "Choose the roles you need to show for the users in the users page."
+msgstr ""
+
+#: mobile-options.php:1892
+msgid "Write the number of users which show in the users page."
+msgstr ""
+
+#: mobile-options.php:1904
+msgid "Comments settings"
+msgstr ""
+
+#: mobile-options.php:1912
+msgid "Enable or disable filter tabs for the gender"
+msgstr ""
+
+#: mobile-options.php:1919
+msgid "Enable or disable the all answers tab"
+msgstr ""
+
+#: mobile-options.php:1927
+msgid "Items per page in the comments or answers page"
+msgstr ""
+
+#: mobile-options.php:1934
+msgid "Select the the setting of the comments for the blog posts"
+msgstr ""
+
+#: mobile-options.php:1942
+msgid "Enable or disable the vote on answers page"
+msgstr ""
+
+#: mobile-options.php:1948
+msgid "Voted"
+msgstr ""
+
+#: mobile-options.php:1948
+msgid "Oldest"
+msgstr ""
+
+#: mobile-options.php:1948
+msgid "Recent"
+msgstr ""
+
+#: mobile-options.php:1950
+msgid "Reacted"
+msgstr ""
+
+#: mobile-options.php:1954
+msgid "Answer sort"
+msgstr ""
+
+#: mobile-options.php:1962
+msgid "Select the the setting of the answers for the questions"
+msgstr ""
+
+#: mobile-options.php:1981
+msgid "Items per page in the blog page"
+msgstr ""
+
+#: mobile-options.php:2007
+msgid ""
+"Tye menu style of report, delete and close for questions or report and "
+"delete for answers"
+msgstr ""
+
+#: mobile-options.php:2018
+msgid "Select the the setting of the single question page"
+msgstr ""
+
+#: mobile-options.php:2026
+msgid "Do you need to activate the related questions?"
+msgstr ""
+
+#: mobile-options.php:2038 mobile-options.php:2108
+msgid "Related style"
+msgstr ""
+
+#: mobile-options.php:2039
+msgid "Type related question style from here."
+msgstr ""
+
+#: mobile-options.php:2050
+msgid "Related questions number"
+msgstr ""
+
+#: mobile-options.php:2051
+msgid "Type the number of related questions from here."
+msgstr ""
+
+#: mobile-options.php:2058 mobile-options.php:2128
+msgid "Query type"
+msgstr ""
+
+#: mobile-options.php:2059
+msgid "Select what will the related questions show."
+msgstr ""
+
+#: mobile-options.php:2063
+msgid "Questions in the same categories"
+msgstr ""
+
+#: mobile-options.php:2064
+msgid ""
+"Questions in the same tags (If not find any tags will show by the same "
+"categories)"
+msgstr ""
+
+#: mobile-options.php:2065
+msgid "Questions by the same author"
+msgstr ""
+
+#: mobile-options.php:2088
+msgid "Select the the setting of the single post page"
+msgstr ""
+
+#: mobile-options.php:2096
+msgid "Do you need to activate the related posts?"
+msgstr ""
+
+#: mobile-options.php:2109
+msgid "Type related post style from here."
+msgstr ""
+
+#: mobile-options.php:2120
+msgid "Related posts number"
+msgstr ""
+
+#: mobile-options.php:2121
+msgid "Type the number of related posts from here."
+msgstr ""
+
+#: mobile-options.php:2129
+msgid "Select what will the related posts show."
+msgstr ""
+
+#: mobile-options.php:2133
+msgid "Posts in the same categories"
+msgstr ""
+
+#: mobile-options.php:2134
+msgid ""
+"Posts in the same tags (If not find any tags will show by the same "
+"categories)"
+msgstr ""
+
+#: mobile-options.php:2135
+msgid "Posts by the same author"
+msgstr ""
+
+#: mobile-options.php:2158
+msgid "APP skin by default"
+msgstr ""
+
+#: mobile-options.php:2162
+msgid "Light"
+msgstr ""
+
+#: mobile-options.php:2162
+msgid "Dark"
+msgstr ""
+
+#: mobile-options.php:2166
+msgid ""
+"Do you need to activate the users to choose their skin from the settings "
+"page?"
+msgstr ""
+
+#: mobile-options.php:2172
+msgid ""
+"Do you need to activate the users to choose their skin from the header icon?"
+msgstr ""
+
+#: mobile-options.php:2178
+msgid "Do you need to activate the border bottom color only for the inputs?"
+msgstr ""
+
+#: mobile-options.php:2184
+msgid "Light mode settings."
+msgstr ""
+
+#: mobile-options.php:2190 mobile-options.php:2506
+msgid "Input background color"
+msgstr ""
+
+#: mobile-options.php:2198 mobile-options.php:2514
+msgid "Input border bottom color"
+msgstr ""
+
+#: mobile-options.php:2206 mobile-options.php:2522
+msgid "Login, signup, and forgot password background color"
+msgstr ""
+
+#: mobile-options.php:2213 mobile-options.php:2529
+msgid "Header Background color"
+msgstr ""
+
+#: mobile-options.php:2220 mobile-options.php:2536
+msgid "Tabs Background color"
+msgstr ""
+
+#: mobile-options.php:2227 mobile-options.php:2543
+msgid "Bottom bar Background color"
+msgstr ""
+
+#: mobile-options.php:2234 mobile-options.php:2550
+msgid "Header Text color"
+msgstr ""
+
+#: mobile-options.php:2241 mobile-options.php:2557
+msgid "Tabs underline/border color"
+msgstr ""
+
+#: mobile-options.php:2248 mobile-options.php:2564
+msgid "Tabs text color"
+msgstr ""
+
+#: mobile-options.php:2255 mobile-options.php:2571
+msgid "Tabs Active color"
+msgstr ""
+
+#: mobile-options.php:2262 mobile-options.php:2578
+msgid "Checkboxes active color"
+msgstr ""
+
+#: mobile-options.php:2269 mobile-options.php:2585
+msgid "Bottom bar text color"
+msgstr ""
+
+#: mobile-options.php:2276 mobile-options.php:2592
+msgid "Bottom bar Active color"
+msgstr ""
+
+#: mobile-options.php:2283 mobile-options.php:2606
+msgid "Primary color"
+msgstr ""
+
+#: mobile-options.php:2290
+msgid "Secondary color"
+msgstr ""
+
+#: mobile-options.php:2297 mobile-options.php:2613
+msgid "Meta color"
+msgstr ""
+
+#: mobile-options.php:2304 mobile-options.php:2620
+msgid "Side navbar background"
+msgstr ""
+
+#: mobile-options.php:2311 mobile-options.php:2627
+msgid "Side navbar color"
+msgstr ""
+
+#: mobile-options.php:2318 mobile-options.php:2634
+msgid "Background"
+msgstr ""
+
+#: mobile-options.php:2325 mobile-options.php:2641
+msgid "Button color"
+msgstr ""
+
+#: mobile-options.php:2332 mobile-options.php:2648
+msgid "Divider color"
+msgstr ""
+
+#: mobile-options.php:2339 mobile-options.php:2655
+msgid "Shadow color"
+msgstr ""
+
+#: mobile-options.php:2346 mobile-options.php:2662
+msgid "Button background color"
+msgstr ""
+
+#: mobile-options.php:2353 mobile-options.php:2669
+msgid "Settings page background color"
+msgstr ""
+
+#: mobile-options.php:2360 mobile-options.php:2676
+msgid "Settings page text color"
+msgstr ""
+
+#: mobile-options.php:2367 mobile-options.php:2683
+msgid "Error background color"
+msgstr ""
+
+#: mobile-options.php:2374 mobile-options.php:2690
+msgid "Error text color"
+msgstr ""
+
+#: mobile-options.php:2381 mobile-options.php:2697
+msgid "Alert background color"
+msgstr ""
+
+#: mobile-options.php:2388 mobile-options.php:2704
+msgid "Alert text color"
+msgstr ""
+
+#: mobile-options.php:2395 mobile-options.php:2711
+msgid "Success background color"
+msgstr ""
+
+#: mobile-options.php:2402 mobile-options.php:2718
+msgid "Success text color"
+msgstr ""
+
+#: mobile-options.php:2409 mobile-options.php:2725
+msgid "Tooltip Menu color"
+msgstr ""
+
+#: mobile-options.php:2416 mobile-options.php:2732
+msgid "Highlight background color"
+msgstr ""
+
+#: mobile-options.php:2423 mobile-options.php:2739
+msgid "Highlight text color"
+msgstr ""
+
+#: mobile-options.php:2430 mobile-options.php:2746
+msgid "Close question button background color"
+msgstr ""
+
+#: mobile-options.php:2437 mobile-options.php:2753
+msgid "Close question button color"
+msgstr ""
+
+#: mobile-options.php:2444 mobile-options.php:2760
+msgid "Open question button background color"
+msgstr ""
+
+#: mobile-options.php:2451 mobile-options.php:2767
+msgid "Open question button color"
+msgstr ""
+
+#: mobile-options.php:2458 mobile-options.php:2774
+msgid "Favourite color"
+msgstr ""
+
+#: mobile-options.php:2465 mobile-options.php:2781
+msgid "Un favourite color"
+msgstr ""
+
+#: mobile-options.php:2472 mobile-options.php:2788
+msgid "Best answer color"
+msgstr ""
+
+#: mobile-options.php:2479 mobile-options.php:2795
+msgid "Add best answer color"
+msgstr ""
+
+#: mobile-options.php:2486 mobile-options.php:2802
+msgid "Remove best answer color"
+msgstr ""
+
+#: mobile-options.php:2493 mobile-options.php:2809
+msgid "Verified icon color"
+msgstr ""
+
+#: mobile-options.php:2500
+msgid "Dark mode settings."
+msgstr ""
+
+#: mobile-options.php:2599
+msgid "General color"
+msgstr ""
+
+#: mobile-options.php:2846
+msgid "Add a new question icon"
+msgstr ""
+
+#: mobile-options.php:2854
+msgid "Add a new post icon"
+msgstr ""
+
+#: mobile-options.php:2862
+msgid "Add a new group icon"
+msgstr ""
+
+#: mobile-options.php:2870
+msgid "Answers icon"
+msgstr ""
+
+#: mobile-options.php:2877
+msgid "Best answers icon"
+msgstr ""
+
+#: mobile-options.php:2884
+msgid "Delete icon"
+msgstr ""
+
+#: mobile-options.php:2897
+msgid "Close question icon"
+msgstr ""
+
+#: mobile-options.php:2904
+msgid "Open question icon"
+msgstr ""
+
+#: mobile-options.php:2917
+msgid "Add favourite icon"
+msgstr ""
+
+#: mobile-options.php:2924
+msgid "Remove favourite icon"
+msgstr ""
+
+#: mobile-options.php:2931
+msgid "Views icon"
+msgstr ""
+
+#: mobile-options.php:2938
+msgid "Do you want to change the verified icon?"
+msgstr ""
+
+#: mobile-options.php:2944
+msgid "Verified icon"
+msgstr ""
+
+#: mobile-options.php:2952
+msgid "Do you want to change the vote icons?"
+msgstr ""
+
+#: mobile-options.php:2964
+msgid "Upvote icon"
+msgstr ""
+
+#: mobile-options.php:2971
+msgid "Downvote icon"
+msgstr ""
+
+#: mobile-options.php:2995
+msgid "Enable or disable the under construction on the mobile apps"
+msgstr ""
+
+#: mobile-options.php:3007
+msgid "Type your title on the construction page"
+msgstr ""
+
+#: mobile-options.php:3014
+msgid "Type your content on the construction page"
+msgstr ""
+
+#: mobile-options.php:3021
+msgid "Upload the image on the construction page"
+msgstr ""
+
+#: mobile-options.php:3027
+msgid "Enable or disable the icon on the construction page"
+msgstr ""
+
+#: mobile-options.php:3033
+msgid "Enable or disable the button on the construction page"
+msgstr ""
+
+#: mobile-options.php:3046
+msgid "Type your text on the button"
+msgstr ""
+
+#: mobile-options.php:3053
+msgid "Type your link on the button"
+msgstr ""
+
+#: mobile-options.php:3060
+msgid ""
+"The color of the button on the construction page (hex code, ex: #FFFFFF)"
+msgstr ""
+
+#: models/author.php:46 models/author.php:53 models/comment.php:50
+msgid "Anonymous"
+msgstr ""
+
+#: models/author.php:50
+msgid "[Deleted User]"
+msgstr ""
+
+#: models/comment.php:42 updater/elitepack-config.php:39
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: models/comment.php:145 models/post.php:337 models/post.php:342
+msgid "Are you sure you want to delete the attachment?"
+msgstr ""
+
+#: models/comment.php:180
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"comment has been added"
+msgstr ""
+
+#: models/comment.php:182
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"answer has been added"
+msgstr ""
+
+#: models/comment.php:221
+#, php-format
+msgid "Post ID %s not found."
+msgstr ""
+
+#: models/comment.php:226
+msgid "Post is closed for comments."
+msgstr ""
+
+#: models/comment.php:231
+msgid "You cannot comment on unpublished posts."
+msgstr ""
+
+#: models/post.php:196 models/post.php:1049
+msgid "Read more"
+msgstr ""
+
+#: models/post.php:405
+msgid "Agree"
+msgstr ""
+
+#: models/post.php:422 singletons/introspector.php:366
+#: singletons/introspector.php:419
+msgid "Unblock"
+msgstr ""
+
+#: models/post.php:434 singletons/introspector.php:377
+msgid "Remove"
+msgstr ""
+
+#: models/post.php:440 singletons/introspector.php:383
+msgid "Are you sure you want to remove the user from the group?"
+msgstr ""
+
+#: models/post.php:446 singletons/introspector.php:386
+msgid "Block"
+msgstr ""
+
+#: models/post.php:452 singletons/introspector.php:392
+msgid "Are you sure you want to block the user from the group?"
+msgstr ""
+
+#: models/post.php:513
+msgid "Leave"
+msgstr ""
+
+#: models/post.php:518
+msgid "Cancel the request"
+msgstr ""
+
+#: models/post.php:524
+msgid "Accept invite"
+msgstr ""
+
+#: models/post.php:527
+msgid "Decline invite"
+msgstr ""
+
+#: models/post.php:531
+msgid "Join"
+msgstr ""
+
+#: models/post.php:586
+msgid "Approve all"
+msgstr ""
+
+#: models/post.php:595
+msgid "Decline all"
+msgstr ""
+
+#: models/post.php:626
+msgid "Discussion"
+msgstr ""
+
+#: models/post.php:632
+msgid "Requests"
+msgstr ""
+
+#: models/post.php:637
+msgid "Group Posts"
+msgstr ""
+
+#: models/post.php:641
+msgid "Admins"
+msgstr ""
+
+#: models/post.php:643
+msgid "Blocked Users"
+msgstr ""
+
+#: models/post.php:719
+msgid "Sorry this question is a special, The admin must answer first."
+msgstr ""
+
+#: models/post.php:727
+msgid "You have already answered this question."
+msgstr ""
+
+#: models/post.php:733 models/post.php:762
+msgid "You must login to add an answer."
+msgstr ""
+
+#: models/post.php:736 models/post.php:741 models/post.php:764
+msgid "Sorry, you do not have permission to answer to this question."
+msgstr ""
+
+#: models/post.php:759
+msgid "Sorry this question is closed."
+msgstr ""
+
+#: models/post.php:840
+msgid "Please login to see the content."
+msgstr ""
+
+#: models/post.php:1191
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this post "
+"has been added"
+msgstr ""
+
+#: models/post.php:1201
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"question has been asked"
+msgstr ""
+
+#: models/post.php:1203
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this group "
+"post has been added"
+msgstr ""
+
+#: models/post.php:1205
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"message has been sent"
+msgstr ""
+
+#: models/post.php:1380
+msgid "Public group"
+msgstr ""
+
+#: models/post.php:1380
+msgid "Private group"
+msgstr ""
+
+#: models/post.php:1384 models/post.php:1388
+msgid "All group members"
+msgstr ""
+
+#: models/post.php:1384 models/post.php:1388
+msgid "Admin and moderators"
+msgstr ""
+
+#: models/post.php:1384 models/post.php:1388
+msgid "Admin only"
+msgstr ""
+
+#: singletons/introspector.php:343
+msgid "Approve"
+msgstr ""
+
+#: singletons/introspector.php:351
+msgid "Decline"
+msgstr ""
+
+#: singletons/introspector.php:404
+msgid "Remove Moderator"
+msgstr ""
+
+#: singletons/introspector.php:410
+msgid "Are you sure you want to remove the moderator from the group?"
+msgstr ""
+
+#: singletons/query.php:116
+msgid ""
+"The submit_comment method has been removed from the Core controller. To use "
+"this method you must enable the Comment controller from WP Admin > Settings >"
+" JSON API."
+msgstr ""
+
+#: singletons/query.php:122
+msgid ""
+"The create_post method has been removed from the Core controller. To use "
+"this method you must enable the Posts controller from WP Admin > Settings > "
+"JSON API."
+msgstr ""
+
+#: singletons/query.php:169
+#, php-format
+msgid "Uknown method %s."
+msgstr ""
+
+#: updater/elitepack-config.php:27 updater/elitepack-config.php:131
+msgid "Purchase a License"
+msgstr ""
+
+#: updater/elitepack-config.php:28
+msgid "Renew Support"
+msgstr ""
+
+#: updater/elitepack-config.php:29
+msgid "Need Help?"
+msgstr ""
+
+#: updater/elitepack-config.php:30
+msgid "Try Again"
+msgstr ""
+
+#: updater/elitepack-config.php:31
+#, php-format
+msgid "Register %s"
+msgstr ""
+
+#: updater/elitepack-config.php:32
+#, php-format
+msgid ""
+"Thank you for choosing %s! Your product must be registered to see the theme "
+"options, import our awesome demos, install bundled plugins, receive "
+"automatic updates, and access to support."
+msgstr ""
+
+#: updater/elitepack-config.php:33 updater/elitepack-config.php:130
+msgid "Register Now!"
+msgstr ""
+
+#: updater/elitepack-config.php:34
+msgid "Congratulations"
+msgstr ""
+
+#: updater/elitepack-config.php:35
+msgid ""
+"Your License is now registered!, theme options, demo import, and bundeled "
+"plugins is now unlocked."
+msgstr ""
+
+#: updater/elitepack-config.php:36
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: updater/elitepack-config.php:37
+msgid "Register the theme to unlock automatic updates."
+msgstr ""
+
+#: updater/elitepack-config.php:38
+msgid "Renew your support to unlock automatic updates."
+msgstr ""
+
+#: updater/elitepack-config.php:40
+#, php-format
+msgid ""
+"Your support will Expire in %s. Renew your license today and save 25%% to "
+"keep getting auto updates and premium support, remember purchasing a new "
+"license extends support for all licenses."
+msgstr ""
+
+#: updater/elitepack-config.php:41
+msgid "Failed, try again later."
+msgstr ""
+
+#: updater/elitepack-config.php:42
+#, php-format
+msgid "Did not updated, Your support expires on %s"
+msgstr ""
+
+#: updater/elitepack-config.php:43
+#, php-format
+msgid "Updated successfully, your support expires on %s"
+msgstr ""
+
+#: updater/elitepack-config.php:44
+#, php-format
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: updater/elitepack-config.php:45
+#, php-format
+msgid ""
+"There is a new version of %1$s available, %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/elitepack-config.php:46
+msgid "update now"
+msgstr ""
+
+#: updater/elitepack-config.php:47
+msgid "License Deactivated Successfully."
+msgstr ""
+
+#: updater/elitepack-config.php:48
+msgid "Cancel"
+msgstr ""
+
+#: updater/elitepack-config.php:49
+msgid "Skip & Switch"
+msgstr ""
+
+#: updater/elitepack-config.php:50
+msgid "Send & Switch"
+msgstr ""
+
+#: updater/elitepack-config.php:51
+#, php-format
+msgid "%s feedback"
+msgstr ""
+
+#: updater/elitepack-config.php:52
+msgid "May we have a little info about why you are switching?"
+msgstr ""
+
+#: updater/elitepack-config.php:85
+msgid ""
+"Thank you for choosing Mobile APP! Your product is already registered, so "
+"you have access to:"
+msgstr ""
+
+#: updater/elitepack-config.php:86
+msgid "Congratulations! Your product is registered now."
+msgstr ""
+
+#: updater/elitepack-config.php:90
+msgid "Thank you for choosing Mobile APP! Your product must be registered to:"
+msgstr ""
+
+#: updater/elitepack-config.php:91
+msgid "Click on the button below to begin the registration process."
+msgstr ""
+
+#: updater/elitepack-config.php:96
+msgid "Request your APP"
+msgstr ""
+
+#: updater/elitepack-config.php:97
+msgid "See the mobile APP options"
+msgstr ""
+
+#: updater/elitepack-config.php:98
+msgid "Receive automatic updates"
+msgstr ""
+
+#: updater/elitepack-config.php:99
+msgid "Access to support"
+msgstr ""
+
+#: updater/elitepack-config.php:104
+msgid "Welcome to"
+msgstr ""
+
+#: updater/elitepack-config.php:135
+msgid "License Status:"
+msgstr ""
+
+#: updater/elitepack-config.php:135 updater/elitepack-config.php:145
+msgid "Active"
+msgstr ""
+
+#: updater/elitepack-config.php:136
+msgid "Revoke License"
+msgstr ""
+
+#: updater/elitepack-config.php:142
+#, php-format
+msgid "Expiring! will expire on %s"
+msgstr ""
+
+#: updater/elitepack-config.php:148
+msgid "Expired"
+msgstr ""
+
+#: updater/elitepack-config.php:154
+msgid "Support Status:"
+msgstr ""
+
+#: updater/elitepack-config.php:155
+msgid "Refresh Expiration Date"
+msgstr ""

@@ -1,0 +1,36 @@
+/*-------------------------
+	Him
+--------------------------*/
+.comments-list .comment__item.him-user .comment__author,.comments-list .comment__item.him-user .comment__reply:hover,.post-item.him-user .author__avatar,.post-item.him-user .post__title a:hover,.post-item.him-user .btn__link.btn__primary:hover,.member-item.him-user .member__name,.widget.users-widget .him-user.community-card .member__name,.widget-article.him-user .article__author,.widget-article.him-user .article__title a:hover,.widget-article.him-user .article__cat a:hover,.widget-article.him-user .vote-btn.active,.answers-area .widget-article-reply.him-user .article__author,.user-area.him-user .user-content > .user-inner h4 > a:hover,.him-user .custom-post-link:hover,.him-user .post-author,.him-user.article-post-only a.post-title:hover,.commentlist .comment.him-user > .comment-body .custom-post-link:hover,.commentlist li.comment.him-user > .comment-body .comment-text .comment-author a,.comment.him-user > .comment-body .comment-question-title a:hover,.him-user.article-question .post-title a:hover,.him-user.article-question .question-content-text .custom-post-link:hover,.him-user .content_group_item_header .title h3 a,.him-user.article-post-only .post-meta a:hover,.widget.users-widget .community-card.him-user .member__name a,.article-post-only.him-user .post-meta .byline a,.notifications-card .notifications__item.him-user .author__name,.dark-skin .navbar .sub-menu.notifications-dropdown-menu .him-user .author__name,.messages-card .message__item.him-user .author__name,.sticky-content .answers-stats .him-user a,.hero-layout .hero-banner .hero__meta-comments li.him-user a,.react__area-layout2 .reactions__count.transparent-bg.him-user,.question-footer .footer-meta > li.answer-meta-him,.question-footer .footer-meta > li.answer-meta-him a,.post-meta-comment-gender.post-meta-comment-him > a,.widget-article .article-footer .footer-meta__comments li.him-user a,.dark-skin .him-user .notification__body .author__name,.header .him-user .notification__body .author__name {
+	color: #2e6ffd;
+}
+.questions-card .question-item.him-user .question__title a:hover,.questions-card .question-item.him-user .author__name a {
+	color: #2e6ffd !important;
+}
+.member-item.him-user:before,.widget.users-widget .him-user.community-card:before,.widget-article.him-user:before,.widget-article.him-user .article__link,.answers-area.him-user .answers__header,.answers-area.him-user:before,.commentlist ul.children li.comment.him-user:before,.him-user .single-inner-content:before,#comments-male:before,.header-primary .navbar,.custom-switch .custom-control-label span:first-of-type,.gender-sorting .btn.him-user,.member-card.him-user .member__tag,.react__area-layout2 .reactions__count.him-user,.sticky-content .breadcrumb-navs.him-user:before {
+	background-color: #2e6ffd;
+}
+.widget-article.him-user .btn__primary:before,.article-question.him-user .all_single_post_content .btn__primary:before,.him-user .btn__primary.meta-answer.meta-answer-a:before,.him-user .post-read-more.btn:before {
+	background-color: #2e6ffd !important;
+}
+.hero-layout .hero-banner .author__avatar.him-user a {
+	border-color: #2e6ffd;
+}
+/*-------------------------
+	Her
+--------------------------*/
+.comments-list .comment__item.her-user .comment__author,.comments-list .comment__item.her-user .comment__reply:hover,.post-item.her-user .author__avatar,.post-item.her-user .post__title a:hover,.post-item.her-user .btn__link.btn__primary:hover,.member-item.her-user .member__name,.widget.users-widget .her-user.community-card .member__name,.widget-article.her-user .article__author,.widget-article.her-user .article__title a:hover,.widget-article.her-user .article__cat a:hover,.widget-article.her-user .vote-btn.active,.answers-area .widget-article-reply.her-user .article__author,.questions-card .question-item__meta li.her-user a,.widget-article .article-footer .footer-meta__comments li.her-user a,.navbar .sub-menu.notifications-dropdown-menu .her-user .author__name,.dark-skin .navbar .sub-menu.notifications-dropdown-menu .her-user .author__name,.header .her-user .notification__body .author__name,.her-user .notification__body .author__name,.dark-skin .her-user .notification__body .author__name,.user-area.her-user .user-content > .user-inner h4 > a:hover,.her-user .custom-post-link:hover,.her-user .post-author,.her-user.article-post-only a.post-title:hover,.commentlist .comment.her-user > .comment-body .custom-post-link:hover,.commentlist li.comment.her-user > .comment-body .comment-text .comment-author a,.comment.her-user .comment-question-title a:hover,.her-user.article-question .post-title a:hover,.her-user.article-question .question-content-text .custom-post-link:hover,.her-user .content_group_item_header .title h3 a,.custom-switch .custom-control-input:checked ~ .custom-control-label span:last-of-type,.her-user.article-post-only .post-meta a:hover,.widget.users-widget .community-card.her-user .member__name a,.article-post-only.her-user .post-meta .byline a,.notifications-card .notifications__item.her-user .author__name,.messages-card .message__item.her-user .author__name,.sticky-content .answers-stats .her-user a,.hero-layout .hero-banner .hero__meta-comments li.her-user a,.react__area-layout2 .reactions__count.transparent-bg.her-user,.question-footer .footer-meta > li.answer-meta-her,.question-footer .footer-meta > li.answer-meta-her a,.post-meta-comment-gender.post-meta-comment-her > a {
+	color: #ff0084;
+}
+.questions-card .question-item.her-user .author__name,.questions-card .question-item.her-user .author__name a,.questions-card .question-item.her-user .question__title a:hover {
+	color: #ff0084 !important;
+}
+.member-item.her-user:before,.widget.users-widget .her-user.community-card:before,.widget-article.her-user:before,.widget-article.her-user .article__link,.answers-area.her-user .answers__header,.answers-area.her-user:before,.custom-radio-container .custom-radio .custom-control-input:checked ~ label[for="female"]:after,.custom-radio-container .custom-radio .custom-control-input:checked ~ .female_radio_label:after,.commentlist ul.children li.comment.her-user:before,.her-user .single-inner-content:before,#comments-female:before,.header-secondary .navbar,.custom-switch .custom-control-input:checked ~ .custom-control-label:before,.gender-sorting .btn.her-user,.member-card.her-user .member__tag,.react__area-layout2 .reactions__count.her-user,.sticky-content .breadcrumb-navs.her-user:before {
+	background-color: #ff0084;
+}
+.widget-article.her-user .btn__primary:before,.article-question.her-user .all_single_post_content .btn__primary:before,.her-user .btn__primary.meta-answer.meta-answer-a:before,.her-user .post-read-more.btn:before {
+	background-color: #ff0084 !important;
+}
+.hero-layout .hero-banner .author__avatar.her-user a {
+	border-color: #ff0084;
+}

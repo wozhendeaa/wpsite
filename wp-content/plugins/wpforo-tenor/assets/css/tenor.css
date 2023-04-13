@@ -1,0 +1,244 @@
+#wpf-tenor-wrap {
+    height: 100%;
+    position: relative;
+}
+
+#wpf-tenor-wrap datalist {
+    display: none;
+}
+
+#wpf-tenor-wrap #wpf-gifs-scroll {
+    height: calc(100% - 60px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar {
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar #wpf-gif-hamburger {
+    flex-grow: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar #wpf-gif-hamburger:hover {
+    opacity: 0.7;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar > form {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar > form > label:first-child {
+    flex-grow: 1;
+    margin: 0 10px 0 20px;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar > form input[name="needle"] {
+    width: 100%;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar > form > button {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0 !important;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar > form > button:hover {
+    opacity: 0.7;
+}
+
+#wpf-tenor-wrap #wpf-gifs {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    height: 300px;
+    margin-left: -8px;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 0 12px 20px 20px;
+}
+
+body.wpf-dark #wpf-tenor-wrap #wpf-gifs {
+    background-color: #000;
+    color: #fff;
+}
+
+#wpf-tenor-wrap #wpf-gifs > * {
+    margin: 0 8px 8px 0;
+    align-self: flex-start;
+}
+
+#wpf-tenor-wrap #wpf-gifs .wpf-gif-tag {
+    cursor: pointer;
+}
+
+#wpf-tenor-wrap #wpf-gifs .wpf-gif-tag:hover {
+    opacity: 0.6;
+}
+
+#wpf-tenor-wrap #wpf-gifs .wpf-gif-cell .wpf-gif-img-wrap {
+    cursor: pointer;
+}
+
+#wpf-tenor-wrap #wpf-gifs .wpf-gif-cell img:hover {
+    opacity: 0.5;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    color: #000;
+    height: calc(100% - 60px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+body.wpf-dark #wpf-tenor-wrap #wpf-gifs-cats {
+    background-color: #000;
+    color: #fff;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats > li:not(.wpf-gif-cat-active) > ul {
+    display: none;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats > li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats > li .wpf-gif-cat {
+    padding: 8px 20px;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats > li .wpf-gif-cat:hover {
+    opacity: 0.8;
+}
+
+body.wpf-dark #wpf-tenor-wrap #wpf-gifs-cats > li > ul {
+    margin: 10px;
+    color: #fff;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats > li > ul > li {
+    margin-bottom: 8px;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats > li > ul > li .wpf-gif-subcat {
+    padding: 5px 20px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#wpf-tenor-wrap #wpf-gifs-cats > li > ul > li .wpf-gif-subcat:hover {
+    opacity: 0.6;
+}
+
+#wpforo #wpforo-wrap .wpf-tenor-button-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+#wpforo #wpforo-wrap .wpf-tenor-button {
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+[dir="rtl"] #wpforo #wpforo-wrap .wpf-tenor-button {
+    margin-right: 2px;
+}
+
+#wpforo #wpforo-wrap .wpf-tenor-button img {
+    border-radius: 50%;
+}
+
+#wpforo #wpforo-wrap .wpf-tenor-button-wrap:hover {
+    opacity: 1;
+}
+
+#wpforo #wpforo-wrap figure[data-tenorid] {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+}
+
+#wpforo #wpforo-wrap figure[data-tenorid] img {
+    border: none;
+    padding: 3px;
+    background-image: url("../ico/spinning.png") !important;
+    background-position: center center !important;
+    background-size: auto 50% !important;
+    background-repeat: no-repeat !important;
+}
+
+#wpforo #wpforo-wrap figure[data-tenorid] svg {
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
+}
+
+#wpf-tenor-wrap #wpf-gif-bar img {
+    filter: invert(100%);
+}
+
+body.wpf-dark #wpf-tenor-wrap #wpf-gif-bar img {
+    filter: none;
+}
+
+/* Integration with editor */
+#wpforo #wpforo-wrap .wpf-gif-figure br {
+    display: none;
+}
+
+#wpforo #wpforo-wrap .wpf-field-wrap > .wpf-extra-fields,
+#wpforo #wpforo-wrap .wpforo-portable-form-wrap .wpf-extra-fields,
+#wpforo #wpforo-wrap .wpforo-messages-content .wpfpm-main .wpfpm-form-wrapper .wpf-extra-fields {
+    text-align: right;
+    margin-top: -37px;
+    padding-right: 14px;
+    padding-top: 5px;
+    margin-bottom: 0 !important;
+}
+
+#wpforo #wpforo-wrap .wpf-field-wrap > .wpf-extra-fields .wpf-main-fields {
+    padding: 0;
+}
+
+[dir="rtl"] #wpforo #wpforo-wrap .wpf-field-wrap > .wpf-extra-fields,
+[dir="rtl"] #wpforo #wpforo-wrap .wpforo-portable-form-wrap .wpf-extra-fields,
+[dir="rtl"] #wpforo #wpforo-wrap .wpforo-messages-content .wpfpm-main .wpfpm-form-wrapper .wpf-extra-fields {
+    text-align: left;
+    padding-left: 2px;
+}

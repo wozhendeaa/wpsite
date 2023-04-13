@@ -1,0 +1,794 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: wpForo - User Custom Fields\n"
+"POT-Creation-Date: 2017-10-25 20:22+0400\n"
+"PO-Revision-Date: 2017-10-25 20:22+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpforo-ucf.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/fields/abstractField.php:61 includes/fields/abstractField.php:84
+#: wpforo-ucf.php:165
+msgid "Required"
+msgstr ""
+
+#: includes/fields/abstractField.php:95
+msgid "Add"
+msgstr ""
+
+#: includes/fields/abstractField.php:96 includes/fields/abstractField.php:108
+msgid "Cancel"
+msgstr ""
+
+#: includes/fields/abstractField.php:106
+msgid "Edit Field"
+msgstr ""
+
+#: includes/fields/abstractField.php:107
+msgid "Set"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/allowed-group-ids.php:10
+msgid "Groups"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/allowed-group-ids.php:11
+msgid "Choose groups"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/can-edit.php:10
+msgid "Groups who has edit permission"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/can-edit.php:11
+msgid "Who can edit?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/can-view.php:10
+msgid "Groups who has view permission"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/can-view.php:11
+msgid "Who can view?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/description.php:6
+#: includes/fields/html/add-edit/attributes/description.php:7
+msgid "Description"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/fa-icon.php:6
+msgid "Font awesome icon"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/fa-icon.php:7
+msgid "Pick an icon"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/field-name.php:7
+msgid "Field name in form"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/field-name.php:8
+msgid "Field Name"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/file-extensions.php:7
+msgid "Allowed extensions"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/file-extensions.php:8
+msgid "Comma separated file extensions "
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/file-size.php:9
+msgid "File size"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/file-size.php:10
+msgid "Upload file max size in MB"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/file-size.php:14
+msgid "Server \"upload_max_filesize\" is "
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/file-size.php:17
+msgid "Server \"post_max_size\" is "
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/html.php:6
+msgid "Html content"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/html.php:7
+msgid "Html"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/info.php:6
+msgid "Field information"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/info.php:7
+msgid "What for this field? (shows information about the field in other tabs)"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-editable.php:6
+msgid "Is editable?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-editable.php:7
+msgid "Can user edit this field?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-editable.php:10
+#: includes/fields/html/add-edit/attributes/is-label-first.php:10
+#: includes/fields/html/add-edit/attributes/is-multichoice.php:10
+#: includes/fields/html/add-edit/attributes/is-required.php:10
+#: includes/fields/html/add-edit/attributes/is-wrap-item.php:10
+#: options/options.php:38
+msgid "Yes"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-editable.php:11
+#: includes/fields/html/add-edit/attributes/is-label-first.php:11
+#: includes/fields/html/add-edit/attributes/is-multichoice.php:11
+#: includes/fields/html/add-edit/attributes/is-required.php:11
+#: includes/fields/html/add-edit/attributes/is-wrap-item.php:11
+#: options/options.php:39
+msgid "No"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-label-first.php:6
+msgid "Is label first input last?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-label-first.php:7
+msgid "Put a label first, a input last"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-multichoice.php:6
+msgid "Is drop down multichoice?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-multichoice.php:7
+msgid "Is multichoice?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-required.php:6
+msgid "Is required"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-required.php:7
+msgid "Required?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-wrap-item.php:6
+msgid "Wrap inputs with label?"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/is-wrap-item.php:7
+msgid "Wrap each item with label element"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/label.php:6
+#: includes/fields/html/add-edit/attributes/label.php:7
+msgid "Label"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/min-max-length.php:6
+msgid "Minimum length / value"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/min-max-length.php:7
+msgid "Minimum Length / Value"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/min-max-length.php:9
+msgid "Maximum length / value"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/min-max-length.php:10
+msgid "Maximum Length / Value"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/placeholder.php:6
+#: includes/fields/html/add-edit/attributes/placeholder.php:7
+msgid "Placeholder"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/title.php:6
+msgid "HTML title attribute"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/title.php:7
+msgid "Title"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/values.php:12
+#: includes/fields/html/add-edit/attributes/values.php:13
+msgid "Values"
+msgstr ""
+
+#: includes/fields/html/add-edit/attributes/values.php:15
+msgid "Reset values"
+msgstr ""
+
+#: includes/fields/html/field-data/data.php:12
+#: includes/fields/html/field-data/structure.php:10
+msgid "Type:"
+msgstr ""
+
+#: includes/fields/html/field-data/data.php:14
+msgid "Edit field"
+msgstr ""
+
+#: includes/fields/html/field-data/data.php:15
+msgid "Duplicate field"
+msgstr ""
+
+#: includes/fields/html/field-data/data.php:16
+msgid "Remove field"
+msgstr ""
+
+#: includes/fields/html/field-data/structure.php:15
+msgid "Move field"
+msgstr ""
+
+#: includes/fields/html/templates/empty-col.php:8
+#: includes/fields/html/templates/empty-row.php:30 options/tabs/account.php:64
+#: options/tabs/profile.php:65 options/tabs/register.php:63
+#: options/tabs/search.php:66
+msgid "column"
+msgstr ""
+
+#: includes/fields/html/templates/empty-row.php:9 options/tabs/account.php:38
+#: options/tabs/profile.php:39 options/tabs/register.php:37
+#: options/tabs/search.php:40
+msgid "1 column"
+msgstr ""
+
+#: includes/fields/html/templates/empty-row.php:12 options/tabs/account.php:41
+#: options/tabs/profile.php:42 options/tabs/register.php:40
+#: options/tabs/search.php:43
+msgid "2 columns"
+msgstr ""
+
+#: includes/fields/html/templates/empty-row.php:15 options/tabs/account.php:44
+#: options/tabs/profile.php:45 options/tabs/register.php:43
+#: options/tabs/search.php:46
+msgid "3 columns"
+msgstr ""
+
+#: includes/fields/html/templates/empty-row.php:21 options/tabs/account.php:50
+#: options/tabs/profile.php:51 options/tabs/register.php:49
+#: options/tabs/search.php:52
+msgid "Move row"
+msgstr ""
+
+#: includes/fields/html/templates/empty-row.php:22 options/tabs/account.php:51
+#: options/tabs/profile.php:52 options/tabs/register.php:50
+#: options/tabs/search.php:53
+msgid "Remove row"
+msgstr ""
+
+#: includes/fields/html/templates/empty-row.php:23 options/tabs/account.php:52
+#: options/tabs/profile.php:53 options/tabs/register.php:51
+#: options/tabs/search.php:54
+msgid "Add row"
+msgstr ""
+
+#: includes/fields/html/templates/empty-row.php:28 options/tabs/account.php:57
+#: options/tabs/profile.php:58 options/tabs/register.php:56
+#: options/tabs/search.php:59
+msgid "row"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:26
+msgid "Fields"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:26
+msgid "Field added successfully"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:29
+msgid "Email"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:30
+msgid "Password"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:31
+msgid "Text"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:32
+msgid "Textarea"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:33
+msgid "Phone"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:34
+msgid "Number"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:35
+msgid "Drop Down"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:36
+msgid "Url"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:37
+msgid "Date"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:38
+msgid "Radio"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:39
+msgid "Checkbox"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:40
+msgid "HTML"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:41
+msgid "Avatar"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:42
+msgid "Usergroup"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:43
+msgid "File Upload"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:44
+msgid "Color Picker"
+msgstr ""
+
+#: includes/fields/popups/popup-field-types.php:45
+msgid "Range"
+msgstr ""
+
+#: includes/gvt-api-manager.php:118
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/gvt-api-manager.php:122
+msgid "An unknown error occurred"
+msgstr ""
+
+#: includes/gvt-api-manager.php:168
+msgid "Activate"
+msgstr ""
+
+#: includes/helperAjax.php:38 includes/helperAjax.php:56
+#: includes/helperAjax.php:76 includes/helperAjax.php:100
+#: includes/helperAjax.php:130 includes/helperAjax.php:154
+msgid "Unknown error occured"
+msgstr ""
+
+#: options/options.php:17 options/tabs/fields.php:14
+msgid "User Fields Manager"
+msgstr ""
+
+#: options/options.php:18
+msgid "Register Form"
+msgstr ""
+
+#: options/options.php:19
+msgid "Account Form"
+msgstr ""
+
+#: options/options.php:20
+msgid "Profile Page"
+msgstr ""
+
+#: options/options.php:21 options/tabs/search.php:15
+msgid "Member Search Form"
+msgstr ""
+
+#: options/options.php:22
+msgid "Tools"
+msgstr ""
+
+#: options/options.php:35
+msgid "Hacker?"
+msgstr ""
+
+#: options/options.php:311
+msgid "Settings Updated!"
+msgstr ""
+
+#: options/options.php:330
+msgid "Options Exported Successfully!"
+msgstr ""
+
+#: options/options.php:332
+msgid "Error occured! Can not export / backup one of checked options!"
+msgstr ""
+
+#: options/options.php:348
+msgid "Options Imported Successfully!"
+msgstr ""
+
+#: options/options.php:350
+msgid "Error occured! File content is empty or data is not valid option!"
+msgstr ""
+
+#: options/options.php:353
+msgid "Error occured! Can not get file content or file name is not valid!"
+msgstr ""
+
+#: options/options.php:356
+msgid "Error occured! Choose file!"
+msgstr ""
+
+#: options/optionsHtml.php:18
+msgid "wpForo User Custom Fields"
+msgstr ""
+
+#: options/tabs/account.php:13
+msgid "Account Settings Form"
+msgstr ""
+
+#: options/tabs/account.php:14
+msgid ""
+"This is the structure of user account settings form (My Profile > Account). "
+"Below you can see \"row panel(s)\". By default the account form consists of "
+"three rows of fields."
+msgstr ""
+
+#: options/tabs/account.php:16 options/tabs/register.php:16
+#: options/tabs/search.php:18
+msgid ""
+"Using [|], [||], [|||] buttons on top left side of each row panel you can "
+"set one, two and three column form layout for each row individually."
+msgstr ""
+
+#: options/tabs/account.php:17 options/tabs/register.php:17
+#: options/tabs/search.php:19
+msgid ""
+"Using [+] green button on top right side of row panel you can add a new row "
+"in form."
+msgstr ""
+
+#: options/tabs/account.php:18 options/tabs/profile.php:19
+#: options/tabs/register.php:18 options/tabs/search.php:20
+msgid ""
+"Drag and drop field panels to set fields sequence (order). Drag and drop row "
+"panels to set rows sequence (order)."
+msgstr ""
+
+#: options/tabs/account.php:19
+msgid ""
+"To add a new custom field in form, just drag and drop fields from Inactive "
+"Fields area below to Account Settings Form area."
+msgstr ""
+
+#: options/tabs/account.php:20 options/tabs/profile.php:21
+#: options/tabs/register.php:20 options/tabs/search.php:22
+msgid ""
+"To create a new custom field, you should navigate to User Fields Manager tab."
+msgstr ""
+
+#: options/tabs/account.php:94 options/tabs/fields.php:49
+#: options/tabs/profile.php:95 options/tabs/register.php:93
+#: options/tabs/search.php:96
+msgid "Reset"
+msgstr ""
+
+#: options/tabs/account.php:96 options/tabs/fields.php:51
+#: options/tabs/profile.php:97 options/tabs/register.php:95
+#: options/tabs/search.php:98
+msgid "Save Changes"
+msgstr ""
+
+#: options/tabs/account.php:103 options/tabs/account.php:109
+#: options/tabs/profile.php:104 options/tabs/profile.php:110
+#: options/tabs/register.php:102 options/tabs/search.php:105
+#: options/tabs/search.php:116
+msgid "Inactive Fields"
+msgstr ""
+
+#: options/tabs/account.php:104
+msgid ""
+"To remove custom fields, just drag and drop fields from Account Settings "
+"Form above to Inactive Fields area below."
+msgstr ""
+
+#: options/tabs/fields.php:15
+msgid "Tips:"
+msgstr ""
+
+#: options/tabs/fields.php:15
+msgid ""
+"Below you can find all profile fields. Fields with light blue background are "
+"the default fields. They cannot be deleted, but you can add/remove them from "
+"certain forms in next tabs (Register form, Account form, etc...). Please use "
+"the [+] button (below all fields) to add new fields. All custom created "
+"fields will be displayed with white background. Once you've created new "
+"fields and done all necessary customization you can navigate to next tabs "
+"for building Register, Account and Member Search Forms, as well as the User "
+"Profile page fields. The [reset] button removes all custom created fields "
+"and restores the default values of all fields."
+msgstr ""
+
+#: options/tabs/fields.php:16
+msgid "Note:"
+msgstr ""
+
+#: options/tabs/fields.php:16
+msgid ""
+"Here you can manage fields settings (label, description, placeholder, "
+"icons...) and add/remove custom fields. This is a field manager page. On "
+"other tabs you'll be able to use these fields to build certain form. All "
+"changes in fields settings made here, affects fields in all forms of next "
+"tabs."
+msgstr ""
+
+#: options/tabs/fields.php:33
+msgid "Add field"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:11
+msgid "Export Options"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:12
+msgid ""
+"Using this tool you can very easy migrate or backup/restore user fields and "
+"form configurations from one WordPress to another. You can backup and "
+"download each form settings individual."
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:19
+msgid "Export Custom Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:26
+msgid "Export Register Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:33
+msgid "Export Account Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:40
+msgid "Export Profile Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:47
+msgid "Export Search Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:57
+msgid "Download Options"
+msgstr ""
+
+#: options/tabs/layout-tools/export-options.php:66
+msgid "Backup Options"
+msgstr ""
+
+#: options/tabs/layout-tools/import-options.php:11
+#: options/tabs/layout-tools/import-options.php:67
+msgid "Import Options"
+msgstr ""
+
+#: options/tabs/layout-tools/import-options.php:12
+msgid ""
+"Here you can import custom field options. Using this section you can restore "
+"custom fields and forms configuration."
+msgstr ""
+
+#: options/tabs/layout-tools/import-options.php:19
+msgid "Import Custom Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/import-options.php:26
+msgid "Import Register Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/import-options.php:33
+msgid "Import Account Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/import-options.php:40
+msgid "Import Profile Fields"
+msgstr ""
+
+#: options/tabs/layout-tools/import-options.php:47
+msgid "Import Search Fields"
+msgstr ""
+
+#: options/tabs/profile.php:14
+msgid "User Profile Page"
+msgstr ""
+
+#: options/tabs/profile.php:15
+msgid ""
+"This is the structure of user profile page (My Profile). Using this tool you "
+"can manage profile page fields and layout. Below you can see \"row "
+"panel(s)\". By default the profile fields are displayed within three rows."
+msgstr ""
+
+#: options/tabs/profile.php:17
+msgid ""
+"Using [|], [||], [|||] buttons on top left side of each row panel you can "
+"set one, two and three column layout for each row individually."
+msgstr ""
+
+#: options/tabs/profile.php:18
+msgid ""
+"Using [+] green button on top right side of row panel you can add a new row "
+"in page layout."
+msgstr ""
+
+#: options/tabs/profile.php:20
+msgid ""
+"To add a new custom field in form, just drag and drop fields from Inactive "
+"Fields area below to User Profile Page area."
+msgstr ""
+
+#: options/tabs/profile.php:105
+msgid ""
+"To remove custom fields, just drag and drop fields from User Profile Page "
+"above to Inactive Fields area below."
+msgstr ""
+
+#: options/tabs/register.php:13
+msgid "Registration Form"
+msgstr ""
+
+#: options/tabs/register.php:14
+msgid ""
+"This is the structure of user registration form. Below you can see \"row "
+"panel(s)\". By default the registration form consists of one row (panel) "
+"with one column of fields."
+msgstr ""
+
+#: options/tabs/register.php:19
+msgid ""
+"To add a new custom field in form, just drag and drop fields from Inactive "
+"Fields area below to Registration Form area."
+msgstr ""
+
+#: options/tabs/register.php:103
+msgid ""
+"To remove custom fields, just drag and drop fields from Registration Form "
+"above to Inactive Fields area below."
+msgstr ""
+
+#: options/tabs/search.php:16
+msgid ""
+"This is the structure of forum Member Search Form. Below you can see \"row "
+"panel(s)\". By default the Member Search Form consists of one row with two "
+"columns of fields."
+msgstr ""
+
+#: options/tabs/search.php:21
+msgid ""
+"To add a new custom field in form, just drag and drop fields from Inactive "
+"Fields area below to Member Search Form area."
+msgstr ""
+
+#: options/tabs/search.php:106
+msgid ""
+"To remove custom fields, just drag and drop fields from Member Search Form "
+"above to Inactive Fields area below."
+msgstr ""
+
+#: options/tabs/search.php:109
+msgid ""
+"Member search type is : search, which means all fields will be grouped into "
+"one!"
+msgstr ""
+
+#: wpforo-ucf.php:57
+msgid ""
+"wpForo User Custom Fields requires wpForo to be installed and wpForo version "
+">= 1.4.0 !!!"
+msgstr ""
+
+#: wpforo-ucf.php:90
+msgid "Member Fields"
+msgstr ""
+
+#: wpforo-ucf.php:128
+msgid "Do you really want to reset options?"
+msgstr ""
+
+#: wpforo-ucf.php:129
+msgid "You can not delete default field(s)"
+msgstr ""
+
+#: wpforo-ucf.php:130
+msgid ""
+"Do you really want to delete a row? Users who has filled the fields in row "
+"will lose the data!"
+msgstr ""
+
+#: wpforo-ucf.php:131
+msgid ""
+"Do you really want to delete a field? Users who has filled this field in "
+"their account will lose the data!"
+msgstr ""
+
+#: wpforo-ucf.php:132
+msgid "At least one group must have \"edit\" permission!"
+msgstr ""
+
+#: wpforo-ucf.php:133
+msgid "At least one group must have \"view\" permission!"
+msgstr ""
+
+#: wpforo-ucf.php:134
+msgid "At least one user group must be checked!"
+msgstr ""
+
+#: wpforo-ucf.php:135
+msgid "Field with this name already exists!"
+msgstr ""
+
+#: wpforo-ucf.php:136
+msgid "Sorry, this field can not be inactive!"
+msgstr ""
+
+#: wpforo-ucf.php:137
+msgid "Do you really want to reset field values?"
+msgstr ""
+
+#: wpforo-ucf.php:163
+msgid "Minimum length is"
+msgstr ""
+
+#: wpforo-ucf.php:164
+msgid "Maximum length is"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo - User Custom Fields"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpforo.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows to can create custom Registration Form with custom fields, add custom "
+"fields in User Profile system and in Members Search form."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "gVectors Team (H. Martirosyan, G. Zakaryan)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://gvectors.com/"
+msgstr ""

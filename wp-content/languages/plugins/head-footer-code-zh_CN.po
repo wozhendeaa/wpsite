@@ -1,0 +1,76 @@
+# Translation of Plugins - Head &amp; Footer Code - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Head &amp; Footer Code - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-10 15:57:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Head &amp; Footer Code - Stable (latest release)\n"
+
+#: inc/settings.php:127 inc/settings.php:190 inc/settings.php:249
+msgid "Disable"
+msgstr "禁用"
+
+#: inc/settings.php:126 inc/settings.php:189 inc/settings.php:248
+msgid "Enable"
+msgstr "启用"
+
+#: inc/settings.php:219
+msgid "FOOTER Priority"
+msgstr "FOOTER(页脚)优先级 0-1000"
+
+#: inc/settings.php:97
+msgid "HEAD Priority"
+msgstr "HEAD(页眉)优先级 0-1000"
+
+#: inc/settings.php:623
+msgid "Donate"
+msgstr "捐赠"
+
+#: inc/settings.php:619
+msgid "Support"
+msgstr "支持"
+
+#: inc/settings.php:587
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限来访问此页面。"
+
+#: inc/settings.php:200
+msgid "FOOTER Code"
+msgstr "FOOTER(页脚)代码"
+
+#: inc/settings.php:78
+msgid "HEAD Code"
+msgstr "HEAD(页眉)代码"
+
+#: inc/auhfc-category-meta-box.php:86 inc/class-auhfc-meta-box.php:106
+msgid "Footer Code"
+msgstr "页脚代码"
+
+#: inc/auhfc-category-meta-box.php:68 inc/class-auhfc-meta-box.php:98
+msgid "Head Code"
+msgstr "页眉代码"
+
+#: inc/auhfc-category-meta-box.php:56 inc/class-auhfc-meta-box.php:92
+#: inc/settings.php:352
+msgid "Behavior"
+msgstr "行为(特性)(Behavior)"
+
+#. Plugin URI of the plugin
+msgid "https://urosevic.net/wordpress/plugins/head-footer-code/"
+msgstr "https://urosevic.net/wordpress/plugins/head-footer-code/"
+
+#. Plugin Name of the plugin
+#: inc/auhfc-category-meta-box.php:34 inc/class-auhfc-meta-box.php:31
+#: inc/helpers.php:46 inc/posts-custom-columns.php:37 templates/settings.php:18
+#: templates/settings.php:41
+msgid "Head & Footer Code"
+msgstr "页眉&页脚代码(Head & Footer Code)"
+
+#: inc/settings.php:407
+msgid "Post Types"
+msgstr "文章类型(Post Types)"

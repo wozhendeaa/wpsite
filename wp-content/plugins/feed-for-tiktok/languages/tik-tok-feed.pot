@@ -1,0 +1,323 @@
+# Copyright (C) 2021 Sabin Mehedin
+# This file is distributed under the same license as the Feed for TikTok plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Feed for TikTok 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tik-tok-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-06T17:11:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: tik-tok-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Feed for TikTok"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://sgmedia.ro/tik-tok-feed"
+msgstr ""
+
+#. Description of the plugin
+msgid "-"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sabin Mehedin"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sgmedia.ro"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:16
+msgid "Tik Tok"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:19
+msgid "General Settings"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:22
+msgid "Shortcode Feed Settings"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:25
+msgid "Shortcode Feed Style"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:28
+msgid "Shortcode User Profile Settings"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:31
+msgid "Shortcode User Profile Style"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:42
+msgid "Customer ID"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:44
+msgid "In order to use this plugin you need to connect to the API. Please fill in the field above with your customer id: c3b1852d-eca8-c81e-cdbe-45bf78930c2e"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:45
+msgid "Tik Tok Username"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:46
+msgid "Write without @. E.g.: sgmro"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:56
+#: admin/business/model/AdminPage.php:191
+msgid "Shortcode:"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:57
+msgid "Number of videos"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:61
+msgid "The number of videos we will display in the feed. Max: 20"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:62
+msgid "Carousel type"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:64
+msgid "Vertical"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:65
+msgid "Horizontally"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:68
+msgid "Show number of followers"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:70
+#: admin/business/model/AdminPage.php:77
+#: admin/business/model/AdminPage.php:83
+#: admin/business/model/AdminPage.php:97
+#: admin/business/model/AdminPage.php:217
+msgid "YES"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:71
+#: admin/business/model/AdminPage.php:78
+#: admin/business/model/AdminPage.php:84
+#: admin/business/model/AdminPage.php:98
+#: admin/business/model/AdminPage.php:218
+msgid "NO"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:74
+msgid "Tell me if you want to show the number of followers."
+msgstr ""
+
+#: admin/business/model/AdminPage.php:75
+#: admin/business/model/AdminPage.php:203
+msgid "Show follow button"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:81
+#: admin/business/model/AdminPage.php:115
+#: admin/business/model/AdminPage.php:193
+msgid "Show description"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:87
+msgid "Video Cover"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:88
+msgid "Type"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:90
+msgid "Both"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:91
+msgid "Static"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:92
+msgid "Dynamic"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:95
+msgid "Show number of views"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:102
+msgid "Video Popup"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:103
+msgid "Show date"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:105
+msgid "Show button"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:107
+#: admin/business/model/AdminPage.php:199
+msgid "Show likes"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:109
+msgid "Show comments"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:111
+msgid "Show shares"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:113
+#: admin/business/model/AdminPage.php:201
+msgid "Show views"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:126
+#: admin/business/model/AdminPage.php:239
+msgid "Follow button"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:127
+#: admin/business/model/AdminPage.php:139
+#: admin/business/model/AdminPage.php:240
+#: admin/business/model/AdminPage.php:260
+msgid "Color"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:129
+#: admin/business/model/AdminPage.php:249
+msgid "Background"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:132
+#: admin/business/model/AdminPage.php:259
+msgid "Image profile border"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:133
+#: admin/business/model/AdminPage.php:220
+msgid "Primary color"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:135
+#: admin/business/model/AdminPage.php:229
+msgid "Secondary color"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:138
+msgid "Arrows"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:141
+msgid "Size"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:146
+msgid "Video cover"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:147
+msgid "Color number of views"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:150
+msgid "Video modal"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:151
+msgid "Background for icons"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:153
+msgid "Color for icons"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:155
+msgid "Primary color for button"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:164
+msgid "Secondary color for button"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:173
+msgid "Third color for button"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:192
+msgid "General settings:"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:195
+msgid "Show following"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:197
+msgid "Show followers"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:214
+msgid "Wrapper"
+msgstr ""
+
+#: admin/business/model/AdminPage.php:215
+msgid "Show wrapper"
+msgstr ""
+
+#: admin/business/model/api/Authenticator.php:56
+msgid "You have successfully connected to the API."
+msgstr ""
+
+#: admin/TikTokFeedAdmin.php:45
+msgid "Connect to the API"
+msgstr ""
+
+#: admin/TikTokFeedAdmin.php:47
+msgid "To make the plugin functional, please complete your client id and make a connection to the API!"
+msgstr ""
+
+#: admin/TikTokFeedAdmin.php:49
+msgid "Please wait..."
+msgstr ""
+
+#: public/presentation/feed/item-modal.php:29
+msgid "View on tiktok"
+msgstr ""
+
+#: public/presentation/feed/items.php:22
+#: public/presentation/profile.php:37
+msgid "Followers"
+msgstr ""
+
+#: public/presentation/feed/items.php:25
+#: public/presentation/profile.php:58
+msgid "Follow"
+msgstr ""
+
+#: public/presentation/profile.php:30
+msgid "Following"
+msgstr ""
+
+#: public/presentation/profile.php:44
+msgid "Likes"
+msgstr ""
+
+#: public/presentation/profile.php:51
+msgid "Videos"
+msgstr ""

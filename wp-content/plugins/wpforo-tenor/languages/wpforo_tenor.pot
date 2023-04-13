@@ -1,0 +1,119 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: wpForo Tenor\n"
+"POT-Creation-Date: 2021-07-13 12:31+0400\n"
+"PO-Revision-Date: 2021-07-13 12:31+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpforotenor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/gvt-api-manager.php:158
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/gvt-api-manager.php:162
+msgid "An unknown error occurred"
+msgstr ""
+
+#: includes/gvt-api-manager.php:212
+msgid "Activate"
+msgstr ""
+
+#: includes/gvt-api-manager.php:283
+msgid "Disable auto-updates"
+msgstr ""
+
+#: includes/gvt-api-manager.php:287
+msgid "Enable auto-updates"
+msgstr ""
+
+#: includes/gvt-api-manager.php:328
+msgid "Disconnect License"
+msgstr ""
+
+#: includes/options.php:6
+msgid "Not Specified"
+msgstr ""
+
+#: includes/options.php:71
+msgid "Lazy loading items per step in the Gif picking dialog"
+msgstr ""
+
+#: includes/options.php:79
+msgid "Content Filtering Mode"
+msgstr ""
+
+#: includes/options.php:80
+msgid ""
+"If you do not specify a content filter, you will receive results from all "
+"possible content filters. <a href=\"https://tenor.com/gifapi/"
+"documentation#contentfilter\">Read more here</a>"
+msgstr ""
+
+#: includes/options.php:93
+msgid "Specify default language to interpret search string"
+msgstr ""
+
+#: includes/options.php:113
+msgid "Customize GIF categories with subcategories"
+msgstr ""
+
+#: includes/options.php:114
+msgid "Do not fill this field if you want to use the default Tenor categories."
+msgstr ""
+
+#: includes/options.php:115
+msgid ""
+"Category and subcategory tree with two depth. Use a new line for each item, "
+"and indent with either tab or space before subcategories."
+msgstr ""
+
+#: includes/options.php:130
+msgid "Update Options"
+msgstr ""
+
+#: includes/options.php:131
+msgid "Reset Options"
+msgstr ""
+
+#: wpforotenor.php:352
+msgid ""
+"wpForo Tenor Plugin Notice: Please activate required <a href=\"https://"
+"wpforo.com\">wpForo latest version</a> otherwise <b>wpForo Tenor</b> plugin "
+"will not work"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo Tenor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpforo.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows to embed Gifs from tenor.com."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "gVectors Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://gvectors.com/"
+msgstr ""

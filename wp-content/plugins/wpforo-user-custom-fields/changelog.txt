@@ -1,0 +1,1 @@
+New Option: Display default values for checkboxes, radios and dropdowns

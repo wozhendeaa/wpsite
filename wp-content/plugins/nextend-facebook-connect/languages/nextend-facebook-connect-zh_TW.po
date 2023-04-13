@@ -1,0 +1,3475 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nextend-facebook-connect\n"
+"POT-Creation-Date: 2022-11-04 08:59+0100\n"
+"PO-Revision-Date: 2023-04-05 23:18+0000\n"
+"Last-Translator: 低級黑 小明\n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_x:1,2c;esc_html_e\n"
+"X-Poedit-Flags-xgettext: --no-location\n"
+"X-Poedit-SearchPath-0: nextend-social-login-pro\n"
+"X-Poedit-SearchPath-1: nextend-facebook-connect\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.4; wp-6.2"
+
+msgid "What personal data we collect and why we collect it"
+msgstr "我們收集哪些個人數據以及我們收集這些數據的原因"
+
+#, php-format
+msgid ""
+"%1$s collects data when a visitor register, login or link the account with "
+"with any of the enabled social provider. It collects the following data: "
+"email address, name, social provider identifier and access token. Also it "
+"can collect profile picture and more fields with the Pro Addon's sync data "
+"feature."
+msgstr ""
+"%1$s 在訪客註冊、登錄或將帳戶鏈接到任何已啟用的社交提供商時收集數據。它收集以下數據：電子郵件地址、姓名、社交提供商標識符和訪問令牌。它還可以使用 "
+"Pro Addon 的同步數據功能收集個人資料圖片和更多字段。"
+
+msgid "Who we share your data with"
+msgstr "我們與誰共享您的數據"
+
+#, php-format
+msgid ""
+"%1$s stores the personal data on your site and does not share it with anyone "
+"except the access token which used for the authenticated communication with "
+"the social providers."
+msgstr "%1$s 將個人數據存儲在您的網站上，除用於與社交提供商進行身份驗證通信的訪問令牌外，不會與任何人共享。"
+
+msgid "Does the plugin share personal data with third parties"
+msgstr "該插件是否與第三方共享個人數據"
+
+#, php-format
+msgid ""
+"%1$s use the access token what the social provider gave to communicate with "
+"the providers to verify account and securely access personal data."
+msgstr "%1$s 使用社交提供商提供的訪問令牌與提供商進行通信，以驗證帳戶並安全地訪問個人數據。"
+
+msgid "How long we retain your data"
+msgstr "我們保留您的數據多長時間"
+
+#, php-format
+msgid ""
+"%1$s removes the collected personal data when the user deleted from "
+"WordPress."
+msgstr "當用戶從 WordPress 中刪除時，%1$s 會刪除收集的個人數據。"
+
+msgid "Does the plugin use personal data collected by others?"
+msgstr "該插件是否使用他人收集的個人數據？"
+
+#, php-format
+msgid ""
+"%1$s use the personal data collected by the social providers to create "
+"account on your site when the visitor authorize it."
+msgstr "%1$s 使用社交提供商收集的個人數據在訪問者授權後在您的網站上創建帳戶。"
+
+msgid "Does the plugin store things in the browser?"
+msgstr "插件是否在瀏覽器中存儲內容？"
+
+#, php-format
+msgid ""
+"Yes, %1$s must create a cookie for visitors who use the social login "
+"authorization flow. This cookie required for every provider to secure the "
+"communication and to redirect the user back to the last location."
+msgstr ""
+"是的，%1$s 必須為使用社交登錄授權流程的訪問者創建一個 cookie。每個提供商都需要此 cookie 來保護通信並將用戶重定向回上一個位置。"
+
+msgid "Does the plugin collect telemetry data, directly or indirectly?"
+msgstr "插件是直接還是間接收集遙測數據？"
+
+msgid "No"
+msgstr "不"
+
+msgid ""
+"Does the plugin enqueue JavaScript, tracking pixels or embed iframes from a "
+"third party?"
+msgstr "插件是否排隊 JavaScript、跟踪像素或嵌入來自第三方的 iframe？"
+
+msgid "User"
+msgstr "用戶"
+
+msgid "This provider doesn't support REST API calls!"
+msgstr "此提供商不支持 REST API 調用！"
+
+#, php-format
+msgid "%s needs json_decode function."
+msgstr "%s 需要 json_decode 函數。"
+
+msgid "Please contact your server administrator and ask for solution!"
+msgstr "請聯繫您的服務器管理員尋求解決方案！"
+
+msgid "Settings saved."
+msgstr "設置已保存。"
+
+msgid "The activation was successful"
+msgstr "激活成功"
+
+msgid "Deactivate completed."
+msgstr "停用完成。"
+
+msgid "Settings"
+msgstr "設置"
+
+#, php-format
+msgid "Unexpected response: %s"
+msgstr "意外響應：%s"
+
+#, php-format
+msgid ""
+"%s detected that your login url changed. You must update the Oauth redirect "
+"URIs in the related social applications."
+msgstr "%s 檢測到您的登錄 URL 已更改。您必須更新相關社交應用程序中的 Oauth 重定向 URI。"
+
+msgid "Fix Error"
+msgstr "解決錯誤"
+
+msgid "Oauth Redirect URI"
+msgstr "Oauth 重定向 URI"
+
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You need the Pro Addon to "
+"display Social Login buttons in %2$s login form!"
+msgstr "%1$s 檢測到您的站點上安裝了 %2$s。您需要 Pro Addon 才能在 %2$s 登錄表單中顯示社交登錄按鈕！"
+
+msgid "Dismiss and check Pro Addon"
+msgstr "關閉並檢查 Pro Addon"
+
+msgid "Dismiss"
+msgstr "解僱"
+
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You must set \"<b>Page for "
+"register flow</b>\" and \"<b>OAuth redirect uri proxy page</b>\" in %1$s to "
+"work properly."
+msgstr ""
+"%1$s 檢測到您的站點上安裝了 %2$s。您必須在 %1$s 中設置“<b>註冊流程頁面</b>”和“<b>OAuth 重定向 uri 代理頁面</b>"
+"”才能正常工作。"
+
+msgid "Fix now"
+msgstr "現在就修"
+
+msgid "Activate your Pro Addon"
+msgstr "激活您的 Pro Addon"
+
+msgid ""
+"To be able to use the Pro features, you need to activate Nextend Social "
+"Login Pro Addon. You can do this by clicking on the Activate button below "
+"then select the related purchase."
+msgstr ""
+"為了能夠使用 Pro 功能，您需要激活 Nextend Social Login Pro "
+"Addon。您可以通過單擊下面的“激活”按鈕然後選擇相關購買來執行此操作。"
+
+msgid "Activate"
+msgstr "啟用"
+
+msgid "License key"
+msgstr "註冊碼"
+
+msgid "OAuth proxy page"
+msgstr "OAuth 代理頁面"
+
+msgid "Register flow page"
+msgstr "註冊流量頁面"
+
+#, php-format
+msgid ""
+"<strong><u>Warning</u></strong>: You are using <b>%1$s</b>! Depending on "
+"your %1$s configuration the Redirect URI can be different. For more "
+"information please check our %2$s %1$s compatibility tutorial%3$s!"
+msgstr ""
+"<strong><u>警告</u></strong>：您正在使用 <b>%1$s</b>！根據您的 %1$s 配置，重定向 URI "
+"可能不同。如需更多信息，請查看我們的 %2$s %1$s 兼容性教程%3$s！"
+
+#, php-format
+msgid ""
+"<p><strong><u>Warning</u></strong>: Providers change the App setup process "
+"quite often, which means some steps below might not be accurate. If you see "
+"significant difference in the written instructions and what you see at the "
+"provider, feel free to %1$sreport it%2$s, so we can check and update the "
+"instructions.<br><strong>Last updated:</strong> %3$s.</p>"
+msgstr ""
+"<p><strong><u>警告</u></strong>"
+"：提供商經常更改應用程序設置過程，這意味著以下某些步驟可能不准確。如果您發現書面說明與您在提供者處看到的有顯著差異，請隨時%1$報告%2$s，以便我們檢查和更新說明。<br"
+"><strong>最後更新：</強> %3$s。</p>"
+
+msgid "You have logged in successfully."
+msgstr "您已成功登錄。"
+
+msgid "Login label"
+msgstr "登錄標籤"
+
+msgid "Reset to default"
+msgstr "重置為默認"
+
+msgid "Register label"
+msgstr "註冊標籤"
+
+msgid "Link label"
+msgstr "鏈接標籤"
+
+msgid "Unlink label"
+msgstr "取消鏈接標籤"
+
+msgid "Default button"
+msgstr "默認按鈕"
+
+msgid "Use custom button"
+msgstr "使用自定義按鈕"
+
+#, php-format
+msgid "Use the %s in your custom button's code to make the label show up."
+msgstr "在自定義按鈕的代碼中使用 %s 來顯示標籤。"
+
+msgid "Icon button"
+msgstr "圖標按鈕"
+
+msgid "Save Changes"
+msgstr "保存更改"
+
+msgid "Getting Started"
+msgstr "入門"
+
+msgid "Buttons"
+msgstr "鈕扣"
+
+msgid "Sync data"
+msgstr "同步數據"
+
+msgid "Usage"
+msgstr "用法"
+
+msgid "Other settings"
+msgstr "其他設置"
+
+msgid "Username prefix on register"
+msgstr "註冊時的用戶名前綴"
+
+msgid "Fallback username prefix on register"
+msgstr "註冊後備用戶名前綴"
+
+msgid "Used when username is invalid or not stored"
+msgstr "當用戶名無效或未存儲時使用"
+
+msgid "Terms and conditions"
+msgstr "條款和條件"
+
+#, php-format
+msgid "Override global \"%1$s\""
+msgstr "覆蓋全局“%1$s”"
+
+msgid "PRO settings"
+msgstr "專業設置"
+
+msgid "Ask E-mail on registration"
+msgstr "註冊時詢問郵箱"
+
+msgid "Never"
+msgstr "絕不"
+
+msgid "When email is not provided or empty"
+msgstr "當電子郵件未提供或為空時"
+
+msgid "Always"
+msgstr "總是"
+
+msgid "Ask Username on registration"
+msgstr "註冊時詢問用戶名"
+
+msgid "Never, generate automatically"
+msgstr "從不，自動生成"
+
+msgid "When username is empty or invalid"
+msgstr "當用戶名為空或無效時"
+
+msgid "Ask Password on registration"
+msgstr "註冊時詢問密碼"
+
+msgid "Automatically connect the existing account upon registration"
+msgstr "註冊後自動連接現有帳戶"
+
+msgid "Disabled"
+msgstr "殘疾人"
+
+msgid "Automatic, based on email address"
+msgstr "自動，基於電子郵件地址"
+
+msgid "Disable login for the selected roles"
+msgstr "禁用所選角色的登錄"
+
+msgid "Default roles for user who registered with this provider"
+msgstr "向該提供商註冊的用戶的默認角色"
+
+msgid "Default"
+msgstr "默認"
+
+msgid "Register"
+msgstr "登記"
+
+msgid "Login"
+msgstr "登錄"
+
+msgid "Link"
+msgstr "關聯"
+
+msgid "Store in meta key"
+msgstr "存儲在元密鑰中"
+
+msgid "Shortcode"
+msgstr "短代碼"
+
+msgid "Important!"
+msgstr "重要的！"
+
+msgid "The shortcodes are only rendered for users who haven't logged in yet!"
+msgstr "短代碼只為尚未登錄的用戶呈現！"
+
+msgid "See the full list of shortcode parameters."
+msgstr "查看簡碼參數的完整列表。"
+
+msgid "Simple link"
+msgstr "簡單鏈接"
+
+msgid "Click here to login or register"
+msgstr "請點擊這裡登錄或註冊"
+
+msgid "Image button"
+msgstr "圖像按鈕"
+
+msgid "Image url"
+msgstr "圖片網址"
+
+msgid "Debug"
+msgstr "調試"
+
+msgid "Test network connection with providers"
+msgstr "測試與供應商的網絡連接"
+
+msgid "You don't have cURL support, please enable it in php.ini!"
+msgstr "您沒有 cURL 支持，請在 php.ini 中啟用它！"
+
+#, php-format
+msgid "Test %1$s connection"
+msgstr "測試 %1$s 連接"
+
+msgid "Fix Oauth Redirect URIs"
+msgstr "修復 Oauth 重定向 URI"
+
+msgid "Every Oauth Redirect URI seems fine"
+msgstr "每個 Oauth 重定向 URI 似乎都很好"
+
+msgid "Got it"
+msgstr "知道了"
+
+msgid "Global Settings"
+msgstr "全局設置"
+
+msgid "General"
+msgstr "一般的"
+
+msgid "Privacy"
+msgstr "隱私"
+
+msgid "Login Form"
+msgstr "登錄表單"
+
+msgid "Comment"
+msgstr "評論"
+
+msgid "Custom Actions"
+msgstr "自定義操作"
+
+msgid "Docs"
+msgstr "文檔"
+
+msgid "Support"
+msgstr "支持"
+
+msgid "Pro Addon"
+msgstr "臨插件"
+
+msgid "Providers"
+msgstr "供應商"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid ""
+"You don’t have sufficient permissions to install and activate plugins. "
+"Please contact your site’s administrator!"
+msgstr "您沒有足夠的權限來安裝和激活插件。請聯繫您網站的管理員！"
+
+msgid "Activate Pro Addon"
+msgstr "激活專業插件"
+
+msgid ""
+"Pro Addon is installed but not activated. To be able to use the Pro features,"
+" you need to activate it."
+msgstr "Pro Addon 已安裝但未激活。為了能夠使用 Pro 功能，您需要激活它。"
+
+msgid "Deactivate Pro Addon"
+msgstr "停用 Pro Addon"
+
+msgid "Pro Addon is not installed"
+msgstr "Pro Addon 未安裝"
+
+msgid ""
+"To access the Pro features, you need to install and activate the Pro Addon."
+msgstr "要訪問 Pro 功能，您需要安裝並激活 Pro Addon。"
+
+#, php-format
+msgid "Install %s now"
+msgstr "現在安裝 %s"
+
+msgid "Install Pro Addon"
+msgstr "安裝 Pro 插件"
+
+msgid "Activating..."
+msgstr "激活..."
+
+msgid "Not compatible!"
+msgstr "不兼容！"
+
+#, php-format
+msgid ""
+"%1$s and %2$s are not compatible. Please update %1$s to version %3$s or "
+"newer."
+msgstr "%1$s 和 %2$s 不兼容。請將 %1$s 更新到版本 %3$s 或更新版本。"
+
+#, php-format
+msgid "Update %s"
+msgstr "更新"
+
+#, php-format
+msgid ""
+"%1$s and %2$s are not compatible. Please update %2$s to version %3$s or "
+"newer."
+msgstr "%1$s 和 %2$s 不兼容。請將 %2$s 更新到版本 %3$s 或更新版本。"
+
+msgid "Update Pro Addon"
+msgstr "更新專業插件"
+
+msgid "Pro Addon is installed and activated"
+msgstr "Pro Addon 已安裝並激活"
+
+msgid ""
+"You installed and activated the Pro Addon. If you don’t want to use it "
+"anymore, you can deactivate using the button below."
+msgstr "您安裝並激活了 Pro Addon。如果您不想再使用它，可以使用下面的按鈕停用。"
+
+msgid "Get Pro Addon to unlock more features"
+msgstr "獲取 Pro Addon 以解鎖更多功能"
+
+#, php-format
+msgid ""
+"The features below are available in %s Pro Addon. Get it today and tweak the "
+"awesome settings."
+msgstr "以下功能在 %s Pro Addon 中可用。立即獲取並調整令人敬畏的設置。"
+
+msgid ""
+"If you already have a license, you can Authorize your Pro Addon. Otherwise "
+"you can purchase it using the button below."
+msgstr "如果您已經擁有許可證，則可以授權您的 Pro Addon。否則，您可以使用下面的按鈕購買它。"
+
+msgid "Buy Pro Addon"
+msgstr "購買專業插件"
+
+msgid "Authorize Pro Addon"
+msgstr "授權 Pro Addon"
+
+msgid "Pro Addon is not activated"
+msgstr "Pro Addon 未激活"
+
+msgid ""
+"To be able to use the Pro features, you need to install and activate the "
+"Nextend Social Login Pro Addon."
+msgstr "為了能夠使用 Pro 功能，您需要安裝並激活 Nextend Social Login Pro Addon。"
+
+#, php-format
+msgid ""
+"%1$s detected that you have providers configured but none of them are "
+"enabled. To display any social buttons, please make sure you have at least "
+"one provider enabled!"
+msgstr "%1$s 檢測到您配置了提供程序，但沒有啟用它們。要顯示任何社交按鈕，請確保您至少啟用了一個提供商！"
+
+msgid "Not Available"
+msgstr "無法使用"
+
+msgid "Not Configured"
+msgstr "未配置"
+
+msgid "Not Verified"
+msgstr "未經審核的"
+
+msgid "Enabled"
+msgstr "啟用"
+
+msgid "Upgrade Now"
+msgstr "現在升級"
+
+msgid "Verify Settings"
+msgstr "驗證設置"
+
+msgid "Enable"
+msgstr "使能夠"
+
+msgid "Disable"
+msgstr "停用"
+
+msgid "Stay Updated"
+msgstr "保持更新"
+
+msgid ""
+"Receive info on the latest plugin updates and social provider related "
+"changes."
+msgstr "接收有關最新插件更新和社交提供商相關更改的信息。"
+
+msgid "Enter your email address"
+msgstr "輸入你的電子郵箱地址"
+
+msgid "Subscribe"
+msgstr "訂閱"
+
+msgid "Saving..."
+msgstr "保存..."
+
+msgid "Saving failed"
+msgstr "保存失敗"
+
+msgid "Order Saved"
+msgstr "訂單已保存"
+
+msgid "Successfully subscribed!"
+msgstr "訂閱成功！"
+
+msgid ""
+"We'll be bringing you all the latest news and updates about Social Login - "
+"right to your inbox."
+msgstr "我們將為您帶來有關社交登錄的所有最新消息和更新 - 就在您的收件箱中。"
+
+msgid "The entered email address is invalid!"
+msgstr "輸入的郵箱地址無效！"
+
+msgid "Rate your experience!"
+msgstr "評價您的體驗！"
+
+msgid "Hated it"
+msgstr "討厭它"
+
+msgid "Disliked it"
+msgstr "不喜歡"
+
+msgid "It was ok"
+msgstr "這個還行吧"
+
+msgid "Liked it"
+msgstr "喜歡它"
+
+msgid "Loved it"
+msgstr "愛它"
+
+msgid "Please Leave a Review"
+msgstr "請發表評論"
+
+msgid ""
+"If you are happy with <b>Nextend Social Login</b> and can take a minute "
+"please leave us a review. It will be a tremendous help for us!"
+msgstr "如果您對 <b>Nextend 社交登錄</b> 感到滿意並且可以花一點時間，請給我們留下評論。對我們來說會有很大的幫助！"
+
+msgid "Ok, you deserve it"
+msgstr "好的，你應得的"
+
+msgid "Register form"
+msgstr "登記表"
+
+msgid "No Connect button"
+msgstr "無連接按鈕"
+
+msgid "Connect button before register"
+msgstr "註冊前連接按鈕"
+
+msgid "Action:"
+msgstr "行動："
+
+msgid "Connect button before account details"
+msgstr "帳戶詳細信息前的連接按鈕"
+
+msgid "Connect button after register"
+msgstr "註冊後連接按鈕"
+
+msgid "Register button style"
+msgstr "註冊按鈕樣式"
+
+msgid "Fullwidth"
+msgstr "全屏寬度"
+
+msgid "Icon"
+msgstr "圖標"
+
+msgid "Register layout"
+msgstr "寄存器佈局"
+
+msgid "Below"
+msgstr "以下"
+
+msgid "Below with separator"
+msgstr "下面有分隔符"
+
+msgid "Above"
+msgstr "多於"
+
+msgid "Above with separator"
+msgstr "上面帶分隔符"
+
+msgid "Sidebar Login form"
+msgstr "側邊欄登錄表單"
+
+msgid "Hide login buttons"
+msgstr "隱藏登錄按鈕"
+
+msgid "Show login buttons"
+msgstr "顯示登錄按鈕"
+
+msgid ""
+"Some themes that use BuddyPress, display the social buttons twice in the "
+"same login form. This option can disable the one for: <b>"
+"bp_sidebar_login_form action</b>.  "
+msgstr ""
+"一些使用 BuddyPress 的主題，在同一個登錄表單中顯示兩次社交按鈕。此選項可以禁用以下選項：<b>bp_sidebar_login_form "
+"操作</b>。"
+
+msgid "Login form"
+msgstr "登錄表單"
+
+msgid "Login button style"
+msgstr "登錄按鈕樣式"
+
+msgid "Login layout"
+msgstr "登錄佈局"
+
+msgid "Social accounts tab"
+msgstr "社交賬戶選項卡"
+
+msgid "Hide"
+msgstr "隱藏"
+
+msgid "Show"
+msgstr "展示"
+
+#, php-format
+msgid ""
+"Creates a new tab called %s, where the Link and Unlink buttons will be "
+"displayed."
+msgstr "創建一個名為 %s 的新選項卡，其中將顯示鏈接和取消鏈接按鈕。"
+
+msgid "Social Accounts"
+msgstr "社交賬號"
+
+msgid "Button alignment"
+msgstr "按鈕對齊"
+
+msgid "Left"
+msgstr "左邊"
+
+msgid "Center"
+msgstr "中心"
+
+msgid "Right"
+msgstr "正確的"
+
+msgid "Login button"
+msgstr "登錄按鈕"
+
+#, php-format
+msgid "You need to turn on the ' %1$s > %2$s > %3$s ' for this feature to work"
+msgstr "您需要打開“%1$s > %2$s > %3$s”才能使用此功能"
+
+msgid "Discussion"
+msgstr "討論"
+
+msgid "Users must be registered and logged in to comment"
+msgstr "用戶必須註冊並登錄才能發表評論"
+
+msgid "Button style"
+msgstr "按鈕樣式"
+
+#, php-format
+msgid "%1$s Add your custom actions here. One action per line."
+msgstr "%1$s 在此處添加您的自定義操作。每行一個動作。"
+
+msgid "Usage:"
+msgstr "用法："
+
+#, php-format
+msgid ""
+"%1$s The HTML of the social buttons will be added at the place where the "
+"action is fired."
+msgstr "%1$s 社交按鈕的 HTML 將添加到觸發操作的位置。"
+
+msgid "Important:"
+msgstr "重要的："
+
+#, php-format
+msgid ""
+"If you %1$sexperience problems%2$s because of this feature, you can disable "
+"it by defining the %3$s constant."
+msgstr "如果您 %1$s 遇到問題 %2$s 因為這個功能，您可以通過定義 %3$s 常量來禁用它。"
+
+msgid "Button layout"
+msgstr "按鈕佈局"
+
+msgid "Default with top separator"
+msgstr "默認帶頂部分隔符"
+
+msgid "Default with bottom separator"
+msgstr "默認帶底部分隔符"
+
+msgid "No Connect button in Login form"
+msgstr "登錄表單中沒有連接按鈕"
+
+msgid "Connect button on"
+msgstr "連接按鈕開啟"
+
+msgid "Login form button style"
+msgstr "登錄表單按鈕樣式"
+
+msgid "No Connect button in Register form"
+msgstr "註冊表格中沒有連接按鈕"
+
+msgid "Register form button style"
+msgstr "註冊表單按鈕樣式"
+
+msgid "Checkout form"
+msgstr "結帳表格"
+
+msgid "No Connect button in Checkout form"
+msgstr "結帳表單中沒有連接按鈕"
+
+msgid "Checkout form button style"
+msgstr "結帳表單按鈕樣式"
+
+msgid "Checkout layout"
+msgstr "結帳佈局"
+
+msgid "Target window"
+msgstr "目標窗口"
+
+msgid "Prefer popup"
+msgstr "喜歡彈出窗口"
+
+msgid "Prefer new tab"
+msgstr "喜歡新標籤"
+
+msgid "Prefer same window"
+msgstr "喜歡同一窗口"
+
+msgid "Registration notification sent to"
+msgstr "註冊通知發送至"
+
+msgid "WordPress default"
+msgstr "WordPress默認"
+
+msgid "Nobody"
+msgstr "沒有人"
+
+msgid "Admin"
+msgstr "行政"
+
+msgid "User and Admin"
+msgstr "用戶和管理員"
+
+msgid "Unlink"
+msgstr "取消鏈接"
+
+msgid "Allow Social account unlink"
+msgstr "允許取消關聯社交帳戶"
+
+msgid "Show linked providers"
+msgstr "顯示鏈接的提供商"
+
+#, php-format
+msgid "Providers linked to the account will appear in the %1$s."
+msgstr "鏈接到該帳戶的提供商將出現在 %1$s 中。"
+
+msgid "Users table"
+msgstr "用戶表"
+
+msgid "Disable Admin bar for roles"
+msgstr "禁用角色的管理欄"
+
+msgid "Debug mode"
+msgstr "調試模式"
+
+msgid "Bypass cache on redirect"
+msgstr "重定向繞過緩存"
+
+#, php-format
+msgid ""
+"Enabling this option will add a GET parameter to the URL where we redirect "
+"after a successful registration or login with social login. %1$sLearn "
+"more%2$s."
+msgstr "啟用此選項會將 GET 參數添加到我們在成功註冊或使用社交登錄登錄後重定向的 URL。 %1$s了解更多%2$s。"
+
+msgid "Page for register flow"
+msgstr "註冊流程頁面"
+
+msgid "None"
+msgstr "沒有任何"
+
+msgid ""
+"This setting is used when you request additional data from the users (such "
+"as email address) and to display the Terms and conditions."
+msgstr "當您向用戶請求其他數據（例如電子郵件地址）並顯示條款和條件時，將使用此設置。"
+
+#, php-format
+msgid ""
+"%2$s First create a new page and insert the following shortcode: %1$s then "
+"select this page above"
+msgstr "%2$s 首先創建一個新頁面並插入以下短代碼：%1$s 然後選擇上面的這個頁面"
+
+#, php-format
+msgid ""
+"%1$s You won't be able to reach the selected page unless a social "
+"login/registration happens."
+msgstr "%1$s 除非進行社交登錄/註冊，否則您將無法訪問所選頁面。"
+
+msgid "OAuth redirect uri proxy page"
+msgstr "OAuth 重定向 uri 代理頁面"
+
+msgid ""
+"You can use this setting when wp-login.php page is not available to handle "
+"the OAuth flow."
+msgstr "當 wp-login.php 頁面不可用於處理 OAuth 流程時，您可以使用此設置。"
+
+#, php-format
+msgid "%1$s First create a new page then select this page above."
+msgstr "%1$s 首先創建一個新頁面，然後在上面選擇這個頁面。"
+
+msgid "Prevent external redirect overrides"
+msgstr "防止外部重定向覆蓋"
+
+msgid "Disable external redirects"
+msgstr "禁用外部重定向"
+
+msgid "Default redirect url"
+msgstr "默認重定向 url"
+
+msgid "for Login"
+msgstr "登錄"
+
+msgid "for Register"
+msgstr "註冊"
+
+msgid "Fixed redirect url"
+msgstr "固定重定向網址"
+
+msgid "Blacklisted redirects"
+msgstr "列入黑名單的重定向"
+
+msgid "If you want to blacklist redirect url params. One pattern per line."
+msgstr "如果你想將重定向 url 參數列入黑名單。每行一個模式。"
+
+msgid "Support login restrictions"
+msgstr "支持登錄限制"
+
+#, php-format
+msgid "Please visit to our %1$s to check what plugins are supported!"
+msgstr "請訪問我們的 %1$s 查看支持的插件！"
+
+msgid "Display avatars in \"All media items\""
+msgstr "在“所有媒體項”中顯示頭像"
+
+msgid ""
+"Enabling this option can speed up loading images in Media Library - Grid "
+"view!"
+msgstr "啟用此選項可以加快在媒體庫 - 網格視圖中加載圖像的速度！"
+
+msgid "Membership"
+msgstr "會籍"
+
+msgid "Allow registration with Social login."
+msgstr "允許使用社交登錄註冊。"
+
+msgid "Custom label for register buttons"
+msgstr "註冊按鈕的自定義標籤"
+
+#, php-format
+msgid ""
+"Set a custom label for the social buttons in registration forms and for "
+"shortcodes with %1$s parameter set to %2$s.<br>The register specific labels "
+"can be modified at the Buttons tab of each provider."
+msgstr ""
+"為註冊表單中的社交按鈕和將 %1$s 參數設置為 %2$s 的短代碼設置自定義標籤。<br>可以在每個提供商的“按鈕”選項卡中修改特定於寄存器的標籤。"
+
+msgid "Redirect overlay"
+msgstr "重定向覆蓋"
+
+msgid "No overlay"
+msgstr "無覆蓋"
+
+msgid "Display overlay"
+msgstr "顯示疊加"
+
+msgid "Display overlay with spinner"
+msgstr "顯示帶有微調器的疊加層"
+
+msgid "Display overlay with spinner and message"
+msgstr "顯示帶有微調器和消息的疊加層"
+
+msgid ""
+"You can display an overlay on your site when we start the redirect after the "
+"authentication."
+msgstr "當我們在身份驗證後開始重定向時，您可以在您的網站上顯示覆蓋。"
+
+#, php-format
+msgid "%1$s The overlay won't be displayed if the %2$s setting is set to %3$s!"
+msgstr "%1$s 如果 %2$s 設置為 %3$s，則不會顯示疊加層！"
+
+msgid "Note:"
+msgstr "筆記："
+
+msgid "Below and floating"
+msgstr "下方和浮動"
+
+msgid "Embedded Login form button style"
+msgstr "嵌入式登錄表單按鈕樣式"
+
+msgid "Embedded Login layout"
+msgstr "嵌入式登錄佈局"
+
+msgid "Embedded login form button alignment"
+msgstr "嵌入式登錄表單按鈕對齊"
+
+msgid "Registration Form"
+msgstr "報名表格"
+
+msgid "Embedded login form"
+msgstr "嵌入式登錄表單"
+
+msgid "Sign Up form"
+msgstr "註冊表格"
+
+msgid "No Connect button in Sign Up form"
+msgstr "註冊表格中沒有連接按鈕"
+
+msgid "Sign Up form button style"
+msgstr "註冊表單按鈕樣式"
+
+msgid "Sign Up layout"
+msgstr "註冊佈局"
+
+msgid "Account details"
+msgstr "帳戶詳細資料"
+
+msgid "No link buttons"
+msgstr "沒有鏈接按鈕"
+
+msgid "Link buttons after account details"
+msgstr "帳戶詳細信息後的鏈接按鈕"
+
+msgid ""
+"By clicking Register, you accept our <a href=\"#privacy_policy_url\" "
+"target=\"_blank\">Privacy Policy</a>"
+msgstr ""
+"點擊註冊即表示您接受我們的<a href=\"#privacy_policy_url\" target=\"_blank\">隱私政策</a>"
+
+msgid "Store"
+msgstr "店鋪"
+
+msgid "First and last name"
+msgstr "名字和姓氏"
+
+msgid "When not enabled, username will be randomly generated."
+msgstr "未啟用時，將隨機生成用戶名。"
+
+msgid "Email"
+msgstr "電子郵件"
+
+msgid "When not enabled, email will be empty."
+msgstr "未啟用時，電子郵件將為空。"
+
+msgid "Avatar"
+msgstr "頭像"
+
+msgid "Access token"
+msgstr "訪問令牌"
+
+msgid "Register Form"
+msgstr "註冊表格"
+
+msgid "No Connect button in login form"
+msgstr "登錄表單中沒有連接按鈕"
+
+msgid "No Connect button in register form"
+msgstr "註冊表中沒有連接按鈕"
+
+msgid "Billing form"
+msgstr "賬單形式"
+
+msgid "No Connect button in billing form"
+msgstr "計費表單中沒有連接按鈕"
+
+msgid "Billing layout"
+msgstr "計費佈局"
+
+msgid "Default with separator"
+msgstr "默認帶分隔符"
+
+msgid "Checkout for WooCommerce"
+msgstr "WooCommerce結帳"
+
+msgid "No Connect button in \"Checkout for WooCommerce\" form"
+msgstr "“WooCommerce 結帳”表單中沒有連接按鈕"
+
+msgid "Checkout for WooCommerce layout"
+msgstr "結帳 WooCommerce 佈局"
+
+msgid "No Connect buttons in account details form"
+msgstr "帳戶詳細信息表單中沒有連接按鈕"
+
+msgid "Link buttons on"
+msgstr "鏈接按鈕打開"
+
+msgid "Email template for registration"
+msgstr "用於註冊的電子郵件模板"
+
+msgid "WordPress default notification"
+msgstr "WordPress 默認通知"
+
+msgid "WooCommerce registration notification"
+msgstr "WooCommerce 註冊通知"
+
+#, php-format
+msgid ""
+"Defines whether the registration with %1$s will send the same registration "
+"notification that %2$s does, instead of the %3$s default one."
+msgstr "定義向 %1$s 註冊是否會發送與 %2$s 相同的註冊通知，而不是 %3$s 默認通知。"
+
+#, php-format
+msgid "Network connection successful: %1$s"
+msgstr "網絡連接成功：%1$s"
+
+#, php-format
+msgid "Network connection failed: %1$s"
+msgstr "網絡連接失敗：%1$s"
+
+msgid ""
+"Please contact with your hosting provider to resolve the network issue "
+"between your server and the provider."
+msgstr "請與您的託管服務提供商聯繫以解決您的服務器與提供商之間的網絡問題。"
+
+msgid "Manage Avatar"
+msgstr "管理頭像"
+
+#, php-format
+msgid "Avatar <span class=\"count\">(%s)</span>"
+msgid_plural "Avatar <span class=\"count\">(%s)</span>"
+msgstr[0] "頭像<span class=\"count\">（%s）</span>"
+
+msgid "Invalid URL Provided."
+msgstr "提供的 URL 無效。"
+
+msgid "Could not create Temporary file."
+msgstr "無法創建臨時文件。"
+
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s ‹ %2$s — WordPress"
+
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+msgid "Powered by WordPress"
+msgstr "由 WordPress 提供支持"
+
+#, php-format
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr "← 返回 %s"
+
+msgid "Your configuration needs to be verified"
+msgstr "您的配置需要驗證"
+
+msgid ""
+"Before you can start letting your users register with your app it needs to "
+"be tested. This test makes sure that no users will have troubles with the "
+"login and registration process. <br> If you see error message in the popup "
+"check the copied ID and secret or the app itself. Otherwise your settings "
+"are fine."
+msgstr ""
+"在開始讓用戶註冊您的應用程序之前，需要對其進行測試。此測試可確保沒有用戶在登錄和註冊過程中遇到麻煩。 <br> "
+"如果您在彈出窗口中看到錯誤消息，請檢查復制的 ID 和密碼或應用程序本身。否則你的設置沒問題。"
+
+msgid "Please save your changes to verify settings."
+msgstr "請保存您的更改以驗證設置。"
+
+msgid "Works Fine"
+msgstr "工作正常"
+
+#, php-format
+msgid ""
+"This provider is currently disabled, which means that users can’t register "
+"or login via their %s account."
+msgstr "該提供程序當前被禁用，這意味著用戶無法通過他們的 %s 帳戶註冊或登錄。"
+
+#, php-format
+msgid ""
+"This provider works fine, but you can test it again. If you don’t want to "
+"let users register or login with %s anymore you can disable it."
+msgstr "該提供程序工作正常，但您可以再次測試它。如果您不想讓用戶再使用 %s 註冊或登錄，您可以禁用它。"
+
+#, php-format
+msgid ""
+"This provider is currently enabled, which means that users can register or "
+"login via their %s account."
+msgstr "此提供程序當前已啟用，這意味著用戶可以通過他們的 %s 帳戶註冊或登錄。"
+
+msgid "Verify Settings Again"
+msgstr "再次驗證設置"
+
+msgid "Please save your changes before verifying settings."
+msgstr "請在驗證設置之前保存您的更改。"
+
+msgid "Authentication successful"
+msgstr "認證成功"
+
+msgid "Authentication error"
+msgstr "授權錯誤"
+
+msgid "Unlink successful."
+msgstr "解綁成功。"
+
+msgid "Unlink is not allowed!"
+msgstr "取消鏈接是不允許的！"
+
+msgid "The test was successful"
+msgstr "測試成功"
+
+msgid "Authentication failed"
+msgstr "認證失敗"
+
+msgid "Identifier"
+msgstr "標識符"
+
+msgid "Profile Picture"
+msgstr "頭像"
+
+#, php-format
+msgid ""
+"Your %1$s account is successfully linked with your account. Now you can sign "
+"in with %2$s easily."
+msgstr "您的 %1$s 帳戶已成功鏈接到您的帳戶。現在您可以輕鬆地使用 %2$s 登錄。"
+
+#, php-format
+msgid ""
+"You have already linked a(n) %s account. Please unlink the current and then "
+"you can link another %s account."
+msgstr "您已經關聯了 (n) 個 %s 帳戶。請取消鏈接當前帳戶，然後您可以鏈接另一個 %s 帳戶。"
+
+#, php-format
+msgid "This %s account is already linked to another user."
+msgstr "此 %s 帳戶已鏈接到另一個用戶。"
+
+msgid "User registration is currently not allowed."
+msgstr "現在不允許用戶註冊。"
+
+#, php-format
+msgid ""
+"We found a user with your %1$s email address. Unfortunately it belongs to a "
+"different %1$s account, so we are unable to log you in. Please use the "
+"linked %1$s account or log in with your password!"
+msgstr ""
+"我們找到了一個使用您的 %1$s 電子郵件地址的用戶。很遺憾，它屬於不同的 %1$s 帳戶，因此我們無法讓您登錄。請使用鏈接的 %1$s "
+"帳戶或使用您的密碼登錄！"
+
+msgid "Register For This Site"
+msgstr "註冊本網站"
+
+msgctxt "Register form submit button label"
+msgid "Register"
+msgstr "登記"
+
+#, php-format
+msgid "%1$s requires PHP version %2$s+, plugin is currently NOT ACTIVE."
+msgstr "%1$s 需要 PHP 版本 %2$s+，插件當前未激活。"
+
+#, php-format
+msgid ""
+"%1$s requires WordPress version %2$s+. Because you are using an earlier "
+"version, the plugin is currently NOT ACTIVE."
+msgstr "%1$s 需要 WordPress 版本 %2$s+。因為您使用的是早期版本，所以該插件當前處於非活動狀態。"
+
+#, php-format
+msgid "Please update %1$s to version %2$s or newer."
+msgstr "請將 %1$s 更新到版本 %2$s 或更新版本。"
+
+msgid "Update now!"
+msgstr "現在更新！"
+
+msgid "Hold On"
+msgstr "堅持，稍等"
+
+msgid "You are being redirected to another page,<br>it may take a few seconds."
+msgstr "您正在被重定向到另一個頁面，<br>這可能需要幾秒鐘。"
+
+msgid "Social Login"
+msgstr "社交登錄"
+
+msgid "Button skin"
+msgstr "鈕扣皮"
+
+msgid "Dark"
+msgstr "黑暗的"
+
+msgid "Light"
+msgstr "光"
+
+msgid "Black"
+msgstr "黑色的"
+
+msgid "White"
+msgstr "白色的"
+
+#, php-format
+msgid "Navigate to <b>%s</b>"
+msgstr "導航到 <b>%s</b>"
+
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in"
+msgstr "如果您尚未登錄，請使用您的 %s 憑據登錄"
+
+#, php-format
+msgid "Click on the App with App ID: <b>%s</b>"
+msgstr "點擊 App ID 為 <b>%s</b> 的 App"
+
+msgid "In the left sidebar, click on \"<b>Facebook Login > Settings</b>\""
+msgstr "在左側邊欄中，點擊“<b>Facebook 登錄 > 設置</b>”"
+
+#, php-format
+msgid "Add the following URL to the %s field:"
+msgstr "將以下 URL 添加到 %s 字段："
+
+msgid "Click on \"<b>Save Changes</b>\""
+msgstr "點擊“<b>保存更改</b>”"
+
+#, php-format
+msgid ""
+"%1$s allows HTTPS OAuth Redirects only. You must move your site to HTTPS in "
+"order to allow login with %1$s."
+msgstr "%1$s 僅允許 HTTPS OAuth 重定向。您必須將站點移動到 HTTPS 才能允許使用 %1$s 登錄。"
+
+msgid "How to get SSL for my WordPress site?"
+msgstr "如何為我的 WordPress 網站獲取 SSL？"
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"要允許您的訪問者使用他們的 %1$s 帳戶登錄，首先您必須創建一個 %1$s 應用程序。以下指南將幫助您完成 %1$s 應用程序創建過程。創建 %1$s "
+"應用程序後，轉到“設置”並根據您的 %1$s 應用程序配置給定的“%2$s”和“%3$s”。"
+
+#, php-format
+msgctxt "App creation"
+msgid "Create %s"
+msgstr "創建 %s"
+
+#, php-format
+msgid "Navigate to %s"
+msgstr "導航到 %s"
+
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in."
+msgstr "如果您尚未登錄，請使用您的 %s 憑據登錄。"
+
+msgid ""
+"Click on the \"<b>Create App</b>\" button and in the Popup choose the \"<b>"
+"Consumer</b>\" App type!"
+msgstr "單擊“<b>創建應用</b>”按鈕，然後在彈出窗口中選擇“<b>消費者</b>”應用類型！"
+
+msgid ""
+"If you see the message \"<b>Become a Facebook Developer</b>\", then you need "
+"to click on the green \"<b>Register Now</b>\" button, fill the form then "
+"finally verify your account."
+msgstr "如果您看到消息“<b>成為 Facebook 開發者</b>”，則需要單擊綠色的“<b>立即註冊</b>”按鈕，填寫表格，最後驗證您的帳戶。"
+
+#, php-format
+msgid ""
+"Fill \"<b>App Display Name</b>\", \"<b>App Contact Email</b>\". The "
+"specified \"App Display Name\" will appear on your %s!"
+msgstr ""
+"填寫“<b>App Display Name</b>”、“<b>App Contact Email</b>”。指定的“應用程序顯示名稱”將出現在您的 "
+"%s 上！"
+
+msgid ""
+"<b>Optional</b>: choose a \"<b>Business Manager Account</b>\" in the popup, "
+"if you have any."
+msgstr "<b>可選</b>：在彈出窗口中選擇一個“<b>Business Manager Account</b>”（如果有的話）。"
+
+msgid "Click the \"<b>Create App</b>\" button and complete the Security Check."
+msgstr "單擊“<b>創建應用程序</b>”按鈕並完成安全檢查。"
+
+#, php-format
+msgid "Find \"<b>%1$s</b>\" and click \"<b>Set Up</b>\"."
+msgstr "找到“<b>%1$s</b>”並點擊“<b>設置</b>”。"
+
+#, php-format
+msgid ""
+"Select \"<b>Web</b>\" and enter the following URL to the \"<b>Site URL</b>\" "
+"field: <b>%s</b>"
+msgstr "選擇“<b>Web</b>”並在“<b>站點 URL</b>”字段中輸入以下 URL：<b>%s</b>"
+
+msgid "Press “<b>Save</b>”."
+msgstr "按“<b>保存</b>”。"
+
+#, php-format
+msgid ""
+"Click on the “<b>%1$s</b>” option what you find on the left side, under “<b>"
+"%2$s</b> - <b>%3$s</b>”"
+msgstr "單擊左側“<b>%2$s</b> - <b>%3$s</b>”下的“<b>%1$s</b>”選項”"
+
+msgid "Click on “<b>Save Changes</b>”."
+msgstr "單擊“<b>保存更改</b>”。"
+
+#, php-format
+msgid ""
+"On the top left side, click on the “<b>%1$s</b>” menu point, then click “<b>"
+"%2$s</b>”."
+msgstr "在左上角，點擊“<b>%1$s</b>”菜單點，然後點擊“<b>%2$s</b>”。"
+
+#, php-format
+msgid ""
+"Enter your domain name to the \"<b>App Domains</b>\" field, probably: <b>"
+"%s</b>"
+msgstr "在“<b>App Domains</b>”字段中輸入您的域名，可能是：<b>%s</b>"
+
+msgid ""
+"Fill up the \"<b>Privacy Policy URL</b>\" field. Provide a publicly "
+"available and easily accessible privacy policy that explains what data you "
+"are collecting and how you will use that data."
+msgstr "填寫“<b>隱私政策 URL</b>”字段。提供公開可用且易於訪問的隱私政策，解釋您正在收集哪些數據以及您將如何使用這些數據。"
+
+msgid ""
+"At \"<b>User Data Deletion</b>\", choose the \"<b>Data Deletion Instructions "
+"URL</b>\" option, and enter the <i>URL of your page</i>* with the "
+"instructions on how users can delete their accounts on your site."
+msgstr ""
+"在“<b>User Data Deletion</b>”，選擇“<b>Data Deletion Instructions URL</b>"
+"”選項，然後輸入<i>您頁面的URL</i>*，並附上說明用戶如何刪除他們在您網站上的帳戶。"
+
+msgid ""
+"To comply with GDPR, you should already offer possibility to delete accounts "
+"on your site, either by the user or by the admin:"
+msgstr "為了遵守 GDPR，您應該已經提供了刪除您網站上帳戶的可能性，無論是用戶還是管理員："
+
+msgid ""
+"<u>If each user has an option to delete the account</u>: the URL should "
+"point to a guide showing the way users can delete their accounts."
+msgstr "<u>如果每個用戶都可以選擇刪除帳戶</u>：該 URL 應指向一個指南，顯示用戶可以刪除其帳戶的方式。"
+
+msgid ""
+"<u>If the accounts are deleted by an admin</u>: then you should have a "
+"section - usually in the Privacy Policy - with the contact details, where "
+"users can send their account erasure requests. In this case the URL should "
+"point to this section of the document."
+msgstr ""
+"<u>如果帳戶被管理員刪除</u>：那麼您應該有一個部分 - 通常在隱私政策中 - "
+"包含詳細聯繫信息，用戶可以在其中發送他們的帳戶刪除請求。在這種情況下，URL 應指向文檔的這一部分。"
+
+msgid ""
+"Select a “<b>Category</b>”, an “<b>App Icon</b>” and pick the “<b>App "
+"Purpose</b>” option that describes your App the best, then press \"<b>Save "
+"Changes</b>\"."
+msgstr ""
+"選擇“<b>類別</b>”、“<b>應用程序圖標</b>”並選擇最能描述您的應用程序的“<b>應用程序用途</b>”選項，然後按“ <b>保存更改</b>"
+"”。"
+
+msgid ""
+"Your application is currently private, which means that only you can log in "
+"with it. In the top bar switch the \"<b>App Mode</b>\" from \"<b>"
+"Development</b>\" to \"<b>Live</b>\"."
+msgstr ""
+"您的應用程序目前是私有的，這意味著只有您可以使用它登錄。在頂部欄中將“<b>App Mode</b>”從“<b>Development</b>"
+"”切換為“<b>Live</b>”。"
+
+#, php-format
+msgid ""
+"By default, your application only has Standard access for the permissions, "
+"which is not enough for %1$s.<br>On the left side, click on <strong>"
+"%2$s</strong> then click <strong>%3$s</strong>. In the table you will find "
+"the \"<strong>%4$s</strong>\" and \"<strong>%5$s</strong>\" permissions and "
+"you should click on the <strong>%6$s</strong> buttons next to them. "
+msgstr ""
+"默認情況下，您的應用程序只有標準訪問權限，這對於 %1$s 是不夠的。<br>在左側，點擊 <strong>%2$s</strong>，然後點擊 "
+"<strong>% 3$s</strong>。在表格中，您會找到“<strong>%4$s</strong>”和“<strong>"
+"%5$s</strong>”權限，您應該點擊<strong>%6$s</ strong> 旁邊的按鈕。"
+
+#, php-format
+msgid ""
+"At the top of the page you can find your \"<b>%1$s</b>\" and you can see "
+"your \"<b>%2$s</b>\" if you click on the \"Show\" button. These will be "
+"needed in plugin’s settings."
+msgstr ""
+"在頁面頂部，您可以找到您的“<b>%1$s</b>”，如果您單擊“顯示”按鈕，您可以看到您的“<b>%2$s</b>” .這些將在插件的設置中需要。"
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> <u>Don't replace your Facebook App with another!</u> Since "
+"WordPress users with linked Facebook accounts can only login using the %1$s "
+"App, that was originally used at the time, when the WordPress account was "
+"linked with a %1$s Account.<br>\n"
+"If you would like to know the reason of this, or you really need to replace "
+"the Facebook App, then please check our %2$sdocumentation%3$s."
+msgstr ""
+"<b>警告：</b> <u>不要將您的 Facebook 應用程序替換為其他應用程序！</u> 由於具有鏈接 Facebook 帳戶的 "
+"WordPress 用戶只能使用 %1$s 應用程序登錄，該應用程序最初用於時間，當 WordPress 帳戶與 %1$s 帳戶相關聯時。<br>\n"
+"如果您想知道這是什麼原因，或者您確實需要更換 Facebook 應用程序，請查看我們的 %2$s文檔%3$s。"
+
+msgid "Maintaining the Facebook App:"
+msgstr "維護 Facebook 應用程序："
+
+#, php-format
+msgid ""
+"<strong><u>Facebook Data Use Checkup:</u></strong> To protecting people's "
+"privacy, Facebook might requests you to fill some forms, so they can ensure "
+"that your API access and data use comply with the Facebook policies.\n"
+"If Facebook displays the \"%1$s\" modal for your App, then in our "
+"%2$sdocumentation%3$s you can find more information about the permissions "
+"that we need."
+msgstr ""
+"<strong><u>Facebook 數據使用檢查</u></strong>：為了保護人們的隱私，Facebook "
+"可能會要求您填寫一些表格，以便他們確保您的 API 訪問和數據使用符合 Facebook 政策。\n"
+"如果 Facebook 為您的應用程序顯示“%1$s”模態，那麼在我們的 %2$s 文檔%3$s 中您可以找到關於我們需要的權限的更多信息。"
+
+#, php-format
+msgid "I am done setting up my %s"
+msgstr "我完成了 %s 的設置"
+
+msgid "App ID"
+msgstr "應用編號"
+
+msgid "Required"
+msgstr "必需的"
+
+#, php-format
+msgid ""
+"If you are not sure what is your %1$s, please head over to <a href=\"%2$s\">"
+"Getting Started</a>"
+msgstr "如果您不確定您的 %1$s 是什麼，請轉到<a href=\"%2$s\">入門</a>"
+
+msgid "App Secret"
+msgstr "應用秘密"
+
+#, php-format
+msgid ""
+"By replacing your existing %1$s App, users with linked %1$s accounts will no "
+"longer be able to login with %1$s."
+msgstr "通過替換您現有的 %1$s 應用程序，具有關聯 %1$s 帳戶的用戶將無法再使用 %1$s 登錄。"
+
+msgid "Find out why?"
+msgstr "找出為什麼？"
+
+msgid "Continue with <b>Facebook</b>"
+msgstr "繼續 <b>Facebook</b>"
+
+msgid "Sign up with <b>Facebook</b>"
+msgstr "註冊 <b>Facebook</b>"
+
+msgid "Link account with <b>Facebook</b>"
+msgstr "將帳戶與 <b>Facebook</b> 關聯"
+
+msgid "Unlink account from <b>Facebook</b>"
+msgstr "取消帳戶與 <b>Facebook</b> 的關聯"
+
+#, php-format
+msgid ""
+"The %1$s entered did not appear to be a valid. Please enter a valid %2$s."
+msgstr "輸入的 %1$s 似乎無效。請輸入有效的 %2$s。"
+
+#, php-format
+msgid "Required scope: %1$s"
+msgstr "所需範圍：%1$s"
+
+msgid "Uniform - Legacy"
+msgstr "制服 - 遺產"
+
+msgid "Click on the \"<b>Credentials</b>\" in the left hand menu"
+msgstr "點擊左側菜單中的“<b>Credentials</b>”"
+
+#, php-format
+msgid ""
+"Under the \"<b>OAuth 2.0 Client IDs</b>\" section find your Client ID: <b>"
+"%s</b>"
+msgstr "在“<b>OAuth 2.0 客戶端 ID</b>”部分找到您的客戶端 ID：<b>%s</b>"
+
+#, php-format
+msgid ""
+"Under the \"<b>%1$s</b>\" section click \"<b>%2$s</b>\" and add the "
+"following URL:"
+msgstr "在“<b>%1$s</b>”部分下，單擊“<b>%2$s</b>”並添加以下 URL："
+
+msgid "Click on \"<b>Save</b>\""
+msgstr "點擊“<b>保存</b>”"
+
+#, php-format
+msgid ""
+"If you don't have a project yet, you'll need to create one. You can do this "
+"by clicking on the blue \"<b>%1$s</b>\" text on the right side!  ( If you "
+"already have a project, then in the top bar click on the name of your "
+"project instead, which will bring up a modal and click <b>\"%2$s\"</b>. )"
+msgstr ""
+"如果您還沒有項目，則需要創建一個。您可以通過單擊右側的藍色“<b>%1$s</b>”文本來執行此操作！ "
+"（如果您已經有一個項目，則在頂部欄中單擊您的項目名稱，這將彈出一個模式並單擊 <b>“%2$s”</b>。）"
+
+#, php-format
+msgid "Name your project and then click on the \"<b>%1$s</b>\" button again!"
+msgstr "為您的項目命名，然後再次單擊“<b>%1$s</b>”按鈕！"
+
+msgid ""
+"Once you have a project, you'll end up in the dashboard. ( If earlier you "
+"have already had a Project, then make sure you select the created project in "
+"the top bar! )"
+msgstr "擁有項目後，您將最終進入儀表板。 （如果之前你已經有一個項目，那麼確保你在頂部欄中選擇了創建的項目！）"
+
+#, php-format
+msgid "Click the “<b>%1$s</b>” button on the left hand side."
+msgstr "單擊左側的“<b>%1$s</b>”按鈕。"
+
+#, php-format
+msgid ""
+"Choose a <b>%1$s</b> according to your needs and press \"<b>%2$s</b>\". If "
+"you want to enable the social login with %3$s for any users with a %3$s "
+"account, then pick the \"%4$s\" option!"
+msgstr ""
+"根據您的需要選擇<b>%1$s</b>，然後按“<b>%2$s</b>”。如果您想為任何擁有 %3$s 帳戶的用戶啟用 %3$s "
+"的社交登錄，請選擇“%4$s”選項！"
+
+#, php-format
+msgid ""
+"<b>Note:</b> We don't use sensitive or restricted scopes either. But if you "
+"will use this App for other purposes too, then you may need to go through an "
+"%1$s!"
+msgstr "<b>注意：</b>我們也不使用敏感或受限範圍。但是，如果您還將此應用程序用於其他目的，那麼您可能需要通過 %1$s！"
+
+#, php-format
+msgid ""
+"Enter a name for your App to the \"<b>%1$s</b>\" field, which will appear as "
+"the name of the app asking for consent."
+msgstr "在“<b>%1$s</b>”字段中輸入您的應用名稱，該名稱將顯示為請求同意的應用名稱。"
+
+#, php-format
+msgid ""
+"For the \"<b>%1$s</b>\" field, select an email address that users can use to "
+"contact you with questions about their consent."
+msgstr "對於“<b>%1$s</b>”字段，選擇一個電子郵件地址，用戶可以使用該電子郵件地址與您聯繫，詢問有關他們同意的問題。"
+
+#, php-format
+msgid ""
+"Under the \"<b>%1$s</b>\" section press the \"<b>%2$s</b>\" button and  "
+"enter your domain name, probably: <b>%3$s</b> without subdomains!"
+msgstr "在“<b>%1$s</b>”部分下，按“<b>%2$s</b>”按鈕並輸入您的域名，可能是：<b>%3$s</b > 沒有子域名！"
+
+#, php-format
+msgid ""
+"At the \"<b>%1$s</b>\" section, enter an email address that %2$s can use to "
+"notify you about any changes to your project."
+msgstr "在“<b>%1$s</b>”部分，輸入一個電子郵件地址，%2$s 可以使用該地址通知您項目的任何更改。"
+
+#, php-format
+msgid ""
+"Press \"<b>%1$s</b>\" then press it again on the \"%2$s\", \"%3$s\" pages, "
+"too!"
+msgstr "按“<b>%1$s</b>”，然後在“%2$s”、“%3$s”頁面上再次按它！"
+
+#, php-format
+msgid ""
+"On the left side, click on the \"<b>%1$s</b>\" menu point, then click the "
+"\"<b>%2$s</b>\" button in the top bar."
+msgstr "在左側，單擊“<b>%1$s</b>”菜單點，然後單擊頂部欄中的“<b>%2$s</b>”按鈕。"
+
+#, php-format
+msgid "Choose the \"<b>%1$s</b>\" option."
+msgstr "選擇“<b>%1$s</b>”選項。"
+
+#, php-format
+msgid "Select the \"<b>%1$s</b>\" under Application type."
+msgstr "在應用程序類型下選擇“<b>%1$s</b>”。"
+
+#, php-format
+msgid "Enter a \"<b>%1$s</b>\" for your OAuth client ID."
+msgstr "輸入“<b>%1$s</b>”作為您的 OAuth 客戶端 ID。"
+
+#, php-format
+msgid "Click on the \"<b>%1$s</b>\" button"
+msgstr "點擊“<b>%1$s</b>”按鈕"
+
+#, php-format
+msgid ""
+"A modal should pop up with your credentials. If that doesn't happen, go to "
+"the %1$s in the left hand menu and select your app by clicking on its name "
+"and you'll be able to copy-paste the \"<b>%2$s</b>\" and \"<b>%3$s</b>\" "
+"from there."
+msgstr ""
+"模式應該彈出您的憑據。如果沒有發生這種情況，請轉到左側菜單中的 %1$s 並通過單擊其名稱選擇您的應用，然後您將能夠複製粘貼“<b>%2$s</b >"
+"”和“<b>%3$s</b>”。"
+
+#, php-format
+msgid ""
+"Currently your App is in %1$s mode, so only limited number of people can use "
+"it. To allow this App for any user with a Google Account, click on the "
+"\"%2$s\" option on the left side, then click the \"%3$s\" button under the "
+"\"%4$s\" section, and press the \"%5$s\" button. "
+msgstr ""
+"目前您的應用處於 %1$s 模式，因此只有有限數量的人可以使用它。要允許任何擁有 Google "
+"帳戶的用戶使用此應用程序，請單擊左側的“%2$s”選項，然後單擊“%4$s”部分下的“%3$s”按鈕，然後按“%5$s”按鈕。"
+
+msgid "Client ID"
+msgstr "客戶端編號"
+
+msgid "Client Secret"
+msgstr "客戶秘密"
+
+msgid "Select account on each login"
+msgstr "每次登錄時選擇帳戶"
+
+msgid ""
+"Disable, when you don't want to see the account select prompt on each login."
+msgstr "如果您不想在每次登錄時看到帳戶選擇提示，請禁用。"
+
+msgid "Continue with <b>Google</b>"
+msgstr "繼續使用 <b>Google</b>"
+
+msgid "Sign up with <b>Google</b>"
+msgstr "註冊 <b>Google</b>"
+
+msgid "Link account with <b>Google</b>"
+msgstr "將帳戶與 <b>Google</b> 關聯"
+
+msgid "Unlink account from <b>Google</b>"
+msgstr "取消帳戶與 <b>Google</b> 的關聯"
+
+#, php-format
+msgid "Required API: %1$s"
+msgstr "所需的 API：%1$s"
+
+#, php-format
+msgid "On the left side, under the %s section click on the name of your App."
+msgstr "在左側的 %s 部分下，單擊您的應用程序的名稱。"
+
+#, php-format
+msgid "Click on the %1$s button at %2$s."
+msgstr "點擊 %2$s 的 %1$s 按鈕。"
+
+#, php-format
+msgid "Make sure the %1$s field contains the following URL: %2$s"
+msgstr "確保 %1$s 字段包含以下 URL：%2$s"
+
+#, php-format
+msgid "Click on %s"
+msgstr "單擊 %s"
+
+msgid ""
+"If you don't have a developer account yet, please apply one by filling all "
+"the required details! This is required for the next steps!"
+msgstr "如果您還沒有開發者帳戶，請填寫所有必需的詳細信息來申請一個！這是後續步驟所必需的！"
+
+#, php-format
+msgid ""
+"Once your developer account is complete, navigate back to <b>%s</b> if you "
+"aren't already there!"
+msgstr "一旦您的開發者帳戶完成，請導航回 <b>%s</b>（如果您尚未在該處）！"
+
+#, php-format
+msgid "Click on \"<b>%s</b>\"!"
+msgstr "點擊“<b>%s</b>”！"
+
+#, php-format
+msgid ""
+"Name your project, and go through the basic setup. You’ll need to select "
+"your use case, give a description then click the %s button."
+msgstr "為您的項目命名，並完成基本設置。您需要選擇您的用例，提供描述，然後單擊 %s 按鈕。"
+
+#, php-format
+msgid "Choose the %1$s option for %2$s, then press %3$s!"
+msgstr "為 %2$s 選擇 %1$s 選項，然後按 %3$s！"
+
+#, php-format
+msgid "Into the %1$s field, enter a name for your App, then press %2$s again!"
+msgstr "在 %1$s 字段中，為您的應用輸入一個名稱，然後再次按 %2$s！"
+
+#, php-format
+msgid ""
+"You’ll find your API key and secret on this page. Copy and paste the \"<b>"
+"%1$s</b>\" and the \"<b>%2$s</b>\" to the corresponding fields at %3$s and "
+"press \"<b>Save Changes</b>\"."
+msgstr ""
+"您將在此頁面上找到您的 API 密鑰和秘密。將“<b>%1$s</b>”和“<b>%2$s</b>”複製並粘貼到 %3$s 處的相應字段，然後按“<b>"
+"保存更改< /b>”。"
+
+#, php-format
+msgid ""
+"Go back to your Twitter project and on the left side, under the \"<b>%s</b>"
+"\" section click on the name of your App."
+msgstr "返回您的 Twitter 項目並在左側的“<b>%s</b>”部分下單擊您的應用程序名稱。"
+
+#, php-format
+msgid "Scroll down and click on the %1$s button at %2$s."
+msgstr "向下滾動並點擊位於 %2$s 的 %1$s 按鈕。"
+
+#, php-format
+msgid "Choose the %1$s option at %2$s."
+msgstr "在 %2$s 選擇 %1$s 選項。"
+
+#, php-format
+msgid ""
+"If you want to get the email address as well, then don’t forget to enable "
+"the %1$s option. In this case you also need to fill the \"<b>%2$s</b>\" and "
+"the \"<b>%3$s</b>\" fields with the corresponding URLs!"
+msgstr ""
+"如果您也想獲取電子郵件地址，請不要忘記啟用 %1$s 選項。在這種情況下，您還需要使用相應的 URL 填寫“<b>%2$s</b>”和“<b>"
+"%3$s</b>”字段！"
+
+#, php-format
+msgid "Select the %1$s option for %2$s."
+msgstr "為 %2$s 選擇 %1$s 選項。"
+
+#, php-format
+msgid "Enter your site's URL to the \"<b>%1$s</b>\" field: <b>%2$s</b>"
+msgstr "在“<b>%1$s</b>”字段中輸入您網站的 URL：<b>%2$s</b>"
+
+#, php-format
+msgid "Click on %s."
+msgstr "單擊 %s。"
+
+#, php-format
+msgid ""
+"On the left side, under the \"<b>%s</b>\" section click on the name of your "
+"Project ( that you created the App for )."
+msgstr "在左側的“<b>%s</b>”部分下，單擊您的項目名稱（您為其創建了應用程序）。"
+
+#, php-format
+msgid ""
+"Click on the %1$s button, then fill the %2$s, %3$s, %4$s and %5$s forms."
+msgstr "點擊 %1$s 按鈕，然後填寫 %2$s、%3$s、%4$s 和 %5$s 表格。"
+
+#, php-format
+msgid ""
+"Once your application for the Elevated access has been approved, go back to "
+"%1$s then <b>verify</b> and <b>enable</b> the %2$s provider!"
+msgstr "一旦您的提升訪問權限申請獲得批准，請返回 %1$s，然後<b>驗證</b>並<b>啟用</b> %2$s 提供商！"
+
+msgid "API Key"
+msgstr "API密鑰"
+
+msgid "API Key Secret"
+msgstr "API 密鑰秘密"
+
+msgid "Profile image size"
+msgstr "個人資料圖片大小"
+
+msgid "Original"
+msgstr "原來的"
+
+msgid "Continue with <b>Twitter</b>"
+msgstr "繼續 <b>Twitter</b>"
+
+msgid "Sign up with <b>Twitter</b>"
+msgstr "使用 <b>Twitter</b> 註冊"
+
+msgid "Link account with <b>Twitter</b>"
+msgstr "將帳戶與 <b>Twitter</b> 關聯"
+
+msgid "Unlink account from <b>Twitter</b>"
+msgstr "取消帳戶與 <b>Twitter</b> 的關聯"
+
+#, php-format
+msgid "%s Buttons"
+msgstr "%s 按鈕"
+
+msgid "Title:"
+msgstr "標題："
+
+msgid "Button style:"
+msgstr "按鈕樣式："
+
+msgid "Button align:"
+msgstr "按鈕對齊："
+
+msgid "Show link buttons"
+msgstr "顯示鏈接按鈕"
+
+msgid "Show unlink buttons"
+msgstr "顯示取消鏈接按鈕"
+
+msgid "Social login is not allowed with this role!"
+msgstr "此角色不允許社交登錄！"
+
+msgid "Please enter a username."
+msgstr "請填入一個用戶名。"
+
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr "該用戶名無效，因為它使用了非法字符。請輸入有效的用戶名。"
+
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr "<strong>錯誤</strong>：此用戶名已註冊。請選擇另一個。"
+
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr "<strong>錯誤</strong>：抱歉，不允許使用該用戶名。"
+
+msgid "Username"
+msgstr "用戶名"
+
+msgid "<strong>Error</strong>: Please enter an email address."
+msgstr "<strong>錯誤</strong>：請輸入電子郵件地址。"
+
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>錯誤</strong>：電子郵件地址不正確。"
+
+msgid ""
+"<strong>Error</strong>: This email is already registered. Please choose "
+"another one."
+msgstr "<strong>錯誤</strong>：此電子郵件地址已被註冊。請選擇另一個。"
+
+msgid "Registration confirmation will be emailed to you."
+msgstr "註冊確認將通過電子郵件發送給您。"
+
+msgid "<strong>Error</strong>: Please enter a password."
+msgstr "<strong>錯誤</strong>：請輸入密碼。"
+
+msgid "<strong>Error</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>錯誤</strong>：密碼不能包含字符“\\”。"
+
+msgid ""
+"<strong>Error</strong>: Passwords don&#8217;t match. Please enter the same "
+"password in both password fields."
+msgstr "<strong>錯誤</strong>：密碼不匹配。請在兩個密碼字段中輸入相同的密碼。"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Strength indicator"
+msgstr "實力指標"
+
+msgid "Confirm use of weak password"
+msgstr "確認使用弱密碼"
+
+msgid "Confirm password"
+msgstr "確認密碼"
+
+#, php-format
+msgid ""
+"This email is already registered, please login in to your account to link "
+"with %1$s."
+msgstr "此電子郵件已註冊，請登錄您的帳戶以鏈接 %1$s。"
+
+msgid "Unexpected response: The provider didn't return the Authorization URL!"
+msgstr "意外響應：提供商未返回授權 URL！"
+
+msgid "Unexpected response: Authentication has been cancelled!"
+msgstr "意外響應：身份驗證已取消！"
+
+msgid "Unexpected response: Immediate request failed - Setup Needed!"
+msgstr "意外響應：立即請求失敗 - 需要設置！"
+
+msgid ""
+"Unexpected response: The targeted OpenID server is not authorized to verify "
+"this request!"
+msgstr "意外響應：目標 OpenID 服務器無權驗證此請求！"
+
+msgid "Unexpected response: OpenID Verification failed!"
+msgstr "意外響應：OpenID 驗證失敗！"
+
+#, php-format
+msgid "Please install and activate %1$s to use the %2$s"
+msgstr "請安裝並激活 %1$s 以使用 %2$s"
+
+msgid "Network Activate"
+msgstr "網絡激活"
+
+msgid "Install now!"
+msgstr "現在安裝！"
+
+msgid "Social Providers"
+msgstr "社會提供者"
+
+#, php-format
+msgid ""
+"The Facebook Sync data needs an approved %1$s and your App must use the "
+"latest %2$s version!"
+msgstr "Facebook 同步數據需要經過批准的 %1$s，您的應用程序必須使用最新的 %2$s 版本！"
+
+#, php-format
+msgid ""
+"Most of these information can only be retrieved, when the field is marked as "
+"Public on the user's %s page!"
+msgstr "只有當該字段在用戶的 %s 頁面上標記為公開時，才能檢索其中的大部分信息！"
+
+#, php-format
+msgid "Visit %s"
+msgstr "訪問 %s"
+
+msgid ""
+"On the right side, under \"<b>Manage</b>\", hover over the gear icon and "
+"select \"<b>Web Settings</b>\" option."
+msgstr "在右側的“<b>管理</b>”下，將鼠標懸停在齒輪圖標上並選擇“<b>Web 設置</b>”選項。"
+
+msgid "Click \"<b>Edit</b>\"."
+msgstr "單擊“<b>編輯</b>”。"
+
+#, php-format
+msgid "Add the following URL to the %s field: "
+msgstr "將以下 URL 添加到 %s 字段："
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create an %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"要允許您的訪問者使用他們的 %1$s 帳戶登錄，首先您必須創建一個 %1$s 應用程序。以下指南將幫助您完成 %1$s 應用程序創建過程。創建 %1$s "
+"應用程序後，轉到“設置”並根據您的 %1$s 應用程序配置給定的“%2$s”和“%3$s”。"
+
+msgid ""
+"If you don't have a Security Profile yet, you'll need to create one. You can "
+"do this by clicking on the orange \"<b>Create a New Security Profile</b>\" "
+"button on the left side."
+msgstr "如果您還沒有安全配置文件，則需要創建一個。您可以通過單擊左側的橙色“<b>創建新的安全配置文件</b>”按鈕來執行此操作。"
+
+msgid ""
+"Fill \"<b>Security Profile Name</b>\", \"<b>Security Profile Description</b>"
+"\" and \"<b>Consent Privacy Notice URL</b>\"."
+msgstr "填寫“<b>安全配置文件名稱</b>”、“<b>安全配置文件說明</b>”和“<b>同意隱私聲明URL</b>”。"
+
+msgid "Once you filled all the required fields, click \"<b>Save</b>\"."
+msgstr "填寫所有必填字段後，單擊“<b>保存</b>”。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Allowed Origins</b>\" with the url of your homepage, probably: <b>"
+"%s</b>"
+msgstr "在“<b>Allowed Origins</b>”中填寫您的主頁的 url，可能是：<b>%s</b>"
+
+msgid "When all fields are filled, click \"<b>Save</b>\"."
+msgstr "填寫完所有字段後，單擊“<b>保存</b>”。"
+
+msgid ""
+"Find the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" at the "
+"middle of the page, under the \"<b>Web Settings</b>\" tab."
+msgstr ""
+"在頁面中間的“<b>Web 設置</b>”選項卡下找到必要的“<b>Client ID</b>”和“<b>Client Secret</b>”。"
+
+msgid "Continue with <b>Amazon</b>"
+msgstr "繼續 <b>亞馬遜</b>"
+
+msgid "Sign up with <b>Amazon</b>"
+msgstr "註冊 <b>亞馬遜</b>"
+
+msgid "Link account with <b>Amazon</b>"
+msgstr "將帳戶與 <b>Amazon</b> 關聯"
+
+msgid "Unlink account from <b>Amazon</b>"
+msgstr "取消帳戶與 <b>Amazon</b> 的關聯"
+
+msgid "Click on the name of your service."
+msgstr "單擊您的服務名稱。"
+
+msgid ""
+"Click the \"<b>Configure</b>\" button next to \"<b>Sign In with Apple</b>\"."
+msgstr "單擊“<b>使用 Apple 登錄</b>”旁邊的“<b>配置</b>”按鈕。"
+
+#, php-format
+msgid "Click the <b>blue + icon</b> next to %1$s heading."
+msgstr "點擊 %1$s 標題旁邊的<b>藍色 + 圖標</b>。"
+
+#, php-format
+msgid ""
+"Fill the \"<b>Domains and Subdomains</b>\" field with your domain name "
+"probably: <b>%s</b>"
+msgstr "用您的域名填寫“<b>域和子域</b>”字段：<b>%s</b>"
+
+msgid ""
+"Finally press \"<b>Next</b>\" then \"<b>Done</b>\" and finally click on the "
+"\"<b>Continue</b>\" and the \"<b>Save</b>\" button!"
+msgstr "最後按“<b>下一步</b>”，然後按“<b>完成</b>”，最後點擊“<b>繼續</b>”和“<b>保存</b>”按鈕！"
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create an %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\", \"%3$s\", \"%4$s\" and "
+"\"%5$s\" according to your %1$s App."
+msgstr ""
+"要允許您的訪問者使用他們的 %1$s 帳戶登錄，首先您必須創建一個 %1$s 應用程序。以下指南將幫助您完成 %1$s 應用程序創建過程。創建 %1$s "
+"應用程序後，轉到“設置”並根據以下內容配置給定的“%2$s”、“%3$s”、“%4$s”和“%5$s”你的 %1$s 應用程序。"
+
+msgid ""
+"Make sure you have an <strong>active subscription for the <a href=\"https:"
+"//developer.apple.com/programs/\" target=\"_blank\">Apple Developer "
+"Program</a></strong>, as that is necessary for both creating and maintaining "
+"an Apple App!"
+msgstr ""
+"確保您<strong>訂閱了<a href=\"https://developer.apple.com/programs/\" "
+"target=\"_blank\">Apple Developer Program</a></strong> ，因為這是創建和維護 Apple App "
+"所必需的！"
+
+msgid ""
+"Make sure your site have <b>SSL</b>, since <b>Apple only allows HTTPS "
+"urls</b>!"
+msgstr "確保您的站點有 <b>SSL</b>，因為 <b>Apple 只允許 HTTPS url</b>！"
+
+msgid "1.) Create the associated App:"
+msgstr "1.) 創建關聯的應用程序："
+
+#, php-format
+msgid ""
+"Click the <b>blue + icon</b> next to %1$s, then select the <b>%2$s</b> "
+"option and click the \"Continue\" button."
+msgstr "點擊 %1$s 旁邊的<b>藍色 + 圖標</b>，然後選擇 <b>%2$s</b> 選項並點擊“繼續”按鈕。"
+
+#, php-format
+msgid ""
+"Choose the \"<strong>%1$s</strong>\" option as type and press the \"<b>"
+"Continue</b>\" button."
+msgstr "選擇“<strong>%1$s</strong>”選項作為類型，然後按“<b>繼續</b>”按鈕。"
+
+msgid "Enter a \"<b>Description</b>\""
+msgstr "輸入“<b>描述</b>”"
+
+#, php-format
+msgid ""
+"At the \"<b>Bundle ID</b>\" field select the \"<b>Explicit</b>\" option and "
+"enter your domain name in reverse-domain name style, with the name of the "
+"app at its end: <b>%s.nslapp</b>"
+msgstr ""
+"在“<b>Bundle ID</b>”字段中選擇“<b>Explicit</b>”選項並以反向域名形式輸入您的域名，並在其末尾添加應用名稱：< b>%s."
+"nslapp</b>"
+
+msgid ""
+"Under the \"<b>Capabilities</b>\" section, tick the \"<b>Sign In with "
+"Apple</b>\" option."
+msgstr "在“<b>功能</b>”部分下，勾選“<b>使用 Apple 登錄</b>”選項。"
+
+msgid ""
+"Scroll up and press the \"<b>Continue</b>\" button and then the \"<b>"
+"Register</b>\" button."
+msgstr "向上滾動並按“<b>繼續</b>”按鈕，然後按“<b>註冊</b>”按鈕。"
+
+msgid "2.) Create the Key:"
+msgstr "2.) 創建密鑰："
+
+#, php-format
+msgid "On the left hand side, click on the \"<b>%s</b>\" tab."
+msgstr "在左側，單擊“<b>%s</b>”選項卡。"
+
+msgid "Enter a name in the <b>Key Name</b> field."
+msgstr "在<b>密鑰名稱</b> 字段中輸入名稱。"
+
+msgid ""
+"Tick the \"<b>Sign In with Apple</b>\" option, then click on \"<b>"
+"Configure</b>\"."
+msgstr "勾選“<b>使用 Apple 登錄</b>”選項，然後單擊“<b>配置</b>”。"
+
+msgid ""
+"If you have multiple Apps, then at the \"<b>Choose a Primary App ID</b>\" "
+"field <b>select the App what you just created</b>, then click \"<b>Save</b>"
+"\"."
+msgstr ""
+"如果您有多個 App，則在“<b>Choose a Primary App ID</b>”字段<b>選擇您剛剛創建的 App</b>，然後點擊“<b>"
+"Save</b> ”。"
+
+msgid ""
+"Finally press the \"<b>Continue</b>\" button and then the \"<b>Register</b>"
+"\" button."
+msgstr "最後按“<b>繼續</b>”按鈕，然後按“<b>註冊</b>”按鈕。"
+
+msgid "<b>Don't download the key yet!</b>"
+msgstr "<b>先不要下載密鑰！</b>"
+
+msgid "3.) Create the Service:"
+msgstr "3.) 創建服務："
+
+#, php-format
+msgid ""
+"Go to the \"<b>%1$s</b>\" section, what you will find within the \"%2$s\" "
+"tab."
+msgstr "轉到“<b>%1$s</b>”部分，您將在“%2$s”選項卡中找到該部分。"
+
+#, php-format
+msgid ""
+"Click the <b>blue + icon</b> next to %1$s, then select the \"<b>%2$s</b>\" "
+"option and click the \"<b>Continue</b>\" button."
+msgstr "點擊 %1$s 旁邊的<b>藍色 + 圖標</b>，然後選擇“<b>%2$s</b>”選項並點擊“<b>繼續</b>”按鈕."
+
+msgid "Enter a \"<b>Description</b>\"."
+msgstr "輸入“<b>描述</b>”。"
+
+#, php-format
+msgid ""
+"At the \"<b>Identifier</b>\" field enter your domain name in reverse-domain "
+"name style, with the name of the client at its end: <b>%s.nslclient</b>"
+msgstr "在“<b>Identifier</b>”字段中以反向域名形式輸入您的域名，並在其末尾添加客戶端名稱：<b>%s.nslclient</b>"
+
+msgid "<b>Note:</b> This will also be used as Service Identifier later!"
+msgstr "<b>注意：</b>這也將在以後用作服務標識符！"
+
+msgid ""
+"Press the \"<b>Continue</b>\" button and then the \"<b>Register</b>\" button."
+msgstr "按“<b>繼續</b>”按鈕，然後按“<b>註冊</b>”按鈕。"
+
+#, php-format
+msgid "In the \"<b>%1$s</b>\" section, click the service you just created."
+msgstr "在“<b>%1$s</b>”部分，單擊您剛剛創建的服務。"
+
+msgid ""
+"Tick the \"<b>Sign In with Apple</b>\" option and click the \"<b>"
+"Configure</b>\" button next to it."
+msgstr "勾選“<b>使用 Apple 登錄</b>”選項並單擊旁邊的“<b>配置</b>”按鈕。"
+
+msgid ""
+"If you have multiple Apps, then at the \"Primary App ID\" field select the "
+"App what you just created."
+msgstr "如果您有多個應用程序，則在“主應用程序 ID”字段中選擇您剛剛創建的應用程序。"
+
+msgid "Click the \"<b>Next</b>\" button then press the \"<b>Done</b>\" button."
+msgstr "單擊“<b>下一步</b>”按鈕，然後按“<b>完成</b>”按鈕。"
+
+msgid ""
+"Finally press the \"<b>Continue</b>\" button and then the \"<b>Save</b>\" "
+"button."
+msgstr "最後按“<b>繼續</b>”按鈕，然後按“<b>保存</b>”按鈕。"
+
+msgid "4.) Configure Nextend Social Login with your credentials:"
+msgstr "4.) 使用您的憑據配置 Nextend 社交登錄："
+
+msgid "Go to Nextend Social Login > Providers > Apple > Settings tab."
+msgstr "轉到 Nextend Social Login > Providers > Apple > Settings 選項卡。"
+
+msgid "<strong><u>Private Key ID:</u></strong>"
+msgstr "<strong><u>私鑰 ID：</u></strong>"
+
+#, php-format
+msgid "Navigate to: <b>%s</b>"
+msgstr "導航至：<b>%s</b>"
+
+msgid "Click on the <b>name of your Key</b>."
+msgstr "單擊<b>您的密鑰的名稱</b>。"
+
+msgid "You will find your \"<b>Private Key ID</b>\" under \"<b>Key ID</b>\"."
+msgstr "您將在“<b>密鑰 ID</b>”下找到您的“<b>私鑰 ID</b>”。"
+
+msgid "<strong><u>Private Key:</u></strong>"
+msgstr "<strong><u>私鑰：</u></strong>"
+
+msgid ""
+"Click the \"<b>Download</b>\" button to download the key file. <u>Once this "
+"file is downloaded, it will no longer be available, so <b>make sure you keep "
+"this file safe</b>!</u> "
+msgstr "單擊“<b>下載</b>”按鈕下載密鑰文件。 <u>下載此文件後，它將不再可用，因此<b>確保您妥善保管此文件</b>！</u>"
+
+msgid ""
+"<b>Open the downloaded file</b> with a text editor, like Notepad, <b><u>copy "
+"all of its contents</u></b> and <b>paste it</b> into the \"<b>Private Key</b>"
+"\" field of Nextend Social Login."
+msgstr ""
+"<b>用記事本等文本編輯器打開下載的文件</b>，<b><u>複製其所有內容</u></b>並<b>粘貼</b>到Nextend 社交登錄的“<b>"
+"私鑰</b>”字段。"
+
+msgid "<strong><u>Team Identifier:</u></strong>"
+msgstr "<strong><u>團隊標識符：</u></strong>"
+
+msgid ""
+"A 10 character long identifier, what you can find on the <b>top-right corner,"
+" just under your name</b>."
+msgstr "一個 10 個字符長的標識符，您可以在<b>右上角，就在您的名字下方</b>找到。"
+
+msgid "<strong><u>Service Identifier:</u></strong>"
+msgstr "<strong><u>服務標識符：</u></strong>"
+
+#, php-format
+msgid ""
+"You will find it under the \"<b>IDENTIFIER</b>\" column. If you configured "
+"the service according to the suggestions, it will probably end to .nslclient "
+"e.g.: <b>%s.nslclient</b>"
+msgstr ""
+"您會在“<b>IDENTIFIER</b>”列下找到它。如果您根據建議配置服務，它可能會以 .nslclient 結束，例如：<b>%s."
+"nslclient</b>"
+
+msgid ""
+"Once you filled up all the fields, click on the \"<b>Generate Token</b>\" "
+"button."
+msgstr "填寫完所有字段後，單擊“<b>生成令牌</b>”按鈕。"
+
+msgid "Finally <b>verify the settings</b> and <b>enable the provider</b>!"
+msgstr "最後<b>驗證設置</b>並<b>啟用提供商</b>！"
+
+msgid ""
+"When you need to change your credentials for some reason, then you must "
+"delete the token, copy the new credentials and generate a new token!"
+msgstr "當您出於某種原因需要更改憑據時，必須刪除令牌，複製新憑據並生成新令牌！"
+
+msgid "Delete credentials"
+msgstr "刪除憑據"
+
+msgid "Private Key ID"
+msgstr "私鑰編號"
+
+msgid "Private Key"
+msgstr "私鑰"
+
+msgid "Team Identifier"
+msgstr "團隊標識符"
+
+msgid "Service Identifier"
+msgstr "服務標識符"
+
+msgid "Generate Token"
+msgstr "生成令牌"
+
+msgid "Continue with <b>Apple</b>"
+msgstr "繼續 <b>Apple</b>"
+
+msgid "Sign up with <b>Apple</b>"
+msgstr "註冊 <b>Apple</b>"
+
+msgid "Link account with <b>Apple</b>"
+msgstr "將帳戶與 <b>Apple</b> 關聯"
+
+msgid "Unlink account from <b>Apple</b>"
+msgstr "取消帳戶與 <b>Apple</b> 的關聯"
+
+#, php-format
+msgid "An error occurred when storing of the expiration timestamp : %1$s"
+msgstr "存儲到期時間戳時出錯：%1$s"
+
+#, php-format
+msgid "Token generation failed: %1$s"
+msgstr "令牌生成失敗：%1$s"
+
+msgid "Please check your credentials!"
+msgstr "請檢查您的憑據！"
+
+msgid "Private key format is not valid!"
+msgstr "私鑰格式無效！"
+
+#, php-format
+msgid ""
+"%s detected that your Apple credentials have expired. Please delete the "
+"current credentials and generate new one!"
+msgstr "%s 檢測到您的 Apple 憑據已過期。請刪除當前憑據並生成新憑據！"
+
+msgid "Apple Credentials"
+msgstr "蘋果憑證"
+
+#, php-format
+msgid ""
+"If you are not logged in yet, then log in with your %s credentials and visit "
+"the link above again."
+msgstr "如果您尚未登錄，請使用您的 %s 憑據登錄並再次訪問上面的鏈接。"
+
+#, php-format
+msgid ""
+"Select your %s App and click on the “<b>%2$s</b>” menu point under the "
+"Settings section on the left side."
+msgstr "選擇您的 %s 應用程序，然後單擊左側“設置”部分下的“<b>%2$s</b>”菜單點。"
+
+#, php-format
+msgid "Add the following URL in the %s field:"
+msgstr "在 %s 字段中添加以下 URL："
+
+msgid "Click the \"<b>New Application</b>\" button."
+msgstr "單擊“<b>新建應用程序</b>”按鈕。"
+
+msgid "Fill the \"<b>Name</b>\" field and click the \"<b>Create</b>\" button."
+msgstr "填寫“<b>名稱</b>”字段並單擊“<b>創建</b>”按鈕。"
+
+msgid ""
+"Optional: Select an \"<b>App Icon</b>\" and add a \"<b>Terms of Service "
+"URL</b>\" and \"<b>Privacy Policy URL</b>\"."
+msgstr "可選：選擇“<b>應用程序圖標</b>”並添加“<b>服務條款 URL</b>”和“<b>隱私政策 URL</b>”。"
+
+#, php-format
+msgid ""
+"On the left side, click on the “<b>%1$s</b>” menu point in the Settings."
+msgstr "在左側，單擊“設置”中的“<b>%1$s</b>”菜單點。"
+
+msgid "Click the \"<b>Save Changes</b>\" button."
+msgstr "單擊“<b>保存更改</b>”按鈕。"
+
+msgid ""
+"Copy the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" values "
+"and fill these fields in the plugin settings!"
+msgstr "複製必要的“<b>Client ID</b>”和“<b>Client Secret</b>”值並在插件設置中填寫這些字段！"
+
+msgid "Force reauthorization on each login"
+msgstr "每次登錄強制重新授權"
+
+msgid "Enable, when you want to see the consent screen on each login."
+msgstr "當您想在每次登錄時看到同意屏幕時啟用。"
+
+msgid "Continue with <b>Discord</b>"
+msgstr "繼續 <b>Discord</b>"
+
+msgid "Sign up with <b>Discord</b>"
+msgstr "註冊 <b>Discord</b>"
+
+msgid "Link account with <b>Discord</b>"
+msgstr "將帳戶與 <b>Discord</b> 關聯"
+
+msgid "Unlink account from <b>Discord</b>"
+msgstr "取消帳戶與 <b>Discord</b> 的關聯"
+
+#, php-format
+msgid "Click on the name of your %s App."
+msgstr "單擊您的 %s 應用程序的名稱。"
+
+msgid ""
+"Select the \"<b>Settings</b>\" tab and scroll down to the Authentication "
+"section!"
+msgstr "選擇“<b>設置</b>”選項卡並向下滾動到身份驗證部分！"
+
+msgid "Click on the \"<b>Save Changes</b>\" button."
+msgstr "單擊“<b>保存更改</b>”按鈕。"
+
+msgid ""
+"Click on the \"<b>Registering new application</b>\" button under the "
+"Applications tab."
+msgstr "單擊“應用程序”選項卡下的“<b>註冊新應用程序</b>”按鈕。"
+
+msgid "Enter a \"<b>Label</b>\" and \"<b>Description</b>\" for your App."
+msgstr "為您的應用輸入“<b>標籤</b>”和“<b>描述</b>”。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Website</b>\" with the url of your homepage, probably: <b>%s</b>"
+msgstr "在“<b>Website</b>”中填寫您的主頁的 url，可能是：<b>%s</b>"
+
+msgid ""
+"Complete the Human test and click the \"<b>Register my application</b>\" "
+"button."
+msgstr "完成人工測試並單擊“<b>註冊我的應用程序</b>”按鈕。"
+
+#, php-format
+msgid "Fill the \"<b>Domains</b>\" field with your domain name like: <b>%s</b>"
+msgstr "使用您的域名填寫“<b>域</b>”字段，例如：<b>%s</b>"
+
+msgid ""
+"Select \"<b>Read only</b>\" as Default Access under the Authentication "
+"section."
+msgstr "在身份驗證部分下選擇“<b>只讀</b>”作為默認訪問權限。"
+
+msgid "Click on the \"<b>Save Changes</b>\" button!"
+msgstr "單擊“<b>保存更改</b>”按鈕！"
+
+msgid "Navigate to the \"<b>Details</b>\" tab of your Application!"
+msgstr "導航到您的應用程序的“<b>詳細信息</b>”選項卡！"
+
+msgid ""
+"Here you can see your \"<b>API Key</b>\" and \"<b>API Secret</b>\". These "
+"will be needed in the plugin's settings."
+msgstr "在這裡您可以看到您的“<b>API Key</b>”和“<b>API Secret</b>”。插件設置中需要這些。"
+
+msgid "API Secret"
+msgstr "API 秘密"
+
+#, php-format
+msgid "We detected that your %1$s is probably overridden over the %2$s filter!"
+msgstr "我們檢測到您的 %1$s 可能被 %2$s 過濾器覆蓋！"
+
+#, php-format
+msgid "We detected that your %1$s has been overridden over the %2$s filter!"
+msgstr "我們檢測到您的 %1$s 已被 %2$s 過濾器覆蓋！"
+
+msgid "Continue with <b>Disqus</b>"
+msgstr "繼續 <b>Disqus</b>"
+
+msgid "Sign up with <b>Disqus</b>"
+msgstr "註冊 <b>Disqus</b>"
+
+msgid "Link account with <b>Disqus</b>"
+msgstr "將帳戶與 <b>Disqus</b> 關聯"
+
+msgid "Unlink account from <b>Disqus</b>"
+msgstr "取消帳戶與 <b>Disqus</b> 的關聯"
+
+#, php-format
+msgid "Click on the name of the App you configured %s with."
+msgstr "單擊您配置 %s 的應用程序的名稱。"
+
+#, php-format
+msgid "Make sure the <b>Homepage URL</b> matches with: <b>%s</b>"
+msgstr "確保 <b>主頁 URL</b> 匹配：<b>%s</b>"
+
+msgid "Press the <b>Update application</b> button to save the changes."
+msgstr "按<b>更新應用程序</b>按鈕保存更改。"
+
+#, php-format
+msgid ""
+"Make sure the <b>%1$s</b> tab is selected and click on the <b>%2$s</b> "
+"button."
+msgstr "確保選擇了 <b>%1$s</b> 選項卡並單擊 <b>%2$s</b> 按鈕。"
+
+msgid ""
+"Enter a name into the <b>Application name</b> field. Users will see this "
+"name, when they authorize your app at the OAuth consent screen!"
+msgstr "在<b>應用程序名稱</b> 字段中輸入名稱。當用戶在 OAuth 同意屏幕上授權您的應用程序時，他們將看到此名稱！"
+
+#, php-format
+msgid ""
+"Fill <b>Homepage URL</b> with the url of your homepage, probably: <b>%s</b>"
+msgstr "在<b>Homepage URL</b>中填入你的主頁的url，可能是：<b>%s</b>"
+
+msgid ""
+"In the <b>Description</b> field you should explain what this App will be "
+"used for."
+msgstr "在 <b>Description</b> 字段中，您應該解釋此 App 的用途。"
+
+msgid "Click the <b>Register application</b> button."
+msgstr "單擊<b>註冊應用程序</b>按鈕。"
+
+msgid ""
+"Find the necessary <b>Client ID</b> and <b>Client Secret</b> at the middle "
+"of the page. These will be needed in the plugin's settings!"
+msgstr "在頁面中間找到必要的 <b>Client ID</b> 和 <b>Client Secret</b>。插件設置中需要這些！"
+
+#, php-format
+msgid ""
+"<b>Important note:</b> The email address is only retrievable, if there is a "
+"public email address set at the %1$s profile page%2$s!"
+msgstr "<b>重要說明：</b>只有在 %1$s 個人資料頁面 %2$s! 設置了公共電子郵件地址，電子郵件地址才可檢索。"
+
+msgid "Continue with <b>GitHub</b>"
+msgstr "繼續 <b>GitHub</b>"
+
+msgid "Sign up with <b>GitHub</b>"
+msgstr "註冊 <b>GitHub</b>"
+
+msgid "Link account with <b>GitHub</b>"
+msgstr "將帳戶與 <b>GitHub</b> 關聯"
+
+msgid "Unlink account from <b>GitHub</b>"
+msgstr "取消帳戶與 <b>GitHub</b> 的關聯"
+
+#, php-format
+msgid "Navigate to your %s"
+msgstr "導航到您的 %s"
+
+#, php-format
+msgid "Select your %s App and click on the LINE Login section."
+msgstr "選擇您的 %s 應用程序並單擊 LINE 登錄部分。"
+
+#, php-format
+msgid "Change your URL in the %s field:"
+msgstr "在 %s 字段中更改您的 URL："
+
+#, php-format
+msgid ""
+"Editing Live Apps are only possible with a %s. So please make sure you own "
+"one!"
+msgstr "只有使用 %s 才能編輯 Live Apps。所以請確保您擁有一個！"
+
+msgid "Click the \"<b>Create a new provider</b>\" button."
+msgstr "單擊“<b>創建新提供商</b>”按鈕。"
+
+msgid ""
+"Fill the \"<b>Provider name</b>\" field and click the \"<b>Create</b>\" "
+"button."
+msgstr "填寫“<b>提供商名稱</b>”字段並單擊“<b>創建</b>”按鈕。"
+
+msgid ""
+"Under the \"<b>Channels</b>\" panel select the \"<b>Create a LINE Login "
+"channel</b>\" option."
+msgstr "在“<b>頻道</b>”面板下，選擇“<b>創建 LINE 登錄頻道</b>”選項。"
+
+msgid "Make sure \"<b>LINE Login</b>\" is selected as \"<b>Channel type</b>\"."
+msgstr "確保選擇“<b>LINE Login</b>”作為“<b>Channel type</b>”。"
+
+msgid ""
+"For \"<b>Provider</b>\" choose the provider from the list, that you just "
+"created."
+msgstr "對於“<b>Provider</b>”，從您剛剛創建的列表中選擇提供商。"
+
+msgid "Select your \"<b>Region</b>\"."
+msgstr "選擇您的“<b>地區</b>”。"
+
+msgid ""
+"Add your \"<b>Channel icon</b>\", \"<b>Channel name</b>\" and \"<b>Channel "
+"description</b>\". These will appear on your Consent Screen!"
+msgstr "添加您的“<b>頻道圖標</b>”、“<b>頻道名稱</b>”和“<b>頻道說明</b>”。這些將出現在您的同意屏幕上！"
+
+msgid "At the \"<b>App types</b>\" select the \"<b>Web app</b>\" option."
+msgstr "在“<b>應用程序類型</b>”中選擇“<b>Web 應用程序</b>”選項。"
+
+msgid ""
+"Read and consent to the \"<b>LINE Developers Agreement</b>\", then click the "
+"\"<b>Create</b>\" button."
+msgstr "閱讀並同意“<b>LINE 開發者協議</b>”，然後單擊“<b>創建</b>”按鈕。"
+
+msgid ""
+"Scroll down to \"<b>OpenID Connect</b>\", click the \"<b>Apply</b>\" button "
+"near the \"<b>Email address permission</b>\" label."
+msgstr "向下滾動到“<b>OpenID Connect</b>”，單擊“<b>電子郵件地址權限</b>”標籤附近的“<b>應用</b>”按鈕。"
+
+msgid "Fill out the form, then click the \"<b>Submit</b>\" button."
+msgstr "填寫表格，然後單擊“<b>提交</b>”按鈕。"
+
+msgid ""
+"Scroll up to the top of the page and choose the \"<b>LINE Login</b>\" "
+"section."
+msgstr "向上滾動到頁面頂部並選擇“<b>LINE 登錄</b>”部分。"
+
+msgid ""
+"Under your App name click the \"<b>Developing</b>\" button and publish your "
+"Channel!"
+msgstr "在您的應用程序名稱下，點擊“<b>開發</b>”按鈕並發布您的頻道！"
+
+msgid ""
+"Go to the \"<b>Basic settings</b>\" tab and find the necessary \"<b>Channel "
+"ID</b>\" and \"<b>Channel secret</b>\" values and fill these fields in the "
+"plugin settings!"
+msgstr "轉到“<b>基本設置</b>”選項卡並找到必要的“<b>頻道 ID</b>”和“<b>頻道密碼</b>”值並在插件中填寫這些字段設置！"
+
+msgid "Channel ID"
+msgstr "頻道編號"
+
+msgid "Channel Secret"
+msgstr "頻道秘密"
+
+msgid "Add LINE Official Account as a friend"
+msgstr "添加LINE官方賬號為好友"
+
+msgid "Don't display"
+msgstr "不顯示"
+
+msgid "Display the add friend option in the consent screen"
+msgstr "在同意屏幕中顯示添加朋友選項"
+
+msgid "Opens a new screen with the add friend option after the consent screen"
+msgstr "在同意屏幕後打開一個帶有添加朋友選項的新屏幕"
+
+#, php-format
+msgid ""
+"If you have a LINE Official Account, people can add it as a friend when they "
+"authorize your App. %1$sLearn more%2$s."
+msgstr "如果您有 LINE 官方賬號，人們在授權您的 App 時可以將其添加為好友。 %1$s了解更多%2$s。"
+
+msgid "Initial Login method"
+msgstr "初始登錄方法"
+
+msgid "Email and Password"
+msgstr "電子郵件和密碼"
+
+msgid "QR code"
+msgstr "二維碼"
+
+msgid ""
+"The selected value defines whether the Email and Password or the QR code "
+"login option will be presented in the LINE authentication screen by default."
+msgstr "所選值定義是否默認在 LINE 身份驗證屏幕中顯示電子郵件和密碼或二維碼登錄選項。"
+
+msgid "Force initial login method"
+msgstr "強制初始登錄方法"
+
+msgid ""
+"Enable, if you want to offer only the selected Initial Login method in the "
+"LINE authentication screen."
+msgstr "如果您只想在 LINE 身份驗證屏幕中提供所選的初始登錄方法，請啟用。"
+
+msgid "Continue with <b>Line</b>"
+msgstr "繼續 <b>行</b>"
+
+msgid "Sign up with <b>Line</b>"
+msgstr "使用 <b>Line</b> 註冊"
+
+msgid "Link account with <b>Line</b>"
+msgstr "將帳戶與 <b>Line</b> 關聯"
+
+msgid "Unlink account from <b>Line</b>"
+msgstr "取消帳戶與 <b>Line</b> 的關聯"
+
+msgid "Click on your App and go to the \"<b>Auth</b>\" tab."
+msgstr "單擊您的應用程序並轉到“<b>Auth</b>”選項卡。"
+
+msgid "Click on \"<b>Update</b>\" to save the changes"
+msgstr "單擊“<b>更新</b>”以保存更改"
+
+msgid "Locate the \"<b>Create app</b>\" button and click on it."
+msgstr "找到“<b>創建應用程序</b>”按鈕並單擊它。"
+
+msgid "Enter the name of your App to the \"App name\" field."
+msgstr "在“應用程序名稱”字段中輸入您的應用程序名稱。"
+
+#, php-format
+msgid ""
+"Find your company page in the \"<b>Company</b>\" field. If you don't have "
+"one yet, create new one at: %s"
+msgstr "在“<b>公司</b>”字段中找到您的公司頁面。如果您還沒有，請創建一個新的：%s"
+
+msgid ""
+"Enter your \"<b>Privacy policy URL</b>\" and upload an \"<b>App logo</b>\""
+msgstr "輸入您的“<b>隱私政策網址</b>”並上傳“<b>應用程序徽標</b>”"
+
+msgid ""
+"Read and agree the \"<b>API Terms of Use</b>\" then click the \"<b>Create "
+"App</b>\" button!"
+msgstr "閱讀並同意“<b>API 使用條款</b>”，然後單擊“<b>創建應用程序</b>”按鈕！"
+
+msgid ""
+"You will end up in the App setting area. Click on the \"<b>Products</b>\" "
+"tab."
+msgstr "您最終會進入 App 設置區域。單擊“<b>產品</b>”選項卡。"
+
+#, php-format
+msgid "Find <b>\"%s\"</b> and click \"<b>Select</b>\"."
+msgstr "找到 <b>“%s”</b> 並單擊“<b>選擇</b>”。"
+
+msgid ""
+"A modal will appear where you need to tick the \"<b>I have read and agree to "
+"these terms</b>\" checkbox and finally press the \"<b>Add product</b>\" "
+"button."
+msgstr "將出現一個模式，您需要勾選“<b>我已閱讀並同意這些條款</b>”複選框，最後按下“<b>添加產品</b>”按鈕。"
+
+msgid "Click on the \"<b>Auth</b>\" tab."
+msgstr "單擊“<b>身份驗證</b>”選項卡。"
+
+#, php-format
+msgid "Find the %1$s section and add the following URL to the %2$s field:"
+msgstr "找到 %1$s 部分並將以下 URL 添加到 %2$s 字段："
+
+msgid ""
+"Find the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" under "
+"the Application credentials section, on the <b>Auth</b> tab."
+msgstr ""
+"在 <b>Auth</b> 選項卡上的 Application credentials 部分下找到必要的“<b>Client ID</b>”和“<b>"
+"Client Secret</b>”。"
+
+msgid "Continue with <b>LinkedIn</b>"
+msgstr "繼續使用 <b>LinkedIn</b>"
+
+msgid "Sign up with <b>LinkedIn</b>"
+msgstr "註冊 <b>LinkedIn</b>"
+
+msgid "Link account with <b>LinkedIn</b>"
+msgstr "將帳戶與 <b>LinkedIn</b> 關聯"
+
+msgid "Unlink account from <b>LinkedIn</b>"
+msgstr "取消帳戶與 <b>LinkedIn</b> 的關聯"
+
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in yet."
+msgstr "如果您尚未登錄，請使用您的 %s 憑據登錄。"
+
+msgid "Click on the Search bar and search for \"<b>App registrations</b>\"."
+msgstr "點擊搜索欄並蒐索“<b>App registrations</b>”。"
+
+#, php-format
+msgid "Click on the App with Application (client) ID: <b>%s</b>"
+msgstr "單擊具有應用程序（客戶端）ID 的應用程序：<b>%s</b>"
+
+msgid "Click on the link next to the Redirect URIs label."
+msgstr "單擊重定向 URI 標籤旁邊的鏈接。"
+
+#, php-format
+msgid ""
+"Log in with your %s credentials if you are not logged in or create a new "
+"account."
+msgstr "如果您沒有登錄或創建一個新帳戶，請使用您的 %s 憑據登錄。"
+
+msgid "Click on \"<b>New registration</b>\"."
+msgstr "點擊“<b>新註冊</b>”。"
+
+msgid "Fill the \"<b>Name</b>\" field with your App Name."
+msgstr "使用您的應用程序名稱填寫“<b>名稱</b>”字段。"
+
+#, php-format
+msgid ""
+"Select an option at Supported account types.<br><strong><u>Important:</u>"
+"</strong> On our Settings tab, you will need to select the Audience "
+"depending on the selected value! If you are not sure what to choose, then "
+"%1$shere%2$s you can learn more."
+msgstr ""
+"在支持的帳戶類型中選擇一個選項。<br><strong><u>重要提示：</u></strong>"
+"在我們的設置選項卡上，您需要根據所選值選擇受眾！如果您不確定要選擇什麼，那麼您可以在%1$此處%2$s 了解更多信息。"
+
+#, php-format
+msgid ""
+"At the %1$s field, select the %2$s option as platform, and add the following "
+"URL into the input field:"
+msgstr "在 %1$s 字段中，選擇 %2$s 選項作為平台，並將以下 URL 添加到輸入字段中："
+
+#, php-format
+msgid ""
+"%1$s It seems the suggested %2$s contains query string(s), that %3$s doesn't "
+"allow in the URLs. Please check the structure of your %4$s, as you might use "
+"one with query strings in it!"
+msgstr ""
+"%1$s 似乎建議的 %2$s 包含查詢字符串，%3$s 在 URL 中不允許。請檢查您的 %4$s 的結構，因為您可能會使用其中包含查詢字符串的結構！"
+
+msgid "Warning:"
+msgstr "警告："
+
+msgid "Permalinks"
+msgstr "永久鏈接"
+
+msgid "Create your App with the \"<b>Register</b>\" button."
+msgstr "使用“<b>註冊</b>”按鈕創建您的應用程序。"
+
+msgid "You land on the \"<b>Overview</b>\" page."
+msgstr "您將登陸“<b>概覽</b>”頁面。"
+
+msgid ""
+"Copy the \"<b>Application (client) ID</b>\", this will be the <b>Application "
+"(client) ID</b> in the plugin settings."
+msgstr "複製“<b>應用程序（客戶端）ID</b>”，這將是插件設置中的<b>應用程序（客戶端）ID</b>。"
+
+msgid ""
+"Click on the link named \"<b>Add a certificate or secret</b>\" next to the "
+"Client credentials label."
+msgstr "單擊客戶端憑據標籤旁邊名為“<b>添加證書或機密</b>”的鏈接。"
+
+msgid "Click on \"<b>New client secret</b>\"."
+msgstr "單擊“<b>新客戶端密碼</b>”。"
+
+msgid "Fill the \"<b>Description</b>\" field."
+msgstr "填寫“<b>描述</b>”字段。"
+
+msgid "Set the expiration date at the \"<b>Expires</b>\" field."
+msgstr "在“<b>Expires</b>”字段設置到期日期。"
+
+msgid "Then create your Client Secret with the \"<b>Add</b>\" button."
+msgstr "然後使用“<b>添加</b>”按鈕創建您的客戶端密碼。"
+
+#, php-format
+msgid ""
+"Copy the %s, this will be the <b>Client secret</b> in the plugin settings."
+msgstr "複製 %s，這將是插件設置中的 <b>Client secret</b>。"
+
+msgid "Application (client) ID"
+msgstr "應用程序（客戶端）ID"
+
+msgid "Client secret"
+msgstr "客戶機密"
+
+msgid "Audience"
+msgstr "觀眾"
+
+msgid ""
+"Accounts in any organizational directory (Any Azure AD directory - "
+"Multitenant)"
+msgstr "任何組織目錄中的帳戶（任何 Azure AD 目錄 - 多租戶）"
+
+msgid ""
+"Accounts in any organizational directory (Any Azure AD directory - "
+"Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
+msgstr "任何組織目錄中的帳戶（任何 Azure AD 目錄 - 多租戶）和個人 Microsoft 帳戶（例如 Skype、Xbox）"
+
+msgid "Personal Microsoft accounts only"
+msgstr "僅限個人 Microsoft 帳戶"
+
+msgid ""
+"Only users in an organizational directory from a particular Azure AD tenant:"
+msgstr "只有來自特定 Azure AD 租戶的組織目錄中的用戶："
+
+#, php-format
+msgid ""
+"The selected value will define the supported account types. %1$sLearn more."
+"%2$s"
+msgstr "所選值將定義支持的帳戶類型。 %1$s了解更多。%2$s"
+
+msgid "Authorization Prompt"
+msgstr "授權提示"
+
+msgid "Display account select modal"
+msgstr "顯示帳戶選擇模式"
+
+msgid "Force user to enter login credentials on each login"
+msgstr "強制用戶在每次登錄時輸入登錄憑據"
+
+msgid "Display authorization and authentication dialog only when necessary"
+msgstr "僅在必要時顯示授權和身份驗證對話框"
+
+msgid "Continue with <b>Microsoft</b>"
+msgstr "繼續 <b>Microsoft</b>"
+
+msgid "Sign up with <b>Microsoft</b>"
+msgstr "註冊 <b>Microsoft</b>"
+
+msgid "Link account with <b>Microsoft</b>"
+msgstr "將帳戶與 <b>Microsoft</b> 關聯"
+
+msgid "Unlink account from <b>Microsoft</b>"
+msgstr "取消帳戶與 <b>Microsoft</b> 的關聯"
+
+msgid "There is a Sandbox/Live switch. Make sure \"<b>Live</b>\" is selected!"
+msgstr "有一個 Sandbox/Live 開關。確保選擇了“<b>直播</b>”！"
+
+#, php-format
+msgid "Click on the name of your %s App, under the REST API apps section."
+msgstr "在 REST API 應用程序部分下單擊您的 %s 應用程序的名稱。"
+
+msgid ""
+"Scroll down to \"<b>LIVE APP SETTINGS</b>\", find the \"<b>Live Return "
+"URL</b>\" heading and click \"<b>Show</b>\"."
+msgstr ""
+"向下滾動到“<b>LIVE APP SETTINGS</b>”，找到“<b>Live Return URL</b>”標題並單擊“<b>Show</b>”。"
+
+msgid "Click on \"Save\""
+msgstr "點擊“保存”"
+
+#, php-format
+msgid ""
+"Editing Live Apps are only possible with a %s. If you own one, go to the 4. "
+"step, if not click on the link!"
+msgstr "只有使用 %s 才能編輯 Live Apps。如果您擁有一個，請轉到第 4 步，如果沒有，請單擊鏈接！"
+
+msgid "Click on Registration and create a Business account."
+msgstr "單擊註冊並創建一個企業帳戶。"
+
+msgid "If you are done, follow the guide from the 5. step."
+msgstr "如果完成，請按照第 5 步中的指南進行操作。"
+
+#, php-format
+msgid "Log in with your %s credentials."
+msgstr "使用您的 %s 憑據登錄。"
+
+msgid "Click the \"<b>Create App</b>\" button under the REST API apps section."
+msgstr "單擊 REST API 應用程序部分下的“<b>創建應用程序</b>”按鈕。"
+
+msgid ""
+"Fill the \"<b>App Name</b>\" field and click \"<b>Create App</b>\" button."
+msgstr "填寫“<b>App Name</b>”字段並單擊“<b>Create App</b>”按鈕。"
+
+msgid ""
+"Scroll down to \"<b>LIVE APP SETTINGS</b>\", find the \"<b>Live Return "
+"URL</b>\" heading then click \"<b>Show</b>\"."
+msgstr ""
+"向下滾動到“<b>LIVE APP SETTINGS</b>”，找到“<b>Live Return URL</b>”標題，然後單擊“<b>Show</b>"
+"”。"
+
+msgid ""
+"Scroll down to \"<b>App feature options</b>\" section and tick \"<b>Log In "
+"with PayPal</b>\"."
+msgstr "向下滾動到“<b>應用程序功能選項</b>”部分並勾選“<b>使用 PayPal 登錄</b>”。"
+
+#, php-format
+msgid "Click %1$s that appears after the %2$s text."
+msgstr "單擊出現在 %2$s 文本之後的 %1$s。"
+
+msgid "Tick \"<b>Full name</b>\"."
+msgstr "勾選“<b>全名</b>”。"
+
+#, php-format
+msgid ""
+"If you want to get the email address as well, then don't forget to tick %1$s "
+"option. In this case you should also enable the %2$s setting in our %3$s "
+"%4$s tab."
+msgstr ""
+"如果您也想獲取電子郵件地址，請不要忘記勾選 %1$s 選項。在這種情況下，您還應該在我們的 %3$s %4$s 選項卡中啟用 %2$s 設置。"
+
+msgid "Email scope"
+msgstr "電子郵件範圍"
+
+msgid "Fill \"<b>Privacy policy URL</b>\" and  \"<b>User agreement URL</b>\"."
+msgstr "填寫“<b>隱私政策網址</b>”和“<b>用戶協議網址</b>”。"
+
+msgid ""
+"Scroll up to \"<b>LIVE API CREDENTIALS</b>\" section and find the necessary "
+"\"<b>Client ID</b>\" and \"<b>Secret</b>\"! ( Make sure you are in \"<b>"
+"Live</b>\" mode and not \"Sandbox\". )"
+msgstr ""
+"向上滾動到“<b>LIVE API CREDENTIALS</b>”部分，找到必要的“<b>Client ID</b>”和“<b>Secret</b>"
+"”！ （確保您處於“<b>實時</b>”模式而不是“沙盒”模式。）"
+
+#, php-format
+msgid ""
+"%1$s Before you could start using the App, it requires an App review, which "
+"might take up to 7 business days to process. Below the %2$s field you can "
+"check the %3$s. Once your App got approved, you could continue with the "
+"provider verification in our %4$s tab."
+msgstr ""
+"%1$s 在您開始使用該應用程序之前，它需要進行應用程序審查，這可能需要長達 7 個工作日的時間來處理。在 %2$s 字段下方，您可以檢查 "
+"%3$s。一旦您的應用程序獲得批准，您可以在我們的 %4$s 選項卡中繼續進行提供商驗證。"
+
+msgid "Important note:"
+msgstr "重要的提示："
+
+msgid "Secret"
+msgstr "秘密"
+
+msgid "Disable, when you have no rights for email address."
+msgstr "當您沒有電子郵件地址的權限時禁用。"
+
+msgid "Continue with <b>PayPal</b>"
+msgstr "繼續使用 <b>PayPal</b>"
+
+msgid "Sign up with <b>PayPal</b>"
+msgstr "使用 <b>PayPal</b> 註冊"
+
+msgid "Link account with <b>PayPal</b>"
+msgstr "將帳戶與 <b>PayPal</b> 關聯"
+
+msgid "Unlink account from <b>PayPal</b>"
+msgstr "取消帳戶與 <b>PayPal</b> 的關聯"
+
+#, php-format
+msgid "Select your %s App."
+msgstr "選擇您的 %s 應用程序。"
+
+msgid ""
+"Under the \"<b>Add features and functionality</b>\" panel click on the \"<b>"
+"Permissions</b>\" option."
+msgstr "在“<b>添加特性和功能</b>”面板下，單擊“<b>權限</b>”選項。"
+
+msgid "Click on the \"<b>Add</b>\" and \"<b>Save URLs</b>\" button."
+msgstr "單擊“<b>添加</b>”和“<b>保存 URL</b>”按鈕。"
+
+#, php-format
+msgid ""
+"Visit the %1$s page and log in with your %2$s credentials if you are not "
+"logged in, yet."
+msgstr "如果您尚未登錄，請訪問 %1$s 頁面並使用您的 %2$s 憑據登錄。"
+
+msgid ""
+"Click the \"<b>Create New App</b>\" button. (If you can not see this button, "
+"you might need to create a workspace first!)"
+msgstr "單擊“<b>創建新應用</b>”按鈕。 （如果你看不到這個按鈕，你可能需要先創建一個工作區！）"
+
+msgid "Choose the \"<b>From scratch</b>\" option."
+msgstr "選擇“<b>從頭開始</b>”選項。"
+
+msgid ""
+"Fill the \"<b>App Name</b>\" field, select your workspace and click the \"<b>"
+"Create App</b>\" button."
+msgstr "填寫“<b>App Name</b>”字段，選擇您的工作區並單擊“<b>Create App</b>”按鈕。"
+
+msgid "Scroll down to the \"<b>Redirect URLs</b>\" section."
+msgstr "向下滾動到“<b>重定向 URL</b>”部分。"
+
+msgid "Click on the \"<b>Save URLs</b>\" button."
+msgstr "單擊“<b>保存 URL</b>”按鈕。"
+
+msgid "Scroll down to the \"<b>Scopes</b>\" section."
+msgstr "向下滾動到“<b>範圍</b>”部分。"
+
+msgid ""
+"Add the following Scopes to the \"<b>User Token Scopes</b>\" field: \"<b>"
+"openid</b>\", \"<b>profile</b>\", \"<b>email</b>\""
+msgstr ""
+"將以下範圍添加到“<b>User Token Scopes</b>”字段：“<b>openid</b>”、“<b>profile</b>”、“<b>"
+"email</b>” >\""
+
+msgid ""
+"On the top left side click on the \"<b>Basic Information</b>\" option in the "
+"\"<b>Settings</b>\"."
+msgstr "點擊左上角“<b>設置</b>”中的“<b>基本信息</b>”選項。"
+
+msgid ""
+"Under the \"<b>Install your app</b>\" panel click on the \"<b>Install to "
+"Workspace</b>\" button."
+msgstr "在“<b>安裝您的應用程序</b>”面板下，點擊“<b>安裝到工作區</b>”按鈕。"
+
+msgid "Click on the \"<b>Allow</b>\" button."
+msgstr "單擊“<b>允許</b>”按鈕。"
+
+msgid ""
+"Under the \"<b>Manage distribution</b>\" panel click on the \"<b>Distribute "
+"App</b>\" button."
+msgstr "在“<b>管理分發</b>”面板下，點擊“<b>分發應用</b>”按鈕。"
+
+msgid "Scroll down to the \"<b>Remove Hard Coded Information</b>\" section."
+msgstr "向下滾動到“<b>刪除硬編碼信息</b>”部分。"
+
+msgid ""
+"Click on the \"<b>I’ve reviewed and removed any hard-coded information.</b>"
+"\". "
+msgstr "點擊“<b>我已經查看並刪除了所有硬編碼信息。</b>”。"
+
+msgid "Click on the \"<b>Activate Public Distribution</b>\" button."
+msgstr "單擊“<b>激活公共分發</b>”按鈕。"
+
+msgid ""
+"On the top left side click on the \"<b>Basic Information</b>\" option, that "
+"you find under \"<b>Settings</b>\"."
+msgstr "在左上角，單擊“<b>設置</b>”下的“<b>基本信息</b>”選項。"
+
+msgid ""
+"Scroll down to the \"<b>App Credentials</b>\" section, find the necessary "
+"\"<b>Client ID</b>\" and \"<b>Client Secret</b>\" values and fill these "
+"fields in the plugin settings!"
+msgstr ""
+"向下滾動到“<b>App Credentials</b>”部分，找到必要的“<b>Client ID</b>”和“<b>Client Secret</b>"
+"”值並填寫這些字段插件設置！"
+
+msgid "Slack Team ID"
+msgstr "鬆弛團隊 ID"
+
+msgid "Optional"
+msgstr "選修的"
+
+#, php-format
+msgid ""
+"The Team ID of a workspace to attempt to restrict to. %1$sLearn more.%2$s"
+msgstr "嘗試限製到的工作區的團隊 ID。 %1$s了解更多。%2$s"
+
+msgid "72x72"
+msgstr "72x72"
+
+msgid "192x192"
+msgstr "192x192"
+
+msgid "512x512"
+msgstr "512x512"
+
+msgid "1024x1024"
+msgstr "1024x1024"
+
+msgid "Sign in with <b>Slack</b>"
+msgstr "使用 <b>Slack</b> 登錄"
+
+msgid "Sign up with <b>Slack</b>"
+msgstr "註冊 <b>Slack</b>"
+
+msgid "Link account with <b>Slack</b>"
+msgstr "將帳戶與 <b>Slack</b> 關聯"
+
+msgid "Unlink account from <b>Slack</b>"
+msgstr "取消帳戶與 <b>Slack</b> 的關聯"
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s %2$s. The following guide will help you through the %1$s %2$s "
+"creation process. After you have created your %1$s %2$s, head over to "
+"\"Settings\" and configure the given \"%2$s\" field according to your %1$s "
+"%2$s."
+msgstr ""
+"要允許您的訪問者使用他們的 %1$s 帳戶登錄，首先您必須創建一個 %1$s %2$s。以下指南將幫助您完成 %1$s %2$s "
+"的創建過程。在您創建了您的 %1$s %2$s 之後，前往“設置”並根據您的 %1$s %2$s 配置給定的“%2$s”字段。"
+
+#, php-format
+msgid "To be able to create a %1$s, you need to spend at least $5 in the %2$s."
+msgstr "要創建 %1$s，您需要在 %2$s 中花費至少 $5。"
+
+#, php-format
+msgid "Enter your domain name to the %1$s field, probably: %2$s"
+msgstr "在 %1$s 字段中輸入您的域名，可能是：%2$s"
+
+#, php-format
+msgid "Check the %1$s option."
+msgstr "檢查 %1$s 選項。"
+
+#, php-format
+msgid "Press the %1$s button."
+msgstr "按 %1$s 按鈕。"
+
+#, php-format
+msgid ""
+"Copy the necessary %1$s value under the %2$s section, you will need this on "
+"our %3$s tab."
+msgstr "在 %2$s 部分下複製必要的 %1$s 值，您將在我們的 %3$s 選項卡上需要它。"
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> The %1$s API can not return any email address! %2$sLearn "
+"more%3$s."
+msgstr "<b>警告：</b> %1$s API 無法返回任何電子郵件地址！ %2$s了解更多%3$s。"
+
+msgid "Web API Key"
+msgstr "網絡 API 密鑰"
+
+msgid "Continue with <b>Steam</b>"
+msgstr "繼續 <b>Steam</b>"
+
+msgid "Sign up with <b>Steam</b>"
+msgstr "註冊 <b>Steam</b>"
+
+msgid "Link account with <b>Steam</b>"
+msgstr "將帳戶與 <b>Steam</b> 關聯"
+
+msgid "Unlink account from <b>Steam</b>"
+msgstr "取消帳戶與 <b>Steam</b> 的關聯"
+
+msgid "Error: The 64-bit SteamID can not be retrieved for this user!"
+msgstr "錯誤：無法為該用戶檢索 64 位 SteamID！"
+
+#, php-format
+msgid "Log in to your %s developer account, if you are not logged in yet."
+msgstr "如果您尚未登錄，請登錄到您的 %s 開發者帳戶。"
+
+#, php-format
+msgid ""
+"On the top right corner click on %1$s then click on the name of that App "
+"that you used for the configuration."
+msgstr "在右上角單擊 %1$s，然後單擊您用於配置的應用程序的名稱。"
+
+#, php-format
+msgid "Scroll down to the %s section."
+msgstr "向下滾動到 %s 部分。"
+
+#, php-format
+msgid ""
+"If the URLs don't match, enter the URL of your website into the %1$s field, "
+"probably: %2$s"
+msgstr "如果網址不匹配，請在 %1$s 字段中輸入您網站的網址，可能是：%2$s"
+
+#, php-format
+msgid ""
+"Enter your domain name into the %1$s field, if it is not added already: %2$s"
+msgstr "在 %1$s 字段中輸入您的域名，如果尚未添加：%2$s"
+
+#, php-format
+msgid "Press the %s button."
+msgstr "按 %s 按鈕。"
+
+#, php-format
+msgid ""
+"Submit your App for a review, by pressing the %1$s button on the top right "
+"corner and wait until the %2$s field says %3$s. This can take a couple of "
+"days."
+msgstr "按右上角的 %1$s 按鈕提交您的應用程序以供審核，然後等待 %2$s 字段顯示 %3$s。這可能需要幾天時間。"
+
+#, php-format
+msgid ""
+"Log in to your %s developer account or register one if you don't have any!"
+msgstr "登錄到您的 %s 開發者帳戶或註冊一個（如果您沒有的話）！"
+
+#, php-format
+msgid "On the top right corner click on %1$s then click on the %2$s option."
+msgstr "在右上角點擊 %1$s，然後點擊 %2$s 選項。"
+
+#, php-format
+msgid ""
+"Find the %1$s section and upload an image as %2$s, then enter an %3$s, a "
+"%4$s and choose a value for %5$s."
+msgstr "找到 %1$s 部分並將圖像上傳為 %2$s，然後輸入 %3$s、%4$s 並為 %5$s 選擇一個值。"
+
+#, php-format
+msgid ""
+"For %1$s you should enable the %2$s option then enter the URL of your "
+"website into the %3$s field, probably: %4$s"
+msgstr "對於 %1$s，您應該啟用 %2$s 選項，然後在 %3$s 字段中輸入您網站的 URL，可能是：%4$s"
+
+#, php-format
+msgid "Click on the %s button."
+msgstr "單擊 %s 按鈕。"
+
+#, php-format
+msgid ""
+"Click on %1$s on the left hand menu then add the %2$s product, and press the "
+"%3$s button."
+msgstr "點擊左側菜單中的 %1$s，然後添加 %2$s 產品，然後按 %3$s 按鈕。"
+
+#, php-format
+msgid "At the left hand menu click on the %1$s option under %2$s."
+msgstr "在左側菜單中，點擊 %2$s 下的 %1$s 選項。"
+
+#, php-format
+msgid "Enter your %1$s and %2$s URLs."
+msgstr "輸入您的 %1$s 和 %2$s 網址。"
+
+#, php-format
+msgid "Enter your domain name into the %1$s field, probably: %2$s"
+msgstr "在 %1$s 字段中輸入您的域名，可能是：%2$s"
+
+#, php-format
+msgid "Scroll up and click on the %s button."
+msgstr "向上滾動並單擊 %s 按鈕。"
+
+#, php-format
+msgid ""
+"Currently your App is in %1$s status, meaning that you don't have access to "
+"the credentials which are necessary for the %2$s integration. In order to "
+"gain access, click on the %3$s on the top right corner."
+msgstr "目前您的應用處於 %1$s 狀態，這意味著您無權訪問 %2$s 集成所需的憑據。要獲得訪問權限，請單擊右上角的 %3$s。"
+
+#, php-format
+msgid ""
+"A modal will appear where you should enter a text, that describes what you "
+"are going to do with the App. In this particular case, you will use it to "
+"offer %1$s login option for your visitors."
+msgstr "將出現一個模式，您應該在其中輸入文本，描述您將使用該應用程序做什麼。在這種特殊情況下，您將使用它為訪問者提供 %1$s 登錄選項。"
+
+#, php-format
+msgid ""
+"Wait until your App gets approved. This can take a couple of days. If you "
+"scroll up to the top of the page you will be able to inspect the %1$s below "
+"the %2$s section. If you want to learn more about the App review process, "
+"you can find more information in the %3$sofficial documentation%4$s."
+msgstr ""
+"等到您的應用程序獲得批准。這可能需要幾天時間。如果您向上滾動到頁面頂部，您將能夠檢查 %2$s 部分下方的 %1$s。如果您想了解更多關於 App "
+"審核流程的信息，您可以在 %3$官方文檔%4$s 中找到更多信息。"
+
+#, php-format
+msgid ""
+"Once the %1$s says %2$s, you will be able to reveal the %3$s and %4$s by "
+"clicking on the eye icon next to these fields. You will need these "
+"credentials for the provider configuration."
+msgstr "一旦 %1$s 顯示 %2$s，您將能夠通過單擊這些字段旁邊的眼睛圖標來顯示 %3$s 和 %4$s。您將需要這些憑證來進行提供商配置。"
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> The %1$s API can not return any email address or phone "
+"number! %2$sLearn more%3$s."
+msgstr "<b>警告：</b> %1$s API 無法返回任何電子郵件地址或電話號碼！ %2$s了解更多%3$s。"
+
+msgid "Client Key"
+msgstr "客戶端密鑰"
+
+msgid "Continue with <b>TikTok</b>"
+msgstr "繼續 <b>TikTok</b>"
+
+msgid "Sign up with <b>TikTok</b>"
+msgstr "註冊 <b>TikTok</b>"
+
+msgid "Link account with <b>TikTok</b>"
+msgstr "將帳戶與 <b>TikTok</b> 關聯"
+
+msgid "Unlink account from <b>TikTok</b>"
+msgstr "取消帳戶與 <b>TikTok</b> 的關聯"
+
+#, php-format
+msgid "On the %1$s tab, find your app and click %2$s."
+msgstr "在 %1$s 選項卡上，找到您的應用並點擊 %2$s。"
+
+msgid "Complete the human verification test."
+msgstr "完成人工驗證測試。"
+
+#, php-format
+msgid "Open the %1$s and login with your %2$s account."
+msgstr "打開 %1$s 並使用您的 %2$s 帳戶登錄。"
+
+#, php-format
+msgid "To be able to create a %s your account both needs:"
+msgstr "為了能夠創建一個 %s，您的帳戶需要："
+
+#, php-format
+msgid "to be %s"
+msgstr "成為 %s"
+
+#, php-format
+msgid ""
+"and to have the %1$s enabled. If it is not enabled already, you can enable "
+"it at your %2$s page on the %3$s tab"
+msgstr "並啟用 %1$s。如果尚未啟用，您可以在 %2$s 頁面的 %3$s 選項卡上啟用它"
+
+#, php-format
+msgid "Navigate to the %1$s tab."
+msgstr "導航到 %1$s 選項卡。"
+
+#, php-format
+msgid "Click on the %s button on the right side."
+msgstr "單擊右側的 %s 按鈕。"
+
+#, php-format
+msgid "Enter a %s for your App."
+msgstr "為您的應用程序輸入 %s。"
+
+#, php-format
+msgid "Select the %1$s option in the %2$s list."
+msgstr "在 %2$s 列表中選擇 %1$s 選項。"
+
+#, php-format
+msgid "To generate a %1$s, click on the %2$s button."
+msgstr "要生成 %1$s，請單擊 %2$s 按鈕。"
+
+#, php-format
+msgid ""
+"Copy the %1$s and the %2$s values. These will be needed in the plugin's "
+"settings."
+msgstr "複製 %1$s 和 %2$s 值。插件設置中需要這些。"
+
+msgid "Continue with <b>Twitch</b>"
+msgstr "繼續 <b>Twitch</b>"
+
+msgid "Sign up with <b>Twitch</b>"
+msgstr "註冊 <b>Twitch</b>"
+
+msgid "Link account with <b>Twitch</b>"
+msgstr "將帳戶與 <b>Twitch</b> 關聯"
+
+msgid "Unlink account from <b>Twitch</b>"
+msgstr "取消帳戶與 <b>Twitch</b> 的關聯"
+
+msgid "Click on the \"<b>Manage</b>\" button next to the associated App."
+msgstr "單擊相關應用旁邊的“<b>管理</b>”按鈕。"
+
+msgid "Go to the \"<b>Settings</b>\" menu"
+msgstr "轉到“<b>設置</b>”菜單"
+
+msgid "Locate the blue \"<b>Create app</b>\" button and click on it."
+msgstr "找到藍色的“<b>創建應用</b>”按鈕並單擊它。"
+
+msgid ""
+"Enter the <b>Title</b> for your App and select \"<b>Website</b>\" as "
+"platform."
+msgstr "為您的應用輸入<b>標題</b>並選擇“<b>網站</b>”作為平台。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Website address</b>\" with the url of your homepage, probably: <b>"
+"%s</b>"
+msgstr "\"<b>Website address</b>\"填寫你的主頁的url，大概是：<b>%s</b>"
+
+#, php-format
+msgid ""
+"Fill the \"<b>Base domain</b>\" field with your domain, probably: <b>%s</b>"
+msgstr "用您的域填寫“<b>基本域</b>”字段，可能是：<b>%s</b>"
+
+msgid "When all fields are filled, click the \"<b>Upload app</b>\" button."
+msgstr "填寫所有字段後，單擊“<b>上傳應用程序</b>”按鈕。"
+
+msgid ""
+"<b>Fill the information form</b> of your app, <b>upload an app icon</b> then "
+"click <b>Save</b>."
+msgstr "<b>填寫您應用的信息表</b>，<b>上傳應用圖標</b>，然後點擊<b>保存</b>。"
+
+msgid "Pick <b>Settings</b> at the left-hand menu "
+msgstr "在左側菜單中選擇<b>設置</b>"
+
+msgid "<b>Save</b> your app"
+msgstr "<b>保存</b>您的應用"
+
+msgid ""
+"Find the necessary \"<b>App ID</b>\" and \"<b>Secure key</b>\" at the top of "
+"the Settings page where you just hit the save button."
+msgstr "在設置頁面頂部找到必要的“<b>App ID</b>”和“<b>Secure key</b>”，您只需點擊保存按鈕即可。"
+
+msgid "Secure key"
+msgstr "安全密鑰"
+
+msgid "Continue with <b>VK</b>"
+msgstr "繼續 <b>VK</b>"
+
+msgid "Sign up with <b>VK</b>"
+msgstr "註冊 <b>VK</b>"
+
+msgid "Link account with <b>VK</b>"
+msgstr "將帳戶與 <b>VK</b> 關聯"
+
+msgid "Unlink account from <b>VK</b>"
+msgstr "取消帳戶與 <b>VK</b> 的關聯"
+
+msgid "Click \"<b>Manage Settings</b>\" under the Tools section!"
+msgstr "點擊“工具”部分下的“<b>管理設置</b>”！"
+
+msgid "Click on the \"<b>Create New Application</b>\" button."
+msgstr "單擊“<b>創建新應用程序</b>”按鈕。"
+
+msgid "Enter a \"<b>Name</b>\" and \"<b>Description</b>\" for your App."
+msgstr "為您的應用輸入“<b>名稱</b>”和“<b>描述</b>”。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Website URL</b>\" with the url of your homepage, probably: <b>"
+"%s</b>"
+msgstr "在“<b>Website URL</b>”中填入您的主頁的 url，可能是：<b>%s</b>"
+
+msgid "You can leave the \"Javascript Origins\" field blank!"
+msgstr "您可以將“Javascript 起源”字段留空！"
+
+msgid "At the \"<b>Type</b>\" make sure \"<b>Web</b>\" is selected!"
+msgstr "在“<b>類型</b>”確保選擇“<b>Web</b>”！"
+
+msgid "Click the \"<b>Create</b>\" button!"
+msgstr "點擊“<b>創建</b>”按鈕！"
+
+msgid ""
+"<b>Click the name of your App</b> either in the Breadcrumb navigation or "
+"next to Editing!"
+msgstr "<b>在麵包屑導航或編輯旁邊點擊您的應用程序名稱</b>！"
+
+msgid ""
+"Here you can see your \"<b>Client ID</b>\" and \"<b>Client Secret</b>\". "
+"These will be needed in the plugin's settings."
+msgstr "在這裡您可以看到您的“<b>Client ID</b>”和“<b>Client Secret</b>”。插件設置中需要這些。"
+
+msgid "Continue with <b>WordPress.com</b>"
+msgstr "繼續 <b>WordPress.com</b>"
+
+msgid "Sign up with <b>WordPress.com</b>"
+msgstr "註冊 <b>WordPress.com</b>"
+
+msgid "Link account with <b>WordPress.com</b>"
+msgstr "將帳戶與 <b>WordPress.com</b> 關聯"
+
+msgid "Unlink account from <b>WordPress.com</b>"
+msgstr "取消帳戶與 <b>WordPress.com</b> 的關聯"
+
+msgid "Click on the App which has its credentials associated with the plugin."
+msgstr "單擊具有與插件關聯的憑據的應用程序。"
+
+msgid "Click on the \"<b>Create an App</b>\" button on the top right corner."
+msgstr "點擊右上角的“<b>創建應用</b>”按鈕。"
+
+msgid "Fill the \"<b>Application Name</b>\" field."
+msgstr "填寫“<b>應用程序名稱</b>”字段。"
+
+msgid "Enter a \"<b>Description</b>\" for your app!"
+msgstr "為您的應用輸入“<b>描述</b>”！"
+
+#, php-format
+msgid ""
+"Enter the URL of your site to the \"<b>Home Page URL</b>\" field: <b>%s</b>"
+msgstr "在“<b>主頁 URL</b>”字段中輸入您網站的 URL：<b>%s</b>"
+
+#, php-format
+msgid "At %1$s choose the %2$s option."
+msgstr "在 %1$s 選擇 %2$s 選項。"
+
+msgid ""
+"Under the \"<b>API Permissions</b>\" you should select \"<b>OpenID Connect "
+"Permissions</b>\" with both \"<b>Email</b>\" and \"<b>Profile</b>\" enabled."
+msgstr ""
+"在“<b>API Permissions</b>”下，您應該選擇“<b>OpenID Connect Permissions</b>”以及“<b>"
+"Email</b>”和“<b>Profile</b>” \"啟用。"
+
+msgid "Click \"<b>Create App</b>\"."
+msgstr "點擊“<b>創建應用</b>”。"
+
+msgid ""
+"On the top of the page, you will find the necessary \"<b>Client ID</b>\" and "
+"\"<b>Client Secret</b>\"! These will be needed in the plugin's settings."
+msgstr "在頁面頂部，您會找到必要的“<b>Client ID</b>”和“<b>Client Secret</b>”！插件設置中需要這些。"
+
+msgid "Continue with <b>Yahoo</b>"
+msgstr "繼續<b>雅虎</b>"
+
+msgid "Sign up with <b>Yahoo</b>"
+msgstr "註冊 <b>Yahoo</b>"
+
+msgid "Link account with <b>Yahoo</b>"
+msgstr "將帳戶與 <b>Yahoo</b> 關聯"
+
+msgid "Unlink account from <b>Yahoo</b>"
+msgstr "取消帳戶與 <b>Yahoo</b> 的關聯"
+
+#, php-format
+msgid "Required permission: %1$s"
+msgstr "所需權限：%1$s"
+
+msgid "OR"
+msgstr "或者"
+
+msgid "Social accounts"
+msgstr "社交賬號"

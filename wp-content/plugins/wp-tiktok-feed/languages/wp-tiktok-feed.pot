@@ -1,0 +1,345 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP TikTok Feed\n"
+"POT-Creation-Date: 2023-02-28 22:15-0300\n"
+"PO-Revision-Date: 2020-04-07 20:07-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-tiktok-feed.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:389
+#, php-format
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr ""
+
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:554
+#, php-format
+msgid ""
+"Textdomain aliases should be registered before the %1$s hook. This notice "
+"was triggered by the %2$s domain."
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:71
+msgid ""
+"Hi! We are Quadlayers! We’re a team of international people who have been "
+"working in the WordPress sphere for the last ten years."
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:74
+msgid "More products"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:97
+msgid "Untitled"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:125
+msgid "Read more like this on our blog"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:148
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:154
+msgid ""
+"An error has occurred, which probably means the feed is down. Try again later"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:296
+#, php-format
+msgid "Unknow notice index %s"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:300
+#, php-format
+msgid "Notice index %s removed"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:36
+msgid "Activate"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:43
+msgid "Install"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:99
+#, php-format
+msgid "Activate % s"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:100
+#, php-format
+msgid "%1$s not working because you need to activate the %2$s plugin . "
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:113
+#, php-format
+msgid "Install % s"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:114
+#, php-format
+msgid "%1$s not working because you need to install the %2$s plugin . "
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:78
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:93
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:94
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:47
+msgid "Suggestions"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:157
+msgid "Search Results"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:160
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:162
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:163
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:164
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:165
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:50
+msgid ""
+"Thanks for using our product! We recommend these extensions that will add "
+"new features to stand out your business and improve your sales."
+msgstr ""
+
+#. Author of the plugin/theme
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:79
+msgid "QuadLayers"
+msgstr ""
+
+#: lib/api/fetch/class-base.php:68
+msgid "Response is not valid json."
+msgstr ""
+
+#: lib/api/fetch/class-base.php:87
+#: lib/api/rest/endpoints/backend/settings/class-save.php:35
+#: lib/models/class-accounts.php:252
+msgid "Unknown error."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-create.php:21
+msgid "refresh_token not setted."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-delete.php:28
+msgid "Can't delete account, open_id not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-get.php:30
+msgid "Accounts empty"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-get.php:39
+#, php-format
+msgid "Account %s not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-clear-cache.php:28
+msgid "feed_id not found in table, the cache is not refresh "
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-create.php:21
+#: lib/api/rest/endpoints/backend/feeds/class-edit.php:22
+msgid "Feed not setted"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-create.php:33
+#: lib/api/rest/endpoints/backend/settings/class-get.php:24
+msgid "Unknown error"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-delete.php:27
+msgid "Can't delete feed, feed_id not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-edit.php:36
+msgid "Feed can not be updated"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-get.php:26
+msgid "Feeds empty"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-get.php:36
+#, php-format
+msgid "Feed %s not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/settings/class-save.php:23
+msgid "Settings not saved."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/external-user-profile/class-load.php:18
+#: lib/api/rest/endpoints/frontend/external-user-video-list/class-load.php:18
+msgid "Username is a premium feature."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/hashtag-video-list/class-load.php:18
+msgid "Hashtag is a premium feature."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/trending-video-list/class-load.php:18
+msgid "Trending is a premium feature."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/user-profile/class-load.php:50
+#: lib/api/rest/endpoints/frontend/user-video-list/class-load.php:69
+#, php-format
+msgid "Account id %s not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/user-video-list/class-load.php:56
+#, php-format
+msgid "Feed id %s not found"
+msgstr ""
+
+#: lib/backend/class-load.php:46 lib/backend/class-load.php:47
+msgid "Welcome"
+msgstr ""
+
+#: lib/backend/class-load.php:54 lib/backend/class-load.php:55
+msgid "Accounts"
+msgstr ""
+
+#: lib/backend/class-load.php:62 lib/backend/class-load.php:63
+msgid "Feeds"
+msgstr ""
+
+#: lib/backend/class-load.php:70 lib/backend/class-load.php:71
+#: vendor_packages/wp-plugin-table-links.php:8
+msgid "Settings"
+msgstr ""
+
+#: lib/backend/class-load.php:78 lib/backend/class-load.php:81
+#: vendor_packages/wp-plugin-table-links.php:13
+msgid "Premium"
+msgstr ""
+
+#: lib/models/class-accounts.php:206
+msgid "Account data is empty/null"
+msgstr ""
+
+#: lib/models/class-accounts.php:216
+msgid "refresh_token is empty/null"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:24
+msgid ""
+"Social Feed Gallery is the most user-friendly Instagram plugin for "
+"WordPress. It was built to simplify the integration, to reduce time to have "
+"sites updated and to be on track with social media that shows best growing "
+"indicators."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:31
+msgid ""
+"Social Chat allows your users to start a conversation from your website "
+"directly to your WhatsApp phone number with one click."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:43
+#, php-format
+msgid "Hello! Thank you for choosing the %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:48
+msgid ""
+"Could you please give it a 5-star rating on WordPress?. Your feedback will "
+"boost our motivation and help us promote and continue to improve this "
+"product."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:51
+msgid "Yes, of course!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:56
+msgid "Report a bug"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:64
+msgid "Purchase Now"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:70
+msgid "Hello! We have a special gift!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:75
+#, php-format
+msgid ""
+"Today we want to make you a special gift. Using the coupon code %1$s before "
+"the next 48 hours you can get a 20 percent discount on the premium version "
+"of the %2$s plugin."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:83
+#: vendor_packages/wp-notice-plugin-promote.php:101
+#: vendor_packages/wp-notice-plugin-promote.php:119
+msgid "More info!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:93
+#: vendor_packages/wp-notice-plugin-promote.php:111
+#, php-format
+msgid "Hello! We want to invite you to try our %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:18
+msgid "Support"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:23
+msgid "Documentation"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "TikTok Feed (Beta)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://quadlayers.com/documentation/tiktok-feed/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display beautiful and responsive galleries on your website from your TikTok "
+"feed account."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://quadlayers.com"
+msgstr ""

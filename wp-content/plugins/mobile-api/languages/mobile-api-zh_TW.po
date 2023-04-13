@@ -1,0 +1,2637 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mobile app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-10 22:12+0200\n"
+"PO-Revision-Date: 2023-04-05 23:10+0000\n"
+"Last-Translator: 低級黑 小明\n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Loco-Version: 2.6.4; wp-6.2"
+
+#: apis/delete.php:24 apis/notification.php:15 apis/notification.php:43
+#: apis/notification.php:71 apis/notification.php:94 apis/notification.php:123
+#: apis/notification.php:166 apis/question.php:18 apis/question.php:42
+#: apis/question.php:70 apis/reactions.php:17 apis/user.php:16 apis/user.php:37
+#: class-auth.php:58 controllers-api/User.php:269 controllers-api/User.php:289
+#: controllers-api/User.php:509 controllers-api/User.php:652
+#: controllers-api/User.php:745 controllers-api/User.php:801
+#: controllers-api/User.php:854 controllers-api/User.php:933
+#: controllers-api/User.php:967 controllers-api/User.php:996
+#: controllers-api/User.php:1024 controllers/comment.php:71
+#: controllers/core.php:820 controllers/core.php:1704
+msgid "Authorization header not found."
+msgstr "未找到授權標頭。"
+
+#: apis/notification.php:18 apis/notification.php:74 apis/notification.php:98
+#: apis/notification.php:127 apis/notification.php:169
+msgid "Please login to see your notifications."
+msgstr "請登錄以查看您的通知。"
+
+#: apis/notification.php:23 apis/notification.php:174
+msgid "There are no notifications yet."
+msgstr "目前還沒有通知。"
+
+#: apis/notification.php:46
+msgid "Please login to dismiss your notifications."
+msgstr "請登錄以關閉您的通知。"
+
+#: apis/notification.php:131 controllers-api/User.php:514
+#: controllers-api/User.php:976 controllers-api/User.php:1033
+#: controllers/core.php:1710
+msgid "Include id var in your request."
+msgstr "在您的請求中包含 id var。"
+
+#: apis/question.php:21 apis/question.php:45 apis/question.php:73
+msgid "Please add the question id."
+msgstr "請添加問題ID。"
+
+#: apis/question.php:76
+msgid "Please add the number of points."
+msgstr "請添加點數。"
+
+#: apis/user.php:40 controllers-api/User.php:292
+msgid "Please login to see your profile."
+msgstr "請登錄以查看您的個人資料。"
+
+#: apis/user.php:198 apis/user.php:204 models/comment.php:125
+#: models/comment.php:137 models/post.php:377 models/post.php:1371
+msgid "Are you sure you want to delete the image?"
+msgstr "您確定要刪除圖像嗎？"
+
+#: class-auth.php:59
+msgid "Authorization header malformed."
+msgstr "授權標頭格式錯誤。"
+
+#: class-auth.php:120
+msgid "Custom authentication failed."
+msgstr "自定義身份驗證失敗。"
+
+#: class-auth.php:154 class-auth.php:350
+msgid "MOBILEAPIAUT is not configurated properly."
+msgstr "MOBILEAPIAUT 配置不正確。"
+
+#: class-auth.php:242
+msgid "Credential is valid"
+msgstr "憑據有效"
+
+#: class-auth.php:369
+msgid "The iss do not match with this server."
+msgstr "iss 與此服務器不匹配。"
+
+#: class-auth.php:383
+msgid "User ID not found in the token."
+msgstr "在令牌中找不到用戶 ID。"
+
+#: class-auth.php:416
+msgid "Token is valid"
+msgstr "令牌有效"
+
+#: config-options.php:847 config-options.php:850 controllers/core.php:138
+#: controllers/core.php:142
+msgid "All Questions"
+msgstr "所有問題"
+
+#: config-options.php:1324 mobile-options.php:819 mobile-options.php:1077
+msgid "Home"
+msgstr "家"
+
+#: config-options.php:1325 mobile-options.php:820 mobile-options.php:1078
+msgid "Ask Question"
+msgstr "問問題"
+
+#: config-options.php:1326 mobile-options.php:1079
+msgid "Categories"
+msgstr "類別"
+
+#: config-options.php:1327 mobile-options.php:822 mobile-options.php:1080
+msgid "Favorite"
+msgstr "最喜歡的"
+
+#: config-options.php:1328 mobile-options.php:175 mobile-options.php:823
+#: mobile-options.php:1751
+msgid "Followed Questions"
+msgstr "關注的問題"
+
+#: config-options.php:1329 mobile-options.php:824 mobile-options.php:1081
+msgid "Settings"
+msgstr "設置"
+
+#: config-options.php:1330 mobile-options.php:825
+msgid "Questions"
+msgstr "問題"
+
+#: config-options.php:1331 mobile-options.php:826 mobile-options.php:1082
+msgid "Blog"
+msgstr "博客"
+
+#: config-options.php:1332 mobile-options.php:827 models/post.php:639
+msgid "Users"
+msgstr "用戶"
+
+#: config-options.php:1333 mobile-options.php:828
+msgid "Post Categories"
+msgstr "帖子類別"
+
+#: config-options.php:1334 mobile-options.php:829
+msgid "Search"
+msgstr "搜索"
+
+#: config-options.php:1335 mobile-options.php:830
+msgid "Contact Us"
+msgstr "聯繫我們"
+
+#: config-options.php:1336 mobile-options.php:831 mobile-options.php:1083
+#: models/post.php:490
+msgid "Add Post"
+msgstr "添加帖子"
+
+#: config-options.php:1337 mobile-options.php:832 mobile-options.php:1084
+msgid "Badges and points"
+msgstr "徽章和積分"
+
+#: config-options.php:1338 mobile-options.php:833
+msgid "Answers"
+msgstr "答案"
+
+#: config-options.php:1339 mobile-options.php:834
+msgid "Comments"
+msgstr "評論"
+
+#: config-options.php:1340 mobile-options.php:169 mobile-options.php:835
+#: mobile-options.php:1548
+msgid "Notifications"
+msgstr "通知"
+
+#: controllers-api/User.php:25
+msgid "Sorry, the register is disabled."
+msgstr "對不起，註冊被禁用。"
+
+#: controllers-api/User.php:29
+msgid "You must include username var in your request."
+msgstr "您必須在請求中包含用戶名 var。"
+
+#: controllers-api/User.php:35
+msgid "You must include email var in your request."
+msgstr "您必須在請求中包含電子郵件 var。"
+
+#: controllers-api/User.php:49 controllers/comment.php:155
+msgid "Username is invalid."
+msgstr "無效的用戶名。"
+
+#: controllers-api/User.php:51 controllers/comment.php:157
+msgid "Username already exists."
+msgstr "此用戶名已存在。"
+
+#: controllers-api/User.php:54 controllers/comment.php:160
+msgid "E-mail address is invalid."
+msgstr "電子郵箱地址不可用。"
+
+#: controllers-api/User.php:56 controllers/comment.php:162
+msgid "E-mail address is already in use."
+msgstr "電子郵件地址已被使用。"
+
+#: controllers-api/User.php:153
+msgid "You are registered now, and maybe the admin will contact you."
+msgstr "您現在已註冊，也許管理員會與您聯繫。"
+
+#: controllers-api/User.php:157 controllers-api/User.php:222
+msgid "Error in the generate token."
+msgstr "生成令牌時出錯。"
+
+#: controllers-api/User.php:167
+msgid "Sorry, the login is disabled."
+msgstr "抱歉，登錄被禁用。"
+
+#: controllers-api/User.php:177
+msgid ""
+"You must include username or email var in your request to generate token."
+msgstr "您必須在生成令牌的請求中包含用戶名或電子郵件變量。"
+
+#: controllers-api/User.php:181
+msgid "You must include a password var in your request."
+msgstr "您必須在請求中包含密碼 var。"
+
+#: controllers-api/User.php:187
+msgid "email does not exist."
+msgstr "電子郵件不存在。"
+
+#: controllers-api/User.php:190
+msgid "Invalid email address."
+msgstr "無效的郵件地址。"
+
+#: controllers-api/User.php:255
+msgid "You must include size var in your request."
+msgstr "您必須在請求中包含 size var。"
+
+#: controllers-api/User.php:272
+msgid "Please login first."
+msgstr "請先登錄。"
+
+#: controllers-api/User.php:277
+msgid "Check your mail again."
+msgstr "再次檢查您的郵件。"
+
+#: controllers-api/User.php:447 controllers/core.php:803
+msgid "This tab is not available."
+msgstr "此選項卡不可用。"
+
+#: controllers-api/User.php:450 controllers/core.php:809
+msgid "Include get_tab var in your request."
+msgstr "在您的請求中包含 get_tab var。"
+
+#: controllers-api/User.php:458
+msgid "Please login to check your blocking users."
+msgstr "請登錄以檢查您的阻止用戶。"
+
+#: controllers-api/User.php:517 controllers-api/User.php:979
+#: controllers-api/User.php:1036 controllers/core.php:1716
+msgid "Include action var in your request."
+msgstr "在您的請求中包含 action var。"
+
+#: controllers-api/User.php:538 controllers-api/User.php:598
+msgid "Include user_id var in your request."
+msgstr "在您的請求中包含 user_id var。"
+
+#: controllers-api/User.php:656 controllers-api/User.php:748
+#: controllers-api/User.php:805
+msgid "Please login to edit profile."
+msgstr "請登錄以編輯個人資料。"
+
+#: controllers-api/User.php:659
+msgid "There are required fields (Email)."
+msgstr "有必填字段（電子郵件）。"
+
+#: controllers-api/User.php:662 controllers/contact.php:20
+msgid "Please write correctly email."
+msgstr "請正確填寫電子郵件。"
+
+#: controllers-api/User.php:666
+msgid "This email is already registered, please choose another one."
+msgstr "此郵箱已被註冊，請選擇其他郵箱。"
+
+#: controllers-api/User.php:755 controllers-api/User.php:811
+msgid "Please upload your image."
+msgstr "請上傳您的圖片。"
+
+#: controllers-api/User.php:782 controllers-api/User.php:838
+msgid "Error in upload the image : "
+msgstr "上傳圖片錯誤："
+
+#: controllers-api/User.php:794
+msgid "The cover is not available."
+msgstr "封面不可用。"
+
+#: controllers-api/User.php:858 controllers-api/User.php:1000
+#: controllers-api/User.php:1028
+msgid "Please login to see your following."
+msgstr "請登錄查看您的關注。"
+
+#: controllers-api/User.php:937 controllers-api/User.php:971
+msgid "Please login to see your favorites."
+msgstr "請登錄以查看您的收藏夾。"
+
+#: controllers-api/User.php:1053
+msgid "You must include a cookie var in your request. Use the login method."
+msgstr "您必須在請求中包含一個 cookie var。使用登錄方法。"
+
+#: controllers-api/User.php:1059
+msgid "Invalid cookie. Use the login method."
+msgstr "無效的 cookie。使用登錄方法。"
+
+#: controllers-api/User.php:1063 controllers/comment.php:13
+msgid "No post specified. Include post_id var in your request."
+msgstr "沒有指定職位。在您的請求中包含 post_id var。"
+
+#: controllers-api/User.php:1065
+msgid "Please include content var in your request."
+msgstr "請在您的請求中包含內容變量。"
+
+#: controllers-api/User.php:1069
+msgid ""
+"Please include comment_status var in your request. Possible values are "
+"comment_status=1 (approved) or comment_status=hold (not-approved)"
+msgstr ""
+"請在您的請求中包含 comment_status 變量。可能的值為 comment_status=1（已批准）或 "
+"comment_status=hold（未批准）"
+
+#: controllers/comment.php:18
+msgid "Please include all required arguments (name, email, content)."
+msgstr "請包括所有必需的參數（姓名、電子郵件、內容）。"
+
+#: controllers/comment.php:20
+msgid "Please enter a valid email address."
+msgstr "請輸入有效的電子郵件地址。"
+
+#: controllers/comment.php:24
+msgid "Please include all required arguments (content)."
+msgstr "請包括所有必需的參數（內容）。"
+
+#: controllers/comment.php:44
+msgid "Sorry, The minimum characters is"
+msgstr "抱歉，最少字符數是"
+
+#: controllers/comment.php:47
+msgid "Sorry, The maximum characters is"
+msgstr "抱歉，最大字符數為"
+
+#: controllers/comment.php:54
+msgid "There are required fields (Agree of the terms)."
+msgstr "有必填字段（同意條款）。"
+
+#: controllers/comment.php:96 controllers/comment.php:125
+#: controllers/core.php:1814 controllers/post.php:55 controllers/post.php:88
+#: controllers/question.php:93 controllers/question.php:159
+#: controllers/question.php:232 controllers/question.php:392
+msgid "Your request not POST."
+msgstr "您的請求不是 POST。"
+
+#: controllers/contact.php:14
+msgid "There are required fields (name)."
+msgstr "有必填字段（名稱）。"
+
+#: controllers/contact.php:17
+msgid "There are required fields (email)."
+msgstr "有必填字段（電子郵件）。"
+
+#: controllers/contact.php:23
+msgid "There are required fields (message)."
+msgstr "有必填字段（消息）。"
+
+#: controllers/contact.php:25
+msgid "Message from the mobile"
+msgstr "來自手機的消息"
+
+#: controllers/contact.php:48
+msgid "Your message was successfully sent."
+msgstr "您的消息已成功發送。"
+
+#: controllers/core.php:99
+msgid "Question"
+msgid_plural "Questions"
+msgstr[0] "問題"
+
+#: controllers/core.php:101
+msgid "Answer"
+msgid_plural "Answers"
+msgstr[0] "回答"
+
+#: controllers/core.php:103
+msgid "Point"
+msgid_plural "Points"
+msgstr[0] "觀點"
+
+#: controllers/core.php:198
+msgid "No tab was found."
+msgstr "沒有找到選項卡。"
+
+#: controllers/core.php:204
+msgid "No homepage was found."
+msgstr "找不到主頁。"
+
+#: controllers/core.php:407
+msgid "You must login to see your feed."
+msgstr "您必須登錄才能查看您的提要。"
+
+#: controllers/core.php:410
+msgid "You must login to see your followed."
+msgstr "您必須登錄才能看到您的關注。"
+
+#: controllers/core.php:412
+msgid "You must login to see your favorites."
+msgstr "您必須登錄才能查看您的收藏夾。"
+
+#: controllers/core.php:574 controllers/core.php:1082
+#, php-format
+msgid "Choose %s or more users to continue."
+msgstr "選擇 %s 或更多用戶以繼續。"
+
+#: controllers/core.php:588 controllers/core.php:1096
+#, php-format
+msgid "Choose %s or more categories to continue."
+msgstr "選擇 %s 或更多類別以繼續。"
+
+#: controllers/core.php:602 controllers/core.php:1110
+#, php-format
+msgid "Choose %s or more tags to continue."
+msgstr "選擇 %s 或更多標籤以繼續。"
+
+#: controllers/core.php:686 controllers/core.php:701
+msgid "There are no questions yet."
+msgstr "目前為止還沒有什麼問題。"
+
+#: controllers/core.php:806
+msgid "No homepage template in this site."
+msgstr "本站沒有主頁模板。"
+
+#: controllers/core.php:824
+msgid "Include page_id var in your request."
+msgstr "在您的請求中包含 page_id var。"
+
+#: controllers/core.php:920 controllers/core.php:1290
+msgid "Sorry, this is a available."
+msgstr "抱歉，這是可用的。"
+
+#: controllers/core.php:1216 models/post.php:476
+msgid "Sorry, you blocked from this group."
+msgstr "抱歉，您已阻止加入此群組。"
+
+#: controllers/core.php:1223 models/post.php:481
+msgid "Sorry, this is a private group."
+msgstr "抱歉，這是一個私人群組。"
+
+#: controllers/core.php:1255
+msgid "Sorry, this is a private page."
+msgstr "對不起，這是一個私人頁面。"
+
+#: controllers/core.php:1324 controllers/core.php:1334
+#: controllers/core.php:1394 controllers/core.php:1423
+#: controllers/core.php:1470 controllers/core.php:1498
+msgid "Not found."
+msgstr "未找到。"
+
+#: controllers/core.php:1368 singletons/introspector.php:108
+#: singletons/introspector.php:133 singletons/introspector.php:172
+#: singletons/introspector.php:217
+msgid "Include id or slug var in your request."
+msgstr "在您的請求中包含 id 或 slug var。"
+
+#: controllers/core.php:1403
+msgid "Specify a date var in one of YYYY or YYYY-MM or YYYY-MM-DD formats."
+msgstr "以 YYYY 或 YYYY-MM 或 YYYY-MM-DD 格式之一指定日期變量。"
+
+#: controllers/core.php:1414
+msgid "Include date var in your request."
+msgstr "在您的請求中包含日期變量。"
+
+#: controllers/core.php:1543
+msgid "Include search var in your request."
+msgstr "在您的請求中包含搜索變量。"
+
+#: controllers/core.php:1713
+msgid "Include type var in your request."
+msgstr "在您的請求中包含類型 var。"
+
+#: controllers/core.php:1719
+msgid "The following is not available."
+msgstr "以下不可用。"
+
+#: controllers/core.php:1786
+msgid "Please fill the reason field."
+msgstr "請填寫原因字段。"
+
+#: controllers/core.php:1789
+msgid "You must include answer_id var in your request."
+msgstr "您必須在請求中包含 answer_id var。"
+
+#: controllers/core.php:1792
+msgid "You must include user_id var in your request."
+msgstr "您必須在請求中包含 user_id var。"
+
+#: controllers/core.php:1802
+msgid ""
+"You reported an answer. It will be reviewed shortly, The answer is under "
+"review."
+msgstr "你報告了一個答案。待會審核，答案正在審核中。"
+
+#: controllers/core.php:1804
+msgid ""
+"You reported a question. It will be reviewed shortly, The question is under "
+"review."
+msgstr "您報告了一個問題。待會審核，問題正在審核中。"
+
+#: controllers/core.php:1806
+msgid "Deleted successfully."
+msgstr "刪除成功。"
+
+#: controllers/core.php:1808
+msgid "Thank you, your report will be reviewed shortly."
+msgstr "謝謝，您的報告將很快得到審核。"
+
+#: controllers/core.php:1811
+msgid "You must include post_id and type vars in your request."
+msgstr "您必須在請求中包含 post_id 和類型變量。"
+
+#: controllers/core.php:1838
+#, php-format
+msgid "No %s specified. Include id or slug var in your request."
+msgstr "沒有指定 %s。在您的請求中包含 id 或 slug var。"
+
+#: controllers/post.php:27
+msgid "Your post was successfully added, It's under review."
+msgstr "您的帖子已成功添加，正在審核中。"
+
+#: controllers/post.php:52
+msgid "You must include form_type var in your request."
+msgstr "您必須在請求中包含 form_type var。"
+
+#: controllers/post.php:84
+msgid "Your post was successfully edited, It's under review."
+msgstr "您的帖子已成功編輯，正在審核中。"
+
+#: controllers/posts.php:13 controllers/posts.php:38
+msgid "Please tnclude id var in your request."
+msgstr "請在您的請求中包含 id var。"
+
+#: controllers/posts.php:64
+msgid "Post not found."
+msgstr "找不到帖子。"
+
+#: controllers/posts.php:67
+msgid ""
+"You need to login with a user that has the edit_post capacity for that post."
+msgstr "您需要使用具有該帖子的 edit_post 權限的用戶登錄。"
+
+#: controllers/posts.php:70
+msgid "You need to login with a user that has the delete_posts capacity."
+msgstr "您需要使用具有 delete_posts 權限的用戶登錄。"
+
+#: controllers/posts.php:73
+msgid "You need to login with a user that has the delete_other_posts capacity."
+msgstr "您需要使用具有 delete_other_posts 權限的用戶登錄。"
+
+#: controllers/question.php:56
+msgid "Your question was successfully added, It's under review."
+msgstr "您的問題已成功添加，正在審核中。"
+
+#: controllers/question.php:153
+msgid ""
+"Your question has been Edited successfully. The question is under review."
+msgstr "您的問題已成功編輯。問題正在審核中。"
+
+#: controllers/question.php:171 controllers/question.php:200
+msgid "Please login to vote and see the results."
+msgstr "請登錄投票並查看結果。"
+
+#: controllers/question.php:177 controllers/question.php:202
+msgid "Sorry, you cannot poll on the same question more than once."
+msgstr "抱歉，您不能對同一個問題進行多次投票。"
+
+#: controllers/question.php:225 controllers/question.php:267
+msgid "No votes."
+msgstr "沒有選票。"
+
+#: controllers/question.php:229
+msgid "You must include post_id and poll_id vars in your request."
+msgstr "您必須在請求中包含 post_id 和 poll_id 變量。"
+
+#: controllers/question.php:243
+msgid "This is not a poll."
+msgstr "這不是投票。"
+
+#: controllers/question.php:270
+msgid "You must include post_id var in your request."
+msgstr "您必須在請求中包含 post_id var。"
+
+#: controllers/question.php:292
+msgid "Sorry, you cannot vote your question."
+msgstr "抱歉，您不能對您的問題進行投票。"
+
+#: controllers/question.php:297
+msgid "Sorry, you cannot vote your answer."
+msgstr "抱歉，您不能對您的答案進行投票。"
+
+#: controllers/question.php:304
+msgid "Voting is available to members only."
+msgstr "投票僅對會員開放。"
+
+#: controllers/question.php:318 controllers/question.php:334
+msgid "Sorry, you cannot vote on the same question more than once."
+msgstr "抱歉，您不能對同一個問題多次投票。"
+
+#: controllers/question.php:350 controllers/question.php:366
+msgid "Sorry, you cannot vote on the same answer more than once."
+msgstr "抱歉，您不能對同一個答案多次投票。"
+
+#: controllers/question.php:389
+msgid "You must include id, type, and action vars in your request."
+msgstr "您必須在請求中包含 ID、類型和操作變量。"
+
+#: controllers/widgets.php:13
+msgid "No sidebar specified. Include sidebar_id var in your request."
+msgstr "沒有指定邊欄。在您的請求中包含 sidebar_id var。"
+
+#: controllers/widgets.php:15
+#, php-format
+msgid "Sidebar %s is not active."
+msgstr "邊欄 %s 未激活。"
+
+#: functions/functions.php:207
+msgid ""
+"A confirmation mail has been sent to your registered email account, If you "
+"have not received the confirmation mail, kindly Click here to re-send "
+"another confirmation mail."
+msgstr "一封確認郵件已經發送到您註冊的郵箱，如果您還沒有收到確認郵件，請點擊這裡重新發送一封確認郵件。"
+
+#: functions/functions.php:208
+msgid ""
+"A confirmation mail has been sent to your new email account, If you have not "
+"received the confirmation mail, kindly Click here to re-send another "
+"confirmation mail."
+msgstr "一封確認郵件已經發送到您的新郵箱，如果您還沒有收到確認郵件，請點擊這裡重新發送一封確認郵件。"
+
+#: functions/functions.php:214
+msgid "Sorry, you do not have permission to ask questions."
+msgstr "抱歉，您沒有提問的權限。"
+
+#: functions/functions.php:217
+msgid "Sorry, you do not have permission to view questions."
+msgstr "抱歉，您沒有查看問題的權限。"
+
+#: functions/functions.php:220
+msgid "Sorry, you do not have permission to add answers."
+msgstr "抱歉，您沒有添加答案的權限。"
+
+#: functions/functions.php:223 models/post.php:780
+msgid "Sorry, you do not have permission to view answers."
+msgstr "抱歉，您沒有查看答案的權限。"
+
+#: functions/functions.php:226
+msgid "Sorry, you do not have permission to add posts."
+msgstr "抱歉，您沒有添加帖子的權限。"
+
+#: functions/functions.php:229
+msgid "Sorry, you do not have permission to view posts."
+msgstr "抱歉，您沒有查看帖子的權限。"
+
+#: functions/functions.php:232
+msgid "Sorry, you do not have permission to add comments."
+msgstr "抱歉，您沒有添加評論的權限。"
+
+#: functions/functions.php:235 models/post.php:854
+msgid "Sorry, you do not have permission to view comments."
+msgstr "抱歉，您沒有查看評論的權限。"
+
+#: functions/functions.php:238
+msgid "Sorry, you do not have permission to view articles."
+msgstr "抱歉，您沒有查看文章的權限。"
+
+#: functions/functions.php:241
+msgid "Sorry, you do not have permission to add groups."
+msgstr "抱歉，您沒有添加群組的權限。"
+
+#: functions/functions.php:244
+msgid "Sorry, you do not have permission to send message."
+msgstr "抱歉，您沒有發送消息的權限。"
+
+#: functions/functions.php:247
+msgid ""
+"Your account is under review, You will be notified via mail when it has been "
+"approved."
+msgstr "您的帳戶正在審核中，您將在審核通過後收到郵件通知。"
+
+#: functions/functions.php:378
+msgid "Male"
+msgstr "男性"
+
+#: functions/functions.php:378
+msgid "Female"
+msgstr "女性"
+
+#: functions/functions.php:378
+msgid "Other"
+msgstr "其他"
+
+#: functions/functions.php:520
+msgid ""
+"Duplicate comment detected; it looks as though you've already said that!"
+msgstr "檢測到重複評論；看來你已經說過了！"
+
+#: functions/functions.php:540
+msgid "You are posting comments too quickly. Slow down."
+msgstr "您發表評論的速度太快了。慢下來。"
+
+#: functions/themes.php:895 models/comment.php:39 models/post.php:142
+#: models/post.php:143 models/post.php:900 models/post.php:901
+msgid "ago"
+msgstr "前"
+
+#: functions/themes.php:1505 functions/themes.php:1514 mobile-options.php:864
+#: mobile-options.php:1020
+msgid "Feed page"
+msgstr "提要頁面"
+
+#: mobile-options.php:20
+msgid "Points earned when viewing the rewarded ads."
+msgstr "查看獎勵廣告時獲得的積分。"
+
+#: mobile-options.php:21
+msgid "Put the points to earn when viewing the rewarded ads"
+msgstr "查看激勵廣告時輸入積分即可賺取"
+
+#: mobile-options.php:69 mobile-options.php:99 mobile-options.php:125
+#: mobile-options.php:148
+msgid "Category"
+msgstr "類別"
+
+#: mobile-options.php:70 mobile-options.php:100 mobile-options.php:126
+#: mobile-options.php:149
+msgid "Date"
+msgstr "日期"
+
+#: mobile-options.php:71 mobile-options.php:101 mobile-options.php:127
+#: mobile-options.php:150 mobile-options.php:194
+msgid "Author Image"
+msgstr "作者形象"
+
+#: mobile-options.php:72 mobile-options.php:102 mobile-options.php:128
+#: mobile-options.php:151 mobile-options.php:195
+msgid "Author"
+msgstr "作者"
+
+#: mobile-options.php:73 mobile-options.php:103
+msgid "Question vote"
+msgstr "問題投票"
+
+#: mobile-options.php:74
+msgid "Poll"
+msgstr "輪詢"
+
+#: mobile-options.php:75 mobile-options.php:104 mobile-options.php:129
+#: mobile-options.php:152
+msgid "Tags"
+msgstr "標籤"
+
+#: mobile-options.php:76 mobile-options.php:105
+msgid "Answer button"
+msgstr "接聽按鈕"
+
+#: mobile-options.php:77 mobile-options.php:106
+msgid "Answers count"
+msgstr "答案計數"
+
+#: mobile-options.php:78 mobile-options.php:107 mobile-options.php:132
+#: mobile-options.php:155
+msgid "Views count"
+msgstr "觀看次數"
+
+#: mobile-options.php:79 mobile-options.php:108
+msgid "Followers count"
+msgstr "粉絲數"
+
+#: mobile-options.php:80 mobile-options.php:109
+msgid "Favourite"
+msgstr "最喜歡的"
+
+#: mobile-options.php:110 mobile-options.php:156
+msgid "Share"
+msgstr "分享"
+
+#: mobile-options.php:130 mobile-options.php:153
+msgid "Comment button"
+msgstr "評論按鈕"
+
+#: mobile-options.php:131 mobile-options.php:154
+msgid "Comments count"
+msgstr "評論數"
+
+#: mobile-options.php:160 mobile-options.php:211
+msgid "Request my APP"
+msgstr "申請我的APP"
+
+#: mobile-options.php:161 mobile-options.php:367
+msgid "General settings"
+msgstr "常規設置"
+
+#: mobile-options.php:162 mobile-options.php:503
+msgid "Guide pages"
+msgstr "指南頁"
+
+#: mobile-options.php:163 mobile-options.php:596
+msgid "Setting page"
+msgstr "設置頁面"
+
+#: mobile-options.php:164 mobile-options.php:759
+msgid "Mobile header"
+msgstr "移動頭"
+
+#: mobile-options.php:165 mobile-options.php:794
+msgid "Bottom bar"
+msgstr "底欄"
+
+#: mobile-options.php:166 mobile-options.php:977
+msgid "Side navbar"
+msgstr "側導航欄"
+
+#: mobile-options.php:167 mobile-options.php:1137
+msgid "Ask questions"
+msgstr "問問題"
+
+#: mobile-options.php:168 mobile-options.php:1155
+msgid "Advertising"
+msgstr "廣告"
+
+#: mobile-options.php:170 mobile-options.php:1479
+msgid "Captcha settings"
+msgstr "驗證碼設置"
+
+#: mobile-options.php:171 mobile-options.php:1603
+msgid "Home settings"
+msgstr "主頁設置"
+
+#: mobile-options.php:172 mobile-options.php:1661
+msgid "Categories settings"
+msgstr "類別設置"
+
+#: mobile-options.php:173 mobile-options.php:1695
+msgid "Search settings"
+msgstr "搜索設置"
+
+#: mobile-options.php:174 mobile-options.php:1725
+msgid "Favourites settings"
+msgstr "收藏夾設置"
+
+#: mobile-options.php:176 mobile-options.php:1777
+msgid "Questions page settings"
+msgstr "問題頁面設置"
+
+#: mobile-options.php:177 mobile-options.php:1803
+msgid "Users settings"
+msgstr "用戶設置"
+
+#: mobile-options.php:178
+msgid "Comments and answers"
+msgstr "評論和答案"
+
+#: mobile-options.php:179 mobile-options.php:1975
+msgid "Blog settings"
+msgstr "博客設置"
+
+#: mobile-options.php:180 mobile-options.php:2001
+msgid "Single question settings"
+msgstr "單題設置"
+
+#: mobile-options.php:181 mobile-options.php:2082
+msgid "Single post settings"
+msgstr "單個帖子設置"
+
+#: mobile-options.php:182 mobile-options.php:2152
+msgid "Mobile styling"
+msgstr "手機造型"
+
+#: mobile-options.php:183 mobile-options.php:2821
+msgid "Language settings"
+msgstr "語言設定"
+
+#: mobile-options.php:184 mobile-options.php:2834
+msgid "Icons settings"
+msgstr "圖標設置"
+
+#: mobile-options.php:185 mobile-options.php:2989
+msgid "Under construction"
+msgstr "建設中"
+
+#: mobile-options.php:201
+msgid "Mobile APP"
+msgstr "移動應用"
+
+#: mobile-options.php:217
+msgid ""
+"Any changes in this page you will need to required new app files to apply "
+"the changes."
+msgstr "此頁面中的任何更改都需要新的應用程序文件才能應用更改。"
+
+#: mobile-options.php:223
+msgid "Activate a custom URL for your site different than the main URL"
+msgstr "為您的站點激活不同於主 URL 的自定義 URL"
+
+#: mobile-options.php:224
+msgid "Something like with www or without it, or with https or with http"
+msgstr "像帶 www 或不帶它，或帶 https 或帶 http 之類的東西"
+
+#: mobile-options.php:230
+msgid "Type your custom URL for your site different than the main URL"
+msgstr "為您的網站鍵入與主 URL 不同的自定義 URL"
+
+#: mobile-options.php:238
+msgid "App Name"
+msgstr "應用名稱"
+
+#: mobile-options.php:239
+msgid "Your app's name shown on Play Store and App Store"
+msgstr "您的應用在 Play 商店和 App Store 中顯示的名稱"
+
+#: mobile-options.php:245
+msgid ""
+"Upload the application icon and it must be (1024*1024px), PNG and NOT "
+"transparent"
+msgstr "上傳應用程序圖標，它必須是 (1024*1024px)，PNG 且不透明"
+
+#: mobile-options.php:251
+msgid "App bundle id"
+msgstr "應用程序包 ID"
+
+#: mobile-options.php:252 mobile-options.php:259
+msgid "It must be small letters (from 'a' to 'z'), like info.2code.app"
+msgstr "它必須是小寫字母（從 'a' 到 'z'），比如 info.2code.app"
+
+#: mobile-options.php:258
+msgid "App IOS bundle id"
+msgstr "應用程序 IOS 包 ID"
+
+#: mobile-options.php:265
+msgid "Application splash screen background color (hex code, ex: #FFFFFF)"
+msgstr "應用程序初始屏幕背景顏色（十六進制代碼，例如：#FFFFFF）"
+
+#: mobile-options.php:272
+msgid ""
+"Upload the application splash screen and it must be (512*512px), PNG and NOT "
+"transparent"
+msgstr "上傳應用程序啟動畫面，它必須是 (512*512px)、PNG 且不透明"
+
+#: mobile-options.php:278
+msgid ""
+"You can get the Issuer ID, KEY ID, Password of APP-SPECIFIC PASSWORDS and "
+"AuthKey file from here and these are required if you need the IOS version."
+msgstr ""
+"您可以從這裡獲取 Issuer ID、KEY ID、APP-SPECIFIC PASSWORDS 的密碼和 AuthKey 文件，如果您需要 IOS "
+"版本，則需要這些。"
+
+#: mobile-options.php:284
+msgid "Issuer ID *"
+msgstr "發行人編號 *"
+
+#: mobile-options.php:290
+msgid "Key ID *"
+msgstr "密鑰 ID *"
+
+#: mobile-options.php:296
+msgid "Add the AuthKey file content, this file for the IOS app *"
+msgstr "添加AuthKey文件內容，此文件為IOS app *"
+
+#: mobile-options.php:302
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/ask-me-application/id1542559413 the ID is: 1542559413"
+msgstr ""
+"iOS 應用程序的商店 ID 號可以在 iTunes 商店 URL 中找到，作為緊接在 id 之後的數字字符串。例如，在 https://apps."
+"apple.com/app/ask-me-application/id1542559413 中，ID 為：1542559413"
+
+#: mobile-options.php:304
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/discy/id1535374585 the ID is: 1535374585"
+msgstr ""
+"iOS 應用程序的商店 ID 號可以在 iTunes 商店 URL 中找到，作為緊接在 id 之後的數字字符串。例如，在 https://apps."
+"apple.com/app/discy/id1535374585 中，ID 為：1535374585"
+
+#: mobile-options.php:306
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/himer/id1604445650 the ID is: 1604445650"
+msgstr ""
+"iOS 應用程序的商店 ID 號可以在 iTunes 商店 URL 中找到，作為緊接在 id 之後的數字字符串。例如，在 https://apps."
+"apple.com/app/himer/id1604445650 中，ID 為：1604445650"
+
+#: mobile-options.php:308
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/questy/id1604445650 the ID is: 1604445650"
+msgstr ""
+"iOS 應用程序的商店 ID 號可以在 iTunes 商店 URL 中找到，作為緊接在 id 之後的數字字符串。例如，在 https://apps."
+"apple.com/app/questy/id1604445650 中，ID 為：1604445650"
+
+#: mobile-options.php:310
+msgid ""
+"An iOS application’s store ID number can be found in the iTunes store URL as "
+"the string of numbers directly after id. For Example, in https://apps.apple."
+"com/app/knowly/id1604445650 the ID is: 1604445650"
+msgstr ""
+"iOS 應用程序的商店 ID 號可以在 iTunes 商店 URL 中找到，作為緊跟在 id 之後的數字字符串。例如，在 https://apps."
+"apple.com/app/knowly/id1604445650 中，ID 為：1604445650"
+
+#: mobile-options.php:316
+msgid "Apple ID *"
+msgstr "蘋果ID *"
+
+#: mobile-options.php:325
+msgid "Small notifications icon for android."
+msgstr "Android 的小通知圖標。"
+
+#: mobile-options.php:331
+msgid "Enable or disable the small notifications icon for android"
+msgstr "啟用或禁用 android 的小通知圖標"
+
+#: mobile-options.php:343
+msgid ""
+"The color of the small notifications icon for android (hex code, ex: #FFFFFF)"
+msgstr "Android 小通知圖標的顏色（十六進制代碼，例如：#FFFFFF）"
+
+#: mobile-options.php:350
+msgid ""
+"The icon of the small notifications icon for android and it must be (20*20px)"
+", PNG and transparent"
+msgstr "android的通知小圖標，必須是(20*20px)，PNG透明"
+
+#: mobile-options.php:373 mobile-options.php:2840
+#, php-format
+msgid "You can get the icons to use it in the app from: %s"
+msgstr "您可以從以下位置獲取圖標以在應用程序中使用它：%s"
+
+#: mobile-options.php:373 mobile-options.php:1513 mobile-options.php:2840
+msgid "here"
+msgstr "這裡"
+
+#: mobile-options.php:379
+msgid "Enable or disable the force update"
+msgstr "啟用或禁用強制更新"
+
+#: mobile-options.php:380
+msgid ""
+"The force update to allow the users must update the app to continue using it"
+msgstr "強制更新以允許用戶必須更新應用程序才能繼續使用它"
+
+#: mobile-options.php:392
+msgid "Last Android version"
+msgstr "最後一個安卓版本"
+
+#: mobile-options.php:398
+msgid "Last IOS version"
+msgstr "最後的 IOS 版本"
+
+#: mobile-options.php:410
+msgid "The app language"
+msgstr "應用語言"
+
+#: mobile-options.php:417
+msgid "Enable or disable the circle button to ask a question or add a post"
+msgstr "啟用或禁用圓圈按鈕來提問或添加帖子"
+
+#: mobile-options.php:423
+msgid "Ask a question"
+msgstr "問一個問題"
+
+#: mobile-options.php:423
+msgid "Add a post"
+msgstr "添加帖子"
+
+#: mobile-options.php:426
+msgid "Choose the circle button to ask a question or add a post"
+msgstr "選擇圓圈按鈕提出問題或添加帖子"
+
+#: mobile-options.php:435
+msgid "Select ON to activate the follow questions on the app"
+msgstr "選擇開以激活應用程序上的以下問題"
+
+#: mobile-options.php:442
+msgid "Select ON to hide the dislike on the app"
+msgstr "選擇“開”以隱藏應用程序上的不喜歡"
+
+#: mobile-options.php:448
+msgid "Select ON to make the app for the logged users only."
+msgstr "選擇“開”僅為登錄用戶製作應用程序。"
+
+#: mobile-options.php:454
+msgid ""
+"The next two options to make the changes for your app live, and the other "
+"users will see the changes after making refresh or reopen the app."
+msgstr "接下來的兩個選項使您的應用程序的更改生效，其他用戶將在刷新或重新打開應用程序後看到更改。"
+
+#: mobile-options.php:460
+msgid "Choose the roles you need to show for them the live change for the app"
+msgstr "選擇您需要向他們展示應用程序實時更改的角色"
+
+#: mobile-options.php:468
+msgid "Add more specific user ids to show the live change"
+msgstr "添加更具體的用戶 ID 以顯示實時更改"
+
+#: mobile-options.php:474
+msgid "Enable or disable to show the parent categories with child category"
+msgstr "啟用或禁用以顯示帶有子類別的父類別"
+
+#: mobile-options.php:475
+msgid ""
+"Show the parent categories with child category, in following categories page,"
+" ask question form, and categories page"
+msgstr "在以下類別頁面、提問表單和類別頁面中顯示帶有子類別的父類別"
+
+#: mobile-options.php:482
+msgid ""
+"Write the number of categories which show in the categories page or add 0 to "
+"show all of them"
+msgstr "寫入類別頁面中顯示的類別數或添加 0 以顯示所有類別"
+
+#: mobile-options.php:490
+msgid ""
+"Write the number of categories which show in the following steps in the "
+"register and edit profile pages or add 0 to show all of them"
+msgstr "在註冊和編輯個人資料頁面中寫入以下步驟中顯示的類別數或添加 0 以顯示所有類別"
+
+#: mobile-options.php:509
+msgid "Enable or disable the guide pages"
+msgstr "啟用或禁用指南頁面"
+
+#: mobile-options.php:522
+msgid "Upload the image for first guide page"
+msgstr "上傳第一個指南頁面的圖像"
+
+#: mobile-options.php:529
+msgid "Add the title for first guide page"
+msgstr "為第一個指南頁添加標題"
+
+#: mobile-options.php:536
+msgid "Add the sub title for first guide page"
+msgstr "為第一個指南頁添加副標題"
+
+#: mobile-options.php:543
+msgid "Upload the image for second guide page"
+msgstr "上傳第二個指南頁面的圖像"
+
+#: mobile-options.php:550
+msgid "Add the title for second guide page"
+msgstr "添加第二個指南頁的標題"
+
+#: mobile-options.php:557
+msgid "Add the sub title for second guide page"
+msgstr "為第二個指南頁添加副標題"
+
+#: mobile-options.php:564
+msgid "Upload the image for third guide page"
+msgstr "上傳第三個指南頁面的圖像"
+
+#: mobile-options.php:571
+msgid "Add the title for third guide page"
+msgstr "為第三個指南頁添加標題"
+
+#: mobile-options.php:578
+msgid "Add the sub title for third guide page"
+msgstr "為第三個指南頁添加副標題"
+
+#: mobile-options.php:602
+msgid "Enable or disable the text size"
+msgstr "啟用或禁用文字大小"
+
+#: mobile-options.php:609
+msgid "Enable or disable the rate app"
+msgstr "啟用或禁用費率應用程序"
+
+#: mobile-options.php:616
+msgid "Enable or disable the edit profile page"
+msgstr "啟用或禁用編輯個人資料頁面"
+
+#: mobile-options.php:623
+msgid "Enable or disable the notifications page"
+msgstr "啟用或禁用通知頁面"
+
+#: mobile-options.php:630
+msgid "Enable or disable the users to stop the notifications or not on the app"
+msgstr "啟用或禁用用戶停止通知或不在應用程序上"
+
+#: mobile-options.php:638
+msgid "Choose the place of the delete user button"
+msgstr "選擇刪除用戶按鈕的位置"
+
+#: mobile-options.php:643
+msgid "Edit profile"
+msgstr "編輯個人資料"
+
+#: mobile-options.php:643
+msgid "Settings page"
+msgstr "設置頁面"
+
+#: mobile-options.php:650
+msgid "Enable or disable the about us page"
+msgstr "啟用或禁用關於我們頁面"
+
+#: mobile-options.php:657
+msgid "Choose the about us page"
+msgstr "選擇關於我們頁面"
+
+#: mobile-options.php:665
+msgid "Enable or disable the privacy policy page"
+msgstr "啟用或禁用隱私政策頁面"
+
+#: mobile-options.php:672
+msgid "You must choose the privacy page."
+msgstr "您必須選擇隱私頁面。"
+
+#: mobile-options.php:678
+msgid "Choose the privacy policy page"
+msgstr "選擇隱私政策頁面"
+
+#: mobile-options.php:686
+msgid "You must choose the terms page."
+msgstr "您必須選擇條款頁面。"
+
+#: mobile-options.php:692
+msgid "Choose the terms and conditions page"
+msgstr "選擇條款和條件頁面"
+
+#: mobile-options.php:699
+msgid "Enable or disable the FAQs page"
+msgstr "啟用或禁用常見問題頁面"
+
+#: mobile-options.php:706
+msgid "Choose the FAQs page"
+msgstr "選擇常見問題頁面"
+
+#: mobile-options.php:714
+msgid "Enable or disable the contact us page"
+msgstr "啟用或禁用聯繫我們頁面"
+
+#: mobile-options.php:721
+msgid "Enable or disable the share app"
+msgstr "啟用或禁用共享應用"
+
+#: mobile-options.php:728
+msgid "Share title"
+msgstr "分享標題"
+
+#: mobile-options.php:735
+msgid "Share image"
+msgstr "分享圖像"
+
+#: mobile-options.php:742
+msgid "Share android URL"
+msgstr "分享安卓網址"
+
+#: mobile-options.php:748
+msgid "Share IOS URL"
+msgstr "分享 IOS 網址"
+
+#: mobile-options.php:765
+msgid "Logo position"
+msgstr "標識位置"
+
+#: mobile-options.php:769
+msgid "Left"
+msgstr "左邊"
+
+#: mobile-options.php:769
+msgid "Center"
+msgstr "中心"
+
+#: mobile-options.php:773
+msgid "Upload the logo"
+msgstr "上傳徽標"
+
+#: mobile-options.php:780
+msgid "Upload the dark logo"
+msgstr "上傳深色標誌"
+
+#: mobile-options.php:800
+msgid "Enable or disable the bottom bar"
+msgstr "啟用或禁用底欄"
+
+#: mobile-options.php:813
+msgid "You must choose 4 items only to show in the bottom bar."
+msgstr "您必須只選擇 4 個項目才能顯示在底欄中。"
+
+#: mobile-options.php:821
+msgid "Question Categories"
+msgstr "問題類別"
+
+#: mobile-options.php:843 mobile-options.php:999
+msgid "Type"
+msgstr "類型"
+
+#: mobile-options.php:845 mobile-options.php:1001
+msgid "Main page"
+msgstr "主頁"
+
+#: mobile-options.php:846 mobile-options.php:874 mobile-options.php:1002
+#: mobile-options.php:1030
+msgid "Question category"
+msgstr "問題類別"
+
+#: mobile-options.php:847 mobile-options.php:882 mobile-options.php:1003
+#: mobile-options.php:1038
+msgid "Post category"
+msgstr "帖子類別"
+
+#: mobile-options.php:848 mobile-options.php:889 mobile-options.php:1004
+#: mobile-options.php:1045
+msgid "Page"
+msgstr "頁"
+
+#: mobile-options.php:849 mobile-options.php:1005
+msgid "Webview page"
+msgstr "網頁瀏覽頁面"
+
+#: mobile-options.php:856 mobile-options.php:1012
+msgid "Main pages"
+msgstr "主頁"
+
+#: mobile-options.php:871 mobile-options.php:879 mobile-options.php:1027
+#: mobile-options.php:1035
+msgid "Select a Category"
+msgstr "選擇一個類別"
+
+#: mobile-options.php:896 mobile-options.php:1052
+msgid "Webview Page"
+msgstr "網頁瀏覽頁面"
+
+#: mobile-options.php:902 mobile-options.php:1058
+msgid "Or add your custom link"
+msgstr "或者添加您的自定義鏈接"
+
+#: mobile-options.php:908 mobile-options.php:1064
+msgid "New title"
+msgstr "新標題"
+
+#: mobile-options.php:913 mobile-options.php:1069
+msgid "Icon"
+msgstr "圖標"
+
+#: mobile-options.php:959 mobile-options.php:1119
+msgid "Add a new link"
+msgstr "添加新鏈接"
+
+#: mobile-options.php:983
+msgid "Enable or disable the side navbar"
+msgstr "啟用或禁用側邊導航欄"
+
+#: mobile-options.php:1143
+msgid ""
+"Write the number of categories which show in the ask question form or add 0 "
+"to show all of them"
+msgstr "寫下問題表中顯示的類別數或添加 0 以顯示所有類別"
+
+#: mobile-options.php:1161
+msgid "Activate the advertising"
+msgstr "激活廣告"
+
+#: mobile-options.php:1173
+msgid "Activate the funding choices for the GDPR"
+msgstr "激活 GDPR 的資金選擇"
+
+#: mobile-options.php:1179
+msgid "Add the adMob Android id"
+msgstr "添加 adMob Android ID"
+
+#: mobile-options.php:1185
+msgid "Add the adMob IOS id"
+msgstr "添加 adMob IOS id"
+
+#: mobile-options.php:1205
+msgid "Interstitial adv"
+msgstr "插頁式廣告"
+
+#: mobile-options.php:1209
+msgid "Activate the mobile interstitial adv"
+msgstr "激活移動插頁式廣告"
+
+#: mobile-options.php:1221
+msgid "Add the adMob Android id for the interstitial"
+msgstr "為插頁式廣告添加 adMob Android ID"
+
+#: mobile-options.php:1227
+msgid "Add the adMob IOS id for the interstitial"
+msgstr "為插頁式廣告添加 adMob IOS id"
+
+#: mobile-options.php:1233 mobile-options.php:1285
+msgid ""
+"Choose how many time will open the ad, you can leave it 0 to open the ad "
+"each time opened the questions and posts"
+msgstr "選擇多少次打開廣告，可以留0每次打開問題和帖子時打開廣告"
+
+#: mobile-options.php:1257
+msgid "Rewarded adv"
+msgstr "獎勵廣告"
+
+#: mobile-options.php:1261
+msgid "Activate the mobile rewarded adv"
+msgstr "激活移動獎勵廣告"
+
+#: mobile-options.php:1273
+msgid "Add the adMob Android id for the rewarded"
+msgstr "添加獎勵廣告的 adMob Android ID"
+
+#: mobile-options.php:1279
+msgid "Add the adMob IOS id for the rewarded"
+msgstr "添加獎勵的 adMob IOS id"
+
+#: mobile-options.php:1309
+msgid "Banner adv"
+msgstr "橫幅廣告"
+
+#: mobile-options.php:1313
+msgid "Activate the mobile banner adv"
+msgstr "激活移動橫幅廣告"
+
+#: mobile-options.php:1325
+msgid "Add the adMob Android id for the banner"
+msgstr "為橫幅添加 adMob Android id"
+
+#: mobile-options.php:1331
+msgid "Add the adMob IOS id for the banner"
+msgstr "為橫幅添加 adMob IOS id"
+
+#: mobile-options.php:1349
+msgid "Select where do you need to activate the ads"
+msgstr "選擇您需要在哪裡激活廣告"
+
+#: mobile-options.php:1362 mobile-options.php:1377
+msgid "Banner ad in the top"
+msgstr "頂部的橫幅廣告"
+
+#: mobile-options.php:1363 mobile-options.php:1378
+msgid "Banner ad in the bottom"
+msgstr "底部橫幅廣告"
+
+#: mobile-options.php:1364 mobile-options.php:1379
+msgid "Banner ad before home"
+msgstr "回家前的條幅廣告"
+
+#: mobile-options.php:1365 mobile-options.php:1380
+msgid "Banner ad after home"
+msgstr "回家後的橫幅廣告"
+
+#: mobile-options.php:1366 mobile-options.php:1381
+msgid "Banner ad on the post or question in the top"
+msgstr "頂部帖子或問題上的橫幅廣告"
+
+#: mobile-options.php:1367 mobile-options.php:1382
+msgid "Banner ad on the post or question in the bottom"
+msgstr "底部帖子或問題上的橫幅廣告"
+
+#: mobile-options.php:1368 mobile-options.php:1383
+msgid "Banner ad before the comments or answers on the posts or questions"
+msgstr "在帖子或問題的評論或答案之前的橫幅廣告"
+
+#: mobile-options.php:1369 mobile-options.php:1384
+msgid "Banner ad after the post or question"
+msgstr "帖子或問題後的橫幅廣告"
+
+#: mobile-options.php:1370 mobile-options.php:1385
+msgid "Banner ad after each x number of posts and questions"
+msgstr "每 x 個帖子和問題後的橫幅廣告"
+
+#: mobile-options.php:1371 mobile-options.php:1386
+msgid "Banner ad after each x number of comments and answers"
+msgstr "每 x 條評論和答案後的橫幅廣告"
+
+#: mobile-options.php:1372 mobile-options.php:1387
+msgid "Banner ad on the webview page"
+msgstr "網頁瀏覽頁面上的橫幅廣告"
+
+#: mobile-options.php:1377
+msgid "Activate custom HTML or custom image for the top ad"
+msgstr "為頂部廣告激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1378
+msgid "Activate custom HTML or custom image for the bottom ad"
+msgstr "為底部廣告激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1379
+msgid "Activate custom HTML or custom image for the before home ad"
+msgstr "為回家前的廣告激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1380
+msgid "Activate custom HTML or custom image for the after home ad"
+msgstr "為回家後廣告激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1381
+msgid "Activate custom HTML or custom image on the post or question in the top"
+msgstr "在頂部的帖子或問題上激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1382
+msgid ""
+"Activate custom HTML or custom image on the post or question in the bottom"
+msgstr "在底部的帖子或問題上激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1383
+msgid ""
+"Activate custom HTML or custom image on before the comments or answers on "
+"the posts or questions"
+msgstr "在對帖子或問題發表評論或回答之前激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1384
+msgid "Activate custom HTML or custom image on after the post or question"
+msgstr "在帖子或問題後激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1385
+msgid "Activate custom HTML or custom image for the posts ad"
+msgstr "為帖子廣告激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1385
+msgid "Display after x posts and questions"
+msgstr "在 x 個帖子和問題後顯示"
+
+#: mobile-options.php:1386
+msgid "Activate custom HTML or custom image for the comments ad"
+msgstr "為評論廣告激活自定義 HTML 或自定義圖像"
+
+#: mobile-options.php:1386
+msgid "Display after x comments and answers"
+msgstr "在 x 條評論和答案後顯示"
+
+#: mobile-options.php:1387
+msgid "Activate custom HTML or custom image the webview page"
+msgstr "激活自定義 HTML 或自定義圖像的 webview 頁面"
+
+#: mobile-options.php:1426
+msgid "Advertising type"
+msgstr "廣告類型"
+
+#: mobile-options.php:1430
+msgid "Display code"
+msgstr "顯示代碼"
+
+#: mobile-options.php:1430
+msgid "Custom Image"
+msgstr "自定義圖片"
+
+#: mobile-options.php:1434
+msgid "Image URL"
+msgstr "圖片網址"
+
+#: mobile-options.php:1435
+msgid "Upload a image, or enter URL to an image if it is already uploaded."
+msgstr "上傳圖片，如果圖片已上傳，則輸入圖片的 URL。"
+
+#: mobile-options.php:1442
+msgid "Advertising URL"
+msgstr "廣告網址"
+
+#: mobile-options.php:1450
+msgid "Advertising Code html"
+msgstr "廣告代碼 html"
+
+#: mobile-options.php:1485
+msgid "Enable or disable reCaptcha"
+msgstr "啟用或禁用 reCaptcha"
+
+#: mobile-options.php:1497
+msgid "Select where do you need to activate the captcha"
+msgstr "選擇您需要在哪裡激活驗證碼"
+
+#: mobile-options.php:1505
+msgid "Sign in"
+msgstr "登入"
+
+#: mobile-options.php:1506
+msgid "Sign up"
+msgstr "報名"
+
+#: mobile-options.php:1507
+msgid "Add a new answer"
+msgstr "添加新答案"
+
+#: mobile-options.php:1508
+msgid "Ask a new question"
+msgstr "問一個新問題"
+
+#: mobile-options.php:1513
+#, php-format
+msgid "You can get the reCaptcha v2 site and secret keys from: %s"
+msgstr "您可以從以下位置獲取 reCaptcha v2 站點和密鑰：%s"
+
+#: mobile-options.php:1513
+msgid "like that"
+msgstr "像那樣"
+
+#: mobile-options.php:1519
+#, php-format
+msgid "Add this in the domain option: %s"
+msgstr "在域選項中添加：%s"
+
+#: mobile-options.php:1525
+msgid "Site key reCaptcha"
+msgstr "網站密鑰驗證碼"
+
+#: mobile-options.php:1531
+msgid "Secret key reCaptcha"
+msgstr "秘鑰驗證碼"
+
+#: mobile-options.php:1554
+msgid "Choose the tabs on the notifications page."
+msgstr "選擇通知頁面上的選項卡。"
+
+#: mobile-options.php:1562
+msgid "Unread"
+msgstr "未讀"
+
+#: mobile-options.php:1563
+msgid "All"
+msgstr "全部"
+
+#: mobile-options.php:1568
+msgid "Enable or disable push notifications"
+msgstr "啟用或禁用推送通知"
+
+#: mobile-options.php:1580
+msgid "You can get the key from here."
+msgstr "你可以從這裡得到鑰匙。"
+
+#: mobile-options.php:1586
+msgid "Add the app key"
+msgstr "添加應用密鑰"
+
+#: mobile-options.php:1611
+msgid "Choose the home page"
+msgstr "選擇主頁"
+
+#: mobile-options.php:1619
+msgid "Items per page in the homepage"
+msgstr "主頁中每頁的項目"
+
+#: mobile-options.php:1626
+msgid "Select the home options for questions"
+msgstr "選擇問題的主頁選項"
+
+#: mobile-options.php:1634
+msgid "Select the home options for posts"
+msgstr "選擇帖子的主頁選項"
+
+#: mobile-options.php:1642
+msgid "Activate the ad in the first tab in the top"
+msgstr "在頂部的第一個標籤中激活廣告"
+
+#: mobile-options.php:1649
+msgid "Activate the ad in the first tab in the bottom"
+msgstr "在底部的第一個標籤中激活廣告"
+
+#: mobile-options.php:1667
+msgid "Items per page in the categories"
+msgstr "類別中每頁的項目"
+
+#: mobile-options.php:1674
+msgid "Select the categories options for questions"
+msgstr "選擇問題的類別選項"
+
+#: mobile-options.php:1682
+msgid "Select the categories for posts"
+msgstr "選擇帖子類別"
+
+#: mobile-options.php:1703
+msgid "Items per page in the search"
+msgstr "搜索中每頁的項目"
+
+#: mobile-options.php:1710
+msgid "Select the search options for questions"
+msgstr "選擇問題的搜索選項"
+
+#: mobile-options.php:1731
+msgid "Items per page in the favourite page"
+msgstr "收藏頁面中每頁的項目"
+
+#: mobile-options.php:1738
+msgid "Select the setting of the favourite page"
+msgstr "選擇收藏頁面的設置"
+
+#: mobile-options.php:1757
+msgid "Items per page in the followed page"
+msgstr "下一頁中每頁的項目"
+
+#: mobile-options.php:1764
+msgid "Select the setting of the followed page"
+msgstr "選擇後續頁面的設置"
+
+#: mobile-options.php:1783
+msgid "Items per page in the questions page"
+msgstr "問題頁面中每頁的項目"
+
+#: mobile-options.php:1790 mobile-options.php:1988
+msgid "Select the setting of the blog page"
+msgstr "選擇博客頁面的設置"
+
+#: mobile-options.php:1809
+msgid ""
+"Choose the timeframe to allow the user stay login before logout "
+"automatically."
+msgstr "選擇時間範圍以允許用戶在自動註銷之前保持登錄狀態。"
+
+#: mobile-options.php:1813
+msgid "Hours"
+msgstr "小時"
+
+#: mobile-options.php:1814
+msgid "Days"
+msgstr "天"
+
+#: mobile-options.php:1820
+msgid "Choose the hours to stay login"
+msgstr "選擇停留時間 登錄"
+
+#: mobile-options.php:1831
+msgid "Choose the days to stay login"
+msgstr "選擇停留天數登錄"
+
+#: mobile-options.php:1842
+msgid "Do you want to add a custom link of the signup button on the app?"
+msgstr "您想在應用程序上添加註冊按鈕的自定義鏈接嗎？"
+
+#: mobile-options.php:1848
+msgid "Add the custom link"
+msgstr "添加自定義鏈接"
+
+#: mobile-options.php:1849
+msgid "Type the custom link of the register button from here."
+msgstr "從這裡輸入註冊按鈕的自定義鏈接。"
+
+#: mobile-options.php:1856
+msgid "Choose the style of the social icons style on the user profile page."
+msgstr "在用戶個人資料頁面上選擇社交圖標樣式的樣式。"
+
+#: mobile-options.php:1860
+msgid "Icons"
+msgstr "圖標"
+
+#: mobile-options.php:1861
+msgid "Links"
+msgstr "鏈接"
+
+#: mobile-options.php:1868
+msgid ""
+"Choose the roles you need to show for the users in the following steps in "
+"the register and edit profile pages."
+msgstr "在註冊和編輯個人資料頁面的以下步驟中選擇您需要為用戶顯示的角色。"
+
+#: mobile-options.php:1877
+msgid ""
+"Write the number of users which show in the following steps in the register "
+"and edit profile pages."
+msgstr "在註冊和編輯個人資料頁面中寫入以下步驟中顯示的用戶數。"
+
+#: mobile-options.php:1884
+msgid "Choose the roles you need to show for the users in the users page."
+msgstr "選擇您需要在用戶頁面中為用戶顯示的角色。"
+
+#: mobile-options.php:1892
+msgid "Write the number of users which show in the users page."
+msgstr "寫入用戶頁面中顯示的用戶數。"
+
+#: mobile-options.php:1904
+msgid "Comments settings"
+msgstr "評論設置"
+
+#: mobile-options.php:1912
+msgid "Enable or disable filter tabs for the gender"
+msgstr "啟用或禁用性別過濾器選項卡"
+
+#: mobile-options.php:1919
+msgid "Enable or disable the all answers tab"
+msgstr "啟用或禁用所有答案選項卡"
+
+#: mobile-options.php:1927
+msgid "Items per page in the comments or answers page"
+msgstr "評論或答案頁面中每頁的項目"
+
+#: mobile-options.php:1934
+msgid "Select the the setting of the comments for the blog posts"
+msgstr "選擇博客文章的評論設置"
+
+#: mobile-options.php:1942
+msgid "Enable or disable the vote on answers page"
+msgstr "在答案頁面上啟用或禁用投票"
+
+#: mobile-options.php:1948
+msgid "Voted"
+msgstr "已投票"
+
+#: mobile-options.php:1948
+msgid "Oldest"
+msgstr "最老的"
+
+#: mobile-options.php:1948
+msgid "Recent"
+msgstr "最近的"
+
+#: mobile-options.php:1950
+msgid "Reacted"
+msgstr "有反應"
+
+#: mobile-options.php:1954
+msgid "Answer sort"
+msgstr "答案排序"
+
+#: mobile-options.php:1962
+msgid "Select the the setting of the answers for the questions"
+msgstr "選擇問題答案的設置"
+
+#: mobile-options.php:1981
+msgid "Items per page in the blog page"
+msgstr "博客頁面中每頁的項目"
+
+#: mobile-options.php:2007
+msgid ""
+"Tye menu style of report, delete and close for questions or report and "
+"delete for answers"
+msgstr "報告的類型菜單樣式，刪除並關閉問題或報告並刪除答案"
+
+#: mobile-options.php:2018
+msgid "Select the the setting of the single question page"
+msgstr "選擇單題頁的設置"
+
+#: mobile-options.php:2026
+msgid "Do you need to activate the related questions?"
+msgstr "您需要激活相關問題嗎？"
+
+#: mobile-options.php:2038 mobile-options.php:2108
+msgid "Related style"
+msgstr "相關款式"
+
+#: mobile-options.php:2039
+msgid "Type related question style from here."
+msgstr "從這裡輸入相關的問題樣式。"
+
+#: mobile-options.php:2050
+msgid "Related questions number"
+msgstr "相關問題編號"
+
+#: mobile-options.php:2051
+msgid "Type the number of related questions from here."
+msgstr "從這裡輸入相關問題的數量。"
+
+#: mobile-options.php:2058 mobile-options.php:2128
+msgid "Query type"
+msgstr "查詢類型"
+
+#: mobile-options.php:2059
+msgid "Select what will the related questions show."
+msgstr "選擇相關問題將顯示的內容。"
+
+#: mobile-options.php:2063
+msgid "Questions in the same categories"
+msgstr "同類問題"
+
+#: mobile-options.php:2064
+msgid ""
+"Questions in the same tags (If not find any tags will show by the same "
+"categories)"
+msgstr "相同標籤中的問題（如果沒有找到任何標籤將按相同類別顯示）"
+
+#: mobile-options.php:2065
+msgid "Questions by the same author"
+msgstr "同一作者的問題"
+
+#: mobile-options.php:2088
+msgid "Select the the setting of the single post page"
+msgstr "選擇單個帖子頁面的設置"
+
+#: mobile-options.php:2096
+msgid "Do you need to activate the related posts?"
+msgstr "您需要激活相關帖子嗎？"
+
+#: mobile-options.php:2109
+msgid "Type related post style from here."
+msgstr "從這裡輸入相關的帖子樣式。"
+
+#: mobile-options.php:2120
+msgid "Related posts number"
+msgstr "相關帖數"
+
+#: mobile-options.php:2121
+msgid "Type the number of related posts from here."
+msgstr "從這裡輸入相關帖子的數量。"
+
+#: mobile-options.php:2129
+msgid "Select what will the related posts show."
+msgstr "選擇相關帖子將顯示的內容。"
+
+#: mobile-options.php:2133
+msgid "Posts in the same categories"
+msgstr "同一類別的帖子"
+
+#: mobile-options.php:2134
+msgid ""
+"Posts in the same tags (If not find any tags will show by the same "
+"categories)"
+msgstr "相同標籤中的帖子（如果找不到任何標籤，將按相同類別顯示）"
+
+#: mobile-options.php:2135
+msgid "Posts by the same author"
+msgstr "同一作者的帖子"
+
+#: mobile-options.php:2158
+msgid "APP skin by default"
+msgstr "默認APP皮膚"
+
+#: mobile-options.php:2162
+msgid "Light"
+msgstr "光"
+
+#: mobile-options.php:2162
+msgid "Dark"
+msgstr "黑暗的"
+
+#: mobile-options.php:2166
+msgid ""
+"Do you need to activate the users to choose their skin from the settings "
+"page?"
+msgstr "您是否需要激活用戶從設置頁面選擇他們的皮膚？"
+
+#: mobile-options.php:2172
+msgid ""
+"Do you need to activate the users to choose their skin from the header icon?"
+msgstr "您是否需要激活用戶從標題圖標中選擇他們的皮膚？"
+
+#: mobile-options.php:2178
+msgid "Do you need to activate the border bottom color only for the inputs?"
+msgstr "您是否只需要為輸入激活邊框底部顏色？"
+
+#: mobile-options.php:2184
+msgid "Light mode settings."
+msgstr "燈光模式設置。"
+
+#: mobile-options.php:2190 mobile-options.php:2506
+msgid "Input background color"
+msgstr "輸入背景色"
+
+#: mobile-options.php:2198 mobile-options.php:2514
+msgid "Input border bottom color"
+msgstr "輸入邊框底部顏色"
+
+#: mobile-options.php:2206 mobile-options.php:2522
+msgid "Login, signup, and forgot password background color"
+msgstr "登錄、註冊和忘記密碼背景顏色"
+
+#: mobile-options.php:2213 mobile-options.php:2529
+msgid "Header Background color"
+msgstr "頁眉背景色"
+
+#: mobile-options.php:2220 mobile-options.php:2536
+msgid "Tabs Background color"
+msgstr "選項卡背景顏色"
+
+#: mobile-options.php:2227 mobile-options.php:2543
+msgid "Bottom bar Background color"
+msgstr "底欄背景顏色"
+
+#: mobile-options.php:2234 mobile-options.php:2550
+msgid "Header Text color"
+msgstr "標題文本顏色"
+
+#: mobile-options.php:2241 mobile-options.php:2557
+msgid "Tabs underline/border color"
+msgstr "選項卡下劃線/邊框顏色"
+
+#: mobile-options.php:2248 mobile-options.php:2564
+msgid "Tabs text color"
+msgstr "標籤文字顏色"
+
+#: mobile-options.php:2255 mobile-options.php:2571
+msgid "Tabs Active color"
+msgstr "選項卡活動顏色"
+
+#: mobile-options.php:2262 mobile-options.php:2578
+msgid "Checkboxes active color"
+msgstr "複選框活動顏色"
+
+#: mobile-options.php:2269 mobile-options.php:2585
+msgid "Bottom bar text color"
+msgstr "底欄文字顏色"
+
+#: mobile-options.php:2276 mobile-options.php:2592
+msgid "Bottom bar Active color"
+msgstr "底欄活動顏色"
+
+#: mobile-options.php:2283 mobile-options.php:2606
+msgid "Primary color"
+msgstr "原色"
+
+#: mobile-options.php:2290
+msgid "Secondary color"
+msgstr "二次色"
+
+#: mobile-options.php:2297 mobile-options.php:2613
+msgid "Meta color"
+msgstr "元色"
+
+#: mobile-options.php:2304 mobile-options.php:2620
+msgid "Side navbar background"
+msgstr "側面導航欄背景"
+
+#: mobile-options.php:2311 mobile-options.php:2627
+msgid "Side navbar color"
+msgstr "側導航欄顏色"
+
+#: mobile-options.php:2318 mobile-options.php:2634
+msgid "Background"
+msgstr "背景"
+
+#: mobile-options.php:2325 mobile-options.php:2641
+msgid "Button color"
+msgstr "按鈕顏色"
+
+#: mobile-options.php:2332 mobile-options.php:2648
+msgid "Divider color"
+msgstr "分隔線顏色"
+
+#: mobile-options.php:2339 mobile-options.php:2655
+msgid "Shadow color"
+msgstr "陰影顏色"
+
+#: mobile-options.php:2346 mobile-options.php:2662
+msgid "Button background color"
+msgstr "按鈕背景色"
+
+#: mobile-options.php:2353 mobile-options.php:2669
+msgid "Settings page background color"
+msgstr "設置頁面背景顏色"
+
+#: mobile-options.php:2360 mobile-options.php:2676
+msgid "Settings page text color"
+msgstr "設置頁面文字顏色"
+
+#: mobile-options.php:2367 mobile-options.php:2683
+msgid "Error background color"
+msgstr "錯誤背景顏色"
+
+#: mobile-options.php:2374 mobile-options.php:2690
+msgid "Error text color"
+msgstr "錯誤文字顏色"
+
+#: mobile-options.php:2381 mobile-options.php:2697
+msgid "Alert background color"
+msgstr "警報背景顏色"
+
+#: mobile-options.php:2388 mobile-options.php:2704
+msgid "Alert text color"
+msgstr "警報文本顏色"
+
+#: mobile-options.php:2395 mobile-options.php:2711
+msgid "Success background color"
+msgstr "成功背景色"
+
+#: mobile-options.php:2402 mobile-options.php:2718
+msgid "Success text color"
+msgstr "成功文本顏色"
+
+#: mobile-options.php:2409 mobile-options.php:2725
+msgid "Tooltip Menu color"
+msgstr "工具提示菜單顏色"
+
+#: mobile-options.php:2416 mobile-options.php:2732
+msgid "Highlight background color"
+msgstr "高亮背景色"
+
+#: mobile-options.php:2423 mobile-options.php:2739
+msgid "Highlight text color"
+msgstr "高亮文字顏色"
+
+#: mobile-options.php:2430 mobile-options.php:2746
+msgid "Close question button background color"
+msgstr "關閉問題按鈕背景顏色"
+
+#: mobile-options.php:2437 mobile-options.php:2753
+msgid "Close question button color"
+msgstr "關閉問題按鈕顏色"
+
+#: mobile-options.php:2444 mobile-options.php:2760
+msgid "Open question button background color"
+msgstr "打開問題按鈕背景顏色"
+
+#: mobile-options.php:2451 mobile-options.php:2767
+msgid "Open question button color"
+msgstr "打開問題按鈕顏色"
+
+#: mobile-options.php:2458 mobile-options.php:2774
+msgid "Favourite color"
+msgstr "喜歡的顏色"
+
+#: mobile-options.php:2465 mobile-options.php:2781
+msgid "Un favourite color"
+msgstr "不喜歡的顏色"
+
+#: mobile-options.php:2472 mobile-options.php:2788
+msgid "Best answer color"
+msgstr "最佳答案顏色"
+
+#: mobile-options.php:2479 mobile-options.php:2795
+msgid "Add best answer color"
+msgstr "添加最佳答案顏色"
+
+#: mobile-options.php:2486 mobile-options.php:2802
+msgid "Remove best answer color"
+msgstr "刪除最佳答案顏色"
+
+#: mobile-options.php:2493 mobile-options.php:2809
+msgid "Verified icon color"
+msgstr "已驗證圖標顏色"
+
+#: mobile-options.php:2500
+msgid "Dark mode settings."
+msgstr "深色模式設置。"
+
+#: mobile-options.php:2599
+msgid "General color"
+msgstr "一般顏色"
+
+#: mobile-options.php:2846
+msgid "Add a new question icon"
+msgstr "添加新問題圖標"
+
+#: mobile-options.php:2854
+msgid "Add a new post icon"
+msgstr "添加新的帖子圖標"
+
+#: mobile-options.php:2862
+msgid "Add a new group icon"
+msgstr "添加新組圖標"
+
+#: mobile-options.php:2870
+msgid "Answers icon"
+msgstr "答案圖標"
+
+#: mobile-options.php:2877
+msgid "Best answers icon"
+msgstr "最佳答案圖標"
+
+#: mobile-options.php:2884
+msgid "Delete icon"
+msgstr "刪除圖標"
+
+#: mobile-options.php:2897
+msgid "Close question icon"
+msgstr "關閉問題圖標"
+
+#: mobile-options.php:2904
+msgid "Open question icon"
+msgstr "打開問題圖標"
+
+#: mobile-options.php:2917
+msgid "Add favourite icon"
+msgstr "添加最喜歡的圖標"
+
+#: mobile-options.php:2924
+msgid "Remove favourite icon"
+msgstr "刪除最喜歡的圖標"
+
+#: mobile-options.php:2931
+msgid "Views icon"
+msgstr "視圖圖標"
+
+#: mobile-options.php:2938
+msgid "Do you want to change the verified icon?"
+msgstr "您要更改已驗證的圖標嗎？"
+
+#: mobile-options.php:2944
+msgid "Verified icon"
+msgstr "驗證圖標"
+
+#: mobile-options.php:2952
+msgid "Do you want to change the vote icons?"
+msgstr "您想更改投票圖標嗎？"
+
+#: mobile-options.php:2964
+msgid "Upvote icon"
+msgstr "投票圖標"
+
+#: mobile-options.php:2971
+msgid "Downvote icon"
+msgstr "反對票圖標"
+
+#: mobile-options.php:2995
+msgid "Enable or disable the under construction on the mobile apps"
+msgstr "在移動應用程序上啟用或禁用正在建設中"
+
+#: mobile-options.php:3007
+msgid "Type your title on the construction page"
+msgstr "在建設頁面上輸入您的標題"
+
+#: mobile-options.php:3014
+msgid "Type your content on the construction page"
+msgstr "在構建頁面上輸入您的內容"
+
+#: mobile-options.php:3021
+msgid "Upload the image on the construction page"
+msgstr "在施工頁面上傳圖片"
+
+#: mobile-options.php:3027
+msgid "Enable or disable the icon on the construction page"
+msgstr "啟用或禁用構建頁面上的圖標"
+
+#: mobile-options.php:3033
+msgid "Enable or disable the button on the construction page"
+msgstr "啟用或禁用構建頁面上的按鈕"
+
+#: mobile-options.php:3046
+msgid "Type your text on the button"
+msgstr "在按鈕上輸入您的文字"
+
+#: mobile-options.php:3053
+msgid "Type your link on the button"
+msgstr "在按鈕上輸入您的鏈接"
+
+#: mobile-options.php:3060
+msgid ""
+"The color of the button on the construction page (hex code, ex: #FFFFFF)"
+msgstr "構建頁面按鈕的顏色（十六進制代碼，例如：#FFFFFF）"
+
+#: models/author.php:46 models/author.php:53 models/comment.php:50
+msgid "Anonymous"
+msgstr "匿名的"
+
+#: models/author.php:50
+msgid "[Deleted User]"
+msgstr "[已被刪除的用戶]"
+
+#: models/comment.php:42 updater/elitepack-config.php:39
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 在 %2$s"
+
+#: models/comment.php:145 models/post.php:337 models/post.php:342
+msgid "Are you sure you want to delete the attachment?"
+msgstr "您確定要刪除附件嗎？"
+
+#: models/comment.php:180
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"comment has been added"
+msgstr "自添加此評論以來，一些主要用戶信息（例如：姓名或性別）已被編輯"
+
+#: models/comment.php:182
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"answer has been added"
+msgstr "自添加此答案以來，一些主要用戶信息（例如：姓名或性別）已被編輯"
+
+#: models/comment.php:221
+#, php-format
+msgid "Post ID %s not found."
+msgstr "找不到帖子 ID %s。"
+
+#: models/comment.php:226
+msgid "Post is closed for comments."
+msgstr "帖子已關閉以徵求意見。"
+
+#: models/comment.php:231
+msgid "You cannot comment on unpublished posts."
+msgstr "您不能對未發布的帖子發表評論。"
+
+#: models/post.php:196 models/post.php:1049
+msgid "Read more"
+msgstr "閱讀更多"
+
+#: models/post.php:405
+msgid "Agree"
+msgstr "同意"
+
+#: models/post.php:422 singletons/introspector.php:366
+#: singletons/introspector.php:419
+msgid "Unblock"
+msgstr "解鎖"
+
+#: models/post.php:434 singletons/introspector.php:377
+msgid "Remove"
+msgstr "消除"
+
+#: models/post.php:440 singletons/introspector.php:383
+msgid "Are you sure you want to remove the user from the group?"
+msgstr "您確定要從組中刪除該用戶嗎？"
+
+#: models/post.php:446 singletons/introspector.php:386
+msgid "Block"
+msgstr "堵塞"
+
+#: models/post.php:452 singletons/introspector.php:392
+msgid "Are you sure you want to block the user from the group?"
+msgstr "您確定要阻止該用戶加入群組嗎？"
+
+#: models/post.php:513
+msgid "Leave"
+msgstr "離開"
+
+#: models/post.php:518
+msgid "Cancel the request"
+msgstr "取消請求"
+
+#: models/post.php:524
+msgid "Accept invite"
+msgstr "接受邀請"
+
+#: models/post.php:527
+msgid "Decline invite"
+msgstr "拒絕邀請"
+
+#: models/post.php:531
+msgid "Join"
+msgstr "加入"
+
+#: models/post.php:586
+msgid "Approve all"
+msgstr "全部批准"
+
+#: models/post.php:595
+msgid "Decline all"
+msgstr "全部拒絕"
+
+#: models/post.php:626
+msgid "Discussion"
+msgstr "討論"
+
+#: models/post.php:632
+msgid "Requests"
+msgstr "要求"
+
+#: models/post.php:637
+msgid "Group Posts"
+msgstr "群組帖子"
+
+#: models/post.php:641
+msgid "Admins"
+msgstr "管理員"
+
+#: models/post.php:643
+msgid "Blocked Users"
+msgstr "被阻止的用戶"
+
+#: models/post.php:719
+msgid "Sorry this question is a special, The admin must answer first."
+msgstr "抱歉這個問題比較特殊，管理員必須先回答。"
+
+#: models/post.php:727
+msgid "You have already answered this question."
+msgstr "你已經回答了這個問題。"
+
+#: models/post.php:733 models/post.php:762
+msgid "You must login to add an answer."
+msgstr "您必須登錄才能添加答案。"
+
+#: models/post.php:736 models/post.php:741 models/post.php:764
+msgid "Sorry, you do not have permission to answer to this question."
+msgstr "抱歉，您無權回答此問題。"
+
+#: models/post.php:759
+msgid "Sorry this question is closed."
+msgstr "抱歉，這個問題已關閉。"
+
+#: models/post.php:840
+msgid "Please login to see the content."
+msgstr "請登錄後查看內容。"
+
+#: models/post.php:1191
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this post "
+"has been added"
+msgstr "自添加此帖子後，一些主要用戶信息（例如：姓名或性別）已被編輯"
+
+#: models/post.php:1201
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"question has been asked"
+msgstr "一些主要用戶信息（例如：姓名或性別）已被編輯，因為這個問題已經被問到"
+
+#: models/post.php:1203
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this group "
+"post has been added"
+msgstr "一些主要用戶信息（例如：姓名或性別）在添加此組帖子後已被編輯"
+
+#: models/post.php:1205
+msgid ""
+"Some of main user info (Ex: name or gender) has been edited since this "
+"message has been sent"
+msgstr "自此消息發送後，一些主要用戶信息（例如：姓名或性別）已被編輯"
+
+#: models/post.php:1380
+msgid "Public group"
+msgstr "公開組"
+
+#: models/post.php:1380
+msgid "Private group"
+msgstr "私人群組"
+
+#: models/post.php:1384 models/post.php:1388
+msgid "All group members"
+msgstr "所有小組成員"
+
+#: models/post.php:1384 models/post.php:1388
+msgid "Admin and moderators"
+msgstr "管理員和版主"
+
+#: models/post.php:1384 models/post.php:1388
+msgid "Admin only"
+msgstr "僅限管理員"
+
+#: singletons/introspector.php:343
+msgid "Approve"
+msgstr "批准"
+
+#: singletons/introspector.php:351
+msgid "Decline"
+msgstr "衰退"
+
+#: singletons/introspector.php:404
+msgid "Remove Moderator"
+msgstr "刪除版主"
+
+#: singletons/introspector.php:410
+msgid "Are you sure you want to remove the moderator from the group?"
+msgstr "您確定要從群組中刪除版主嗎？"
+
+#: singletons/query.php:116
+msgid ""
+"The submit_comment method has been removed from the Core controller. To use "
+"this method you must enable the Comment controller from WP Admin > Settings >"
+" JSON API."
+msgstr ""
+"submit_comment 方法已從核心控制器中移除。要使用此方法，您必須從 WP Admin > Settings > JSON API "
+"啟用評論控制器。"
+
+#: singletons/query.php:122
+msgid ""
+"The create_post method has been removed from the Core controller. To use "
+"this method you must enable the Posts controller from WP Admin > Settings > "
+"JSON API."
+msgstr ""
+"create_post 方法已從核心控制器中移除。要使用此方法，您必須從 WP Admin > Settings > JSON API 啟用 Posts "
+"控制器。"
+
+#: singletons/query.php:169
+#, php-format
+msgid "Uknown method %s."
+msgstr "未知方法 %s。"
+
+#: updater/elitepack-config.php:27 updater/elitepack-config.php:131
+msgid "Purchase a License"
+msgstr "購買許可證"
+
+#: updater/elitepack-config.php:28
+msgid "Renew Support"
+msgstr "更新支持"
+
+#: updater/elitepack-config.php:29
+msgid "Need Help?"
+msgstr "需要幫忙？"
+
+#: updater/elitepack-config.php:30
+msgid "Try Again"
+msgstr "再試一次"
+
+#: updater/elitepack-config.php:31
+#, php-format
+msgid "Register %s"
+msgstr "註冊 %s"
+
+#: updater/elitepack-config.php:32
+#, php-format
+msgid ""
+"Thank you for choosing %s! Your product must be registered to see the theme "
+"options, import our awesome demos, install bundled plugins, receive "
+"automatic updates, and access to support."
+msgstr "感謝您選擇 %s！您的產品必須註冊才能查看主題選項、導入我們很棒的演示、安裝捆綁插件、接收自動更新以及獲得支持。"
+
+#: updater/elitepack-config.php:33 updater/elitepack-config.php:130
+msgid "Register Now!"
+msgstr "現在註冊！"
+
+#: updater/elitepack-config.php:34
+msgid "Congratulations"
+msgstr "恭喜"
+
+#: updater/elitepack-config.php:35
+msgid ""
+"Your License is now registered!, theme options, demo import, and bundeled "
+"plugins is now unlocked."
+msgstr "您的許可證現已註冊！主題選項、演示導入和捆綁插件現已解鎖。"
+
+#: updater/elitepack-config.php:36
+msgid "An error occurred, please try again."
+msgstr "發生錯誤，請重試。"
+
+#: updater/elitepack-config.php:37
+msgid "Register the theme to unlock automatic updates."
+msgstr "註冊主題以解鎖自動更新。"
+
+#: updater/elitepack-config.php:38
+msgid "Renew your support to unlock automatic updates."
+msgstr "更新您的支持以解鎖自動更新。"
+
+#: updater/elitepack-config.php:40
+#, php-format
+msgid ""
+"Your support will Expire in %s. Renew your license today and save 25%% to "
+"keep getting auto updates and premium support, remember purchasing a new "
+"license extends support for all licenses."
+msgstr "您的支持將在 %s 後過期。立即續訂您的許可證並節省 25%% 以繼續獲得自動更新和高級支持，請記住購買新許可證會延長對所有許可證的支持。"
+
+#: updater/elitepack-config.php:41
+msgid "Failed, try again later."
+msgstr "失敗，稍後再試。"
+
+#: updater/elitepack-config.php:42
+#, php-format
+msgid "Did not updated, Your support expires on %s"
+msgstr "未更新，您的支持將於 %s 到期"
+
+#: updater/elitepack-config.php:43
+#, php-format
+msgid "Updated successfully, your support expires on %s"
+msgstr "更新成功，您的支持將於 %s 到期"
+
+#: updater/elitepack-config.php:44
+#, php-format
+msgid "There is a new version of %1$s available."
+msgstr "有新版本的 %1$s 可用。"
+
+#: updater/elitepack-config.php:45
+#, php-format
+msgid ""
+"There is a new version of %1$s available, %2$sView version %3$s details%4$s."
+msgstr "%1$s 有新版本可用，%2$s查看版本 %3$s 的詳細信息%4$s。"
+
+#: updater/elitepack-config.php:46
+msgid "update now"
+msgstr "現在更新"
+
+#: updater/elitepack-config.php:47
+msgid "License Deactivated Successfully."
+msgstr "許可證已成功停用。"
+
+#: updater/elitepack-config.php:48
+msgid "Cancel"
+msgstr "取消"
+
+#: updater/elitepack-config.php:49
+msgid "Skip & Switch"
+msgstr "跳過和切換"
+
+#: updater/elitepack-config.php:50
+msgid "Send & Switch"
+msgstr "發送&切換"
+
+#: updater/elitepack-config.php:51
+#, php-format
+msgid "%s feedback"
+msgstr "%s 反饋"
+
+#: updater/elitepack-config.php:52
+msgid "May we have a little info about why you are switching?"
+msgstr "我們可以提供一些關於您轉換原因的信息嗎？"
+
+#: updater/elitepack-config.php:85
+msgid ""
+"Thank you for choosing Mobile APP! Your product is already registered, so "
+"you have access to:"
+msgstr "感謝您選擇手機APP！您的產品已經註冊，因此您可以訪問："
+
+#: updater/elitepack-config.php:86
+msgid "Congratulations! Your product is registered now."
+msgstr "恭喜！您的產品現已註冊。"
+
+#: updater/elitepack-config.php:90
+msgid "Thank you for choosing Mobile APP! Your product must be registered to:"
+msgstr "感謝您選擇手機APP！您的產品必須註冊到："
+
+#: updater/elitepack-config.php:91
+msgid "Click on the button below to begin the registration process."
+msgstr "單擊下面的按鈕開始註冊過程。"
+
+#: updater/elitepack-config.php:96
+msgid "Request your APP"
+msgstr "申請您的APP"
+
+#: updater/elitepack-config.php:97
+msgid "See the mobile APP options"
+msgstr "查看手機APP選項"
+
+#: updater/elitepack-config.php:98
+msgid "Receive automatic updates"
+msgstr "接收自動更新"
+
+#: updater/elitepack-config.php:99
+msgid "Access to support"
+msgstr "獲得支持"
+
+#: updater/elitepack-config.php:104
+msgid "Welcome to"
+msgstr "歡迎來到"
+
+#: updater/elitepack-config.php:135
+msgid "License Status:"
+msgstr "許可證狀態："
+
+#: updater/elitepack-config.php:135 updater/elitepack-config.php:145
+msgid "Active"
+msgstr "積極的"
+
+#: updater/elitepack-config.php:136
+msgid "Revoke License"
+msgstr "吊銷執照"
+
+#: updater/elitepack-config.php:142
+#, php-format
+msgid "Expiring! will expire on %s"
+msgstr "即將到期！將於 %s 到期"
+
+#: updater/elitepack-config.php:148
+msgid "Expired"
+msgstr "已到期"
+
+#: updater/elitepack-config.php:154
+msgid "Support Status:"
+msgstr "支持狀態："
+
+#: updater/elitepack-config.php:155
+msgid "Refresh Expiration Date"
+msgstr "刷新到期日期"

@@ -1,0 +1,152 @@
+table.attachs tr th.check-column,
+table.attachs tr td {
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+table.attachs tr td.attachid {
+    padding-top: 30px;
+}
+
+table.attachs tr td .row-actions:hover {
+    opacity: 1;
+}
+
+.wpfattach-filename-edit-wrap {
+    position: relative;
+}
+
+.wpfattach-filename-edit-wrap > input {
+    padding: 8px 30px 8px 10px;
+    max-width: 100%;
+}
+
+.wpfattach-filename-edit-wrap .wpfattach-filename-edit-submit {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #008000;
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    transition: opacity 0.2s linear;
+}
+
+.wpfattach-filename-edit-wrap .wpfattach-filename-edit-submit:hover {
+    opacity: 1;
+}
+
+.wpfattach-filename-edit-wrap .dashicons.spin {
+    top: 20%;
+    animation: dashicons-spin 1s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes dashicons-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.wpfattach-filename-wrap {
+    position: relative;
+    cursor: pointer;
+    padding: 12px 35px 12px 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    transition: all .3s ease;
+}
+
+.wpfattach-filename {
+    display: block;
+}
+
+.wpfattach-filename-wrap .dashicons-edit {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all .3s ease;
+    color: #fff;
+    z-index: 2;
+    padding: 3px;
+    background: #444;
+    border-radius: 50%;
+}
+
+.wpfattach-filename-wrap:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.wpfattach-filename-wrap:hover .dashicons-edit {
+    opacity: 1;
+}
+
+.wpfa-go-wrap-title {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 12px;
+}
+
+.wpfa-go-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wpfa-go-sidebar {
+    flex-shrink: 1;
+    border: 5px solid #f5f5f5;
+    border-right: none;
+}
+
+.wpfa-go-main {
+    flex-grow: 1;
+    padding: 10px 20px;
+    border: 5px solid #f5f5f5;
+    border-left: 1px solid #ebebeb;
+}
+
+.wpfa-go-wrap ul.wpfa-go-tabs {
+    margin: 0;
+}
+
+.wpfa-go-wrap ul.wpfa-go-tabs li {
+    border-bottom: 2px solid #f5f5f5;
+    padding: 5px 20px;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wpfa-go-wrap ul.wpfa-go-tabs li.active {
+    background-color: #f5f5f5;
+}
+
+.wpfa-go-wrap ul.wpfa-go-tabs li:hover {
+    opacity: 0.75;
+}
+
+.wpfa-subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.wpfa-subtitle .dashicons {
+    color: #ccc;
+    font-size: 30px;
+    line-height: 26px;
+    margin-left: -5px;
+}
