@@ -9,11 +9,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-/* Profile Strength */
-add_action( 'widgets_init', 'wpqa_widget_profile_strength_widget' );
-function wpqa_widget_profile_strength_widget() {
-	register_widget( 'Widget_profile_strength' );
+if ( defined( 'PROFILE_STRENGTH' ) ) {
+	/* Profile Strength */
+	add_action( 'widgets_init', 'wpqa_widget_profile_strength_widget' );
+	function wpqa_widget_profile_strength_widget() {
+		register_widget( 'Widget_profile_strength' );
 }
+
+}
+
+
+
+
 class Widget_profile_strength extends WP_Widget {
 
 	function __construct() {

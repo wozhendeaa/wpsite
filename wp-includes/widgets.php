@@ -685,6 +685,8 @@ function wp_unregister_widget_control( $id ) {
  * @return bool True, if widget sidebar was found and called. False if not found or not called.
  */
 function dynamic_sidebar( $index = 1 ) {
+
+
 	global $wp_registered_sidebars, $wp_registered_widgets;
 
 	if ( is_int( $index ) ) {
@@ -700,15 +702,17 @@ function dynamic_sidebar( $index = 1 ) {
 	}
 
 	$sidebars_widgets = wp_get_sidebars_widgets();
+	
 	if ( empty( $wp_registered_sidebars[ $index ] ) || empty( $sidebars_widgets[ $index ] ) || ! is_array( $sidebars_widgets[ $index ] ) ) {
+
 		/** This action is documented in wp-includes/widget.php */
 		do_action( 'dynamic_sidebar_before', $index, false );
 		/** This action is documented in wp-includes/widget.php */
 		do_action( 'dynamic_sidebar_after', $index, false );
+		
 		/** This filter is documented in wp-includes/widget.php */
 		return apply_filters( 'dynamic_sidebar_has_widgets', false, $index );
 	}
-
 	$sidebar = $wp_registered_sidebars[ $index ];
 
 	$sidebar['before_sidebar'] = sprintf( $sidebar['before_sidebar'], $sidebar['id'], $sidebar['class'] );

@@ -28,7 +28,7 @@
 		$exclude_categories = ($exclude_categories != ""?explode(",",$exclude_categories):array());
 		$tab_category = (is_array($exclude_categories) && !in_array($category_id,$exclude_categories)?true:false);
 	}
-	if (isset($tab_category) && $tab_category == true) {
+	if (true) {
 		include locate_template("theme-parts/tabs.php");
 	}else {
 		$active_sticky = $show_sticky = true;

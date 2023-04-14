@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /* Stats */
-add_action( 'widgets_init', 'wpqa_widget_stats_widget' );
+// add_action( 'widgets_init', 'wpqa_widget_stats_widget' );
 function wpqa_widget_stats_widget() {
 	register_widget( 'Widget_Stats' );
 }
